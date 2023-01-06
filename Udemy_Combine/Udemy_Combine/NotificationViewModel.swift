@@ -9,12 +9,16 @@ import Foundation
 
 struct Notify {
     let notification = Notification.Name("My Fotification")
-
+    
     let center = NotificationCenter.default
-
+    
     func notify () {
-        center.addObserver(forName: notification, object: nil, queue: nil) { notification in
+        let observer = center.addObserver(forName: notification, object: nil, queue: nil) { notification in
             print("Notification Recieved")
         }
+        
+        center.post(name: notification, object: nil)
+        
+        center.removeObserver(observer)
     }
 }

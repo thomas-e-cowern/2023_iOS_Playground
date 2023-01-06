@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let vm = Notify()
+    
     var body: some View {
         
         VStack {
@@ -15,6 +18,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            
+            Button("Notify") {
+                vm.notify()
+            }
         }
         .padding()
     }

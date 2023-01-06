@@ -11,6 +11,7 @@
 		4D9519CC29687D9500599EE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9519CB29687D9500599EE1 /* ContentView.swift */; };
 		4D9519CE29687D9700599EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9519CD29687D9700599EE1 /* Assets.xcassets */; };
 		4D9519D129687D9700599EE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9519D029687D9700599EE1 /* Preview Assets.xcassets */; };
+		4D9519D82968A80C00599EE1 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9519D72968A80C00599EE1 /* NotificationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4D9519CB29687D9500599EE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D9519CD29687D9700599EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9519D029687D9700599EE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D9519D72968A80C00599EE1 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				4D9519CB29687D9500599EE1 /* ContentView.swift */,
 				4D9519CD29687D9700599EE1 /* Assets.xcassets */,
 				4D9519CF29687D9700599EE1 /* Preview Content */,
+				4D9519D72968A80C00599EE1 /* NotificationViewModel.swift */,
 			);
 			path = Udemy_Combine;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				4D9519CC29687D9500599EE1 /* ContentView.swift in Sources */,
 				4D9519CA29687D9500599EE1 /* Udemy_CombineApp.swift in Sources */,
+				4D9519D82968A80C00599EE1 /* NotificationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

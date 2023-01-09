@@ -20,11 +20,13 @@ struct Notify {
         
         let publisher = NotificationCenter.default.publisher(for: notification)
         
-        NotificationCenter.default.post(name: notification, object: nil)
+        
         
         let subscription = publisher.sink { _ in
             print("Notification recieved")
         }
+        
+        NotificationCenter.default.post(name: notification, object: nil)
 //        let observer = center.addObserver(forName: notification, object: nil, queue: nil) { notification in
 //            print("Notification Recieved")
 //        }

@@ -27,6 +27,12 @@ struct Notify {
         }
         
         NotificationCenter.default.post(name: notification, object: nil)
+        
+        subscription.cancel()
+        
+        NotificationCenter.default.post(name: notification, object: nil)
+        
+        
 //        let observer = center.addObserver(forName: notification, object: nil, queue: nil) { notification in
 //            print("Notification Recieved")
 //        }

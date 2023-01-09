@@ -24,6 +24,9 @@ struct ContentView: View {
             }
         }
         .padding()
+        .onAppear {
+            vm.notify()
+        }
     }
 }
 

@@ -6,19 +6,31 @@
 //
 
 import Foundation
+import SwiftUI
+import UIKit
 
 struct Notify {
     let notification = Notification.Name("My Fotification")
     
-    let center = NotificationCenter.default
+//    let center = NotificationCenter.default
+    
+    
     
     func notify () {
-        let observer = center.addObserver(forName: notification, object: nil, queue: nil) { notification in
-            print("Notification Recieved")
+        
+        let publisher = NotificationCenter.default.publisher(for: notification)
+        
+        NotificationCenter.default.post(name: notification, object: nil)
+        
+        let subscription = publisher.sink { _ in
+            print("Notification recieved")
         }
-        
-        center.post(name: notification, object: nil)
-        
-        center.removeObserver(observer)
+//        let observer = center.addObserver(forName: notification, object: nil, queue: nil) { notification in
+//            print("Notification Recieved")
+//        }
+//
+//        center.post(name: notification, object: nil)
+//
+//        center.removeObserver(observer)
     }
 }

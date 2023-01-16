@@ -16,7 +16,7 @@ enum MyError: Error {
 
 class StringSubscriber: Subscriber {
     func receive(completion: Subscribers.Completion<MyError>) {
-        <#code#>
+        print("Completed")
     }
     
     
@@ -29,13 +29,9 @@ class StringSubscriber: Subscriber {
         return .none
     }
     
-    func receive(completion: Subscribers.Completion<Never>) {
-        print("Commpleted")
-    }
-    
     func receive(subscription: Subscription) {
         print("Subscription recieved")
-        subscription.request(.max(3))  // backpresssure
+        subscription.request(.max(2))  // backpresssure
     }
     
     
@@ -55,27 +51,5 @@ struct Notify {
         
         publisher.subscribe(subscriber)
         
-//        let publisher = NotificationCenter.default.publisher(for: notification)
-//
-//
-//
-//        let subscription = publisher.sink { _ in
-//            print("Notification recieved")
-//        }
-//
-//        NotificationCenter.default.post(name: notification, object: nil)
-//
-//        subscription.cancel()
-//
-//        NotificationCenter.default.post(name: notification, object: nil)
-        
-        
-//        let observer = center.addObserver(forName: notification, object: nil, queue: nil) { notification in
-//            print("Notification Recieved")
-//        }
-//
-//        center.post(name: notification, object: nil)
-//
-//        center.removeObserver(observer)
     }
 }

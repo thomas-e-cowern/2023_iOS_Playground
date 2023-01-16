@@ -10,11 +10,19 @@ import SwiftUI
 import UIKit
 import Combine
 
+enum MyError: Error {
+    case subscriberError
+}
+
 class StringSubscriber: Subscriber {
+    func receive(completion: Subscribers.Completion<MyError>) {
+        <#code#>
+    }
+    
     
     typealias Input = String
     
-    typealias Failure = Never
+    typealias Failure = MyError
     
     func receive(_ input: String) -> Subscribers.Demand {
         print("Recieved value", input)

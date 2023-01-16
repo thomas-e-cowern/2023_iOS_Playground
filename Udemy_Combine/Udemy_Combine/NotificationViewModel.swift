@@ -41,20 +41,25 @@ struct Notify {
     
     
     func notify () {
+        let publisher = ["A", "B", "C", "D", "E", "F", "G", "H", "I", ].publisher
         
-        let publisher = NotificationCenter.default.publisher(for: notification)
+        let subscriber = StringSubscriber()
         
+        publisher.subscribe(subscriber)
         
-        
-        let subscription = publisher.sink { _ in
-            print("Notification recieved")
-        }
-        
-        NotificationCenter.default.post(name: notification, object: nil)
-        
-        subscription.cancel()
-        
-        NotificationCenter.default.post(name: notification, object: nil)
+//        let publisher = NotificationCenter.default.publisher(for: notification)
+//
+//
+//
+//        let subscription = publisher.sink { _ in
+//            print("Notification recieved")
+//        }
+//
+//        NotificationCenter.default.post(name: notification, object: nil)
+//
+//        subscription.cancel()
+//
+//        NotificationCenter.default.post(name: notification, object: nil)
         
         
 //        let observer = center.addObserver(forName: notification, object: nil, queue: nil) { notification in

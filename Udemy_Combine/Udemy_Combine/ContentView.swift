@@ -11,6 +11,8 @@ struct ContentView: View {
     
     let vm = Notify()
     
+    let publisher = ["A", "B", "C", "D", "E", "F", "G", "H", "I", ].publisher
+    
     var body: some View {
         
         VStack {

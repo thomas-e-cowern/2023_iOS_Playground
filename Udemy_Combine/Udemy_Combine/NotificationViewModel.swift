@@ -26,7 +26,7 @@ class StringSubscriber: Subscriber {
     
     func receive(_ input: String) -> Subscribers.Demand {
         print("Recieved value", input)
-        return .none
+        return .unlimited
     }
     
     func receive(subscription: Subscription) {

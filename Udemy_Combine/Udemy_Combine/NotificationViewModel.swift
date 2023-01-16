@@ -17,11 +17,12 @@ class StringSubscriber: Subscriber {
     typealias Failure = Never
     
     func receive(_ input: String) -> Subscribers.Demand {
-        <#code#>
+        print("Recieved value", input)
+        return .none
     }
     
     func receive(completion: Subscribers.Completion<Never>) {
-        <#code#>
+        print("Commpleted")
     }
     
     func receive(subscription: Subscription) {

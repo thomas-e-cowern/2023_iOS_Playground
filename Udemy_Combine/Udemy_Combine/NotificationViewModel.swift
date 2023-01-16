@@ -8,6 +8,28 @@
 import Foundation
 import SwiftUI
 import UIKit
+import Combine
+
+class StringSubscriber: Subscriber {
+    
+    typealias Input = String
+    
+    typealias Failure = Never
+    
+    func receive(_ input: String) -> Subscribers.Demand {
+        <#code#>
+    }
+    
+    func receive(completion: Subscribers.Completion<Never>) {
+        <#code#>
+    }
+    
+    func receive(subscription: Subscription) {
+        //
+    }
+    
+    
+}
 
 struct Notify {
     let notification = Notification.Name("My Fotification")

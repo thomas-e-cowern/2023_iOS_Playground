@@ -45,26 +45,31 @@ struct Notify {
     
     
     func notify () {
-        let publisher = ["A", "B", "C", "D", "E", "F", "G", "H", "I", ].publisher
         
-        let subscriber = StringSubscriber()
+        let publisher = PassthroughSubject<Int, Never>().eraseToAnyPublisher()
         
-        let subject = PassthroughSubject<String, MyError>()
         
-        subject.subscribe(subscriber)
         
-        let subscription = subject.sink { completion in
-            print("Recieved completion from sink")
-        } receiveValue: { value in
-            print("Value", value)
-        }
-
-        
-        subject.send("A")
-        subject.send("Also")
-        
-        subscription.cancel()
-        
-        subject.send("Again")
+//        let publisher = ["A", "B", "C", "D", "E", "F", "G", "H", "I", ].publisher
+//
+//        let subscriber = StringSubscriber()
+//
+//        let subject = PassthroughSubject<String, MyError>()
+//
+//        subject.subscribe(subscriber)
+//
+//        let subscription = subject.sink { completion in
+//            print("Recieved completion from sink")
+//        } receiveValue: { value in
+//            print("Value", value)
+//        }
+//
+//
+//        subject.send("A")
+//        subject.send("Also")
+//
+//        subscription.cancel()
+//
+//        subject.send("Again")
     }
 }

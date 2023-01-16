@@ -49,7 +49,10 @@ struct Notify {
         
         let subscriber = StringSubscriber()
         
-        publisher.subscribe(subscriber)
+        let subject = PassthroughSubject<String, MyError>()
         
+        subject.subscribe(subscriber)
+        
+        subject.send("A")
     }
 }

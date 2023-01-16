@@ -54,5 +54,7 @@ struct Notify {
         subject.subscribe(subscriber)
         
         subject.send("A")
+        subject.send("Also")
+        subject.send("Again")
     }
 }

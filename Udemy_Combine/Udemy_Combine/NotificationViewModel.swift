@@ -53,8 +53,18 @@ struct Notify {
         
         subject.subscribe(subscriber)
         
+        let subscription = subject.sink { completion in
+            print("Recieved completion from sink")
+        } receiveValue: { value in
+            print("Value", value)
+        }
+
+        
         subject.send("A")
         subject.send("Also")
+        
+        subscription.cancel()
+        
         subject.send("Again")
     }
 }

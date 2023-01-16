@@ -25,7 +25,8 @@ class StringSubscriber: Subscriber {
     }
     
     func receive(subscription: Subscription) {
-        //
+        print("Subscription recieved")
+        subscription.request(.max(3))  // backpresssure
     }
     
     

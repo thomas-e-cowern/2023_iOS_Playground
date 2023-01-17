@@ -93,3 +93,12 @@ empty.replaceEmpty(with: 1)
     } receiveValue: {
         print("Value",$0)
     }
+
+// Scan
+let scanPublisher = (1...10).publisher
+
+scanPublisher.scan([]) { numbers, value -> [Int] in
+    numbers + [value]  // return in optional with 1 line of code
+}.sink {
+    print($0)
+}

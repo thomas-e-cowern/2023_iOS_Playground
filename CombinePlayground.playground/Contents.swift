@@ -77,3 +77,19 @@ townSchool.noOfStudents.value += 20
     .sink {
     print("map",$0)
 }
+
+// Replace empty
+let empty = Empty<Int, Never>()
+
+empty.sink {
+    print("Empty",$0)
+} receiveValue: {
+    print($0)
+}
+
+empty.replaceEmpty(with: 1)
+    .sink {
+        print("With 1",$0)
+    } receiveValue: {
+        print("Value",$0)
+    }

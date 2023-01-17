@@ -63,11 +63,17 @@ townSchool.noOfStudents.value += 20
 
 // Replace nil
 ["A", "B", "C", nil, "E"].publisher.replaceNil(with: "*").sink {
-    print($0 ?? "")
+    print($0)
 }
 
 // Challenge - Unwrap options when you call sink
 ["A", "B", "C", nil, "E"].publisher.replaceNil(with: "*").compactMap { $0 }
     .sink {
-    print($0)
+    print("compactMap",$0)
+}
+
+// Can use map with force unwrapping, nil has already been replaced with *
+["A", "B", "C", nil, "E"].publisher.replaceNil(with: "*").map { $0! }
+    .sink {
+    print("map",$0)
 }

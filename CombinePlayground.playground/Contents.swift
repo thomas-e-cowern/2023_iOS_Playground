@@ -1,3 +1,6 @@
 import UIKit
+import Combine
 
-var greeting = "Hello, playground"
+["A", "B", "C", "D", "E"].publisher.collect(3).sink {
+    print($0)
+}

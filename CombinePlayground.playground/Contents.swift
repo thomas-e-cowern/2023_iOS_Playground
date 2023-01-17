@@ -61,4 +61,8 @@ citySchool.noOfStudents.value += 10
 
 townSchool.noOfStudents.value += 20
 
+// Replace nil
+["A", "B", "C", nil, "E"].publisher.replaceNil(with: "*").sink {
+    print($0 ?? "")
+}
 

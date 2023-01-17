@@ -16,6 +16,7 @@ formatter.numberStyle = .spellOut
     print($0)
 }
 
+// Map with struct
 struct Point {
     let x: Int
     let y: Int
@@ -28,3 +29,36 @@ publisher.map(\.x, \.y).sink { x, y in
 }
 
 publisher.send(Point(x: 2, y: 10))
+
+// Flatmap
+struct School {
+    let name: String
+    let noOfStudents: CurrentValueSubject<Int, Never> // Publisher that returns a single value
+    
+    init(name: String, noOfStudents: Int) {
+        self.name = name
+        self.noOfStudents = CurrentValueSubject(noOfStudents)
+    }
+}
+
+let citySchool = School(name: "WPB High School", noOfStudents: 121)
+
+let school = CurrentValueSubject<School, Never>(citySchool)
+
+school
+    .flatMap {
+        $0.noOfStudents
+    }
+    .sink {
+        print($0)
+    }
+
+let townSchool = School(name: "WPB Elementary School", noOfStudents: 100)
+
+school.value = townSchool
+
+citySchool.noOfStudents.value += 10
+
+townSchool.noOfStudents.value += 20
+
+

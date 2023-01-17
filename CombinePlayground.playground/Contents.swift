@@ -66,3 +66,8 @@ townSchool.noOfStudents.value += 20
     print($0 ?? "")
 }
 
+// Challenge - Unwrap options when you call sink
+["A", "B", "C", nil, "E"].publisher.replaceNil(with: "*").compactMap { $0 }
+    .sink {
+    print($0)
+}

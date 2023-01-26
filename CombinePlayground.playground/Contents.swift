@@ -26,3 +26,14 @@ let string = ["a", "1.24", "Y", "6.7", "3.45"].publisher.compactMap{ Float($0) }
 let numbers2 = (1...100).publisher
 
 numbers2.ignoreOutput().sink(receiveCompletion: { print($0) }, receiveValue: { print($0) })
+
+struct NoZeroValuesAllowedError: Error {}
+let numbers3 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+numbers3.publisher
+    .tryFilter({ anInt in
+        guard anInt != 0 else { throw NoZeroValuesAllowedError() }
+        return anInt < 20
+    })
+    .ignoreOutput()
+    .sink(receiveCompletion: {print("completion: \($0)")},
+          receiveValue: {print("value \($0)")})

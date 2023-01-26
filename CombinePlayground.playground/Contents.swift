@@ -37,3 +37,8 @@ numbers3.publisher
     .ignoreOutput()
     .sink(receiveCompletion: {print("completion: \($0)")},
           receiveValue: {print("value \($0)")})
+
+// first
+let numbers4 = (1...9).publisher
+
+numbers.first(where: { $0 % 3 == 0 }).sink { print($0) }

@@ -21,3 +21,8 @@ words.removeDuplicates().sink {
 let string = ["a", "1.24", "Y", "6.7", "3.45"].publisher.compactMap{ Float($0) }.sink {
     print($0)
 }
+
+// Ignore output
+let numbers2 = (1...100).publisher
+
+numbers2.ignoreOutput().sink(receiveCompletion: { print($0) }, receiveValue: { print($0) })

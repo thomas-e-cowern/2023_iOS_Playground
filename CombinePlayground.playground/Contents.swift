@@ -44,3 +44,12 @@ let numbers4 = (1...9).publisher
 numbers4.first(where: { $0 % 3 == 0 }).sink { print($0) }
 
 numbers4.last(where: { $0 % 2 == 0 }).sink { print($0) }
+
+// Drop first
+
+numbers.dropFirst(8).sink {
+    print("DF:",$0)
+}
+
+
+

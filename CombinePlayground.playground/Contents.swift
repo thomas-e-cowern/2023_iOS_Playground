@@ -51,5 +51,7 @@ numbers.dropFirst(8).sink {
     print("DF:",$0)
 }
 
+// Drop while
+numbers.drop(while: { $0 % 5 != 0  }).sink { print($0) }
 
 

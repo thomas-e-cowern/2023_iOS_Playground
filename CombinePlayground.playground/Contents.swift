@@ -54,4 +54,17 @@ numbers.dropFirst(8).sink {
 // Drop while
 numbers.drop(while: { $0 % 5 != 0  }).sink { print($0) }
 
+// Drop until output from
+let taps = PassthroughSubject<Int, Never>()
+let isReady = PassthroughSubject<Void, Never>()
+
+taps.drop(untilOutputFrom: isReady).sink { print("T:",$0) }
+
+(1...10).forEach { int in
+    taps.send(int)
+    
+    if int == 3 {
+        isReady.send()
+    }
+}
 

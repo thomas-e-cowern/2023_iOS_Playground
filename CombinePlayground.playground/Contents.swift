@@ -72,4 +72,6 @@ taps.drop(untilOutputFrom: isReady).sink { print("T:",$0) }
 numbers.prefix(2).sink { print($0) }
 numbers.prefix(while: { $0 < 5 }).sink { print($0) }
 
-
+// Challenge
+let numbersChallenge = (1...100).publisher
+numbersChallenge.dropFirst(50).prefix(20).filter { $0 % 2 == 0 }.sink { print($0) }

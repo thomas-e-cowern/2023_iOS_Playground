@@ -68,3 +68,8 @@ taps.drop(untilOutputFrom: isReady).sink { print("T:",$0) }
     }
 }
 
+// Prefix
+numbers.prefix(2).sink { print($0) }
+numbers.prefix(while: { $0 < 5 }).sink { print($0) }
+
+

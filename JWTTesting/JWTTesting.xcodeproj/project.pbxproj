@@ -51,6 +51,10 @@
 		4D63B48729C4F8CA008CE0A7 /* JWTTesting */ = {
 			isa = PBXGroup;
 			children = (
+				4D63B49929C4F9FA008CE0A7 /* ViewModels */,
+				4D63B49829C4F9F0008CE0A7 /* Services */,
+				4D63B49729C4F9DF008CE0A7 /* Extensions */,
+				4D63B49629C4F9D6008CE0A7 /* Models */,
 				4D63B48829C4F8CA008CE0A7 /* JWTTestingApp.swift */,
 				4D63B48A29C4F8CA008CE0A7 /* ContentView.swift */,
 				4D63B48C29C4F8D1008CE0A7 /* Assets.xcassets */,
@@ -65,6 +69,34 @@
 				4D63B48F29C4F8D1008CE0A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D63B49629C4F9D6008CE0A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D63B49729C4F9DF008CE0A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D63B49829C4F9F0008CE0A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4D63B49929C4F9FA008CE0A7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

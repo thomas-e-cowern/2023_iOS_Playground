@@ -14,6 +14,8 @@
 		4D63B49B29C4FA3B008CE0A7 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63B49A29C4FA3B008CE0A7 /* View+Extensions.swift */; };
 		4D63B49D29C4FA78008CE0A7 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63B49C29C4FA78008CE0A7 /* Account.swift */; };
 		4D63B4A029C4FAE8008CE0A7 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63B49F29C4FAE8008CE0A7 /* Webservice.swift */; };
+		4D63B4A229C50143008CE0A7 /* AccountListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63B4A129C50143008CE0A7 /* AccountListViewModel.swift */; };
+		4D63B4A429C5016D008CE0A7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63B4A329C5016D008CE0A7 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		4D63B49A29C4FA3B008CE0A7 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		4D63B49C29C4FA78008CE0A7 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		4D63B49F29C4FAE8008CE0A7 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		4D63B4A129C50143008CE0A7 /* AccountListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewModel.swift; sourceTree = "<group>"; };
+		4D63B4A329C5016D008CE0A7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 		4D63B49929C4F9FA008CE0A7 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				4D63B4A129C50143008CE0A7 /* AccountListViewModel.swift */,
+				4D63B4A329C5016D008CE0A7 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -182,7 +188,9 @@
 				4D63B49D29C4FA78008CE0A7 /* Account.swift in Sources */,
 				4D63B49B29C4FA3B008CE0A7 /* View+Extensions.swift in Sources */,
 				4D63B4A029C4FAE8008CE0A7 /* Webservice.swift in Sources */,
+				4D63B4A229C50143008CE0A7 /* AccountListViewModel.swift in Sources */,
 				4D63B48929C4F8CA008CE0A7 /* JWTTestingApp.swift in Sources */,
+				4D63B4A429C5016D008CE0A7 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

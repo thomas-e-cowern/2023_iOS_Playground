@@ -33,7 +33,7 @@ class Webservice {
         
     func getAllAccounts(token: String, completion: @escaping (Result<[Account], NetworkError>) -> Void) {
         
-        guard let url = URL(string: "https://strong-spangled-apartment.glitch.me/accounts") else {
+        guard let url = URL(string: "https://backend-with-auth.glitch.me/accounts") else {
             completion(.failure(.invalidURL))
             return
         }

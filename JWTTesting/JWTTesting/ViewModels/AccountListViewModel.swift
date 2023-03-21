@@ -43,6 +43,10 @@ struct AccountViewModel {
         return account.name
     }
     
+    var type: String {
+        return account.type
+    }
+    
     var balance: Double {
         return account.balance
     }

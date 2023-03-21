@@ -65,7 +65,7 @@ class Webservice {
     
     func login(username: String, password: String, completion: @escaping (Result<String, AuthenticationError>) -> Void) {
         
-        guard let url = URL(string: "https://strong-spangled-apartment.glitch.me/login") else {
+        guard let url = URL(string: "https://backend-with-auth.glitch.me/login") else {
             completion(.failure(.custom(errorMessage: "URL is not correct")))
             return
         }
@@ -84,7 +84,7 @@ class Webservice {
                 return
             }
             
-            try! JSONDecoder().decode(LoginResponse.self, from: data)
+//            try! JSONDecoder().decode(LoginResponse.self, from: data)
             
             guard let loginResponse = try? JSONDecoder().decode(LoginResponse.self, from: data) else {
                 completion(.failure(.invalidCredentials))

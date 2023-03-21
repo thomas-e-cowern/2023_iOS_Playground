@@ -20,6 +20,7 @@ class LoginViewModel: ObservableObject {
         Webservice().login(username: username, password: password) { result in
             switch result {
                 case .success(let token):
+                print(token)
                     defaults.setValue(token, forKey: "jsonwebtoken")
                     DispatchQueue.main.async {
                         self.isAuthenticated = true

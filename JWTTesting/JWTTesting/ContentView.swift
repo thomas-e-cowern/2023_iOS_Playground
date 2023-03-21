@@ -42,6 +42,8 @@ struct ContentView: View {
                         HStack {
                             Text("\(account.name)")
                             Spacer()
+                            Text("\(account.type)")
+                            Spacer()
                             Text(String(format: "$%.2f", account.balance))
                         }
                     }.listStyle(PlainListStyle())

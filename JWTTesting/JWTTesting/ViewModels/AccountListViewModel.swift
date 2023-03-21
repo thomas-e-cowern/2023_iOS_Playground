@@ -25,7 +25,7 @@ class AccountListViewModel: ObservableObject {
                         self.accounts = accounts.map(AccountViewModel.init)
                     }
                 case .failure(let error):
-                    print(error.localizedDescription)
+                    print("inside ALVW", error.localizedDescription)
             }
         }
         

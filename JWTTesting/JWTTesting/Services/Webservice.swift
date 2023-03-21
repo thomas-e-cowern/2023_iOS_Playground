@@ -49,6 +49,7 @@ class Webservice {
             }
             
             guard let accounts = try? JSONDecoder().decode([Account].self, from: data) else {
+                print("inside accounts")
                 completion(.failure(.decodingError))
                 return
             }

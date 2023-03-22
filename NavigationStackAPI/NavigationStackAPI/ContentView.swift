@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+struct Customer: Hashable {
+//    var id = UUID()
+    let name: String
+    let accountNumber: Int
+}
+
 struct DetailView: View {
     
     let value: Int
@@ -25,9 +31,32 @@ struct CustomerView: View {
     }
 }
 
+struct CustomerDetailView: View {
+    
+    let customer: Customer
+    
+    var body: some View {
+        HStack {
+            Text("Name: \(customer.name)")
+            Text("Account number: \(customer.accountNumber)")
+        }
+    }
+}
+
 struct ContentView: View {
+    
+    let customers = [Customer(name: "John", accountNumber: 00001), Customer(name: "Mary", accountNumber: 00002), Customer(name: "Bernice", accountNumber: 00003), Customer(name: "Quentin", accountNumber: 00004)]
+    
     var body: some View {
         NavigationStack {
+            
+            List(customers, id: \.self) { customer in
+                NavigationLink(customer.name, value: customer)
+            }
+            .navigationDestination(for: Customer.self) { customer in
+                CustomerDetailView(customer: customer)
+            }
+            
             VStack (spacing: 20){
                 NavigationLink("DetailView", value: 99)
                     

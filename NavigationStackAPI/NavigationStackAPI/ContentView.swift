@@ -47,35 +47,47 @@ struct ContentView: View {
     
     let customers = [Customer(name: "John", accountNumber: 00001), Customer(name: "Mary", accountNumber: 00002), Customer(name: "Bernice", accountNumber: 00003), Customer(name: "Quentin", accountNumber: 00004)]
     
+    @EnvironmentObject private var navigationState: NavigationState
+    
     var body: some View {
-        NavigationStack {
-            
-            List(customers, id: \.self) { customer in
-                NavigationLink(customer.name, value: customer)
-            }
-            .navigationDestination(for: Customer.self) { customer in
-                CustomerDetailView(customer: customer)
-            }
-            
-            VStack (spacing: 20){
-                NavigationLink("DetailView", value: 99)
-                    
-                NavigationLink("CustomerView", value: "John Doe")
-            }
-            .navigationDestination(for: Int.self) { value in
-                DetailView(value: value)
-            }
-            
-            .navigationDestination(for: String.self) { value in
-                CustomerView(name: value)
+        
+        VStack {
+            Button("Customer Detail") {
+                navigationState.routes.append(Customer(name: "Bill", accountNumber: 12345))
             }
         }
-        .padding()
+        
+        
+        
+//        NavigationStack {
+            
+//            List(customers, id: \.self) { customer in
+//                NavigationLink(customer.name, value: customer)
+//            }
+//            .navigationDestination(for: Customer.self) { customer in
+//                CustomerDetailView(customer: customer)
+//            }
+//
+//            VStack (spacing: 20){
+//                NavigationLink("DetailView", value: 99)
+//
+//                NavigationLink("CustomerView", value: "John Doe")
+//            }
+//            .navigationDestination(for: Int.self) { value in
+//                DetailView(value: value)
+//            }
+//
+//            .navigationDestination(for: String.self) { value in
+//                CustomerView(name: value)
+//            }
+//        }
+//        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(NavigationState())
     }
 }

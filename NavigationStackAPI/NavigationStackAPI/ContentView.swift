@@ -7,15 +7,22 @@
 
 import SwiftUI
 
+struct DetailView: View {
+    var body: some View {
+        Text("Details View")
+    }
+}
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            NavigationLink {
+                DetailView()
+            } label: {
+                Image(systemName: "arrow.up")
+            }
+
         }
-        .padding()
     }
 }
 

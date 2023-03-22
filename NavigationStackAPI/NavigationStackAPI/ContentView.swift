@@ -8,21 +8,40 @@
 import SwiftUI
 
 struct DetailView: View {
+    
+    let value: Int
+    
     var body: some View {
-        Text("Details View")
+        Text("Value: \(value)")
+    }
+}
+
+struct CustomerView: View {
+    
+    let name: String
+    
+    var body: some View {
+        Text("Name: \(name)")
     }
 }
 
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            NavigationLink {
-                DetailView()
-            } label: {
-                Image(systemName: "arrow.up")
+            VStack (spacing: 20){
+                NavigationLink("DetailView", value: 99)
+                    
+                NavigationLink("CustomerView", value: "John Doe")
             }
-
+            .navigationDestination(for: Int.self) { value in
+                DetailView(value: value)
+            }
+            
+            .navigationDestination(for: String.self) { value in
+                CustomerView(name: value)
+            }
         }
+        .padding()
     }
 }
 

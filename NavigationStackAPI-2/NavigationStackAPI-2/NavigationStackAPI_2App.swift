@@ -7,11 +7,38 @@
 
 import SwiftUI
 
+enum Route: Hashable {
+    case home
+    case details(Customer)
+    case settings
+}
+
+class NavigationState: ObservableObject {
+    @Published var routes: [Route] = []
+}
+
 @main
 struct NavigationStackAPI_2App: App {
+    
+    @StateObject private var navigationState = NavigationState()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack(path: $navigationState.routes) {
+                ContentView()
+                    .environmentObject(navigationState)
+                    .navigationDestination(for: Route.self) { route in
+                        switch route {
+                            case .home:
+                                Text("Home")
+                            case .details(let customer):
+                                Text(customer.name)
+                            case.settings:
+                                Text("Settings")
+                        }
+                    }
+            }
+            
         }
     }
 }

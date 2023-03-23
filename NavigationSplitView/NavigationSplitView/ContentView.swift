@@ -35,7 +35,7 @@ struct GenreDetailView: View {
     }
 }
 
-struct Movie: Identifiable {
+struct Movie: Identifiable, Hashable {
     let id = UUID()
     let name: String
     let genre: Genre
@@ -45,6 +45,7 @@ struct Movie: Identifiable {
 struct MovieListView: View {
     
     let genre: Genre
+    @Binding var selectedMovie: Movie?
     
     let movies = [Movie(name: "Superman", genre: .action), Movie(name: "28 Days Later", genre: .horror), Movie(name: "World War Z", genre: .horror),Movie(name: "Finding Nemo", genre: .kids), Movie(name: "Ghostbusters", genre: .comedy), Movie(name: "Night Falls on Manhattan", genre: .fiction)]
     
@@ -53,23 +54,36 @@ struct MovieListView: View {
         }
     
     var body: some View {
-        List(filteredMovies) { movie in
-            Text(movie.name)
+        List(filteredMovies, selection: $selectedMovie) { movie in
+            NavigationLink(movie.name, value: movie)
         }
+    }
+}
+
+struct MovieDetailView: View {
+    
+    let movie: Movie
+    
+    var body: some View {
+        Text(movie.name)
     }
 }
 
 struct ContentView: View {
     
     @State private var selectedGenre: Genre? = .action
+    @State private var selectedMovie: Movie?
     
     var body: some View {
         NavigationSplitView {
             GenreListview(selectedGenre: $selectedGenre)
+        } content: {
+            MovieListView(genre: selectedGenre  ?? .action, selectedMovie: $selectedMovie)
         } detail: {
-           MovieListView(genre: selectedGenre  ?? .action)
+            if let selectedMovie {
+                MovieDetailView(movie: selectedMovie)
+            }
         }
-
     }
 }
 

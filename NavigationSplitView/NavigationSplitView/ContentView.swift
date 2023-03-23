@@ -20,9 +20,18 @@ struct GenreListview: View {
     @Binding var selectedGenre: Genre?
     
     var body: some View {
-        List(Genre.allCases, id: \.self) { genre in
+        List(Genre.allCases, id: \.self, selection: $selectedGenre) { genre in
             Text(genre.rawValue)
         }
+    }
+}
+
+struct GenreDetailView: View {
+    let genre: Genre
+    
+    var body: some View {
+        Text(genre.rawValue)
+            .font(.system(size: 100))
     }
 }
 
@@ -34,7 +43,7 @@ struct ContentView: View {
         NavigationSplitView {
             GenreListview(selectedGenre: $selectedGenre)
         } detail: {
-            Text("Detail")
+            GenreDetailView(genre: selectedGenre  ?? .action)
         }
 
     }

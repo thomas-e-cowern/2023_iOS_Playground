@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
+    @StateObject private var loginVM = LoginViewModel()
     
     var body: some View {
         VStack {
-            TextField
+            TextField("Username", text: $loginVM.username)
+            SecureField("Password", text: $loginVM.password)
+            Button("Login") {
+                loginVM.login()
+            }
         }
-        .padding()
+        .padding(10)
     }
 }
 

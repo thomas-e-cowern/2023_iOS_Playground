@@ -11,6 +11,7 @@
 		4D455BB429D22440002BEDE6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D455BB329D22440002BEDE6 /* MenuView.swift */; };
 		4D455BB629D22442002BEDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D455BB529D22442002BEDE6 /* Assets.xcassets */; };
 		4D455BB929D22442002BEDE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D455BB829D22442002BEDE6 /* Preview Assets.xcassets */; };
+		4D455BC029D2332D002BEDE6 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D455BBF29D2332D002BEDE6 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4D455BB329D22440002BEDE6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		4D455BB529D22442002BEDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D455BB829D22442002BEDE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D455BBF29D2332D002BEDE6 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4D455BB129D22440002BEDE6 /* MenuPlaygroundApp.swift */,
 				4D455BB329D22440002BEDE6 /* MenuView.swift */,
+				4D455BBF29D2332D002BEDE6 /* MenuItem.swift */,
 				4D455BB529D22442002BEDE6 /* Assets.xcassets */,
 				4D455BB729D22442002BEDE6 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D455BC029D2332D002BEDE6 /* MenuItem.swift in Sources */,
 				4D455BB429D22440002BEDE6 /* MenuView.swift in Sources */,
 				4D455BB229D22440002BEDE6 /* MenuPlaygroundApp.swift in Sources */,
 			);

@@ -26,12 +26,22 @@ struct MenuView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            List(menuItems, id: \.self) { menuItem in
+                HStack {
+                    Image(menuItem.imageName)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 55)
+                        .cornerRadius(10)
+                    Text(menuItem.name)
+                        .bold()
+                    Spacer()
+                    Text("$\(menuItem.price)")
+                }
+                .listRowSeparator(.hidden)
+                .listRowBackground(Color(.brown).opacity(0.1))
+            }
         }
-        .padding()
     }
 }
 

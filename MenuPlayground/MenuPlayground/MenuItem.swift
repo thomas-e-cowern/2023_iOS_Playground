@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MenuItem {
+struct MenuItem: Hashable {
     let name: String
     let price: String
     let imageName: String

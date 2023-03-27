@@ -9,6 +9,6 @@ import Foundation
 
 struct MenuItem {
     let name: String
-    let price: Float
-    let imaageName: String
+    let price: String
+    let imageName: String
 }

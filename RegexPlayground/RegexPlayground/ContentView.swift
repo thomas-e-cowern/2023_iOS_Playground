@@ -14,6 +14,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TextField("Enter your regular expression", text: $model.pattern)
+                .foregroundColor(model.isValid ? .primary : .red)
             TextEditor(text: $model.inputString)
                 .padding(5)
                 .border(.quaternary)

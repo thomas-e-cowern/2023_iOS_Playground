@@ -13,6 +13,7 @@
 		4DD6834929D335E900E23BC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD6834829D335E900E23BC6 /* Preview Assets.xcassets */; };
 		4DD6835129D3369200E23BC6 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6835029D3369200E23BC6 /* Match.swift */; };
 		4DD6835329D3373300E23BC6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6835229D3373300E23BC6 /* ViewModel.swift */; };
+		4DD6835529D48D8900E23BC6 /* Range-Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6835429D48D8900E23BC6 /* Range-Position.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4DD6834A29D335E900E23BC6 /* RegexPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RegexPlayground.entitlements; sourceTree = "<group>"; };
 		4DD6835029D3369200E23BC6 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		4DD6835229D3373300E23BC6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4DD6835429D48D8900E23BC6 /* Range-Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Range-Position.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		4DD6834029D335E700E23BC6 /* RegexPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				4DD6835429D48D8900E23BC6 /* Range-Position.swift */,
 				4DD6834129D335E700E23BC6 /* RegexPlaygroundApp.swift */,
 				4DD6834329D335E700E23BC6 /* ContentView.swift */,
 				4DD6835029D3369200E23BC6 /* Match.swift */,
@@ -149,6 +152,7 @@
 				4DD6834229D335E700E23BC6 /* RegexPlaygroundApp.swift in Sources */,
 				4DD6835329D3373300E23BC6 /* ViewModel.swift in Sources */,
 				4DD6835129D3369200E23BC6 /* Match.swift in Sources */,
+				4DD6835529D48D8900E23BC6 /* Range-Position.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,13 +9,13 @@ import Foundation
 import SwiftUI
 
 class ViewModel: ObservableObject {
-    @AppStorage("pattern") var pattern = ""
-    @AppStorage("inputStorage") var inputString = "Text to match here..."
-    @AppStorage("replacement") var replacement = ""
+    @AppStorage("pattern") var pattern = "" { didSet { update() } }
+    @AppStorage("inputStorage") var inputString = "Text to match here..." { didSet { update() } }
+    @AppStorage("replacement") var replacement = "" { didSet { update() } }
     
-    var replacementOutpu = ""
-    var matches = [Match]()
-    var isValid = true
+    @Published var replacementOutpu = ""
+    @Published var matches = [Match]()
+    @Published var isValid = true
     
     var code: String {
         "Hello Swift!"

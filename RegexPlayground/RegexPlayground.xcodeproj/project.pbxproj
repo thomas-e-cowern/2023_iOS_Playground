@@ -58,11 +58,11 @@
 			children = (
 				4DD6834129D335E700E23BC6 /* RegexPlaygroundApp.swift */,
 				4DD6834329D335E700E23BC6 /* ContentView.swift */,
+				4DD6835029D3369200E23BC6 /* Match.swift */,
+				4DD6835229D3373300E23BC6 /* ViewModel.swift */,
 				4DD6834529D335E900E23BC6 /* Assets.xcassets */,
 				4DD6834A29D335E900E23BC6 /* RegexPlayground.entitlements */,
 				4DD6834729D335E900E23BC6 /* Preview Content */,
-				4DD6835029D3369200E23BC6 /* Match.swift */,
-				4DD6835229D3373300E23BC6 /* ViewModel.swift */,
 			);
 			path = RegexPlayground;
 			sourceTree = "<group>";

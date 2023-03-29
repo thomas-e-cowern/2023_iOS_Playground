@@ -13,7 +13,7 @@ class ViewModel: ObservableObject {
     @AppStorage("inputStorage") var inputString = "Text to match here..." { didSet { update() } }
     @AppStorage("replacement") var replacement = "" { didSet { update() } }
     
-    @Published var replacementOutpu = ""
+    @Published var replacementOutput = ""
     @Published var matches = [Match]()
     @Published var isValid = true
     
@@ -24,6 +24,25 @@ class ViewModel: ObservableObject {
     func update() {
         guard pattern.isEmpty == false else { return }
         print("Running pattern...")
+        
+        do {
+            let regex = try Regex(pattern)
+            let results = inputString.matches(of: regex)
+            isValid = true
+            
+            matches = results.compactMap({ result in
+                let wholeText = String(inputString[result.range])
+                if wholeText.isEmpty { return nil }
+                
+                var wholeMatch = Match(text: wholeText, position: "Position goes here")
+                // Handle capture groups
+                return wholeMatch
+            })
+        } catch {
+            matches.removeAll()
+            replacementOutput = ""
+            isValid = false
+        }
     }
 }
 

@@ -15,10 +15,13 @@ struct ContentView: View {
         VStack {
             TextField("Enter your regular expression", text: $model.pattern)
             TextEditor(text: $model.inputString)
+                .padding(5)
+                .border(.quaternary)
             
             TabView {
                 List(model.matches) { match in
                     Text("\(match.text) \(match.position)")
+                        .font(.title3)
                 }
                 .tabItem {
                     Text("Matches")
@@ -31,6 +34,8 @@ struct ContentView: View {
             
         }
         .onAppear(perform: model.update)
+        .scrollContentBackground(.hidden)
+        .font(.title3)
         .padding()
     }
 }

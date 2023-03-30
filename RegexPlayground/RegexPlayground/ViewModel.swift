@@ -35,7 +35,22 @@ class ViewModel: ObservableObject {
                 if wholeText.isEmpty { return nil }
                 
                 var wholeMatch = Match(text: wholeText, position: result.range.position(in: inputString))
-                // Handle capture groups
+                
+                if result.count > 1 {
+                    wholeMatch.groups = [Match]()
+                    
+                    for part in result.indices.dropFirst() {
+                        let match = result[part]
+                        guard let range = match.range else { continue }
+                        
+                        let matchText = String(inputString[range])
+                        if matchText.isEmpty { continue }
+                        
+                        let partMatch = Match(text: matchText, position: range.position(in: inputString))
+                        wholeMatch.groups?.append(partMatch)
+                    }
+                }
+                
                 return wholeMatch
             })
         } catch {

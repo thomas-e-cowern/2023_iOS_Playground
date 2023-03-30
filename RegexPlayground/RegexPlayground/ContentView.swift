@@ -20,7 +20,7 @@ struct ContentView: View {
                 .border(.quaternary)
             
             TabView {
-                List(model.matches) { match in
+                List(model.matches, children: \.groups) { match in
                     Text("\(match.text) \(match.position)")
                         .font(.title3)
                 }

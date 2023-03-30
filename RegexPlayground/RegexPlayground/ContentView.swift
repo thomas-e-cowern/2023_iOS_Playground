@@ -50,9 +50,27 @@ struct ContentView: View {
                 }
             }
             
-            Text("Replacement")
+            VStack  {
+                TextField("Replacement text", text: $model.replacement)
+                    .padding()
+
+                TextEditor(text: .constant(model.replacementOutput))
+                    .padding(5)
+                    .border(.quaternary)
+                    .padding([.horizontal, .bottom])
+            }
+            .tabItem {
+                Text("Replacement")
+            }
             
-            Text("Generated Code")
+            TextEditor(text: .constant(model.code))
+                .padding(5)
+                .border(.quaternary)
+                .padding()
+                .fontDesign(.monospaced)
+                .tabItem {
+                    Text("Code")
+                }
             
         }
         .onAppear(perform: model.update)

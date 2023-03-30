@@ -32,7 +32,10 @@ struct ContentView: View {
                 } label: {
                     Label("Presets", systemImage: "gear")
                 }
+                .menuIndicator(.hidden)
+                .fixedSize()
             }
+            
             TextEditor(text: $model.inputString)
                 .padding(5)
                 .border(.quaternary)

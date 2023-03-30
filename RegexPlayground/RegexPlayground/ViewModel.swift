@@ -28,6 +28,7 @@ class ViewModel: ObservableObject {
         do {
             let regex = try Regex(pattern)
             let results = inputString.matches(of: regex)
+            replacementOutput = inputString.replacing(regex, with: replacement)
             isValid = true
             
             matches = results.compactMap({ result in

@@ -70,7 +70,8 @@ class Webservice {
     
     
     func login(username: String, password: String, completion: @escaping (Result<String, AuthenticationError>) -> Void) {
-        
+        print(username)
+        print(password)
 //        guard let url = URL(string: "https://api.veterandb.com/v1/account/login") else {
 //            completion(.failure(.custom(errorMessage: "URL is not correct")))
 //            return
@@ -106,7 +107,9 @@ class Webservice {
 //            print("Data: \(loginResponse)")
 //
 //        }.resume()
-        let parameters = "{\n\t\"email\": \"tcowern@yahoo.com\",\n\t\"password\": \"TiTvp!@46\"\n}"
+        let parameters = "{\n\t\"email\": \"\(username)\",\n\t\"password\": \"\(password)\"\n}"
+//        let parameters = "{ \"email\": "\(username)", \"password": "\(password)" }"
+        print(parameters)
         let postData = parameters.data(using: .utf8)
 
         var request = URLRequest(url: URL(string: "https://api.veterandb.com/v1/account/login")!,timeoutInterval: Double.infinity)

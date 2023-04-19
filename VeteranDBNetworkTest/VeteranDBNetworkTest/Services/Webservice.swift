@@ -35,39 +35,6 @@ struct LoginData: Codable {
 }
 
 class Webservice {
-        
-//    func getAllAccounts(token: String, completion: @escaping (Result<[Account], NetworkError>) -> Void) {
-//
-//        guard let url = URL(string: "https://backend-with-auth.glitch.me/accounts") else {
-//            completion(.failure(.invalidURL))
-//            return
-//        }
-//
-//        var request = URLRequest(url: url)
-//        request.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
-//
-//        URLSession.shared.dataTask(with: request) { (data, response, error) in
-//
-//            guard let data = data, error == nil else {
-//                completion(.failure(.noData))
-//                return
-//            }
-//
-//            guard let accounts = try? JSONDecoder().decode([Account].self, from: data) else {
-//                print("inside accounts")
-//                completion(.failure(.decodingError))
-//                return
-//            }
-//
-//            completion(.success(accounts))
-//
-//
-//
-//        }.resume()
-//
-//
-//    }
-    
     
     func login(username: String, password: String, completion: @escaping (Result<String, AuthenticationError>) -> Void) {
 
@@ -89,30 +56,6 @@ class Webservice {
         request.httpMethod = "POST"
         request.httpBody = postData
 
-//
-//        URLSession.shared.dataTask(with: request) { (data, response, error) in
-//
-//            guard let data = data, error == nil else {
-//                completion(.failure(.custom(errorMessage: "No data")))
-//                return
-//            }
-//
-//            guard let loginResponse = try? JSONDecoder().decode(LoginResponse.self, from: data) else {
-//                completion(.failure(.invalidCredentials))
-//                return
-//            }
-//
-//            guard let token = loginResponse.token else {
-//                completion(.failure(.invalidCredentials))
-//                return
-//            }
-//
-//            completion(.success(token))
-//            print("Data: \(loginResponse)")
-//
-//        }.resume()
-
-
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             
             guard let data = data else {
@@ -120,15 +63,15 @@ class Webservice {
               return
             }
             
-            guard let login = try? JSONDecoder().decode(LoginResponse.self, from: data) else {
+            guard let login = try? JSONDecoder().decode(LoginData.self, from: data) else {
                 completion(.failure(.invalidCredentials))
                 return
             }
             
-            print("Data: \(login.status)")
-            print("Data: \(login.access_token)")
+            print("Data: \(login.data.status)")
+            print("Data: \(login.data.access_token)")
             
-            completion(.success(login.access_token))
+            completion(.success(login.data.access_token))
         }
 
         task.resume()

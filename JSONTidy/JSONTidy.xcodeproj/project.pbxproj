@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D075E542A191F7D00CB1681 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D075E532A191F7D00CB1681 /* main.swift */; };
+		4D075E822A19232C00CB1681 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D075E812A19232C00CB1681 /* App.swift */; };
+		4D075E8A2A19234000CB1681 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 4D075E892A19234000CB1681 /* ArgumentParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4D075E4E2A191F7D00CB1681 /* CopyFiles */ = {
+		4D075E7C2A19232C00CB1681 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,41 +24,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D075E502A191F7D00CB1681 /* JSONTidy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSONTidy; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D075E532A191F7D00CB1681 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4D075E7E2A19232C00CB1681 /* JSONTidy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSONTidy; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D075E812A19232C00CB1681 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D075E4D2A191F7D00CB1681 /* Frameworks */ = {
+		4D075E7B2A19232C00CB1681 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D075E8A2A19234000CB1681 /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D075E472A191F7D00CB1681 = {
+		4D075E752A19232C00CB1681 = {
 			isa = PBXGroup;
 			children = (
-				4D075E522A191F7D00CB1681 /* JSONTidy */,
-				4D075E512A191F7D00CB1681 /* Products */,
+				4D075E802A19232C00CB1681 /* JSONTidy */,
+				4D075E7F2A19232C00CB1681 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4D075E512A191F7D00CB1681 /* Products */ = {
+		4D075E7F2A19232C00CB1681 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D075E502A191F7D00CB1681 /* JSONTidy */,
+				4D075E7E2A19232C00CB1681 /* JSONTidy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D075E522A191F7D00CB1681 /* JSONTidy */ = {
+		4D075E802A19232C00CB1681 /* JSONTidy */ = {
 			isa = PBXGroup;
 			children = (
-				4D075E532A191F7D00CB1681 /* main.swift */,
+				4D075E812A19232C00CB1681 /* App.swift */,
 			);
 			path = JSONTidy;
 			sourceTree = "<group>";
@@ -65,39 +67,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D075E4F2A191F7D00CB1681 /* JSONTidy */ = {
+		4D075E7D2A19232C00CB1681 /* JSONTidy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D075E572A191F7D00CB1681 /* Build configuration list for PBXNativeTarget "JSONTidy" */;
+			buildConfigurationList = 4D075E852A19232C00CB1681 /* Build configuration list for PBXNativeTarget "JSONTidy" */;
 			buildPhases = (
-				4D075E4C2A191F7D00CB1681 /* Sources */,
-				4D075E4D2A191F7D00CB1681 /* Frameworks */,
-				4D075E4E2A191F7D00CB1681 /* CopyFiles */,
+				4D075E7A2A19232C00CB1681 /* Sources */,
+				4D075E7B2A19232C00CB1681 /* Frameworks */,
+				4D075E7C2A19232C00CB1681 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = JSONTidy;
+			packageProductDependencies = (
+				4D075E892A19234000CB1681 /* ArgumentParser */,
+			);
 			productName = JSONTidy;
-			productReference = 4D075E502A191F7D00CB1681 /* JSONTidy */;
+			productReference = 4D075E7E2A19232C00CB1681 /* JSONTidy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4D075E482A191F7D00CB1681 /* Project object */ = {
+		4D075E762A19232C00CB1681 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					4D075E4F2A191F7D00CB1681 = {
+					4D075E7D2A19232C00CB1681 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 4D075E4B2A191F7D00CB1681 /* Build configuration list for PBXProject "JSONTidy" */;
+			buildConfigurationList = 4D075E792A19232C00CB1681 /* Build configuration list for PBXProject "JSONTidy" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +110,32 @@
 				en,
 				Base,
 			);
-			mainGroup = 4D075E472A191F7D00CB1681;
-			productRefGroup = 4D075E512A191F7D00CB1681 /* Products */;
+			mainGroup = 4D075E752A19232C00CB1681;
+			packageReferences = (
+				4D075E882A19234000CB1681 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+			);
+			productRefGroup = 4D075E7F2A19232C00CB1681 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D075E4F2A191F7D00CB1681 /* JSONTidy */,
+				4D075E7D2A19232C00CB1681 /* JSONTidy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D075E4C2A191F7D00CB1681 /* Sources */ = {
+		4D075E7A2A19232C00CB1681 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D075E542A191F7D00CB1681 /* main.swift in Sources */,
+				4D075E822A19232C00CB1681 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4D075E552A191F7D00CB1681 /* Debug */ = {
+		4D075E832A19232C00CB1681 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +195,7 @@
 			};
 			name = Debug;
 		};
-		4D075E562A191F7D00CB1681 /* Release */ = {
+		4D075E842A19232C00CB1681 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +248,7 @@
 			};
 			name = Release;
 		};
-		4D075E582A191F7D00CB1681 /* Debug */ = {
+		4D075E862A19232C00CB1681 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +259,7 @@
 			};
 			name = Debug;
 		};
-		4D075E592A191F7D00CB1681 /* Release */ = {
+		4D075E872A19232C00CB1681 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +273,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D075E4B2A191F7D00CB1681 /* Build configuration list for PBXProject "JSONTidy" */ = {
+		4D075E792A19232C00CB1681 /* Build configuration list for PBXProject "JSONTidy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D075E552A191F7D00CB1681 /* Debug */,
-				4D075E562A191F7D00CB1681 /* Release */,
+				4D075E832A19232C00CB1681 /* Debug */,
+				4D075E842A19232C00CB1681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D075E572A191F7D00CB1681 /* Build configuration list for PBXNativeTarget "JSONTidy" */ = {
+		4D075E852A19232C00CB1681 /* Build configuration list for PBXNativeTarget "JSONTidy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D075E582A191F7D00CB1681 /* Debug */,
-				4D075E592A191F7D00CB1681 /* Release */,
+				4D075E862A19232C00CB1681 /* Debug */,
+				4D075E872A19232C00CB1681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D075E882A19234000CB1681 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D075E892A19234000CB1681 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D075E882A19234000CB1681 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 4D075E482A191F7D00CB1681 /* Project object */;
+	rootObject = 4D075E762A19232C00CB1681 /* Project object */;
 }

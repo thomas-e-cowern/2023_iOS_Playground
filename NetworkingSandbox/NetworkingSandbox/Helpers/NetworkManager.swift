@@ -47,4 +47,12 @@ struct NetworkManager {
             }
         }
     }
+    
+    func fetch<T>(_ resource: Endpoint<T>, with data: Data? = nil, defaultValue: T) async throws -> T {
+        do {
+            return try await fetch(resource, with: data)
+        } catch {
+            return defaultValue
+        }
+    }
 }

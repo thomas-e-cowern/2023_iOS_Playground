@@ -15,6 +15,7 @@
 		4DCADB892A1BB3110041CEF3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB882A1BB3110041CEF3 /* Message.swift */; };
 		4DCADB8C2A1BB5C90041CEF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB8B2A1BB5C90041CEF3 /* Constants.swift */; };
 		4DCADB8E2A1BB62B0041CEF3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB8D2A1BB62B0041CEF3 /* NetworkManager.swift */; };
+		4DCADB902A1BBE810041CEF3 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB8F2A1BBE810041CEF3 /* HTTPMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4DCADB882A1BB3110041CEF3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		4DCADB8B2A1BB5C90041CEF3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4DCADB8D2A1BB62B0041CEF3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4DCADB8F2A1BBE810041CEF3 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				4DCADB8B2A1BB5C90041CEF3 /* Constants.swift */,
 				4DCADB8D2A1BB62B0041CEF3 /* NetworkManager.swift */,
+				4DCADB8F2A1BBE810041CEF3 /* HTTPMethod.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				4DCADB8E2A1BB62B0041CEF3 /* NetworkManager.swift in Sources */,
 				4DCADB8C2A1BB5C90041CEF3 /* Constants.swift in Sources */,
+				4DCADB902A1BBE810041CEF3 /* HTTPMethod.swift in Sources */,
 				4DCADB872A1BB2D40041CEF3 /* News.swift in Sources */,
 				4DCADB892A1BB3110041CEF3 /* Message.swift in Sources */,
 				4DCADB7A2A1BB1CA0041CEF3 /* ContentView.swift in Sources */,

@@ -41,11 +41,8 @@ struct ContentView: View {
             }
             .task {
                 do {
-                    let headlineData = try await networkManager.fetch(.headlines)
-                    let messageData = try await networkManager.fetch(.messages)
-
-                    headlines = try JSONDecoder().decode([News].self, from: headlineData)
-                    messages = try JSONDecoder().decode([Message].self, from: messageData)
+                    headlines = try await networkManager.fetch(.headlines)
+                    messages = try await networkManager.fetch(.messages)
                 } catch {
                     print("Error handling is a smart move!")
                 }

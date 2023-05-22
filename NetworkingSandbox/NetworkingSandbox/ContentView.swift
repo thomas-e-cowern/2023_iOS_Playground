@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var headlines = [News]()
     @State private var messages = [Message]()
     
-    let networkManager = NetworkManager(environment: .production)
+    @Environment(\.networkManager) var networkManager
     
     var body: some View {
         VStack {
@@ -40,9 +40,13 @@ struct ContentView: View {
             }
             .task {
                 do {
-                    headlines = try await networkManager.fetch(.headlines)
-                    messages = try await networkManager.fetch(.messages)
+                    headlines = try await networkManager.fetch(.headlines, attempts: 5)
+                    messages = try await networkManager.fetch(.messages, attempts: 5)
                     
+                    let city = try await networkManager.fetch(.city)
+                    let state = try await networkManager.fetch(.state)
+                    print("\(city), \(state)")
+    
 //                    let user = ["name": "Bilbo Baggins", "job": "Ring Courier"]
 //
 //                    let response = try await networkManager.fetch(.userTest, with: JSONEncoder().encode(user))

@@ -11,6 +11,8 @@
 		4DCADBA62A1BFE6C0041CEF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADBA52A1BFE6C0041CEF3 /* ContentView.swift */; };
 		4DCADBA82A1BFE6E0041CEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCADBA72A1BFE6E0041CEF3 /* Assets.xcassets */; };
 		4DCADBAB2A1BFE6E0041CEF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCADBAA2A1BFE6E0041CEF3 /* Preview Assets.xcassets */; };
+		4DCADBB32A1BFEDC0041CEF3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADBB22A1BFEDC0041CEF3 /* WebService.swift */; };
+		4DCADBB62A1BFF300041CEF3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADBB52A1BFF300041CEF3 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4DCADBA52A1BFE6C0041CEF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DCADBA72A1BFE6E0041CEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCADBAA2A1BFE6E0041CEF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DCADBB22A1BFEDC0041CEF3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4DCADBB52A1BFF300041CEF3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		4DCADBA22A1BFE6C0041CEF3 /* CoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				4DCADBB42A1BFF230041CEF3 /* Models */,
+				4DCADBB12A1BFECB0041CEF3 /* Services */,
 				4DCADBA32A1BFE6C0041CEF3 /* CoffeeAppApp.swift */,
 				4DCADBA52A1BFE6C0041CEF3 /* ContentView.swift */,
 				4DCADBA72A1BFE6E0041CEF3 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				4DCADBAA2A1BFE6E0041CEF3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DCADBB12A1BFECB0041CEF3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4DCADBB22A1BFEDC0041CEF3 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4DCADBB42A1BFF230041CEF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DCADBB52A1BFF300041CEF3 /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCADBB32A1BFEDC0041CEF3 /* WebService.swift in Sources */,
 				4DCADBA62A1BFE6C0041CEF3 /* ContentView.swift in Sources */,
+				4DCADBB62A1BFF300041CEF3 /* Order.swift in Sources */,
 				4DCADBA42A1BFE6C0041CEF3 /* CoffeeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

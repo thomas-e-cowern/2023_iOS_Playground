@@ -8,8 +8,11 @@
 import Foundation
 
 struct NetworkManager {
-    func fetch<T>(_ resource: Endpoint<T>) async throws -> T {
+    func fetch<T>(_ resource: Endpoint<T>, with data: Data? = nil) async throws -> T {
         var request = URLRequest(url: resource.url)
+        request.httpMethod = resource.method.rawValue
+        request.httpBody = data
+        
         var (data, _) = try await URLSession.shared.data(for: request)
        
         let decoder = JSONDecoder()

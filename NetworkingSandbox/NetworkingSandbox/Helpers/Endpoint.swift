@@ -1,5 +1,5 @@
 //
-//  Constants.swift
+//  Endpoint.swift
 //  NetworkingSandbox
 //
 //  Created by Thomas Cowern on 5/22/23.
@@ -10,6 +10,7 @@ import Foundation
 struct Endpoint<T: Decodable> {
     var url: URL
     var type: T.Type
+    var method = HTTPMethod.get
 }
 
 extension Endpoint where T == [News] {

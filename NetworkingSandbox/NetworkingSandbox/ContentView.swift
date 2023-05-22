@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var headlines = [News]()
     @State private var messages = [Message]()
     
-    let networkManager = NetworkManager()
+    let networkManager = NetworkManager(environment: .production)
     
     var body: some View {
         VStack {
@@ -22,7 +22,6 @@ struct ContentView: View {
                         VStack(alignment: .leading) {
                             Text(headline.title)
                                 .font(.headline)
-
                             Text(headline.strap)
                         }
                     }

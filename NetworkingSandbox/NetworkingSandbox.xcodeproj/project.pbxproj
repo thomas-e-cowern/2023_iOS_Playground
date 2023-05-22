@@ -16,6 +16,9 @@
 		4DCADB8C2A1BB5C90041CEF3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB8B2A1BB5C90041CEF3 /* Endpoint.swift */; };
 		4DCADB8E2A1BB62B0041CEF3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB8D2A1BB62B0041CEF3 /* NetworkManager.swift */; };
 		4DCADB902A1BBE810041CEF3 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB8F2A1BBE810041CEF3 /* HTTPMethod.swift */; };
+		4DCADB922A1BC45E0041CEF3 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB912A1BC45E0041CEF3 /* AppEnvironment.swift */; };
+		4DCADB942A1BDEB10041CEF3 /* NetworkManagerKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB932A1BDEB10041CEF3 /* NetworkManagerKey.swift */; };
+		4DCADB962A1BDF2C0041CEF3 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADB952A1BDF2C0041CEF3 /* EnvironmentValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		4DCADB8B2A1BB5C90041CEF3 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		4DCADB8D2A1BB62B0041CEF3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4DCADB8F2A1BBE810041CEF3 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		4DCADB912A1BC45E0041CEF3 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		4DCADB932A1BDEB10041CEF3 /* NetworkManagerKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerKey.swift; sourceTree = "<group>"; };
+		4DCADB952A1BDF2C0041CEF3 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		4DCADB852A1BB2BC0041CEF3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4DCADB912A1BC45E0041CEF3 /* AppEnvironment.swift */,
 				4DCADB862A1BB2D40041CEF3 /* News.swift */,
 				4DCADB882A1BB3110041CEF3 /* Message.swift */,
 			);
@@ -94,6 +101,8 @@
 				4DCADB8B2A1BB5C90041CEF3 /* Endpoint.swift */,
 				4DCADB8D2A1BB62B0041CEF3 /* NetworkManager.swift */,
 				4DCADB8F2A1BBE810041CEF3 /* HTTPMethod.swift */,
+				4DCADB932A1BDEB10041CEF3 /* NetworkManagerKey.swift */,
+				4DCADB952A1BDF2C0041CEF3 /* EnvironmentValues.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -173,8 +182,11 @@
 				4DCADB902A1BBE810041CEF3 /* HTTPMethod.swift in Sources */,
 				4DCADB872A1BB2D40041CEF3 /* News.swift in Sources */,
 				4DCADB892A1BB3110041CEF3 /* Message.swift in Sources */,
+				4DCADB962A1BDF2C0041CEF3 /* EnvironmentValues.swift in Sources */,
+				4DCADB922A1BC45E0041CEF3 /* AppEnvironment.swift in Sources */,
 				4DCADB7A2A1BB1CA0041CEF3 /* ContentView.swift in Sources */,
 				4DCADB782A1BB1CA0041CEF3 /* NetworkingSandboxApp.swift in Sources */,
+				4DCADB942A1BDEB10041CEF3 /* NetworkManagerKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

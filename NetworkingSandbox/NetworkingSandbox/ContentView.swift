@@ -8,12 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var headlines = [News]()
+    @State private var messages = [Message]()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            List {
+                Section("Headlines") {
+                    ForEach(headlines) { headline in
+                        VStack(alignment: .leading) {
+                            Text(headline.title)
+                                .font(.headline)
+
+                            Text(headline.strap)
+                        }
+                    }
+                }
+
+                Section("Messages") {
+                    ForEach(messages) { message in
+                        VStack(alignment: .leading) {
+                            Text(message.from)
+                                .font(.headline)
+
+                            Text(message.text)
+                        }
+                    }
+                }
+            }
         }
         .padding()
     }

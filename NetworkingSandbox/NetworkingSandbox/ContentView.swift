@@ -12,6 +12,8 @@ struct ContentView: View {
     @State private var headlines = [News]()
     @State private var messages = [Message]()
     
+    let networkManager = NetworkManager()
+    
     var body: some View {
         VStack {
             List {
@@ -39,11 +41,8 @@ struct ContentView: View {
             }
             .task {
                 do {
-                    let headlinesURL = URL(string: "https://hws.dev/headlines.json")!
-                    let messagesURL = URL(string: "https://hws.dev/messages.json")!
-
-                    let (headlineData, _) = try await URLSession.shared.data(from: headlinesURL)
-                    let (messageData, _) = try await URLSession.shared.data(from: messagesURL)
+                    let headlineData = try await networkManager.fetch(.headlines)
+                    let messageData = try await networkManager.fetch(.messages)
 
                     headlines = try JSONDecoder().decode([News].self, from: headlineData)
                     messages = try JSONDecoder().decode([Message].self, from: messageData)

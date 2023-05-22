@@ -37,6 +37,20 @@ struct ContentView: View {
                     }
                 }
             }
+            .task {
+                do {
+                    let headlinesURL = URL(string: "https://hws.dev/headlines.json")!
+                    let messagesURL = URL(string: "https://hws.dev/messages.json")!
+
+                    let (headlineData, _) = try await URLSession.shared.data(from: headlinesURL)
+                    let (messageData, _) = try await URLSession.shared.data(from: messagesURL)
+
+                    headlines = try JSONDecoder().decode([News].self, from: headlineData)
+                    messages = try JSONDecoder().decode([Message].self, from: messageData)
+                } catch {
+                    print("Error handling is a smart move!")
+                }
+            }
         }
         .padding()
     }

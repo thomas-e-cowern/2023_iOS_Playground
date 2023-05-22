@@ -43,6 +43,11 @@ struct ContentView: View {
                 do {
                     headlines = try await networkManager.fetch(.headlines)
                     messages = try await networkManager.fetch(.messages)
+                    
+//                    let user = ["name": "Bilbo Baggins", "job": "Ring Courier"]
+//
+//                    let response = try await networkManager.fetch(.userTest, with: JSONEncoder().encode(user))
+//                    print(response)
                 } catch {
                     print("Error handling is a smart move!")
                 }

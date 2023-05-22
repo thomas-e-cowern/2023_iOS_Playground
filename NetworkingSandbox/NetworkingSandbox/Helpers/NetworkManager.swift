@@ -12,6 +12,7 @@ struct NetworkManager {
         var request = URLRequest(url: resource.url)
         request.httpMethod = resource.method.rawValue
         request.httpBody = data
+        request.allHTTPHeaderFields = resource.headers
         
         var (data, _) = try await URLSession.shared.data(for: request)
        

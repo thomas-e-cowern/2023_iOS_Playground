@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5870B52A1ED0AA00BAD710 /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5870B42A1ED0AA00BAD710 /* OrderCellView.swift */; };
 		4DCADBA42A1BFE6C0041CEF3 /* CoffeeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADBA32A1BFE6C0041CEF3 /* CoffeeAppApp.swift */; };
 		4DCADBA62A1BFE6C0041CEF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCADBA52A1BFE6C0041CEF3 /* ContentView.swift */; };
 		4DCADBA82A1BFE6E0041CEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCADBA72A1BFE6E0041CEF3 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D5870B42A1ED0AA00BAD710 /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
 		4DCADBA02A1BFE6C0041CEF3 /* CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCADBA32A1BFE6C0041CEF3 /* CoffeeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppApp.swift; sourceTree = "<group>"; };
 		4DCADBA52A1BFE6C0041CEF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5870B32A1ED09500BAD710 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D5870B42A1ED0AA00BAD710 /* OrderCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4DCADB972A1BFE6C0041CEF3 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		4DCADBA22A1BFE6C0041CEF3 /* CoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				4D5870B32A1ED09500BAD710 /* Views */,
 				4DCADBB42A1BFF230041CEF3 /* Models */,
 				4DCADBB12A1BFECB0041CEF3 /* Services */,
 				4DCADBA32A1BFE6C0041CEF3 /* CoffeeAppApp.swift */,
@@ -167,6 +178,7 @@
 				4DCADBA62A1BFE6C0041CEF3 /* ContentView.swift in Sources */,
 				4DCADBB62A1BFF300041CEF3 /* Order.swift in Sources */,
 				4DCADBA42A1BFE6C0041CEF3 /* CoffeeAppApp.swift in Sources */,
+				4D5870B52A1ED0AA00BAD710 /* OrderCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

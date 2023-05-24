@@ -30,6 +30,6 @@ struct OrderCellView: View {
 
 struct OrderCellView_Previews: PreviewProvider {
     static var previews: some View {
-        OrderCellView(order: )
+        OrderCellView(order: Order.example)
     }
 }

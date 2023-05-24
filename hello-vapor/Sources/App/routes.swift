@@ -16,7 +16,7 @@ func routes(_ app: Application) throws {
     
     app.post("movies") { req async throws in
         let movie = try req.content.decode(Movie.self)
-        return "Your movie has been saved"
+        return movie
     }
     
     app.get("movies", ":genre") { req async throws -> String in

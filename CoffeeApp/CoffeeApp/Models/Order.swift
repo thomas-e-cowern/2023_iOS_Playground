@@ -23,7 +23,7 @@ struct Order: Codable, Identifiable, Hashable {
     
     static var example: Order {
 
-        let order = Order(coffeeName: "Hot Coffe", total: 12.75, size: .large)
+        let order = Order(coffeeName: "Hot Coffee", total: 12.75, size: .large)
         
         return order
        

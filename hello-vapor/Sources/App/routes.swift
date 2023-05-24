@@ -9,6 +9,16 @@ func routes(_ app: Application) throws {
         "Hello, world!"
     }
     
+    app.get("hotels") { req async throws in
+        let hotelQuery = try req.query.decode(HotelQuery.self)
+        return hotelQuery
+    }
+    
+    app.post("movies") { req async throws in
+        let movie = try req.content.decode(Movie.self)
+        return "Your movie has been saved"
+    }
+    
     app.get("movies", ":genre") { req async throws -> String in
         guard let genre = req.parameters.get("genre") else {
             throw Abort(.badRequest)
@@ -33,5 +43,13 @@ func routes(_ app: Application) throws {
         }
         
         return "\(customerId)"
+    }
+    
+    app.get("movies") { req async in
+        [
+            Movie(title: "The Big Year", year: 2015),
+            Movie(title: "Frankenstien", year: 1993),
+            Movie(title: "Bill and Ted", year: 1990)
+        ]
     }
 }

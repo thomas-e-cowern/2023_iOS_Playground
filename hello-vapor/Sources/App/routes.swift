@@ -5,6 +5,16 @@ func routes(_ app: Application) throws {
     try app.register(collection: MoviesController())
     
     app.middleware.use(LogMiddleware())
+    
+    app.grouped(AuthenticationMiddleware()).group("members") { route in
+        route.get { req async -> String in
+            return "Members Index"
+        }
+        
+        route.get("hello") { req async -> String in
+            return "Member's Hello"
+        }
+    }
 //    app.get { req async in
 //        "It works!"
 //    }

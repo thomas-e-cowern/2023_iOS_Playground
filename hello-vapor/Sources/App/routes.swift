@@ -3,6 +3,8 @@ import Vapor
 func routes(_ app: Application) throws {
     
     try app.register(collection: MoviesController())
+    
+    app.middleware.use(LogMiddleware())
 //    app.get { req async in
 //        "It works!"
 //    }

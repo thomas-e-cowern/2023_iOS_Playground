@@ -14,4 +14,12 @@ func routes(_ app: Application) throws {
         try await Movie.query(on: req.db)
             .all()
     }
+    
+    // get movie by id
+    app.get("movies", ":id") { req async throws in
+        guard let movie = try await Movie.find(req.parameters.get("id"), on: req.db) else {
+            throw Abort(.badRequest)
+        }
+        return movie
+    }
 }

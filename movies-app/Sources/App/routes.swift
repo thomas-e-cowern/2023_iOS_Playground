@@ -22,4 +22,14 @@ func routes(_ app: Application) throws {
         }
         return movie
     }
+    
+    // delete a movies
+    app.delete("movies", ":id") { req async throws in
+        guard let movie = try await Movie.find(req.parameters.get("id"), on: req.db) else {
+            throw Abort(.badRequest)
+        }
+        
+        try await movie.delete(on: req.db)
+        return movie
+    }
 }

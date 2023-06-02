@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "a0488ad74b8253bb3e12988b8580bb6f26317b25952246b45d56308d62feacf1"
+build_start_time: [1685723783, 222804000]
+build_end_time: [1685723783, 796422000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/DatabaseID+PostgreSQL.swift"
+  : [1685723729, 915780178]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/Deprecations/FluentPostgresConfiguration+Deprecated.swift"
+  : [1685723729, 915914137]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/Exports.swift"
+  : [1685723729, 916085014]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/FluentPostgresConfiguration.swift"
+  : [1685723729, 916166724]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/FluentPostgresDatabase.swift"
+  : [1685723729, 916259850]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/FluentPostgresDriver.swift"
+  : [1685723729, 916322267]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/PostgresConverterDelegate.swift"
+  : [1685723729, 916443727]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/PostgresError+Database.swift"
+  : [1685723729, 916513103]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/PostgresRow+Database.swift"
+  : [1685723729, 916571645]

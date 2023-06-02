@@ -1,0 +1,377 @@
+{
+  "": {
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/master.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/ConnectionStateMachine.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/ConnectionStateMachine.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/ConnectionStateMachine.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/ConnectionStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/ConnectionStateMachine.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/ConnectionStreamsState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/ConnectionStreamsState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/ConnectionStreamsState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/ConnectionStreamsState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/ConnectionStreamsState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/MayReceiveFrames.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/MayReceiveFrames.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/MayReceiveFrames.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/MayReceiveFrames~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/MayReceiveFrames.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingDataState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingDataState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingDataState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingDataState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingDataState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingGoAwayState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingGoAwayState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingGoAwayState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingGoAwayState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingGoAwayState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingHeadersState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingHeadersState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingHeadersState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingHeadersState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingHeadersState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingPushPromiseState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingPushPromiseState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingPushPromiseState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingPushPromiseState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingPushPromiseState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingRstStreamState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingRstStreamState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingRstStreamState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingRstStreamState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingRstStreamState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingWindowUpdateState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingWindowUpdateState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingWindowUpdateState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingWindowUpdateState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameReceivingStates/ReceivingWindowUpdateState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/MaySendFrames.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/MaySendFrames.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/MaySendFrames.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/MaySendFrames~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/MaySendFrames.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingDataState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingDataState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingDataState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingDataState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingDataState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingGoawayState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingGoawayState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingGoawayState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingGoawayState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingGoawayState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingHeadersState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingHeadersState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingHeadersState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingHeadersState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingHeadersState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingPushPromiseState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingPushPromiseState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingPushPromiseState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingPushPromiseState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingPushPromiseState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingRstStreamState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingRstStreamState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingRstStreamState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingRstStreamState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingRstStreamState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingWindowUpdateState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingWindowUpdateState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingWindowUpdateState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingWindowUpdateState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/FrameSendingStates/SendingWindowUpdateState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/HTTP2SettingsState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HTTP2SettingsState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HTTP2SettingsState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HTTP2SettingsState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HTTP2SettingsState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/HasFlowControlWindows.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasFlowControlWindows.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasFlowControlWindows.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasFlowControlWindows~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasFlowControlWindows.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/HasLocalSettings.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasLocalSettings.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasLocalSettings.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasLocalSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasLocalSettings.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/HasRemoteSettings.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasRemoteSettings.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasRemoteSettings.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasRemoteSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/HasRemoteSettings.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/LocallyQuiescingState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/LocallyQuiescingState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/LocallyQuiescingState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/LocallyQuiescingState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/LocallyQuiescingState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/QuiescingState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/QuiescingState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/QuiescingState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/QuiescingState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/QuiescingState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/RemotelyQuiescingState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/RemotelyQuiescingState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/RemotelyQuiescingState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/RemotelyQuiescingState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/RemotelyQuiescingState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/SendAndReceiveGoawayState.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/SendAndReceiveGoawayState.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/SendAndReceiveGoawayState.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/SendAndReceiveGoawayState~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/SendAndReceiveGoawayState.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/StateMachineResult.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/StateMachineResult.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/StateMachineResult.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/StateMachineResult~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ConnectionStateMachine/StateMachineResult.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ContentLengthVerifier.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ContentLengthVerifier.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ContentLengthVerifier.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ContentLengthVerifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/ContentLengthVerifier.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/DOSHeuristics.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/DOSHeuristics.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/DOSHeuristics.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/DOSHeuristics~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/DOSHeuristics.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/Frame Buffers/ConcurrentStreamBuffer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/ConcurrentStreamBuffer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/ConcurrentStreamBuffer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/ConcurrentStreamBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/ConcurrentStreamBuffer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/Frame Buffers/ControlFrameBuffer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/ControlFrameBuffer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/ControlFrameBuffer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/ControlFrameBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/ControlFrameBuffer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/Frame Buffers/OutboundFlowControlBuffer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/OutboundFlowControlBuffer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/OutboundFlowControlBuffer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/OutboundFlowControlBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/OutboundFlowControlBuffer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/Frame Buffers/OutboundFrameBuffer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/OutboundFrameBuffer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/OutboundFrameBuffer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/OutboundFrameBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/Frame Buffers/OutboundFrameBuffer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HPACKHeaders+Validation.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HPACKHeaders+Validation.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HPACKHeaders+Validation.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HPACKHeaders+Validation~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HPACKHeaders+Validation.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ChannelHandler+InboundStreamMultiplexer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler+InboundStreamMultiplexer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler+InboundStreamMultiplexer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler+InboundStreamMultiplexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler+InboundStreamMultiplexer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ChannelHandler+InlineStreamMultiplexer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler+InlineStreamMultiplexer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler+InlineStreamMultiplexer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler+InlineStreamMultiplexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler+InlineStreamMultiplexer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ChannelHandler.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ChannelHandler.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2CommonInboundStreamMultiplexer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2CommonInboundStreamMultiplexer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2CommonInboundStreamMultiplexer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2CommonInboundStreamMultiplexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2CommonInboundStreamMultiplexer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ConnectionStateChange.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ConnectionStateChange.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ConnectionStateChange.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ConnectionStateChange~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ConnectionStateChange.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2Error.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Error.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Error.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Error.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ErrorCode.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ErrorCode.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ErrorCode.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ErrorCode~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ErrorCode.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2FlowControlWindow.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FlowControlWindow.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FlowControlWindow.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FlowControlWindow~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FlowControlWindow.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2Frame.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Frame.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Frame.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Frame~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Frame.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2FrameEncoder.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FrameEncoder.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FrameEncoder.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FrameEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FrameEncoder.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2FrameParser.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FrameParser.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FrameParser.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FrameParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2FrameParser.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2PingData.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2PingData.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2PingData.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2PingData~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2PingData.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2PipelineHelpers.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2PipelineHelpers.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2PipelineHelpers.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2PipelineHelpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2PipelineHelpers.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2Settings.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Settings.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Settings.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Settings~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Settings.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2Stream.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Stream.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Stream.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Stream~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2Stream.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamChannel+OutboundStreamMultiplexer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamChannel+OutboundStreamMultiplexer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamChannel+OutboundStreamMultiplexer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamChannel+OutboundStreamMultiplexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamChannel+OutboundStreamMultiplexer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamChannel.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamChannel.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamChannel.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamChannel.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamDelegate.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamDelegate.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamDelegate.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamDelegate.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamID.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamID.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamID.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamID~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamID.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamMultiplexer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamMultiplexer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamMultiplexer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamMultiplexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2StreamMultiplexer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ToHTTP1Codec.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ToHTTP1Codec.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ToHTTP1Codec.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ToHTTP1Codec~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2ToHTTP1Codec.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2UserEvents.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2UserEvents.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2UserEvents.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2UserEvents~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/HTTP2UserEvents.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/InboundEventBuffer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/InboundEventBuffer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/InboundEventBuffer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/InboundEventBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/InboundEventBuffer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/InboundWindowManager.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/InboundWindowManager.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/InboundWindowManager.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/InboundWindowManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/InboundWindowManager.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/MultiplexerAbstractChannel.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/MultiplexerAbstractChannel.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/MultiplexerAbstractChannel.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/MultiplexerAbstractChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/MultiplexerAbstractChannel.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/StreamChannelFlowController.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamChannelFlowController.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamChannelFlowController.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamChannelFlowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamChannelFlowController.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/StreamChannelList.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamChannelList.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamChannelList.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamChannelList~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamChannelList.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/StreamMap.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamMap.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamMap.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamMap~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamMap.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/StreamStateMachine.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamStateMachine.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamStateMachine.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/StreamStateMachine.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/WatermarkedFlowController.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/WatermarkedFlowController.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/WatermarkedFlowController.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/WatermarkedFlowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP2.build/WatermarkedFlowController.swiftdeps"
+  }
+}

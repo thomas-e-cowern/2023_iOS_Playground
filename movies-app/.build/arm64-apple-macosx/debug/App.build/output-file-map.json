@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/master.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/Migrations/CreateMoviesTableMigation.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateMoviesTableMigation.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateMoviesTableMigation.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateMoviesTableMigation~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateMoviesTableMigation.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/Models/Movie.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/Models/Movie.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/Models/Movie.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/Models/Movie~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/Models/Movie.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/configure.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/configure.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/configure.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/configure~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/configure.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/entrypoint.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/entrypoint.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/entrypoint.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/entrypoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/entrypoint.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/routes.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/routes.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/routes.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/routes~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/App.build/routes.swiftdeps"
+  }
+}

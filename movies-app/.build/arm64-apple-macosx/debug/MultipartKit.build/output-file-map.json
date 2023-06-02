@@ -1,0 +1,125 @@
+{
+  "": {
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/master.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/BasicCodingKey.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/BasicCodingKey.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/BasicCodingKey.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/BasicCodingKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/BasicCodingKey.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/Deprecated/MultipartError.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Deprecated/MultipartError.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Deprecated/MultipartError.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Deprecated/MultipartError~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Deprecated/MultipartError.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/Exports.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Exports.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Exports.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Exports.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.Decoder.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.Decoder.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.Decoder.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.Decoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.Decoder.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.KeyedContainer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.KeyedContainer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.KeyedContainer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.KeyedContainer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.KeyedContainer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.SingleValueContainer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.SingleValueContainer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.SingleValueContainer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.SingleValueContainer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.SingleValueContainer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.UnkeyedContainer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.UnkeyedContainer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.UnkeyedContainer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.UnkeyedContainer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.UnkeyedContainer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataDecoder/FormDataDecoder.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.Encoder.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.Encoder.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.Encoder.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.Encoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.Encoder.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.KeyedContainer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.KeyedContainer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.KeyedContainer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.KeyedContainer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.KeyedContainer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.SingleValueContainer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.SingleValueContainer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.SingleValueContainer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.SingleValueContainer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.SingleValueContainer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.UnkeyedContainer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.UnkeyedContainer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.UnkeyedContainer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.UnkeyedContainer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.UnkeyedContainer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/FormDataEncoder.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/Storage.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/Storage.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/Storage.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/Storage~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/FormDataEncoder/Storage.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartFormData.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartFormData.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartFormData.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartFormData~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartFormData.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartParser.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartParser.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartParser.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartParser.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartPart.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartPart.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartPart.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartPart~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartPart.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartPartConvertible.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartPartConvertible.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartPartConvertible.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartPartConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartPartConvertible.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartSerializer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartSerializer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartSerializer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/MultipartSerializer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/multipart-kit/Sources/MultipartKit/Utilities.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Utilities.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Utilities.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/MultipartKit.build/Utilities.swiftdeps"
+  }
+}

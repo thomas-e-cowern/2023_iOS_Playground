@@ -1,0 +1,55 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "9e0851d83735af2b008583e529bbdfae8ae196298e8b2f30586eda7b0ca15fff"
+build_start_time: [1685723748, 297427000]
+build_end_time: [1685723749, 641275000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/AdjacentPairs.swift"
+  : [1685723733, 249829102]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Chain.swift"
+  : [1685723733, 249930187]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Chunked.swift"
+  : [1685723733, 250109397]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Combinations.swift"
+  : [1685723733, 250212690]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Compacted.swift"
+  : [1685723733, 250319525]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Cycle.swift"
+  : [1685723733, 250402484]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/EitherSequence.swift"
+  : [1685723733, 250506527]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/FirstNonNil.swift"
+  : [1685723733, 250576736]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/FlattenCollection.swift"
+  : [1685723733, 250870323]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Indexed.swift"
+  : [1685723733, 250946532]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Intersperse.swift"
+  : [1685723733, 251053242]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Joined.swift"
+  : [1685723733, 251353745]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/MinMax.swift"
+  : [1685723733, 251509122]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Partition.swift"
+  : [1685723733, 251641332]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Permutations.swift"
+  : [1685723733, 251766667]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Product.swift"
+  : [1685723733, 252038961]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/RandomSample.swift"
+  : [1685723733, 252142546]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Reductions.swift"
+  : [1685723733, 252265922]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Rotate.swift"
+  : [1685723733, 252353215]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Split.swift"
+  : [1685723733, 252458383]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Stride.swift"
+  : [1685723733, 252546009]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Suffix.swift"
+  : [1685723733, 252607593]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Trim.swift"
+  : [1685723733, 252679052]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Unique.swift"
+  : [1685723733, 252747470]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-algorithms/Sources/Algorithms/Windows.swift"
+  : [1685723733, 252838304]

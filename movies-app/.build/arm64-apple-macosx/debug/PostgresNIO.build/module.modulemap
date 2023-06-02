@@ -1,0 +1,4 @@
+module PostgresNIO {
+    header "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/PostgresNIO.build/PostgresNIO-Swift.h"
+    requires objc
+}

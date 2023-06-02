@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "40a4d3b10107e9084aa3f75d250039b51003204f29443c0e75f45a4f9848d993"
+build_start_time: [1685723763, 430191000]
+build_end_time: [1685723763, 862986000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOEmbedded/AsyncTestingChannel.swift"
+  : [1685723734, 527030800]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOEmbedded/AsyncTestingEventLoop.swift"
+  : [1685723734, 527168384]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOEmbedded/Embedded.swift"
+  : [1685723734, 527317845]

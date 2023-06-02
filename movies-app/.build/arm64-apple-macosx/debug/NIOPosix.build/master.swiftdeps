@@ -1,0 +1,99 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "8bb36bcc6c2fa0143559064851ad1747d30ca2eab99a2a4671da4a8215bac33a"
+build_start_time: [1685723763, 435316000]
+build_end_time: [1685723764, 503314000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPICommon.swift"
+  : [1685723734, 531674354]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPIPosix.swift"
+  : [1685723734, 531766521]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPIWindows.swift"
+  : [1685723734, 531827189]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/BaseSocket.swift"
+  : [1685723734, 531925523]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/BaseSocketChannel+SocketOptionProvider.swift"
+  : [1685723734, 532041149]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/BaseSocketChannel.swift"
+  : [1685723734, 532247860]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/BaseStreamSocketChannel.swift"
+  : [1685723734, 532438904]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/Bootstrap.swift"
+  : [1685723734, 532695074]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/ControlMessage.swift"
+  : [1685723734, 532852659]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/DatagramVectorReadManager.swift"
+  : [1685723734, 532972410]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/FileDescriptor.swift"
+  : [1685723734, 533077911]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/GetaddrinfoResolver.swift"
+  : [1685723734, 533178038]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/HappyEyeballs.swift"
+  : [1685723734, 533357373]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/IO.swift"
+  : [1685723734, 533485791]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/IntegerBitPacking.swift"
+  : [1685723734, 533553667]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/IntegerTypes.swift"
+  : [1685723734, 533638626]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/Linux.swift"
+  : [1685723734, 533716169]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/LinuxCPUSet.swift"
+  : [1685723734, 533801087]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/LinuxUring.swift"
+  : [1685723734, 533968464]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/MultiThreadedEventLoopGroup.swift"
+  : [1685723734, 534099757]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/NIOThreadPool.swift"
+  : [1685723734, 534504345]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/NonBlockingFileIO.swift"
+  : [1685723734, 534724597]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/PendingDatagramWritesManager.swift"
+  : [1685723734, 535010726]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/PendingWritesManager.swift"
+  : [1685723734, 535155727]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/PipeChannel.swift"
+  : [1685723734, 535477189]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/PipePair.swift"
+  : [1685723734, 535552815]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/PointerHelpers.swift"
+  : [1685723734, 535619066]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/Pool.swift"
+  : [1685723734, 535713692]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/PooledRecvBufferAllocator.swift"
+  : [1685723734, 535800735]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/RawSocketBootstrap.swift"
+  : [1685723734, 535880277]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/Resolver.swift"
+  : [1685723734, 535971778]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/Selectable.swift"
+  : [1685723734, 536048654]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/SelectableChannel.swift"
+  : [1685723734, 536120363]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/SelectableEventLoop.swift"
+  : [1685723734, 536396367]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorEpoll.swift"
+  : [1685723734, 536561119]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorGeneric.swift"
+  : [1685723734, 536695204]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorKqueue.swift"
+  : [1685723734, 536846789]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorUring.swift"
+  : [1685723734, 536982915]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/ServerSocket.swift"
+  : [1685723734, 537192584]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/Socket.swift"
+  : [1685723734, 537282044]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/SocketChannel.swift"
+  : [1685723734, 537371587]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/SocketProtocols.swift"
+  : [1685723734, 537444921]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/System.swift"
+  : [1685723734, 537625923]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/Thread.swift"
+  : [1685723734, 537718882]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/ThreadPosix.swift"
+  : [1685723734, 537795091]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/ThreadWindows.swift"
+  : [1685723734, 537861800]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOPosix/Utilities.swift"
+  : [1685723734, 537950760]

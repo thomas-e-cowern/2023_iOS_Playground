@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "cea525a6860dd3c2be84a354e8cf1c11c4556e9d4903345e4d96d4b287f780c0"
+build_start_time: [1685723764, 784707000]
+build_end_time: [1685723777, 250470000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/ByteBuffer-foundation.swift"
+  : [1685723734, 527492221]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/Codable+ByteBuffer.swift"
+  : [1685723734, 527647015]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/JSONSerialization+ByteBuffer.swift"
+  : [1685723734, 527722307]

@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "dec47dec5da811a1c572b5e62dfe9291f160b2ba1f131c361e72e39b6e793e6a"
+build_start_time: [1685723778, 119120000]
+build_end_time: [1685723779, 565795000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/websocket-kit/Sources/WebSocketKit/Concurrency/WebSocket+Concurrency.swift"
+  : [1685723735, 141473409]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift"
+  : [1685723735, 141642244]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/websocket-kit/Sources/WebSocketKit/HTTPUpgradeRequestHandler.swift"
+  : [1685723735, 141708287]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift"
+  : [1685723735, 141810580]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift"
+  : [1685723735, 141903872]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift"
+  : [1685723735, 141958498]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift"
+  : [1685723735, 142030040]

@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "da2e63f9e840cce85179bf72ebbbc8e770d231012e46b645f9f21f1cd1966427"
+build_start_time: [1685723766, 763795000]
+build_end_time: [1685723768, 533997000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/DynamicHeaderTable.swift"
+  : [1685723732, 304859438]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKDecoder.swift"
+  : [1685723732, 304957731]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKEncoder.swift"
+  : [1685723732, 305091399]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKErrors.swift"
+  : [1685723732, 305175484]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKHeader.swift"
+  : [1685723732, 305331527]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HeaderTables.swift"
+  : [1685723732, 305472196]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanCoding.swift"
+  : [1685723732, 305574697]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanTables.swift"
+  : [1685723732, 306027827]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IndexedHeaderTable.swift"
+  : [1685723732, 306140745]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IntegerCoding.swift"
+  : [1685723732, 306379789]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/StaticHeaderTable.swift"
+  : [1685723732, 306481957]

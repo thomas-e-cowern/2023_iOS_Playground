@@ -1,0 +1,101 @@
+{
+  "": {
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/master.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Concurrency/FluentProvider+Concurrency.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/FluentProvider+Concurrency.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/FluentProvider+Concurrency.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/FluentProvider+Concurrency~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/FluentProvider+Concurrency.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Concurrency/ModelCredentialsAuthenticatable+Concurrency.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/ModelCredentialsAuthenticatable+Concurrency.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/ModelCredentialsAuthenticatable+Concurrency.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/ModelCredentialsAuthenticatable+Concurrency~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/ModelCredentialsAuthenticatable+Concurrency.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Concurrency/Pagination+Concurrency.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/Pagination+Concurrency.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/Pagination+Concurrency.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/Pagination+Concurrency~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/Pagination+Concurrency.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Concurrency/Sessions+Concurrency.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/Sessions+Concurrency.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/Sessions+Concurrency.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/Sessions+Concurrency~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Concurrency/Sessions+Concurrency.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Exports.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Exports.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Exports.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Exports.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+Cache.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Cache.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Cache.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Cache~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Cache.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+History.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+History.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+History.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+History~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+History.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Paginate.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Paginate.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Paginate~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Paginate.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+Pagination.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Pagination.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Pagination.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Pagination~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Pagination.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Sessions.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Sessions.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Sessions~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/Fluent+Sessions.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/FluentProvider.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/FluentProvider.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/FluentProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/FluentProvider.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/MigrateCommand.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/MigrateCommand.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/MigrateCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/MigrateCommand.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelAuthenticatable.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelAuthenticatable.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelAuthenticatable.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/ModelCredentialsAuthenticatable.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelCredentialsAuthenticatable.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelCredentialsAuthenticatable.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelCredentialsAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelCredentialsAuthenticatable.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelTokenAuthenticatable.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelTokenAuthenticatable.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelTokenAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/ModelTokenAuthenticatable.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/PageLimit.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/PageLimit.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/PageLimit.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/PageLimit~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Fluent.build/PageLimit.swiftdeps"
+  }
+}

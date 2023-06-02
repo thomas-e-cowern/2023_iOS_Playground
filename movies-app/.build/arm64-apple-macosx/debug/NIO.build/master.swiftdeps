@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "8932c1ab2be15592f7df62daaa600e74b5d940e43594bda768cda9dfa13c37ee"
+build_start_time: [1685723764, 580749000]
+build_end_time: [1685723764, 695108000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIO/Exports.swift"
+  : [1685723734, 513911563]

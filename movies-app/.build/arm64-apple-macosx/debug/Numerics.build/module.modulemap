@@ -1,0 +1,4 @@
+module Numerics {
+    header "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Numerics.build/Numerics-Swift.h"
+    requires objc
+}

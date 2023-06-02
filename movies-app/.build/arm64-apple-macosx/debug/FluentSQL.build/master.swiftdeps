@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "3fa398914d9cac639df923047098ef8e3807c68ec83848a3d1370021cd08563d"
+build_start_time: [1685723771, 996038000]
+build_end_time: [1685723772, 418176000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseQuery+SQL.swift"
+  : [1685723734, 976437863]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseSchema+SQL.swift"
+  : [1685723734, 976545739]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/Exports.swift"
+  : [1685723734, 976705575]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLDatabase+Model+Concurrency.swift"
+  : [1685723734, 976772201]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLDatabase+Model.swift"
+  : [1685723734, 976838035]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLJSONColumnPath.swift"
+  : [1685723734, 976905869]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLList+Deprecated.swift"
+  : [1685723734, 976980786]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLQualifiedTable.swift"
+  : [1685723734, 977079579]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLQueryConverter.swift"
+  : [1685723734, 977237164]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLSchemaConverter.swift"
+  : [1685723734, 977346290]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentSQL/Utilities.swift"
+  : [1685723734, 977424000]

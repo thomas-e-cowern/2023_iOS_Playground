@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "249d83285c3b41902a9439506dbf66b11939407bf20190987a37ec119cc21574"
+build_start_time: [1685723761, 485828000]
+build_end_time: [1685723761, 763001000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOAtomic.swift"
+  : [1685723734, 515116119]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOLock.swift"
+  : [1685723734, 515219245]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOLockedValueBox.swift"
+  : [1685723734, 515298038]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift"
+  : [1685723734, 515428373]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift"
+  : [1685723734, 515543999]

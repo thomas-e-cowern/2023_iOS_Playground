@@ -1,0 +1,187 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "fd1b751457524559522dfd288040fc61aab32eade86be509641769ccf84e7938"
+build_start_time: [1685723764, 792215000]
+build_end_time: [1685723768, 536276000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterEnumBuilder.swift"
+  : [1685723733, 558939866]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterTableBuilder.swift"
+  : [1685723733, 559080035]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLColumnUpdateBuilder.swift"
+  : [1685723733, 559208453]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLConflictUpdateBuilder.swift"
+  : [1685723733, 559296704]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateEnumBuilder.swift"
+  : [1685723733, 559375372]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateIndexBuilder.swift"
+  : [1685723733, 559460914]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTableAsSubqueryBuilder.swift"
+  : [1685723733, 559547624]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTableBuilder.swift"
+  : [1685723733, 559611708]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTriggerBuilder.swift"
+  : [1685723733, 559685084]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDeleteBuilder.swift"
+  : [1685723733, 559766918]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropEnumBuilder.swift"
+  : [1685723733, 559835960]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropIndexBuilder.swift"
+  : [1685723733, 559908628]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropTableBuilder.swift"
+  : [1685723733, 559997087]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropTriggerBuilder.swift"
+  : [1685723733, 560065630]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLInsertBuilder.swift"
+  : [1685723733, 560148006]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLJoinBuilder.swift"
+  : [1685723733, 560244798]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPartialResultBuilder.swift"
+  : [1685723733, 560319091]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPredicateBuilder.swift"
+  : [1685723733, 560488218]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPredicateGroupBuilder.swift"
+  : [1685723733, 560578761]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLQueryBuilder.swift"
+  : [1685723733, 560649803]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLQueryFetcher.swift"
+  : [1685723733, 560736638]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLRawBuilder.swift"
+  : [1685723733, 560810305]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLReturningBuilder.swift"
+  : [1685723733, 560882472]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSecondaryPredicateBuilder.swift"
+  : [1685723733, 560957557]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSecondaryPredicateGroupBuilder.swift"
+  : [1685723733, 561038058]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSelectBuilder.swift"
+  : [1685723733, 561115100]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSubqeryClauseBuilder.swift"
+  : [1685723733, 561232393]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLUnionBuilder.swift"
+  : [1685723733, 561345519]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLUpdateBuilder.swift"
+  : [1685723733, 561409312]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLDatabase+Concurrency.swift"
+  : [1685723733, 561514313]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLQueryBuilder+Concurrency.swift"
+  : [1685723733, 561586439]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLQueryFetcher+Concurrency.swift"
+  : [1685723733, 561663857]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Exports.swift"
+  : [1685723733, 561837692]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlias.swift"
+  : [1685723733, 561935193]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterColumnDefinitionType.swift"
+  : [1685723733, 561999902]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterEnum.swift"
+  : [1685723733, 562082070]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterTable.swift"
+  : [1685723733, 562156029]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBinaryExpression.swift"
+  : [1685723733, 562224321]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBinaryOperator.swift"
+  : [1685723733, 562304406]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBind.swift"
+  : [1685723733, 562367323]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnAssignment.swift"
+  : [1685723733, 562440032]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnConstraintAlgorithm.swift"
+  : [1685723733, 562519908]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnDefinition.swift"
+  : [1685723733, 562592534]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnIdentifier.swift"
+  : [1685723733, 562665993]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConflictAction.swift"
+  : [1685723733, 562742161]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConflictResolutionStrategy.swift"
+  : [1685723733, 562874787]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConstraint.swift"
+  : [1685723733, 562944038]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateEnum.swift"
+  : [1685723733, 563011414]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateIndex.swift"
+  : [1685723733, 563076665]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateTable.swift"
+  : [1685723733, 563169999]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateTrigger.swift"
+  : [1685723733, 563240166]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDataType.swift"
+  : [1685723733, 563315792]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDelete.swift"
+  : [1685723733, 563384168]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDirection.swift"
+  : [1685723733, 563452086]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDistinct.swift"
+  : [1685723733, 563524420]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropBehaviour.swift"
+  : [1685723733, 563593712]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropEnum.swift"
+  : [1685723733, 563665338]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropIndex.swift"
+  : [1685723733, 563737922]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropTable.swift"
+  : [1685723733, 563824340]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropTrigger.swift"
+  : [1685723733, 563884258]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLEnumDataType.swift"
+  : [1685723733, 563955550]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLExcludedColumn.swift"
+  : [1685723733, 564041134]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLForeignKey.swift"
+  : [1685723733, 564112802]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLForeignKeyAction.swift"
+  : [1685723733, 564190553]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLFunction.swift"
+  : [1685723733, 564257720]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLGroupExpression.swift"
+  : [1685723733, 564320721]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLIdentifier.swift"
+  : [1685723733, 564381263]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLInsert.swift"
+  : [1685723733, 564472014]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLJoin.swift"
+  : [1685723733, 564539015]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLJoinMethod.swift"
+  : [1685723733, 564591932]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLList.swift"
+  : [1685723733, 564662517]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLLiteral.swift"
+  : [1685723733, 564727017]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLLockingClause.swift"
+  : [1685723733, 564797726]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLOrderBy.swift"
+  : [1685723733, 564856477]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLQueryString.swift"
+  : [1685723733, 564940811]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLRaw.swift"
+  : [1685723733, 565006937]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLReturning.swift"
+  : [1685723733, 565072021]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLSelect.swift"
+  : [1685723733, 565188731]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLTableConstraintAlgorithm.swift"
+  : [1685723733, 565272899]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLUnion.swift"
+  : [1685723733, 565349733]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLUpdate.swift"
+  : [1685723733, 565464692]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLDatabase.swift"
+  : [1685723733, 565580110]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLDatabaseReportedVersion.swift"
+  : [1685723733, 565668445]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLDialect.swift"
+  : [1685723733, 565798946]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLError.swift"
+  : [1685723733, 565881739]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLExpression.swift"
+  : [1685723733, 565975115]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLQueryEncoder.swift"
+  : [1685723733, 566121784]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLRow.swift"
+  : [1685723733, 566202868]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLRowDecoder.swift"
+  : [1685723733, 566296619]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLSerializer.swift"
+  : [1685723733, 566362286]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/sql-kit/Sources/SQLKit/SQLStatement.swift"
+  : [1685723733, 566436745]

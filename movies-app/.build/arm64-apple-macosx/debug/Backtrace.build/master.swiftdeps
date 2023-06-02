@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "987962ab142942d576d82cf0324efbf489341b7682dbe090401285a9ee9160dd"
+build_start_time: [1685723760, 544078000]
+build_end_time: [1685723760, 621496000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-backtrace/Sources/Backtrace/Backtrace.swift"
+  : [1685723733, 724113622]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-backtrace/Sources/Backtrace/Demangle.swift"
+  : [1685723733, 724192748]

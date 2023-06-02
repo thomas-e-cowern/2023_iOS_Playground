@@ -1,0 +1,33 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "f1b3d4b447ba684696e9c2150e40417ad801b356451fe99de038e080790583ae"
+build_start_time: [1685723777, 330117000]
+build_end_time: [1685723778, 44287000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOFilterEmptyWritesHandler.swift"
+  : [1685723733, 410450097]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSBootstraps.swift"
+  : [1685723733, 410526223]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSChannelOptions.swift"
+  : [1685723733, 410626765]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSConnectionBootstrap.swift"
+  : [1685723733, 410824768]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSConnectionChannel.swift"
+  : [1685723733, 411015228]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSErrors.swift"
+  : [1685723733, 411103188]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSEventLoop.swift"
+  : [1685723733, 411203980]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSEventLoopGroup.swift"
+  : [1685723733, 411292523]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSListenerBootstrap.swift"
+  : [1685723733, 411430983]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSListenerChannel.swift"
+  : [1685723733, 411702778]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/NIOTSNetworkEvents.swift"
+  : [1685723733, 411813279]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/SocketAddress+NWEndpoint.swift"
+  : [1685723733, 411890489]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/StateManagedChannel.swift"
+  : [1685723733, 411983615]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-transport-services/Sources/NIOTransportServices/TCPOptions+SocketChannelOption.swift"
+  : [1685723733, 412051324]

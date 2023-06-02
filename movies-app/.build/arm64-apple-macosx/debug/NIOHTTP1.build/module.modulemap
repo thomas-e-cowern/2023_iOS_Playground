@@ -1,0 +1,4 @@
+module NIOHTTP1 {
+    header "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/NIOHTTP1.build/NIOHTTP1-Swift.h"
+    requires objc
+}

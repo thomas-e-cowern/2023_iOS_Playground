@@ -1,0 +1,4 @@
+module SQLKit {
+    header "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/SQLKit.build/SQLKit-Swift.h"
+    requires objc
+}

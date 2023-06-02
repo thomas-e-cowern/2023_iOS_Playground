@@ -1,0 +1,43 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "9ab5eed456b326f282816c1383c3a9c4ffe3ac13d16a10d2e83df9c75bd1c3fc"
+build_start_time: [1685723746, 750974000]
+build_end_time: [1685723748, 71623000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Compatibility.swift"
+  : [1685723731, 175181751]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Codable.swift"
+  : [1685723731, 175285377]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Collection.swift"
+  : [1685723731, 175484921]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+CustomDebugStringConvertible.swift"
+  : [1685723731, 175701924]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+CustomReflectable.swift"
+  : [1685723731, 175874801]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+CustomStringConvertible.swift"
+  : [1685723731, 175940260]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Equatable.swift"
+  : [1685723731, 176244513]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+ExpressibleByArrayLiteral.swift"
+  : [1685723731, 176326097]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Extras.swift"
+  : [1685723731, 176409390]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Hashable.swift"
+  : [1685723731, 176507391]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Testing.swift"
+  : [1685723731, 176582809]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque._Storage.swift"
+  : [1685723731, 176665351]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque._UnsafeHandle.swift"
+  : [1685723731, 176921313]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/Deque.swift"
+  : [1685723731, 177032397]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/UnsafeMutableBufferPointer+Utilities.swift"
+  : [1685723731, 177379068]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/_DequeBuffer.swift"
+  : [1685723731, 177475027]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/_DequeBufferHeader.swift"
+  : [1685723731, 177554445]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/_DequeSlot.swift"
+  : [1685723731, 177628279]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/DequeModule/_UnsafeWrappedBuffer.swift"
+  : [1685723731, 177718239]

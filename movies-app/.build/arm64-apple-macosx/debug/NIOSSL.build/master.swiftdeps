@@ -1,0 +1,61 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "3acf8c244384ea002e4e2208a953d89d7907b61c9230963e62ec7bef5969789d"
+build_start_time: [1685723765, 932984000]
+build_end_time: [1685723769, 462582000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/ByteBufferBIO.swift"
+  : [1685723730, 879426767]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/CustomPrivateKey.swift"
+  : [1685723730, 879782980]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/IdentityVerification.swift"
+  : [1685723730, 880002649]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/LinuxCABundle.swift"
+  : [1685723730, 880081858]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLClientHandler.swift"
+  : [1685723730, 880158609]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLHandler.swift"
+  : [1685723730, 880346528]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLServerHandler.swift"
+  : [1685723730, 880437112]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/ObjectIdentifier.swift"
+  : [1685723730, 880518071]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/PosixPort.swift"
+  : [1685723730, 880597656]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCallbacks.swift"
+  : [1685723730, 880684990]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCertificate.swift"
+  : [1685723730, 880796991]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCertificateExtensions.swift"
+  : [1685723730, 880885284]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLConnection.swift"
+  : [1685723730, 881028494]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLContext.swift"
+  : [1685723730, 881222205]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLErrors.swift"
+  : [1685723730, 881343039]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLInit.swift"
+  : [1685723730, 881456166]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPKCS12Bundle.swift"
+  : [1685723730, 881546167]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPrivateKey.swift"
+  : [1685723730, 881667335]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPublicKey.swift"
+  : [1685723730, 881752461]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SecurityFrameworkCertificateVerification.swift"
+  : [1685723730, 881878254]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/String+unsafeUninitializedCapacity.swift"
+  : [1685723730, 881959505]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SubjectAlternativeName.swift"
+  : [1685723730, 882101631]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SwiftCrypto/NIOSSLSecureBytes.swift"
+  : [1685723730, 882295675]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SwiftCrypto/RNG.swift"
+  : [1685723730, 882374926]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SwiftCrypto/SafeCompare.swift"
+  : [1685723730, 882443136]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SwiftCrypto/Zeroization.swift"
+  : [1685723730, 882503344]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/TLSConfiguration.swift"
+  : [1685723730, 882673013]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/UniversalBootstrapSupport.swift"
+  : [1685723730, 882804098]

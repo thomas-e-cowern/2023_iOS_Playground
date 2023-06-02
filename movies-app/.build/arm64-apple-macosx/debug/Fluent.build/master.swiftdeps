@@ -1,0 +1,37 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "3617e4d5c5221456e9a5dbfb01fbb04dc08b4ac4cc83b386a2276418589c4d78"
+build_start_time: [1685723784, 589208000]
+build_end_time: [1685723785, 71751000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Concurrency/FluentProvider+Concurrency.swift"
+  : [1685723733, 98921722]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Concurrency/ModelCredentialsAuthenticatable+Concurrency.swift"
+  : [1685723733, 99006431]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Concurrency/Pagination+Concurrency.swift"
+  : [1685723733, 99073307]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Concurrency/Sessions+Concurrency.swift"
+  : [1685723733, 99147849]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Exports.swift"
+  : [1685723733, 99310685]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+Cache.swift"
+  : [1685723733, 99373894]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+History.swift"
+  : [1685723733, 99450811]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift"
+  : [1685723733, 99519104]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+Pagination.swift"
+  : [1685723733, 99596980]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift"
+  : [1685723733, 99672147]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift"
+  : [1685723733, 99734023]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift"
+  : [1685723733, 99825441]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift"
+  : [1685723733, 99891900]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/ModelCredentialsAuthenticatable.swift"
+  : [1685723733, 99959734]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift"
+  : [1685723733, 100033401]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent/Sources/Fluent/PageLimit.swift"
+  : [1685723733, 100095985]

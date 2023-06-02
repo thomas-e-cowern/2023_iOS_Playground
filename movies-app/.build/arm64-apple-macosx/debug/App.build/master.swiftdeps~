@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "67894f52b2426a1bd6b5ea64aff7cbc19cee2e0cfde54bad955f0502d22c1ed9"
+build_start_time: [1685723785, 176293000]
+build_end_time: [1685723787, 760396000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/Migrations/CreateMoviesTableMigation.swift"
+  : [1685723521, 754686512]
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/Models/Movie.swift": [1685241690, 505124521]
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/configure.swift": [1685723639, 221453462]
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/entrypoint.swift": [1685239444, 211548804]
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/Sources/App/routes.swift": [1685239444, 269787574]

@@ -1,0 +1,4 @@
+module Vapor {
+    header "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/arm64-apple-macosx/debug/Vapor.build/Vapor-Swift.h"
+    requires objc
+}

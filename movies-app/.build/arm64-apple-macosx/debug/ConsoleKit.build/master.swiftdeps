@@ -1,0 +1,101 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "2cbd2f51983cb1a73493cadcccb045733540edc3a72b860ebce905b48a77a69c"
+build_start_time: [1685723748, 419447000]
+build_end_time: [1685723756, 109737000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityBar.swift"
+  : [1685723730, 305246751]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityIndicator.swift"
+  : [1685723730, 305327419]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityIndicatorRenderer.swift"
+  : [1685723730, 305390169]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityIndicatorState.swift"
+  : [1685723730, 305451004]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/CustomActivity.swift"
+  : [1685723730, 305522338]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/LoadingBar.swift"
+  : [1685723730, 305586672]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ProgressBar.swift"
+  : [1685723730, 305663048]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Clear/Console+Clear.swift"
+  : [1685723730, 305796549]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Clear/Console+Ephemeral.swift"
+  : [1685723730, 305950801]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Clear/ConsoleClear.swift"
+  : [1685723730, 306042927]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/AnyCommand.swift"
+  : [1685723730, 306166553]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Argument.swift"
+  : [1685723730, 306251971]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Async/AnyAsyncCommand.swift"
+  : [1685723730, 306365514]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Async/AsyncCommand.swift"
+  : [1685723730, 306453557]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Async/AsyncCommandGroup.swift"
+  : [1685723730, 306540224]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Async/AsyncCommands.swift"
+  : [1685723730, 306747019]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Command.swift"
+  : [1685723730, 306842186]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandContext.swift"
+  : [1685723730, 306931062]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandError.swift"
+  : [1685723730, 307005438]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandGroup.swift"
+  : [1685723730, 307085606]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandInput.swift"
+  : [1685723730, 307160398]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandSignature.swift"
+  : [1685723730, 307235107]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Commands.swift"
+  : [1685723730, 307317192]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Completion.swift"
+  : [1685723730, 307432735]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Console+Run.swift"
+  : [1685723730, 307534569]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Flag.swift"
+  : [1685723730, 307624820]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Option.swift"
+  : [1685723730, 307701405]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Utilities.swift"
+  : [1685723730, 307773447]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Console.swift"
+  : [1685723730, 307867657]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Input/Console+Ask.swift"
+  : [1685723730, 307980200]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Input/Console+Choose.swift"
+  : [1685723730, 308055325]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Input/Console+Confirm.swift"
+  : [1685723730, 308124243]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Input/Console+Input.swift"
+  : [1685723730, 308191285]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Output/Console+Center.swift"
+  : [1685723730, 308329412]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Output/Console+Output.swift"
+  : [1685723730, 308407454]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Output/Console+Wait.swift"
+  : [1685723730, 308480497]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Output/ConsoleColor.swift"
+  : [1685723730, 308557956]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Output/ConsoleStyle.swift"
+  : [1685723730, 308632999]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Output/ConsoleText.swift"
+  : [1685723730, 308726333]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Output/ConsoleTextFragment.swift"
+  : [1685723730, 308792042]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Terminal/ANSI.swift"
+  : [1685723730, 308909919]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Terminal/Terminal.swift"
+  : [1685723730, 309097171]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Terminal/readpassphrase_linux.swift"
+  : [1685723730, 309201172]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/ConsoleError.swift"
+  : [1685723730, 309328049]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/ConsoleLogger.swift"
+  : [1685723730, 309425091]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/GenerateAsyncAutocompleteCommand.swift"
+  : [1685723730, 309506384]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/GenerateAutocompleteCommand.swift"
+  : [1685723730, 309589510]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/String+LevenshteinDistance.swift"
+  : [1685723730, 309665261]

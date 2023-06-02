@@ -1,0 +1,33 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "ab65c15578cc7b11d750fc3820f679fe46a81082341ab899a954cb4a5d7ba9f2"
+build_start_time: [1685723781, 911064000]
+build_end_time: [1685723783, 116765000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/ConnectionPool+Postgres.swift"
+  : [1685723732, 155405950]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresColumnType.swift"
+  : [1685723732, 155576535]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresConfiguration.swift"
+  : [1685723732, 155676995]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresConnectionSource+PostgresConfiguration.swift"
+  : [1685723732, 155749037]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDataDecoder.swift"
+  : [1685723732, 155824955]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDataEncoder.swift"
+  : [1685723732, 155961707]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDatabase+SQL+Deprecated.swift"
+  : [1685723732, 156029582]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/Exports.swift"
+  : [1685723732, 156178667]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresConnectionSource.swift"
+  : [1685723732, 156259960]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDataTranslation.swift"
+  : [1685723732, 156333419]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDatabase+SQL.swift"
+  : [1685723732, 156439379]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDialect.swift"
+  : [1685723732, 156517504]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresRow+SQL.swift"
+  : [1685723732, 156579089]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/postgres-kit/Sources/PostgresKit/SQLPostgresConfiguration.swift"
+  : [1685723732, 156653881]

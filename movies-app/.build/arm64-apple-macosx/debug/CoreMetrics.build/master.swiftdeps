@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "66cbfc1f61053af5d0640de5272674a594882dfc6b889375409c313eb5a86f68"
+build_start_time: [1685723747, 170246000]
+build_end_time: [1685723748, 270329000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-metrics/Sources/CoreMetrics/Locks.swift"
+  : [1685723731, 671798280]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-metrics/Sources/CoreMetrics/Metrics.swift"
+  : [1685723731, 671992365]

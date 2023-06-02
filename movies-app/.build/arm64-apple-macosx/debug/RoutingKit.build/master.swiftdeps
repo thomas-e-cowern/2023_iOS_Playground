@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "a8511942b29b9f28884a73596cfc1fe900bd31b7b33a8f58e3f547873c79c349"
+build_start_time: [1685723748, 418822000]
+build_end_time: [1685723756, 60954000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/routing-kit/Sources/RoutingKit/AnyRouter.swift"
+  : [1685723730, 625437978]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift"
+  : [1685723730, 625640438]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift"
+  : [1685723730, 625713689]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift"
+  : [1685723730, 625906733]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift"
+  : [1685723730, 626004318]

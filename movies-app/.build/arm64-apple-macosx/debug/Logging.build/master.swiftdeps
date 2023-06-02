@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "c39ed2a702df3fabcd1308ae7537ea11e1eefc67285a95e345b2ffa6078806c7"
+build_start_time: [1685723746, 672147000]
+build_end_time: [1685723748, 180867000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-log/Sources/Logging/Locks.swift"
+  : [1685723731, 365368755]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift"
+  : [1685723731, 365459339]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-log/Sources/Logging/Logging.swift"
+  : [1685723731, 365750718]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-log/Sources/Logging/MetadataProvider.swift"
+  : [1685723731, 365846719]

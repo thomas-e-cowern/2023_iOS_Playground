@@ -1,0 +1,199 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "946b92ae09026030a727e6a95707dd5caaf55bd6f1d01479479f7ea860ce3f8b"
+build_start_time: [1685723770, 535913000]
+build_end_time: [1685723771, 903438000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/AsyncMigration.swift"
+  : [1685723734, 966881627]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/AsyncModelMiddleware.swift"
+  : [1685723734, 967011045]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/Children+Concurrency.swift"
+  : [1685723734, 967096630]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/Database+Concurrency.swift"
+  : [1685723734, 967172047]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/EnumBuilder+Concurrency.swift"
+  : [1685723734, 967251965]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/Model+Concurrency.swift"
+  : [1685723734, 967316132]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/ModelResponder+Concurrency.swift"
+  : [1685723734, 967381633]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/OptionalChild+Concurrency.swift"
+  : [1685723734, 967444967]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/OptionalParent+Concurrency.swift"
+  : [1685723734, 967514218]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/Parent+Concurrency.swift"
+  : [1685723734, 967573760]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/QueryBuilder+Concurrency.swift"
+  : [1685723734, 967640469]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/Relation+Concurrency.swift"
+  : [1685723734, 967707345]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/SchemaBuilder+Concurrency.swift"
+  : [1685723734, 967771721]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/Siblings+Concurrency.swift"
+  : [1685723734, 967834513]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Database/Database+Logging.swift"
+  : [1685723734, 967949223]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Database/Database.swift"
+  : [1685723734, 968027640]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Database/DatabaseID.swift"
+  : [1685723734, 968230393]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Database/DatabaseInput.swift"
+  : [1685723734, 968328435]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Database/DatabaseOutput.swift"
+  : [1685723734, 968397895]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Database/Databases.swift"
+  : [1685723734, 968478479]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Database/KeyPrefixingStrategy.swift"
+  : [1685723734, 968558813]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Database/TransactionControlDatabase.swift"
+  : [1685723734, 968633647]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Enum/DatabaseEnum.swift"
+  : [1685723734, 968832316]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Enum/EnumBuilder.swift"
+  : [1685723734, 968908276]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Enum/EnumMetadata.swift"
+  : [1685723734, 969000818]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Enum/EnumProperty.swift"
+  : [1685723734, 969173529]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Enum/OptionalEnumProperty.swift"
+  : [1685723734, 969258071]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Exports.swift"
+  : [1685723734, 969323364]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/FluentError.swift"
+  : [1685723734, 969392448]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Middleware/ModelMiddleware.swift"
+  : [1685723734, 969476407]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Middleware/ModelResponder.swift"
+  : [1685723734, 969543700]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Migration/Migration.swift"
+  : [1685723734, 969638034]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Migration/MigrationLog.swift"
+  : [1685723734, 969699493]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Migration/Migrations.swift"
+  : [1685723734, 969759619]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Migration/Migrator.swift"
+  : [1685723734, 969849287]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/AnyModel.swift"
+  : [1685723734, 969951413]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/EagerLoad.swift"
+  : [1685723734, 970038372]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/Fields+Codable.swift"
+  : [1685723734, 970124540]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/Fields.swift"
+  : [1685723734, 970213499]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/MirrorBypass.swift"
+  : [1685723734, 970296208]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/Model+CRUD.swift"
+  : [1685723734, 970424877]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/Model.swift"
+  : [1685723734, 970490336]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/ModelAlias.swift"
+  : [1685723734, 970586795]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Model/Schema.swift"
+  : [1685723734, 970649629]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Operators/FieldOperators.swift"
+  : [1685723734, 970762464]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Operators/Operators.swift"
+  : [1685723734, 970879382]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Operators/ValueOperators+Array.swift"
+  : [1685723734, 970944299]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Operators/ValueOperators+String.swift"
+  : [1685723734, 971008550]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Operators/ValueOperators.swift"
+  : [1685723734, 971087801]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Boolean.swift"
+  : [1685723734, 971207594]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/BooleanPropertyFormat.swift"
+  : [1685723734, 971290845]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Children.swift"
+  : [1685723734, 971346137]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/CompositeChildren.swift"
+  : [1685723734, 971500389]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/CompositeID.swift"
+  : [1685723734, 971596432]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/CompositeOptionalChild.swift"
+  : [1685723734, 971660683]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/CompositeOptionalParent.swift"
+  : [1685723734, 971728017]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/CompositeParent.swift"
+  : [1685723734, 971803643]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Field.swift"
+  : [1685723734, 971874768]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/FieldKey.swift"
+  : [1685723734, 972722653]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Group.swift"
+  : [1685723734, 972826030]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/ID.swift"
+  : [1685723734, 972959031]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/OptionalBoolean.swift"
+  : [1685723734, 973020115]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/OptionalChild.swift"
+  : [1685723734, 973080866]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/OptionalField.swift"
+  : [1685723734, 973158033]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/OptionalParent.swift"
+  : [1685723734, 973240618]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Parent.swift"
+  : [1685723734, 973330035]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Property.swift"
+  : [1685723734, 973438037]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Relation.swift"
+  : [1685723734, 973540829]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Siblings.swift"
+  : [1685723734, 973637581]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/Timestamp.swift"
+  : [1685723734, 973711082]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Properties/TimestampFormat.swift"
+  : [1685723734, 973783124]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Aggregate.swift"
+  : [1685723734, 973954043]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+EagerLoad.swift"
+  : [1685723734, 974035043]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Filter.swift"
+  : [1685723734, 974114878]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Group.swift"
+  : [1685723734, 974477465]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Join+DirectRelations.swift"
+  : [1685723734, 974558466]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Join.swift"
+  : [1685723734, 974653468]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Paginate.swift"
+  : [1685723734, 974732843]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Range.swift"
+  : [1685723734, 974802719]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Set.swift"
+  : [1685723734, 974877053]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder+Sort.swift"
+  : [1685723734, 974952221]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Builder/QueryBuilder.swift"
+  : [1685723734, 975049139]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery+Action.swift"
+  : [1685723734, 975177349]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery+Aggregate.swift"
+  : [1685723734, 975261808]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery+Field.swift"
+  : [1685723734, 975333100]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery+Filter.swift"
+  : [1685723734, 975410935]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery+Join.swift"
+  : [1685723734, 975493435]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery+Range.swift"
+  : [1685723734, 975612687]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery+Sort.swift"
+  : [1685723734, 975676521]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery+Value.swift"
+  : [1685723734, 975739938]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/Database/DatabaseQuery.swift"
+  : [1685723734, 975814856]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Query/QueryHistory.swift"
+  : [1685723734, 975878732]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Schema/DatabaseSchema.swift"
+  : [1685723734, 975989941]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Schema/SchemaBuilder.swift"
+  : [1685723734, 976070275]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Utilities/OptionalType.swift"
+  : [1685723734, 976178819]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Utilities/RandomGeneratable.swift"
+  : [1685723734, 976251653]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/fluent-kit/Sources/FluentKit/Utilities/SomeCodingKey.swift"
+  : [1685723734, 976319487]

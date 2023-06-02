@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "ab9fb0e2b81b08c15e29e9848942efb14af187a3f3710592e9dad872fc0cbf4d"
+build_start_time: [1685723749, 448327000]
+build_end_time: [1685723749, 569590000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-collections/Sources/Collections/Collections.swift"
+  : [1685723731, 174875539]

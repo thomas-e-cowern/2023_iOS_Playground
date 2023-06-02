@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "933215d1371b07387fe1edba01a60e9220cd59925450ac83997a1052815b59a4"
+build_start_time: [1685723748, 436869000]
+build_end_time: [1685723756, 59150000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/movies-app/.build/checkouts/swift-metrics/Sources/Metrics/Metrics.swift"
+  : [1685723731, 672608831]

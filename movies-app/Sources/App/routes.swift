@@ -8,4 +8,10 @@ func routes(_ app: Application) throws {
         try await movie.save(on: req.db)
         return movie
     }
+    
+    // get all movies
+    app.get("movies") { req async throws in
+        try await Movie.query(on: req.db)
+            .all()
+    }
 }

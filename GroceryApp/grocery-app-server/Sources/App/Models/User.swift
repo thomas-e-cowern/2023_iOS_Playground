@@ -9,7 +9,7 @@ import Foundation
 import Fluent
 import Vapor
 
-final class User: Model, Validatable {
+final class User: Model, Content, Validatable {
 
     static var schema = "users"
     

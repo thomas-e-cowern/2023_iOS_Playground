@@ -1,0 +1,37 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "9ec8166ff09315029aca8e87f739813ea8e3e807a1919b019d58fb2642006a14"
+build_start_time: [1686071472, 691028000]
+build_end_time: [1686071473, 405021000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Concurrency/FluentProvider+Concurrency.swift"
+  : [1686071420, 334866809]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Concurrency/ModelCredentialsAuthenticatable+Concurrency.swift"
+  : [1686071420, 334950685]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Concurrency/Pagination+Concurrency.swift"
+  : [1686071420, 335007810]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Concurrency/Sessions+Concurrency.swift"
+  : [1686071420, 335064810]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Exports.swift"
+  : [1686071420, 335205227]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Fluent+Cache.swift"
+  : [1686071420, 335271519]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Fluent+History.swift"
+  : [1686071420, 335347061]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift"
+  : [1686071420, 335409770]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Fluent+Pagination.swift"
+  : [1686071420, 335494270]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift"
+  : [1686071420, 335568479]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift"
+  : [1686071420, 335626354]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift"
+  : [1686071420, 335698354]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift"
+  : [1686071420, 335762730]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/ModelCredentialsAuthenticatable.swift"
+  : [1686071420, 335828605]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift"
+  : [1686071420, 335901897]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent/Sources/Fluent/PageLimit.swift"
+  : [1686071420, 335973064]

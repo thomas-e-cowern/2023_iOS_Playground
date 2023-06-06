@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "ef98d7f643ca8e787664e9fa220bea06fe082d0d85f28cec384ec21b530d1d9b"
+build_start_time: [1686071454, 805995000]
+build_end_time: [1686071456, 411768000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/DynamicHeaderTable.swift"
+  : [1686071418, 418193826]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKDecoder.swift"
+  : [1686071418, 418290243]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKEncoder.swift"
+  : [1686071418, 418399077]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKErrors.swift"
+  : [1686071418, 418500827]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKHeader.swift"
+  : [1686071418, 418644953]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HeaderTables.swift"
+  : [1686071418, 418883954]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanCoding.swift"
+  : [1686071418, 418973704]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanTables.swift"
+  : [1686071418, 419396748]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IndexedHeaderTable.swift"
+  : [1686071418, 419659749]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IntegerCoding.swift"
+  : [1686071418, 419750333]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/StaticHeaderTable.swift"
+  : [1686071418, 419826666]

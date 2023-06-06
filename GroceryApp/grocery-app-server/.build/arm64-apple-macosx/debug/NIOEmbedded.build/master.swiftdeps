@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "3bb3fcc63475beef2011b86641bd44e06982b8500f383b333aa92e3e7576e73e"
+build_start_time: [1686071450, 973916000]
+build_end_time: [1686071451, 481817000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOEmbedded/AsyncTestingChannel.swift"
+  : [1686071423, 705929611]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOEmbedded/AsyncTestingEventLoop.swift"
+  : [1686071423, 706067028]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOEmbedded/Embedded.swift"
+  : [1686071423, 706348779]

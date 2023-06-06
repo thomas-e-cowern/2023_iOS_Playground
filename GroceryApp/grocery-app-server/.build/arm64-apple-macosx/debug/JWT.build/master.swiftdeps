@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "858aef2d4b6da1922546aa60071e05bef4ee41f94d71576ae7bb32f45c714ae3"
+build_start_time: [1686071472, 690623000]
+build_end_time: [1686071473, 335491000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/Application+JWT.swift"
+  : [1686071419, 860799178]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/AsyncJWTAuthenticator.swift"
+  : [1686071419, 860908596]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/Exports.swift"
+  : [1686071419, 861263805]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/JWKSCache.swift"
+  : [1686071419, 861358472]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/JWT+Apple.swift"
+  : [1686071419, 861421639]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/JWT+Concurrency.swift"
+  : [1686071419, 861497265]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/JWT+Google.swift"
+  : [1686071419, 861576473]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/JWT+Microsoft.swift"
+  : [1686071419, 861641307]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/JWTAuthenticator.swift"
+  : [1686071419, 861721349]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/JWTError+Vapor.swift"
+  : [1686071419, 861783891]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/Request+JWT.swift"
+  : [1686071419, 861847183]

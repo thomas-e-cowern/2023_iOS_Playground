@@ -1,0 +1,55 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "af8810c2a96011a15eb330411edc913f5fd721ff802bc065670a0c59c41bc0a4"
+build_start_time: [1686071435, 317533000]
+build_end_time: [1686071436, 660919000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/AdjacentPairs.swift"
+  : [1686071421, 983359307]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Chain.swift"
+  : [1686071421, 983452724]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Chunked.swift"
+  : [1686071421, 983626099]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Combinations.swift"
+  : [1686071421, 983724891]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Compacted.swift"
+  : [1686071421, 983824517]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Cycle.swift"
+  : [1686071421, 983908059]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/EitherSequence.swift"
+  : [1686071421, 983999601]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/FirstNonNil.swift"
+  : [1686071421, 984073643]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/FlattenCollection.swift"
+  : [1686071421, 984158560]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Indexed.swift"
+  : [1686071421, 984229519]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Intersperse.swift"
+  : [1686071421, 984329727]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Joined.swift"
+  : [1686071421, 984427603]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/MinMax.swift"
+  : [1686071421, 984565437]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Partition.swift"
+  : [1686071421, 984686687]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Permutations.swift"
+  : [1686071421, 984803396]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Product.swift"
+  : [1686071421, 984937146]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/RandomSample.swift"
+  : [1686071421, 985033605]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Reductions.swift"
+  : [1686071421, 985162439]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Rotate.swift"
+  : [1686071421, 985259773]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Split.swift"
+  : [1686071421, 985367981]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Stride.swift"
+  : [1686071421, 985465357]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Suffix.swift"
+  : [1686071421, 985533066]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Trim.swift"
+  : [1686071421, 985609816]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Unique.swift"
+  : [1686071421, 985688691]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/Windows.swift"
+  : [1686071421, 985781025]

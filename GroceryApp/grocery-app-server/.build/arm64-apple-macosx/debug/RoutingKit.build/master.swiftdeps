@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "af56c1b447c3e6b827a62164a6a129746796a3d2d41d16e9f27c4401de0e5fcb"
+build_start_time: [1686071436, 464236000]
+build_end_time: [1686071440, 891147000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/routing-kit/Sources/RoutingKit/AnyRouter.swift"
+  : [1686071421, 121186026]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift"
+  : [1686071421, 121367693]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift"
+  : [1686071421, 121438860]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift"
+  : [1686071421, 121612403]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift"
+  : [1686071421, 121733528]

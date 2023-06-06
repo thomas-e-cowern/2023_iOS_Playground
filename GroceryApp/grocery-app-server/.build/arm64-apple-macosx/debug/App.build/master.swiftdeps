@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "4743f3f3c6205911d3ed081bd48a1a99378e66171a7f5415d2376169a70249b0"
+build_start_time: [1686071473, 475063000]
+build_end_time: [1686071476, 55393000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateUserTableMigration.swift"
+  : [1686071143, 110796559]
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/configure.swift": [1686071261, 629284594]
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/entrypoint.swift": [1686063377, 79081533]
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/routes.swift": [1686063377, 136427422]

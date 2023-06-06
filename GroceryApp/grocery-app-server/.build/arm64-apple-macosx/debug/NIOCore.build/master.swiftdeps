@@ -1,0 +1,129 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "d77faae4e5b4e4ebd3e2dffeb1cfe4bc3e8f1110d1ac15871aff194d39aa4095"
+build_start_time: [1686071448, 161819000]
+build_end_time: [1686071450, 837711000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AddressedEnvelope.swift"
+  : [1686071423, 696430863]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncAwaitSupport.swift"
+  : [1686071423, 696523655]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannel.swift"
+  : [1686071423, 696940240]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannelInboundStream.swift"
+  : [1686071423, 697049907]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannelInboundStreamChannelHandler.swift"
+  : [1686071423, 697140116]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannelOutboundWriter.swift"
+  : [1686071423, 697215658]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannelOutboundWriterHandler.swift"
+  : [1686071423, 697305075]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/CloseRatchet.swift"
+  : [1686071423, 697372533]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncSequences/NIOAsyncSequenceProducer.swift"
+  : [1686071423, 697599701]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncSequences/NIOAsyncSequenceProducerStrategies.swift"
+  : [1686071423, 697694410]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncSequences/NIOAsyncWriter.swift"
+  : [1686071423, 697843869]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncSequences/NIOThrowingAsyncSequenceProducer.swift"
+  : [1686071423, 697935244]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/BSDSocketAPI.swift"
+  : [1686071423, 698053161]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-aux.swift"
+  : [1686071423, 698207745]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-conversions.swift"
+  : [1686071423, 698283120]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-core.swift"
+  : [1686071423, 698484288]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-int.swift"
+  : [1686071423, 698603372]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-lengthPrefix.swift"
+  : [1686071423, 698678039]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-multi-int.swift"
+  : [1686071423, 698825456]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-views.swift"
+  : [1686071423, 698918040]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/Channel.swift"
+  : [1686071423, 699038707]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelHandler.swift"
+  : [1686071423, 699152666]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelHandlers.swift"
+  : [1686071423, 699313250]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelInvoker.swift"
+  : [1686071423, 699405458]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelOption.swift"
+  : [1686071423, 699519126]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelPipeline.swift"
+  : [1686071423, 699811335]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/CircularBuffer.swift"
+  : [1686071423, 699996044]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/Codec.swift"
+  : [1686071423, 700152628]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/ConvenienceOptionSupport.swift"
+  : [1686071423, 700242045]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/DeadChannel.swift"
+  : [1686071423, 700316671]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/DispatchQueue+WithFuture.swift"
+  : [1686071423, 700390088]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoop+Deprecated.swift"
+  : [1686071423, 700753214]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoop.swift"
+  : [1686071423, 700970007]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoopFuture+Deprecated.swift"
+  : [1686071423, 701240550]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoopFuture+WithEventLoop.swift"
+  : [1686071423, 701322800]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoopFuture.swift"
+  : [1686071423, 701583343]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/FileDescriptor.swift"
+  : [1686071423, 701682885]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/FileHandle.swift"
+  : [1686071423, 701764843]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/FileRegion.swift"
+  : [1686071423, 701854552]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/IO.swift"
+  : [1686071423, 701936511]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/IOData.swift"
+  : [1686071423, 702002594]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/IPProtocol.swift"
+  : [1686071423, 702080219]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/IntegerBitPacking.swift"
+  : [1686071423, 702150386]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/IntegerTypes.swift"
+  : [1686071423, 702226303]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/Interfaces.swift"
+  : [1686071423, 702357762]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/Linux.swift"
+  : [1686071423, 702434929]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/MarkedCircularBuffer.swift"
+  : [1686071423, 702517805]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/MulticastChannel.swift"
+  : [1686071423, 702597180]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/NIOAny.swift"
+  : [1686071423, 702675097]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/NIOCloseOnErrorHandler.swift"
+  : [1686071423, 702780056]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/NIOLoopBound.swift"
+  : [1686071423, 702858639]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/NIOSendable.swift"
+  : [1686071423, 702920681]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/PointerHelpers.swift"
+  : [1686071423, 703007390]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/RecvByteBufferAllocator.swift"
+  : [1686071423, 703078640]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/SingleStepByteToMessageDecoder.swift"
+  : [1686071423, 704034936]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/SocketAddresses.swift"
+  : [1686071423, 704198478]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/SocketOptionProvider.swift"
+  : [1686071423, 704297604]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/SystemCallHelpers.swift"
+  : [1686071423, 704387646]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/TimeAmount+Duration.swift"
+  : [1686071423, 704460729]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/TypeAssistedChannelHandler.swift"
+  : [1686071423, 704534938]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/UniversalBootstrapSupport.swift"
+  : [1686071423, 704645564]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOCore/Utilities.swift"
+  : [1686071423, 704738522]

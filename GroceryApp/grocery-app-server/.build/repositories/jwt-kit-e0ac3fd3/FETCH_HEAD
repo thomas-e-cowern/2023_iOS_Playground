@@ -1,0 +1,117 @@
+24a3c7d2c7f71dd278b69f2279c8ba5f76d2b44a	not-for-merge	branch 'jws-spike' of https://github.com/vapor/jwt-kit
+268cdf5e7f524f859bcf94d25a106e942e210075	not-for-merge	branch 'main' of https://github.com/vapor/jwt-kit
+686ffc52e809f5ca8bfbd89c5e769e48bc57464a	not-for-merge	branch 'removeBoringSSL' of https://github.com/vapor/jwt-kit
+3ec5dfabf2a1d571465485d812e5f924fdeabefd	not-for-merge	'refs/pull/1/head' of https://github.com/vapor/jwt-kit
+7f730f8ccda9d82166fd7b94378a0673f401df5c	not-for-merge	'refs/pull/10/head' of https://github.com/vapor/jwt-kit
+806080e2f25ecf6206330bcd1f3e1c56b2c5f47d	not-for-merge	'refs/pull/11/head' of https://github.com/vapor/jwt-kit
+add48b630a3859b18d87dc2feb8364c68117bdac	not-for-merge	'refs/pull/12/head' of https://github.com/vapor/jwt-kit
+2b227ff735670163f320d7a565bb9c7336bdbc2b	not-for-merge	'refs/pull/13/head' of https://github.com/vapor/jwt-kit
+fe2fde92719de06813e130c192e0c4178e3ee001	not-for-merge	'refs/pull/14/head' of https://github.com/vapor/jwt-kit
+91e01d8a2b6bed648aaa52a7d63aec8ff89a5e9a	not-for-merge	'refs/pull/15/head' of https://github.com/vapor/jwt-kit
+88e4efaa4d3d614c67c3b50be57f8290b0130453	not-for-merge	'refs/pull/16/head' of https://github.com/vapor/jwt-kit
+d85df0229c45e4443539d05874bff21f1e9cfa9d	not-for-merge	'refs/pull/17/head' of https://github.com/vapor/jwt-kit
+1473c830fc7df8c1980b1c0aef90ba0f129be59c	not-for-merge	'refs/pull/18/head' of https://github.com/vapor/jwt-kit
+548de138b5c62afb66aa2e08207d03722e9e7596	not-for-merge	'refs/pull/19/head' of https://github.com/vapor/jwt-kit
+b3d4cda1dcdbe8771c348b8c4e29542d06adf6ce	not-for-merge	'refs/pull/2/head' of https://github.com/vapor/jwt-kit
+916ca43b624679112c8b78dd28a82d03ea20dd77	not-for-merge	'refs/pull/20/head' of https://github.com/vapor/jwt-kit
+5c27dc9e5ffd351fcc8f389a1c9ab341151a5dd2	not-for-merge	'refs/pull/21/head' of https://github.com/vapor/jwt-kit
+34b53175437215515c04feb30286bbc275f6bc57	not-for-merge	'refs/pull/22/head' of https://github.com/vapor/jwt-kit
+f51f833d2015175dcf8943d2bdbbc90fb2f093c1	not-for-merge	'refs/pull/23/head' of https://github.com/vapor/jwt-kit
+e378ab46cb67d42781ef6bffb82209a220bee56d	not-for-merge	'refs/pull/24/head' of https://github.com/vapor/jwt-kit
+992c74c638d796e7f159d0c0eb8b4b98eaf7eb7b	not-for-merge	'refs/pull/25/head' of https://github.com/vapor/jwt-kit
+324fca312491ca69721fcae106ae0baf759c2d52	not-for-merge	'refs/pull/27/head' of https://github.com/vapor/jwt-kit
+c6db7f4e3e664dd7384e7154bff369bc1a7288bb	not-for-merge	'refs/pull/28/head' of https://github.com/vapor/jwt-kit
+79665d01dbe4546de60c2e4f2f884df35f63a3e0	not-for-merge	'refs/pull/29/head' of https://github.com/vapor/jwt-kit
+2ccc6871b8e10cd5eb46bfd62c89b4430f969fb2	not-for-merge	'refs/pull/30/head' of https://github.com/vapor/jwt-kit
+6aa49d1f7037618d76fe0d90719a5a74f153bad0	not-for-merge	'refs/pull/31/head' of https://github.com/vapor/jwt-kit
+b1aad2023f508720b11d8ab1636fb5b0731e55a9	not-for-merge	'refs/pull/32/head' of https://github.com/vapor/jwt-kit
+a576d14caef9ed04f5c413d4126422e9ce7f53b1	not-for-merge	'refs/pull/33/head' of https://github.com/vapor/jwt-kit
+358b7fcadd19d1f4b1c0e75e378830be9a9a5561	not-for-merge	'refs/pull/34/head' of https://github.com/vapor/jwt-kit
+68354df0a361dcd8af8d1ef1d72f5a9c8088dd1a	not-for-merge	'refs/pull/36/head' of https://github.com/vapor/jwt-kit
+0cb9d7e6f17b9aebb10c17d6dee681c93df648df	not-for-merge	'refs/pull/37/head' of https://github.com/vapor/jwt-kit
+8b651c1925c08b867cf823ad2aa20297595469ae	not-for-merge	'refs/pull/39/head' of https://github.com/vapor/jwt-kit
+588eb44ac591c3e4be303f15b8cb70773adb9316	not-for-merge	'refs/pull/42/head' of https://github.com/vapor/jwt-kit
+e7854dced1b9fdb92b3d32d9ee2d3306e03ade64	not-for-merge	'refs/pull/44/head' of https://github.com/vapor/jwt-kit
+5a7e293ac52582cd771db417b4095e07bbdf62b8	not-for-merge	'refs/pull/48/head' of https://github.com/vapor/jwt-kit
+b09f6f612d4402c35c0591bad778d3949c2e3920	not-for-merge	'refs/pull/49/head' of https://github.com/vapor/jwt-kit
+43b38f4552b41fd9aff2463b144f2a380bb9a53e	not-for-merge	'refs/pull/52/head' of https://github.com/vapor/jwt-kit
+686ffc52e809f5ca8bfbd89c5e769e48bc57464a	not-for-merge	'refs/pull/55/head' of https://github.com/vapor/jwt-kit
+ea2cf73469cda173c4ca950abea6a38ed5346c7f	not-for-merge	'refs/pull/55/merge' of https://github.com/vapor/jwt-kit
+3d0d993a86cd885d378d0f28c4173517a7a745e8	not-for-merge	'refs/pull/57/head' of https://github.com/vapor/jwt-kit
+a03859d8222285737e53d4b2b84755097ab0d586	not-for-merge	'refs/pull/58/head' of https://github.com/vapor/jwt-kit
+6fece6cfc8a0e05d837b6f425a0c8632de581d80	not-for-merge	'refs/pull/59/head' of https://github.com/vapor/jwt-kit
+ac5d6cc755425f8b555adcf6559071df1aec7fc3	not-for-merge	'refs/pull/6/head' of https://github.com/vapor/jwt-kit
+589d711e1424e6853f896855753e656c51ad950c	not-for-merge	'refs/pull/60/head' of https://github.com/vapor/jwt-kit
+e4e1abb940fccf5b7175ed9c3540576348a65287	not-for-merge	'refs/pull/61/head' of https://github.com/vapor/jwt-kit
+30d3407f463d5b99bed4374d2f7b898e6eafc25a	not-for-merge	'refs/pull/61/merge' of https://github.com/vapor/jwt-kit
+d3eacb281a9c0b5955f5f6655909670553b88921	not-for-merge	'refs/pull/62/head' of https://github.com/vapor/jwt-kit
+d80391111e0b5738bbb20fa45f18fccb7fa2278d	not-for-merge	'refs/pull/63/head' of https://github.com/vapor/jwt-kit
+199310f52c9a00a8510ce77eb2d460169c91b3e8	not-for-merge	'refs/pull/65/head' of https://github.com/vapor/jwt-kit
+e219ce7dce0568f828e48388020583a67edd3c67	not-for-merge	'refs/pull/66/head' of https://github.com/vapor/jwt-kit
+4c90232736a66a979e03972773ac4f9f70d26b9b	not-for-merge	'refs/pull/67/head' of https://github.com/vapor/jwt-kit
+b137ab21319e742bdb4ecd8b86065bee440a6b87	not-for-merge	'refs/pull/68/head' of https://github.com/vapor/jwt-kit
+e5e0794227a0675d9070a24c0e6d10d116a79b04	not-for-merge	'refs/pull/7/head' of https://github.com/vapor/jwt-kit
+e2f088546ec7d146731a4acff1b896ad7592e7bd	not-for-merge	'refs/pull/71/head' of https://github.com/vapor/jwt-kit
+15463f422600dd57c462c9c1bda2c85f7e3344c5	not-for-merge	'refs/pull/72/head' of https://github.com/vapor/jwt-kit
+a2eb4a43d43dc7d5562b8b9d43b1ae34a28a1167	not-for-merge	'refs/pull/73/head' of https://github.com/vapor/jwt-kit
+24a3c7d2c7f71dd278b69f2279c8ba5f76d2b44a	not-for-merge	'refs/pull/75/head' of https://github.com/vapor/jwt-kit
+516afa8119a0342cc36e34a71a599f5a3936fa75	not-for-merge	'refs/pull/75/merge' of https://github.com/vapor/jwt-kit
+a999abfff0315d7f0d2943a082724e2e4369812e	not-for-merge	'refs/pull/76/head' of https://github.com/vapor/jwt-kit
+790c244a24f6e47e983d4b19ab676afd1d672636	not-for-merge	'refs/pull/77/head' of https://github.com/vapor/jwt-kit
+02661ad8fe1b21d92ca70ab688bf15f8f2d5f639	not-for-merge	'refs/pull/77/merge' of https://github.com/vapor/jwt-kit
+fe61099d4345167a996099d8e3204f868b671f81	not-for-merge	'refs/pull/78/head' of https://github.com/vapor/jwt-kit
+f883512f9d5b0ba304e78a361b95c53a163bc3df	not-for-merge	'refs/pull/79/head' of https://github.com/vapor/jwt-kit
+9fb89fff0d81c15cf4b30d526167f553bda6e051	not-for-merge	'refs/pull/8/head' of https://github.com/vapor/jwt-kit
+12f9a890c5a5829b10c1ff262c128288e745e5cb	not-for-merge	'refs/pull/82/head' of https://github.com/vapor/jwt-kit
+a39af10c794b64309e5d0a1f621686b5510dd813	not-for-merge	'refs/pull/83/head' of https://github.com/vapor/jwt-kit
+b1c6e37968f34f552b653f7da34cfb6993655e98	not-for-merge	'refs/pull/83/merge' of https://github.com/vapor/jwt-kit
+07a2ce7ef707d0131117b7e1f26ffce163a5c078	not-for-merge	'refs/pull/84/head' of https://github.com/vapor/jwt-kit
+35d90b511d8fda541f35ef3c61f1e7d54cd6bb54	not-for-merge	'refs/pull/85/head' of https://github.com/vapor/jwt-kit
+eab2e104d75e0f26b2126d0011d6a4d3892d7e9f	not-for-merge	'refs/pull/85/merge' of https://github.com/vapor/jwt-kit
+302ba8e7a9a7e8245d4909f74e2008333f16232e	not-for-merge	'refs/pull/86/head' of https://github.com/vapor/jwt-kit
+e48187a58a7f2e06036c1160ce41a90611c5d97e	not-for-merge	'refs/pull/9/head' of https://github.com/vapor/jwt-kit
+8849afd38bd33e0666c4eda70be49417681ed8f0	not-for-merge	'refs/pull/90/head' of https://github.com/vapor/jwt-kit
+7695d8240e4744ac00ddbb697cc63f6224e79409	not-for-merge	'refs/pull/90/merge' of https://github.com/vapor/jwt-kit
+c0ea2d002608396aff31d1c05711b2f2d8f59087	not-for-merge	'refs/pull/91/head' of https://github.com/vapor/jwt-kit
+8f9544230ce0d9a3c29f443bfd35e9469cd70395	not-for-merge	'refs/pull/91/merge' of https://github.com/vapor/jwt-kit
+cba7414a8bca7957a112353bdd40ae137e122ff5	not-for-merge	'refs/pull/92/head' of https://github.com/vapor/jwt-kit
+2ed4ee85590a2cac5d7ee2da33849d4f3c38471a	not-for-merge	'refs/pull/92/merge' of https://github.com/vapor/jwt-kit
+4241b55fbdca3942ea7f915ac344b572f6b67ff0	not-for-merge	'refs/pull/93/head' of https://github.com/vapor/jwt-kit
+484cb741f041dae2ba756e0400fb7f79707bde44	not-for-merge	tag '4.0.0' of https://github.com/vapor/jwt-kit
+2c5ffd2838c99c3d1ed0655884fe19dfaadb8aab	not-for-merge	tag '4.0.0-beta.2' of https://github.com/vapor/jwt-kit
+3dd3cffaf4c198b23f2c027d39bfccfd47955d30	not-for-merge	tag '4.0.0-beta.2.1' of https://github.com/vapor/jwt-kit
+01c623f7dd82c3d4fd020ce87f19d858449989d3	not-for-merge	tag '4.0.0-beta.2.2' of https://github.com/vapor/jwt-kit
+53f4ab9ad036fbf67cabeb0e64694ce026d41a79	not-for-merge	tag '4.0.0-beta.2.3' of https://github.com/vapor/jwt-kit
+a52a5922720141914fc1aaf778cf0c457a54d6c0	not-for-merge	tag '4.0.0-beta.2.4' of https://github.com/vapor/jwt-kit
+b64457438e53c5ad91cad7df87cad6d4874cd1eb	not-for-merge	tag '4.0.0-beta.2.5' of https://github.com/vapor/jwt-kit
+11833731e8388f698715e784b26051409b817904	not-for-merge	tag '4.0.0-beta.3' of https://github.com/vapor/jwt-kit
+77553e66274a02d1148605cf1142b55687067331	not-for-merge	tag '4.0.0-beta.3.1' of https://github.com/vapor/jwt-kit
+57c49ff798f506270bdeb1c86d1d68795ab1402d	not-for-merge	tag '4.0.0-beta.3.2' of https://github.com/vapor/jwt-kit
+d7a3a04dbb74971b363412ba869ad79f510518b3	not-for-merge	tag '4.0.0-rc.1' of https://github.com/vapor/jwt-kit
+f1d0e511420ab4ea0f8445a80b74cd347bee2ee6	not-for-merge	tag '4.0.0-rc.1.1' of https://github.com/vapor/jwt-kit
+3387c16a9517bb38c86fdb36ab35ef93af6b6ba1	not-for-merge	tag '4.0.0-rc.1.2' of https://github.com/vapor/jwt-kit
+c4111580bbf37aefd5182a93ecb2906a216199b3	not-for-merge	tag '4.0.0-rc.1.3' of https://github.com/vapor/jwt-kit
+b5aa3d4eb91b54d0bd31a1a0c238199f2bf65969	not-for-merge	tag '4.0.0-rc.1.4' of https://github.com/vapor/jwt-kit
+b5b711fd6ee5638552a29a0c39003aeb109caa94	not-for-merge	tag '4.0.0-rc.1.5' of https://github.com/vapor/jwt-kit
+fa439a74d911d7422e2e7518d9ebb53341991309	not-for-merge	tag '4.0.0-rc.1.6' of https://github.com/vapor/jwt-kit
+8c9f67a22247f06572e9d71f455034ca51ae368d	not-for-merge	tag '4.0.0-rc.1.7' of https://github.com/vapor/jwt-kit
+ee44e775b0d8ac8e608b93d6978656ead48af64f	not-for-merge	tag '4.0.0-rc.2' of https://github.com/vapor/jwt-kit
+ba28866bb74eedcec6f864920da12f8e7cb2fba9	not-for-merge	tag '4.0.0-rc.2.1' of https://github.com/vapor/jwt-kit
+3e631a209cd25f78ba5b6187c527f6c1d8c66732	not-for-merge	tag '4.0.1' of https://github.com/vapor/jwt-kit
+50a46ba65fa4e2c1bb3783ec7464b42232a23ee2	not-for-merge	tag '4.1.0' of https://github.com/vapor/jwt-kit
+268cdf5e7f524f859bcf94d25a106e942e210075	not-for-merge	tag '4.10.0' of https://github.com/vapor/jwt-kit
+6055fe8439769aa3646a3c797d573ce7305849c8	not-for-merge	tag '4.2.0' of https://github.com/vapor/jwt-kit
+73399650ef98c82bea7653289cacba4f3d2e3283	not-for-merge	tag '4.2.1' of https://github.com/vapor/jwt-kit
+b50b30b567726b14ac282aa6d3a42a52c1ebc8c0	not-for-merge	tag '4.2.2' of https://github.com/vapor/jwt-kit
+df7955305940ea0fcd1626a0a6d1a1556623f95e	not-for-merge	tag '4.2.3' of https://github.com/vapor/jwt-kit
+7a9a04df93e71de10fa2e8d6e9430dd0a7924643	not-for-merge	tag '4.2.4' of https://github.com/vapor/jwt-kit
+846998c28d5c024137b61b8d788e2e7d21b16d08	not-for-merge	tag '4.2.5' of https://github.com/vapor/jwt-kit
+ca2edf69a613f3d89354114f56cfd9921d2727d5	not-for-merge	tag '4.2.6' of https://github.com/vapor/jwt-kit
+1822bb0abf0a31a4b5078ec19061c548835253b5	not-for-merge	tag '4.3.0' of https://github.com/vapor/jwt-kit
+5f9c44d4c196cc06c3fc601f279169f121d6f62d	not-for-merge	tag '4.4.0' of https://github.com/vapor/jwt-kit
+3537dd319dfbcc403a5165d8c19c4834e8e64730	not-for-merge	tag '4.5.0' of https://github.com/vapor/jwt-kit
+718e94f917a4c053758e5bb50c28553561a6ef91	not-for-merge	tag '4.6.0' of https://github.com/vapor/jwt-kit
+aa7d9cd805b10c1ca17dfc53062ffbc695469cf4	not-for-merge	tag '4.6.1' of https://github.com/vapor/jwt-kit
+87ce13a1df913ba4d51cf00606df7ef24d455571	not-for-merge	tag '4.7.0' of https://github.com/vapor/jwt-kit
+dcd78f07e092ac9138327e2bfbb0687a55a80850	not-for-merge	tag '4.8.0' of https://github.com/vapor/jwt-kit
+ef12bdfa557cd9d9f0c53396e0a9908f773bcd7b	not-for-merge	tag '4.9.0' of https://github.com/vapor/jwt-kit

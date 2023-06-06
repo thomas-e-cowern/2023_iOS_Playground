@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "be8277b9450e33910ce747405638c6f33ad2307f0add1e700e3df04a52c8de0e"
+build_start_time: [1686071433, 602212000]
+build_end_time: [1686071436, 188632000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-log/Sources/Logging/Locks.swift"
+  : [1686071418, 868559734]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift"
+  : [1686071418, 868661776]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-log/Sources/Logging/Logging.swift"
+  : [1686071418, 869063236]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-log/Sources/Logging/MetadataProvider.swift"
+  : [1686071418, 869169861]

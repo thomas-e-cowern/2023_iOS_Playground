@@ -1,0 +1,311 @@
+{
+  "": {
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/master.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/AudienceClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/AudienceClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/AudienceClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/AudienceClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/AudienceClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/BoolClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/BoolClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/BoolClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/BoolClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/BoolClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/ExpirationClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/ExpirationClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/ExpirationClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/ExpirationClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/ExpirationClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/GoogleHostedDomainClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/GoogleHostedDomainClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/GoogleHostedDomainClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/GoogleHostedDomainClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/GoogleHostedDomainClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/IDClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IDClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IDClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IDClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IDClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/IssuedAtClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IssuedAtClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IssuedAtClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IssuedAtClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IssuedAtClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/IssuerClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IssuerClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IssuerClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IssuerClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/IssuerClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/JWTClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/JWTMultiValueClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTMultiValueClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTMultiValueClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTMultiValueClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTMultiValueClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/JWTUnixEpochClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTUnixEpochClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTUnixEpochClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTUnixEpochClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/JWTUnixEpochClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/LocaleClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/LocaleClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/LocaleClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/LocaleClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/LocaleClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/NotBeforeClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/NotBeforeClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/NotBeforeClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/NotBeforeClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/NotBeforeClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/SubjectClaim.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/SubjectClaim.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/SubjectClaim.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/SubjectClaim~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Claims/SubjectClaim.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/ECDSA/ECDSAError.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSAError.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSAError.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSAError~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSAError.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/ECDSA/ECDSAKey.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSAKey.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSAKey.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSAKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSAKey.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/ECDSA/ECDSASigner.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSASigner.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSASigner.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSASigner~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/ECDSASigner.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/ECDSA/JWTSigner+ECDSA.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/JWTSigner+ECDSA.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/JWTSigner+ECDSA.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/JWTSigner+ECDSA~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/ECDSA/JWTSigner+ECDSA.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/EdDSAError.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSAError.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSAError.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSAError~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSAError.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/EdDSAKey.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSAKey.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSAKey.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSAKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSAKey.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/EdDSASigner.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSASigner.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSASigner.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSASigner~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/EdDSASigner.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/JWTSigner+EdDSA.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/JWTSigner+EdDSA.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/JWTSigner+EdDSA.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/JWTSigner+EdDSA~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/JWTSigner+EdDSA.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/OctetKeyPair.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/OctetKeyPair.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/OctetKeyPair.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/OctetKeyPair~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/EdDSA/OctetKeyPair.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/HMAC/HMACError.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/HMACError.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/HMACError.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/HMACError~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/HMACError.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/HMAC/HMACSigner.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/HMACSigner.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/HMACSigner.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/HMACSigner~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/HMACSigner.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/HMAC/JWTSigner+HMAC.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/JWTSigner+HMAC.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/JWTSigner+HMAC.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/JWTSigner+HMAC~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/HMAC/JWTSigner+HMAC.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWK/JWK.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWK.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWK.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWK~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWK.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWK/JWKIdentifier.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWKIdentifier.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWKIdentifier.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWKIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWKIdentifier.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWK/JWKS.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWKS.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWKS.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWKS~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWK/JWKS.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTAlgorithm.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTAlgorithm.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTAlgorithm.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTAlgorithm.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTError.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTError.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTError.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTError~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTError.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTHeader.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTHeader.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTHeader.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTHeader~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTHeader.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTParser.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTParser.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTParser.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTParser.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTPayload.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTPayload.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTPayload.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTPayload~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTPayload.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTSerializer.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSerializer.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSerializer.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSerializer.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTSigner.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSigner.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSigner.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSigner~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSigner.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTSigners.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSigners.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSigners.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSigners~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/JWTSigners.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/None/JWTSigner+UnsecuredNone.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/None/JWTSigner+UnsecuredNone.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/None/JWTSigner+UnsecuredNone.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/None/JWTSigner+UnsecuredNone~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/None/JWTSigner+UnsecuredNone.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/None/UnsecuredNoneSigner.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/None/UnsecuredNoneSigner.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/None/UnsecuredNoneSigner.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/None/UnsecuredNoneSigner~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/None/UnsecuredNoneSigner.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/RSA/JWTSigner+RSA.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/JWTSigner+RSA.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/JWTSigner+RSA.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/JWTSigner+RSA~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/JWTSigner+RSA.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/RSA/RSAError.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSAError.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSAError.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSAError~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSAError.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/RSA/RSAKey.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSAKey.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSAKey.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSAKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSAKey.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/RSA/RSASigner.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSASigner.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSASigner.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSASigner~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/RSA/RSASigner.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/Base64URL.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Base64URL.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Base64URL.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Base64URL~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Base64URL.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/BigNumber.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/BigNumber.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/BigNumber.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/BigNumber~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/BigNumber.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/Exports.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Exports.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Exports.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Exports.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/OpenSSLSigner.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/OpenSSLSigner.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/OpenSSLSigner.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/OpenSSLSigner~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/OpenSSLSigner.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/Utilities.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Utilities.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Utilities.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Utilities/Utilities.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Vendor/AppleIdentityToken.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/AppleIdentityToken.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/AppleIdentityToken.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/AppleIdentityToken~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/AppleIdentityToken.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Vendor/GoogleIdentityToken.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/GoogleIdentityToken.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/GoogleIdentityToken.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/GoogleIdentityToken~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/GoogleIdentityToken.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Vendor/MicrosoftIdentitiyToken.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/MicrosoftIdentitiyToken.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/MicrosoftIdentitiyToken.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/MicrosoftIdentitiyToken~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/Vendor/MicrosoftIdentitiyToken.swiftdeps"
+  },
+  "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/X5CVerifier.swift": {
+    "dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/X5CVerifier.d",
+    "object": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/X5CVerifier.swift.o",
+    "swiftmodule": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/X5CVerifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWTKit.build/X5CVerifier.swiftdeps"
+  }
+}

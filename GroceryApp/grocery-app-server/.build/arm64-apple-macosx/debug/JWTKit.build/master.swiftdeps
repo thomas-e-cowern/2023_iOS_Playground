@@ -1,0 +1,107 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "d299a76f6c66ebd9cbae19a445028d362f27ced5c9b23f6debaf0bfe3b11790b"
+build_start_time: [1686071451, 698723000]
+build_end_time: [1686071453, 365193000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/AudienceClaim.swift"
+  : [1686071422, 911819570]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/BoolClaim.swift"
+  : [1686071422, 911904446]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/ExpirationClaim.swift"
+  : [1686071422, 911977946]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/GoogleHostedDomainClaim.swift"
+  : [1686071422, 912057071]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/IDClaim.swift"
+  : [1686071422, 912121905]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/IssuedAtClaim.swift"
+  : [1686071422, 912187863]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/IssuerClaim.swift"
+  : [1686071422, 912253572]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/JWTClaim.swift"
+  : [1686071422, 912352989]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/JWTMultiValueClaim.swift"
+  : [1686071422, 912444448]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/JWTUnixEpochClaim.swift"
+  : [1686071422, 912512865]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/LocaleClaim.swift"
+  : [1686071422, 912605157]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/NotBeforeClaim.swift"
+  : [1686071422, 912673615]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Claims/SubjectClaim.swift"
+  : [1686071422, 912751074]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/ECDSA/ECDSAError.swift"
+  : [1686071422, 912969367]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/ECDSA/ECDSAKey.swift"
+  : [1686071422, 913059284]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/ECDSA/ECDSASigner.swift"
+  : [1686071422, 913131159]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/ECDSA/JWTSigner+ECDSA.swift"
+  : [1686071422, 913195409]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/EdDSAError.swift"
+  : [1686071422, 913291535]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/EdDSAKey.swift"
+  : [1686071422, 913363618]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/EdDSASigner.swift"
+  : [1686071422, 913435410]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/JWTSigner+EdDSA.swift"
+  : [1686071422, 913498035]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/EdDSA/OctetKeyPair.swift"
+  : [1686071422, 913567244]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/HMAC/HMACError.swift"
+  : [1686071422, 913667578]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/HMAC/HMACSigner.swift"
+  : [1686071422, 913931287]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/HMAC/JWTSigner+HMAC.swift"
+  : [1686071422, 914011496]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWK/JWK.swift"
+  : [1686071422, 914133205]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWK/JWKIdentifier.swift"
+  : [1686071422, 914205788]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWK/JWKS.swift"
+  : [1686071422, 914655207]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTAlgorithm.swift"
+  : [1686071422, 914735416]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTError.swift"
+  : [1686071422, 914814332]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTHeader.swift"
+  : [1686071422, 914929375]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTParser.swift"
+  : [1686071422, 915008750]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTPayload.swift"
+  : [1686071422, 915083292]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTSerializer.swift"
+  : [1686071422, 915157959]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTSigner.swift"
+  : [1686071422, 915265918]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/JWTSigners.swift"
+  : [1686071422, 915332335]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/None/JWTSigner+UnsecuredNone.swift"
+  : [1686071422, 915436669]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/None/UnsecuredNoneSigner.swift"
+  : [1686071422, 915511627]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/RSA/JWTSigner+RSA.swift"
+  : [1686071422, 915606169]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/RSA/RSAError.swift"
+  : [1686071422, 915673461]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/RSA/RSAKey.swift"
+  : [1686071422, 915774962]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/RSA/RSASigner.swift"
+  : [1686071422, 915851545]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/Base64URL.swift"
+  : [1686071422, 915975962]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/BigNumber.swift"
+  : [1686071422, 916067879]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/Exports.swift"
+  : [1686071422, 916147963]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/OpenSSLSigner.swift"
+  : [1686071422, 916227463]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Utilities/Utilities.swift"
+  : [1686071422, 916309006]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Vendor/AppleIdentityToken.swift"
+  : [1686071422, 916436756]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Vendor/GoogleIdentityToken.swift"
+  : [1686071422, 916565007]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/Vendor/MicrosoftIdentitiyToken.swift"
+  : [1686071422, 916667507]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt-kit/Sources/JWTKit/X5CVerifier.swift"
+  : [1686071422, 916759257]

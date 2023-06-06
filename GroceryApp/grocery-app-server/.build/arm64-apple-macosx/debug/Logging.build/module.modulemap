@@ -1,0 +1,4 @@
+module Logging {
+    header "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/Logging.build/Logging-Swift.h"
+    requires objc
+}

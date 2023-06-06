@@ -1,0 +1,33 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "c1db56ea310df42c80b99dfa9dda03d4243273e8c11cb9e79a83729c637c575d"
+build_start_time: [1686071469, 919527000]
+build_end_time: [1686071471, 249157000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/ConnectionPool+Postgres.swift"
+  : [1686071419, 347179300]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresColumnType.swift"
+  : [1686071419, 347388801]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresConfiguration.swift"
+  : [1686071419, 347522343]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresConnectionSource+PostgresConfiguration.swift"
+  : [1686071419, 347597719]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDataDecoder.swift"
+  : [1686071419, 347686427]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDataEncoder.swift"
+  : [1686071419, 347833095]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDatabase+SQL+Deprecated.swift"
+  : [1686071419, 347904887]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/Exports.swift"
+  : [1686071419, 348067429]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresConnectionSource.swift"
+  : [1686071419, 348151929]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDataTranslation.swift"
+  : [1686071419, 348232055]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDatabase+SQL.swift"
+  : [1686071419, 348321138]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDialect.swift"
+  : [1686071419, 348394472]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresRow+SQL.swift"
+  : [1686071419, 348463222]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/postgres-kit/Sources/PostgresKit/SQLPostgresConfiguration.swift"
+  : [1686071419, 348535764]

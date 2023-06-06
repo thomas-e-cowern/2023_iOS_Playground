@@ -9,6 +9,9 @@ public func configure(_ app: Application) async throws {
     
     app.databases.use(.postgres(configuration: SQLPostgresConfiguration(hostname: "localhost", username: "postgres", database: "grocerydb", tls: .prefer(try.init(configuration: .clientDefault)))), as: .psql)
     
+    // register migrations
+    app.migrations.add(CreateUserTableMigration())
+    
     // register routes
     try routes(app)
 }

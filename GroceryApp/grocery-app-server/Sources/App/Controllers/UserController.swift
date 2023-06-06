@@ -17,7 +17,7 @@ class UserController: RouteCollection {
         api.post("register", use: register)
     }
     
-    func register(req: Request) async throws -> String {
+    func register(req: Request) async throws -> RegisterResponseDTO {
         // validate the user
         try User.validate(content: req)
         
@@ -34,7 +34,7 @@ class UserController: RouteCollection {
         
         try await user.save(on: req.db)
         
-        return "Ok"
+        return RegisterResponseDTO(error: false)
     }
     
 }

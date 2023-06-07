@@ -12,9 +12,15 @@ import Fluent
 class UserController: RouteCollection {
     
     func boot(routes: Vapor.RoutesBuilder) throws {
+        
+        // base route
         let api = routes.grouped("api")
         
+        // register
         api.post("register", use: register)
+        
+        // login
+        api.post("login", use: login)
     }
     
     func register(req: Request) async throws -> RegisterResponseDTO {

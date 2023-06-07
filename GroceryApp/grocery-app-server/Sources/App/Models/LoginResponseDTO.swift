@@ -8,7 +8,7 @@
 import Foundation
 import Vapor
 
-struct LoginResponseDTO: Codable {
+struct LoginResponseDTO: Content {
     
     let error: Bool
     var reason: String? = nil

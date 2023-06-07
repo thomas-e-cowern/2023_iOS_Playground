@@ -44,10 +44,10 @@ class UserController: RouteCollection {
     }
     
     func login(req: Request) async throws -> LoginResponseDTO {
-        
+        print("🔸🔸🔸🔸 Hit login")
         // decode request
         let user = try req.content.decode(User.self)
-        
+        print("🔸🔸🔸🔸 User: \(user)")
         // does user exist?
         guard let existingUser = try await User.query(on: req.db)
             .filter(\.$username == user.username)
@@ -63,7 +63,7 @@ class UserController: RouteCollection {
         }
         
         // generate token and return
-        let authPayload = try AuthPayload(subject: .init(value: "GroceryApp"), expiration: .init(value: .distantFuture), userId: existingUser.requireID())
+        let authPayload = try AuthPayload(expiration: .init(value: .distantFuture), userId: existingUser.requireID())
         
         return try LoginResponseDTO(error: false, token: req.jwt.sign(authPayload), userId: existingUser.requireID())
     }

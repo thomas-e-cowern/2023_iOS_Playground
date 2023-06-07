@@ -61,7 +61,15 @@ struct HTTPClient {
         }
         
         let configuration = URLSessionConfiguration.default
-//        configuration.httpAdditionalHeaders = 
+//        configuration.httpAdditionalHeaders =
+        
+        let session = URLSession(configuration: configuration)
+        
+        let (data, response) = try await session.data(for: request)
+        
+        guard let httpResponse = response as HTTPURLResponse else {
+            throw NetworkError.invalidResponse
+        }
     }
     
 }

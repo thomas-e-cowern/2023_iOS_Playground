@@ -16,7 +16,7 @@ enum NetworkError: Error {
 
 enum HTTPMethod {
     case get([URLQueryItem])
-    case post([Data?])
+    case post(Data?)
     case delete
     
     var name: String {
@@ -43,33 +43,46 @@ struct HTTPClient {
         var request = URLRequest(url: resource.url)
         
         switch resource.method {
-            case .get(let queryItems):
-                var components = URLComponents(url: resource.url, resolvingAgainstBaseURL: false)
-                components?.queryItems = queryItems
-                guard let url = components?.url else {
-                    throw NetworkError.badRequest
-                }
-                
-                request = URLRequest(url: url)
-                
-            case .post(let data):
-                request.httpMethod = resource.method.name
-                request.httpBody = data
-                
-            case .delete:
-                request.httpMethod = resource.method.name
+        case .get(let queryItems):
+            var components = URLComponents(url: resource.url, resolvingAgainstBaseURL: false)
+            components?.queryItems = queryItems
+            guard let url = components?.url else {
+                throw NetworkError.badRequest
+            }
+            
+            request = URLRequest(url: url)
+            
+        case .post(let data):
+            request.httpMethod = resource.method.name
+            request.httpBody = data
+            
+        case .delete:
+            request.httpMethod = resource.method.name
         }
         
         let configuration = URLSessionConfiguration.default
-//        configuration.httpAdditionalHeaders =
+        //        configuration.httpAdditionalHeaders =
         
         let session = URLSession(configuration: configuration)
         
         let (data, response) = try await session.data(for: request)
         
-        guard let httpResponse = response as HTTPURLResponse else {
+        guard let httpResponse = response as? HTTPURLResponse else {
             throw NetworkError.invalidResponse
         }
+        
+        switch httpResponse.statusCode {
+        case 409:
+            throw NetworkError.serverError("Username is already taken.")
+        default:
+            break
+        }
+        
+        guard let result = try? JSONDecoder().decode(resource.modelType, from: data) else {
+            throw NetworkError.decodingError
+        }
+        
+        return result
     }
     
 }

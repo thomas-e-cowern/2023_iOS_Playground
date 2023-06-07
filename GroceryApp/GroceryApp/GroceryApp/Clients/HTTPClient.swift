@@ -39,6 +39,29 @@ struct Resource<T: Codable> {
 
 struct HTTPClient {
     
-    
+    func load<T: Codable>(_ resource: Resource<T>) async throws -> T {
+        var request = URLRequest(url: resource.url)
+        
+        switch resource.method {
+            case .get(let queryItems):
+                var components = URLComponents(url: resource.url, resolvingAgainstBaseURL: false)
+                components?.queryItems = queryItems
+                guard let url = components?.url else {
+                    throw NetworkError.badRequest
+                }
+                
+                request = URLRequest(url: url)
+                
+            case .post(let data):
+                request.httpMethod = resource.method.name
+                request.httpBody = data
+                
+            case .delete:
+                request.httpMethod = resource.method.name
+        }
+        
+        let configuration = URLSessionConfiguration.default
+//        configuration.httpAdditionalHeaders = 
+    }
     
 }

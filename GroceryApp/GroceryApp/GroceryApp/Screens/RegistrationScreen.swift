@@ -12,8 +12,8 @@ struct RegistrationScreen: View {
     @State private var username: String = ""
     @State private var password: String = ""
     
-    private var isFormVali: Bool {
-        username.isEmpty
+    private var isFormValid: Bool {
+        !username.isEmptyOrWhiteSpace && !password.isEmptyOrWhiteSpace && (password.count >= 6 && password.count <= 10)
     }
     
     var body: some View {
@@ -26,9 +26,10 @@ struct RegistrationScreen: View {
                 Spacer()
                 
                 Button("Register") {
-                    
+                    print("Clicked")
                 }
                 .buttonStyle(.borderedProminent)
+                .disabled(!isFormValid)
                 
                 Spacer()
             }

@@ -37,7 +37,7 @@ class UserController: RouteCollection {
         return RegisterResponseDTO(error: false)
     }
     
-    func login(req: Request) async throws -> String {
+    func login(req: Request) async throws -> LoginResponseDTO {
         
         // decode request
         let user = try req.content.decode(User.self)
@@ -59,8 +59,6 @@ class UserController: RouteCollection {
         // generate token and return
         let authPayload = try AuthPayload(subject: .init(value: "GroceryApp"), expiration: .init(value: .distantFuture), userId: existingUser.requireID())
         
-        
-        
-        return "Ok"
+        return try LoginResponseDTO(error: false, token: req.jwt.sign(authPayload), userId: existingUser.requireID())
     }
 }

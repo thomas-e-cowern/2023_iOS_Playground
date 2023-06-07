@@ -12,6 +12,10 @@ struct RegistrationScreen: View {
     @State private var username: String = ""
     @State private var password: String = ""
     
+    private var isFormVali: Bool {
+        username.isEmpty
+    }
+    
     var body: some View {
         
         Form {
@@ -24,6 +28,7 @@ struct RegistrationScreen: View {
                 Button("Register") {
                     
                 }
+                .buttonStyle(.borderedProminent)
                 
                 Spacer()
             }

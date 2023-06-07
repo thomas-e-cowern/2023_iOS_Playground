@@ -37,4 +37,28 @@ class UserController: RouteCollection {
         return RegisterResponseDTO(error: false)
     }
     
+    func login(req: Request) async throws -> String {
+        
+        // decode request
+        let user = try req.content.decode(User.self)
+        
+        // does user exist?
+        guard let existingUser = try await User.query(on: req.db)
+            .filter(\.$username == user.username)
+            .first() else {
+                throw Abort(.badRequest)
+            }
+        
+        // validate password
+        let result = try await req.password.async.verify(user.password, created: existingUser.password)
+        
+        if !result {
+            throw Abort(.unauthorized)
+        }
+        
+        // generate token and return
+        
+        
+        return "Ok"
+    }
 }

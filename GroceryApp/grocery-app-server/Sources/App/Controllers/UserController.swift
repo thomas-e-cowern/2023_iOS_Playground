@@ -57,6 +57,8 @@ class UserController: RouteCollection {
         }
         
         // generate token and return
+        let authPayload = try AuthPayload(subject: .init(value: "GroceryApp"), expiration: .init(value: .distantFuture), userId: existingUser.requireID())
+        
         
         
         return "Ok"

@@ -28,8 +28,9 @@ struct RegistrationScreen: View {
                 Spacer()
                 
                 Button("Register") {
-                    
-
+                    Task {
+                        await register()
+                    }
                 }
                 .buttonStyle(.borderedProminent)
                 .disabled(!isFormValid)
@@ -42,6 +43,11 @@ struct RegistrationScreen: View {
     private func register() async {
         do {
             let registered = try await model.register(username: username, password: password)
+            if registered {
+                // go to login screen
+            } else {
+                // show error
+            }
         } catch {
             print(error)
         }

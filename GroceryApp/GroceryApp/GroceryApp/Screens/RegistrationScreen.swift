@@ -20,23 +20,26 @@ struct RegistrationScreen: View {
     
     var body: some View {
         
-        Form {
-            TextField("Username", text: $username)
-            SecureField("Password", text: $password)
-            
-            HStack {
-                Spacer()
+        NavigationStack {
+            Form {
+                TextField("Username", text: $username)
+                SecureField("Password", text: $password)
                 
-                Button("Register") {
-                    Task {
-                        await register()
+                HStack {
+                    Spacer()
+                    
+                    Button("Register") {
+                        Task {
+                            await register()
+                        }
                     }
+                    .buttonStyle(.borderedProminent)
+                    .disabled(!isFormValid)
+                    
+                    Spacer()
                 }
-                .buttonStyle(.borderedProminent)
-                .disabled(!isFormValid)
-                
-                Spacer()
             }
+            .navigationTitle("Registration")
         }
     }
     

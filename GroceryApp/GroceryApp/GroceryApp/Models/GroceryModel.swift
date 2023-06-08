@@ -13,7 +13,7 @@ class GroceryModel: ObservableObject {
         
         let registerData = ["username": username, "password": password]
         
-        let resource = Resource(url: <#T##URL#>, method: .post(JSONEncoder().encode(registerData)), modelType: )
+        let resource = Resource(url: <#T##URL#>, method: .post(try JSONEncoder().encode(registerData)), modelType: RegisterResponseDTO.self)
     }
     
 }

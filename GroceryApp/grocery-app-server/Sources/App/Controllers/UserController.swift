@@ -25,6 +25,7 @@ class UserController: RouteCollection {
     
     func register(req: Request) async throws -> RegisterResponseDTO {
         // validate the user
+        print("Inside register")
         try User.validate(content: req)
         
         let user = try req.content.decode(User.self)

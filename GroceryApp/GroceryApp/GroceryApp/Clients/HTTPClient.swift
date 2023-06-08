@@ -40,7 +40,12 @@ struct Resource<T: Codable> {
 struct HTTPClient {
     
     func load<T: Codable>(_ resource: Resource<T>) async throws -> T {
+        
+        print("Inside HTTP Client")
+        
         var request = URLRequest(url: resource.url)
+        
+        print("URL: \(request)")
         
         switch resource.method {
         case .get(let queryItems):
@@ -61,7 +66,7 @@ struct HTTPClient {
         }
         
         let configuration = URLSessionConfiguration.default
-        //        configuration.httpAdditionalHeaders =
+        configuration.httpAdditionalHeaders = ["Content-Type": "application/json"]
         
         let session = URLSession(configuration: configuration)
         

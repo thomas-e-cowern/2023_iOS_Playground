@@ -9,6 +9,8 @@ import SwiftUI
 
 struct RegistrationScreen: View {
     
+    @EnvironmentObject private var model: GroceryModel
+    
     @State private var username: String = ""
     @State private var password: String = ""
     
@@ -26,7 +28,7 @@ struct RegistrationScreen: View {
                 Spacer()
                 
                 Button("Register") {
-
+                    
 
                 }
                 .buttonStyle(.borderedProminent)
@@ -34,6 +36,14 @@ struct RegistrationScreen: View {
                 
                 Spacer()
             }
+        }
+    }
+    
+    private func register() async {
+        do {
+            let registered = try await model.register(username: username, password: password)
+        } catch {
+            print(error)
         }
     }
 

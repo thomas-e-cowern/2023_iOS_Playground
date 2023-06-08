@@ -12,8 +12,6 @@ struct RegistrationScreen: View {
     @State private var username: String = ""
     @State private var password: String = ""
     
-    private let httpClient = HTTPClient()
-    
     private var isFormValid: Bool {
         !username.isEmptyOrWhiteSpace && !password.isEmptyOrWhiteSpace && (password.count >= 6 && password.count <= 10)
     }
@@ -28,9 +26,7 @@ struct RegistrationScreen: View {
                 Spacer()
                 
                 Button("Register") {
-                    Task {
-                        await register()
-                    }
+
 
                 }
                 .buttonStyle(.borderedProminent)
@@ -40,10 +36,7 @@ struct RegistrationScreen: View {
             }
         }
     }
-    
-    private func register() async {
-        let resource = Resource(url: <#T##URL#>, modelType: <#T##_.Type#>)
-    }
+
 }
 
 struct RegistrationScreen_Previews: PreviewProvider {

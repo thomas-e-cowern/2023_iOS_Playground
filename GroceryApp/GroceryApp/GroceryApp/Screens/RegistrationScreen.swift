@@ -42,5 +42,6 @@ struct RegistrationScreen: View {
 struct RegistrationScreen_Previews: PreviewProvider {
     static var previews: some View {
         RegistrationScreen()
+            .environmentObject(GroceryModel())
     }
 }

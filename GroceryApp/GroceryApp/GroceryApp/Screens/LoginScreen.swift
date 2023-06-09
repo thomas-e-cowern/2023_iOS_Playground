@@ -37,7 +37,7 @@ struct LoginScreen: View {
             Text(errorMessage)
             
         }
-        .navigationTitle("Registration")
+        .navigationTitle("Login")
     }
     
     private func login() async {

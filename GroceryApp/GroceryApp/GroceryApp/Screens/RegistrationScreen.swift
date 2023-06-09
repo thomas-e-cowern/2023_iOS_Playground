@@ -10,6 +10,8 @@ import SwiftUI
 struct RegistrationScreen: View {
     
     @EnvironmentObject private var model: GroceryModel
+    @EnvironmentObject private var appState: AppState
+    
     
     @State private var username: String = ""
     @State private var password: String = ""
@@ -26,7 +28,7 @@ struct RegistrationScreen: View {
             print(registerResponseDTO)
             if !registerResponseDTO.error {
                 // take the user to the login screen
-                print("Registered!")
+                appState.routes.append(.login)
             }
            
         } catch {
@@ -56,11 +58,34 @@ struct RegistrationScreen: View {
     }
 }
 
+struct RegistrationScreenContainer: View {
+    
+    @StateObject private var model = GroceryModel()
+    @StateObject private var appState = AppState()
+    
+    var body: some View {
+        NavigationStack(path: $appState.routes) {
+            RegistrationScreen()
+                .navigationDestination(for: Route.self) { route in
+                    switch route {
+                    case .register:
+                        RegistrationScreen()
+                    case .login:
+                        LoginScreen()
+                    case .groceryCategoryList:
+                        Text("Grocery Category List")
+                    }
+                }
+        }
+        .environmentObject(model)
+        .environmentObject(appState)
+    }
+    
+    
+}
+
 struct RegistrationScreen_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationStack {
-            RegistrationScreen()
-                .environmentObject(GroceryModel())
-        }
+        RegistrationScreenContainer()
     }
 }

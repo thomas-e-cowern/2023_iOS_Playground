@@ -47,8 +47,16 @@ struct RegistrationScreen: View {
                     Task {
                         await register()
                     }
-                }.buttonStyle(.borderless)
-                    .disabled(!isFormValid)
+                }
+                .buttonStyle(.borderless)
+                .disabled(!isFormValid)
+                
+                Spacer()
+                
+                Button("Login") {
+                    appState.routes.append(.login)
+                }
+                .buttonStyle(.borderless)
             }
             
             Text(errorMessage)

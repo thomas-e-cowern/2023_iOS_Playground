@@ -48,6 +48,7 @@ struct LoginScreen: View {
                 errorMessage = loginResponseDTO.reason ?? ""
             } else {
                 // take user to grocery categories
+                appState.routes.append(.groceryCategoryList)
             }
         } catch {
             errorMessage = error.localizedDescription

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LoginScreen: View {
     
+    @EnvironmentObject private var model: GroceryModel
+    
     @State private var username: String = ""
     @State private var password: String = ""
     @State private var errorMessage: String = ""

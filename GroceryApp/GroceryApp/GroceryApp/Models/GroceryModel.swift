@@ -21,4 +21,11 @@ class GroceryModel: ObservableObject {
         return registerResponseDTO
     }
     
+    func login(username: String, password: String) async throws -> Bool {
+        
+        let loginData = ["username": username, "password": password]
+        
+        return true
+    }
+    
 }

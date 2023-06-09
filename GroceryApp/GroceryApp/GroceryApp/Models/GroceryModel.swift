@@ -36,10 +36,7 @@ class GroceryModel: ObservableObject {
             defaults.set(loginResponseDTO.userId.uuidString, forKey: "userId")
             return loginResponseDTO
         } else {
-            throw NetworkError.serverError("Unable to log in")
+            throw NetworkError.serverError("Unable to log in.  Check your username and password")
         }
-        
-        
     }
-    
 }

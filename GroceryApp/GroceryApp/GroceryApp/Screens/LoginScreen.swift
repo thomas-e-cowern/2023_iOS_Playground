@@ -28,7 +28,7 @@ struct LoginScreen: View {
             HStack {
                 Button("Log In") {
                     Task {
-//                        await register()
+                        await login()
                     }
                 }.buttonStyle(.borderless)
                     .disabled(!isFormValid)
@@ -41,6 +41,14 @@ struct LoginScreen: View {
     }
     
     private func login() async {
+        do {
+            let isLoggedIn = try await model.login(username: username, password: password)
+            if isLoggedIn.error {
+                // go the grocery category screen
+            }
+        } catch {
+            errorMessage = error.localizedDescription
+        }
         
     }
 }

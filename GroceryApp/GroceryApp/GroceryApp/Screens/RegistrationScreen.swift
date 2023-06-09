@@ -2,7 +2,7 @@
 //  RegistrationScreen.swift
 //  GroceryApp
 //
-//  Created by Thomas Cowern on 6/7/23.
+//  Created by Mohammad Azam on 5/7/23.
 //
 
 import SwiftUI
@@ -13,54 +13,54 @@ struct RegistrationScreen: View {
     
     @State private var username: String = ""
     @State private var password: String = ""
+    @State private var errorMessage: String = ""
     
     private var isFormValid: Bool {
         !username.isEmptyOrWhiteSpace && !password.isEmptyOrWhiteSpace && (password.count >= 6 && password.count <= 10)
     }
     
-    var body: some View {
+    private func register() async {
         
-        NavigationStack {
-            Form {
-                TextField("Username", text: $username)
-                SecureField("Password", text: $password)
-                
-                HStack {
-                    Spacer()
-                    
-                    Button("Register") {
-                        Task {
-                            await register()
-                        }
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .disabled(!isFormValid)
-                    
-                    Spacer()
-                }
+        do {
+            let registerResponseDTO = try await model.register(username: username, password: password)
+            print(registerResponseDTO)
+            if !registerResponseDTO.error {
+                // take the user to the login screen
+                print("Registered!")
             }
-            .navigationTitle("Registration")
+           
+        } catch {
+            errorMessage = error.localizedDescription
         }
     }
     
-    private func register() async {
-        do {
-            let registered = try await model.register(username: username, password: password)
-            if registered {
-                // go to login screen
-            } else {
-                // show error
+    var body: some View {
+        Form {
+            TextField("Username", text: $username)
+                .textInputAutocapitalization(.never)
+            SecureField("Password", text: $password)
+            
+            HStack {
+                Button("Register") {
+                    Task {
+                        await register()
+                    }
+                }.buttonStyle(.borderless)
+                    .disabled(!isFormValid)
             }
-        } catch {
-            print(error)
+            
+            Text(errorMessage)
+            
         }
+        .navigationTitle("Registration")
     }
-
 }
 
 struct RegistrationScreen_Previews: PreviewProvider {
     static var previews: some View {
-        RegistrationScreen()
-            .environmentObject(GroceryModel())
+        NavigationStack {
+            RegistrationScreen()
+                .environmentObject(GroceryModel())
+        }
     }
 }

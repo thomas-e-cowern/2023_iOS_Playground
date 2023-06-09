@@ -9,5 +9,5 @@ import Foundation
 
 struct RegisterResponseDTO: Codable {
     let error: Bool
-    let reason: String? = nil
+    var reason: String?
 }

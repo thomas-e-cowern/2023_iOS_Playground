@@ -13,7 +13,7 @@ struct Constants {
     
     struct Urls {
         static let register = URL(string: "\(baseUrlPath)/register")!
-        static let login = URL(string: "\(baseUrlPath)/login")
+        static let login = URL(string: "\(baseUrlPath)/login")!
     }
     
 }

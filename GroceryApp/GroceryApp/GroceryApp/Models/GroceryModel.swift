@@ -21,11 +21,15 @@ class GroceryModel: ObservableObject {
         return registerResponseDTO
     }
     
-    func login(username: String, password: String) async throws -> Bool {
+    func login(username: String, password: String) async throws -> LoginResponseDTO {
         
         let loginData = ["username": username, "password": password]
         
-        return true
+        let resource = try Resource(url: Constants.Urls.login, method: .post(JSONEncoder().encode(loginData)), modelType: LoginResponseDTO.self)
+        
+        let loginResponseDTO = try await httpClient.load(resource)
+        
+        return loginResponseDTO
     }
     
 }

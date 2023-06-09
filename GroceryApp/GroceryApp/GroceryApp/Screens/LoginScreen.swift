@@ -10,6 +10,7 @@ import SwiftUI
 struct LoginScreen: View {
     
     @EnvironmentObject private var model: GroceryModel
+    @EnvironmentObject private var appState: AppState
     
     @State private var username: String = ""
     @State private var password: String = ""
@@ -59,5 +60,6 @@ struct LoginScreen_Previews: PreviewProvider {
     static var previews: some View {
         LoginScreen()
             .environmentObject(GroceryModel())
+            .environmentObject(AppState())
     }
 }

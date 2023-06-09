@@ -29,14 +29,13 @@ class GroceryModel: ObservableObject {
         
         let loginResponseDTO = try await httpClient.load(resource)
         
-        if !loginResponseDTO.error && loginResponseDTO.token != nil {
+        if !loginResponseDTO.error && loginResponseDTO.token != nil && loginResponseDTO.userId != nil {
             // Save the token in user defaults
             let defaults = UserDefaults.standard
             defaults.set(loginResponseDTO.token, forKey: "authToken")
-            defaults.set(loginResponseDTO.userId.uuidString, forKey: "userId")
-            return loginResponseDTO
-        } else {
-            throw NetworkError.serverError("Unable to log in.  Check your username and password")
+            defaults.set(loginResponseDTO.userId!.uuidString, forKey: "userId")
         }
+        
+        return loginResponseDTO
     }
 }

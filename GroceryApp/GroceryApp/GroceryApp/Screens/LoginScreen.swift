@@ -42,9 +42,9 @@ struct LoginScreen: View {
     
     private func login() async {
         do {
-            let isLoggedIn = try await model.login(username: username, password: password)
-            if isLoggedIn.error {
-                // go the grocery category screen
+            let loginResponseDTO = try await model.login(username: username, password: password)
+            if loginResponseDTO.error {
+                errorMessage = loginResponseDTO.reason ?? ""
             }
         } catch {
             errorMessage = error.localizedDescription

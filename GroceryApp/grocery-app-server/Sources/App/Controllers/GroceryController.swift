@@ -10,26 +10,32 @@ import Vapor
 import Fluent
 import GroceryAppSharedDTO
 
+import Foundation
+import Vapor
+import GroceryAppSharedDTO
+
 class GroceryController: RouteCollection {
     
     func boot(routes: RoutesBuilder) throws {
         
         // /api/users/:userId
         let api = routes.grouped("api", "users", ":userId")
-        // POST: saving groceery category
+        
+        
+        // POST: Saving GroceryCategory
         // /api/users/:userId/grocery-categories
         api.post("grocery-categories", use: saveGroceryCategory)
     }
     
     func saveGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {
         
-        // Get the user id
+        // get the userId
         guard let userId = req.parameters.get("userId", as: UUID.self) else {
             throw Abort(.badRequest)
         }
         
-        // DTO for request
-        let groceryCategoryRequestDTO = try req.content.decode(GroceryCategoryResonseDTO.self)
+        // DTO for the request
+        let groceryCategoryRequestDTO = try req.content.decode(GroceryCategoryRequestDTO.self)
         
         let groceryCategory = GroceryCategory(title: groceryCategoryRequestDTO.title, colorCode: groceryCategoryRequestDTO.colorCode, userId: userId)
         
@@ -39,7 +45,8 @@ class GroceryController: RouteCollection {
             throw Abort(.internalServerError)
         }
         
-        // DTO for reqponse
+        // DTO for the response
         return groceryCategoryResponseDTO
     }
+    
 }

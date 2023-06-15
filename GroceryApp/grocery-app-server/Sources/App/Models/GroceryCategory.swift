@@ -10,8 +10,8 @@ import Vapor
 import Fluent
 
 final class GroceryCategory: Model, Content, Validatable {
-
-    static var schema = "grocery_categories"
+    
+    static let schema = "grocery_categories"
     
     @ID(key: .id)
     var id: UUID?
@@ -34,8 +34,11 @@ final class GroceryCategory: Model, Content, Validatable {
         self.$user.id = userId
     }
     
-    static func validations(_ validations: inout Vapor.Validations) {
-        validations.add("title", as: String.self, is: !.empty, customFailureDescription: "Title cannot be empty")
-        validations.add("colorCode", as: String.self, is: !.empty, customFailureDescription: "Color code cannot be empty")
+    static func validations(_ validations: inout Validations) {
+        
+        validations.add("title", as: String.self, is: !.empty, customFailureDescription: "Title cannot be empty.")
+        validations.add("colorCode", as: String.self, is: !.empty, customFailureDescription: "Color code cannot be empty.")
+        
     }
+    
 }

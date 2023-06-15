@@ -11,11 +11,17 @@ import Fluent
 class CreateGroceryCategoryTableMigration: AsyncMigration {
     
     func revert(on database: FluentKit.Database) async throws {
-        <#code#>
+        try await database.schema("grocery_categories")
+            .delete()
     }
     
     func prepare(on database: FluentKit.Database) async throws {
-        <#code#>
+        try await database.schema("grocery_categories")
+            .id()
+            .field("title", .string, .required)
+            .field("color_code", .string, .required)
+            .field("user_id", .uuid, .required, .references("users", "id"))
+            .create()
     }
 
 }

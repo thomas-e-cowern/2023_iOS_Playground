@@ -21,7 +21,7 @@ class GroceryController: RouteCollection {
         api.post("grocery-categories", use: saveGroceryCategory)
     }
     
-    func saveGroceryCategory(req: Request) async throws -> String {
+    func saveGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {
         
         // Get the user id
         guard let userId = req.parameters.get("userId", as: UUID.self) else {
@@ -35,8 +35,11 @@ class GroceryController: RouteCollection {
         
         try await groceryCategory.save(on: req.db)
         
-        // DTO for reqponse
+        guard let groceryCategoryResponseDTO = GroceryCategoryResonseDTO(groceryCategory) else {
+            throw Abort(.internalServerError)
+        }
         
-        return GroceryCategoryResonseDTO(groceryCategory)
+        // DTO for reqponse
+        return groceryCategoryResponseDTO
     }
 }

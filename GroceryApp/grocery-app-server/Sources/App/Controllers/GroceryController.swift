@@ -37,6 +37,6 @@ class GroceryController: RouteCollection {
         
         // DTO for reqponse
         
-        return "Ok"
+        return GroceryCategoryResonseDTO(groceryCategory)
     }
 }

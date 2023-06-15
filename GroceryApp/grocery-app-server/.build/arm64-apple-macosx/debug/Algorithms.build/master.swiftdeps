@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "af8810c2a96011a15eb330411edc913f5fd721ff802bc065670a0c59c41bc0a4"
-build_start_time: [1686071435, 317533000]
-build_end_time: [1686071436, 660919000]
+build_start_time: [1686842700, 19950000]
+build_end_time: [1686842700, 103907000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-algorithms/Sources/Algorithms/AdjacentPairs.swift"
   : [1686071421, 983359307]

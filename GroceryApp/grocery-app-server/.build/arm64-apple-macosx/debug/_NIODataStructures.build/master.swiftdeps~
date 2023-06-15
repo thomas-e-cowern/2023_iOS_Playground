@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "dd0844debde5c33e7a857bcb09c04035683d88036a9cc2faf7c0bf60830e560d"
+build_start_time: [1686071433, 587135000]
+build_end_time: [1686071435, 722561000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/_NIODataStructures/Heap.swift"
+  : [1686071423, 719348291]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/_NIODataStructures/PriorityQueue.swift"
+  : [1686071423, 719422125]

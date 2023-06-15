@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "4142d74260615d4678c4056e3ea5bc386fb2373a63d74514fb42730c6cce3f3a"
-build_start_time: [1686071436, 432588000]
-build_end_time: [1686071440, 885142000]
+build_start_time: [1686842700, 28200000]
+build_end_time: [1686842700, 82332000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-metrics/Sources/Metrics/Metrics.swift"
   : [1686071422, 308927739]

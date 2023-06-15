@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "6933e747b393bed7a11ef40233846267125ded53b6d06aeb6869ec3b3d7841de"
-build_start_time: [1686071459, 94423000]
-build_end_time: [1686071460, 471776000]
+build_start_time: [1686842710, 795132000]
+build_end_time: [1686842710, 984197000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent-kit/Sources/FluentKit/Concurrency/AsyncMigration.swift"
   : [1686071419, 30914365]

@@ -1,0 +1,25 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "a22c8a43f3030271170ae12a75e3e0011a7ad782828d822fcff9a3cba16cfe5a"
+build_start_time: [1686071434, 748201000]
+build_end_time: [1686071435, 26231000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/AlgebraicField.swift"
+  : [1686071421, 829820254]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/ApproximateEquality.swift"
+  : [1686071421, 829929546]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/AugmentedArithmetic.swift"
+  : [1686071421, 830005171]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/Double+Real.swift"
+  : [1686071421, 830175255]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/ElementaryFunctions.swift"
+  : [1686071421, 830282089]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/Float+Real.swift"
+  : [1686071421, 830354047]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/Float16+Real.swift"
+  : [1686071421, 830430173]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/Float80+Real.swift"
+  : [1686071421, 830530590]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/Real.swift"
+  : [1686071421, 830715299]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/RealFunctions.swift"
+  : [1686071421, 830799883]

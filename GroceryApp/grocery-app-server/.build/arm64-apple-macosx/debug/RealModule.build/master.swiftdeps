@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "a22c8a43f3030271170ae12a75e3e0011a7ad782828d822fcff9a3cba16cfe5a"
-build_start_time: [1686071434, 748201000]
-build_end_time: [1686071435, 26231000]
+build_start_time: [1686842699, 835650000]
+build_end_time: [1686842699, 909330000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-numerics/Sources/RealModule/AlgebraicField.swift"
   : [1686071421, 829820254]

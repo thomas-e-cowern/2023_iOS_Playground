@@ -1,7 +1,8 @@
 f96e057bbe1e2e1ce86fd48d89fe445dd4b2290f	not-for-merge	branch 'add-querybuilder-set' of https://github.com/vapor/fluent-kit
 ad9eebb4b06a4e0d3ae605677105582002e7f5fe	not-for-merge	branch 'even-more-raw-sql-conveniences' of https://github.com/vapor/fluent-kit
 9edaee1b46ff848620d50d3a7888f1420394be2e	not-for-merge	branch 'experimental/instrumented-queries' of https://github.com/vapor/fluent-kit
-04691f8d523830c49c0bf261c2d48d7bd11ec313	not-for-merge	branch 'main' of https://github.com/vapor/fluent-kit
+8bafe013299a991e34982aa309bca1f54538f1da	not-for-merge	branch 'gwynne-patch-1' of https://github.com/vapor/fluent-kit
+2d7dce5cb04156eecdb17e7349f4eac4206e8a17	not-for-merge	branch 'main' of https://github.com/vapor/fluent-kit
 0ad7eee906b27fc94532cccaa014e757d813e0e9	not-for-merge	branch 'query-history-gm' of https://github.com/vapor/fluent-kit
 c7ebb490abea6c5b85252c5c8906b9b7917e1dec	not-for-merge	branch 'tn-group-decode' of https://github.com/vapor/fluent-kit
 b0083aa05fe5f1882f668694b3a18b0f868a5998	not-for-merge	branch 'tn-middleware-refactor' of https://github.com/vapor/fluent-kit
@@ -247,7 +248,7 @@ ba85d372f7d51f0f0909cb65f2e3dccc4f3c1d74	not-for-merge	'refs/pull/487/head' of h
 8800acf3cb82e3bf53c6d7fb12250b62363f630d	not-for-merge	'refs/pull/488/merge' of https://github.com/vapor/fluent-kit
 6c01f2869e309da2fe32fc7a6bbef485586fd4f6	not-for-merge	'refs/pull/489/head' of https://github.com/vapor/fluent-kit
 6eb1e05036ed9d07fb94747367c0928aa670f954	not-for-merge	'refs/pull/492/head' of https://github.com/vapor/fluent-kit
-fa809f68bf215996ca05e49bf224015e970ca75b	not-for-merge	'refs/pull/492/merge' of https://github.com/vapor/fluent-kit
+e9ac399dbb5fc49d0a3ce531dca0ae5df3c6afbb	not-for-merge	'refs/pull/492/merge' of https://github.com/vapor/fluent-kit
 5af962377faae1256fe7bbe7b85f59938450c3b2	not-for-merge	'refs/pull/493/head' of https://github.com/vapor/fluent-kit
 677e0c3f3e2dab209082bd7c00c72211c30201a7	not-for-merge	'refs/pull/494/head' of https://github.com/vapor/fluent-kit
 b36099b0e7a45964829ab36163e35276451f0ba1	not-for-merge	'refs/pull/496/head' of https://github.com/vapor/fluent-kit
@@ -303,6 +304,10 @@ b46cf2b645c6492f9d00ea412a62104b9df7a67f	not-for-merge	'refs/pull/561/head' of h
 6598e272f0ca160dffdb326ff43b7c1af384060a	not-for-merge	'refs/pull/562/head' of https://github.com/vapor/fluent-kit
 01fd1ff89897b8c4448c6635df4a3f6c8c369105	not-for-merge	'refs/pull/563/head' of https://github.com/vapor/fluent-kit
 c6d843156614d1bcb5d14b959d8406bd6e3701ee	not-for-merge	'refs/pull/565/head' of https://github.com/vapor/fluent-kit
+49da1445347cea37e9b371f003ddc81e4ab477e1	not-for-merge	'refs/pull/567/head' of https://github.com/vapor/fluent-kit
+3e515592e1bbad463bba5ae5b39d4f4e152705db	not-for-merge	'refs/pull/568/head' of https://github.com/vapor/fluent-kit
+8bafe013299a991e34982aa309bca1f54538f1da	not-for-merge	'refs/pull/569/head' of https://github.com/vapor/fluent-kit
+d49ea598cd2a2eff89870ebf4ff41ddc8ac63409	not-for-merge	'refs/pull/569/merge' of https://github.com/vapor/fluent-kit
 8e0ed83945c9830f0045a2f77c86144f441e88cc	not-for-merge	'refs/pull/57/head' of https://github.com/vapor/fluent-kit
 483c5292d64a1551c0ce7e1667a1ed9173b89c69	not-for-merge	'refs/pull/58/head' of https://github.com/vapor/fluent-kit
 641b91c8e09091334be7e092ed69e40ba37cf8fb	not-for-merge	'refs/pull/6/head' of https://github.com/vapor/fluent-kit
@@ -482,6 +487,7 @@ dd6b7f8fb71b83d832ab88270704a29c63d8bd91	not-for-merge	tag '1.40.0' of https://g
 0fdeff683d2a09a5e6548fe7ccc48cc177d95155	not-for-merge	tag '1.42.1' of https://github.com/vapor/fluent-kit
 e53acf986e32c54fe522b2c12f737baa01828c1c	not-for-merge	tag '1.42.2' of https://github.com/vapor/fluent-kit
 04691f8d523830c49c0bf261c2d48d7bd11ec313	not-for-merge	tag '1.42.3' of https://github.com/vapor/fluent-kit
+2d7dce5cb04156eecdb17e7349f4eac4206e8a17	not-for-merge	tag '1.42.4' of https://github.com/vapor/fluent-kit
 a26c562b76ab1df4240cf1d6fa71fbafe8cd5465	not-for-merge	tag '1.5.0' of https://github.com/vapor/fluent-kit
 5ae2c3f1aa54a126ac3d185b2c866c7e6cc762fe	not-for-merge	tag '1.5.1' of https://github.com/vapor/fluent-kit
 62767117c269a50f35934d7af674da79aa154846	not-for-merge	tag '1.5.2' of https://github.com/vapor/fluent-kit

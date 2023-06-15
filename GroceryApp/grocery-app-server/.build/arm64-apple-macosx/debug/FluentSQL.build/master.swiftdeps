@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "6ee62ef4ee043d8d5e1ba4bfc715aea43664510e6e3809b9eb682471c1c4817a"
-build_start_time: [1686071460, 573231000]
-build_end_time: [1686071460, 956078000]
+build_start_time: [1686842711, 415936000]
+build_end_time: [1686842711, 531047000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseQuery+SQL.swift"
   : [1686071419, 40721322]

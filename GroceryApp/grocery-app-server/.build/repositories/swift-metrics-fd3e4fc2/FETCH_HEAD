@@ -37,6 +37,8 @@ c39736424b4a02c213a71bfbf4a256c2c94755a1	not-for-merge	'refs/pull/127/head' of h
 189af4d73dfb8edc29597b0ca3218897c9de1741	not-for-merge	'refs/pull/13/head' of https://github.com/apple/swift-metrics
 49fd80cd876ac628cc99d47c19d58f68cc13105b	not-for-merge	'refs/pull/130/head' of https://github.com/apple/swift-metrics
 ce8d0f877be96d31b5ede382688baa857e3a6299	not-for-merge	'refs/pull/131/head' of https://github.com/apple/swift-metrics
+8617fe1ea34dc55bbaade87d673deeaf745e4505	not-for-merge	'refs/pull/132/head' of https://github.com/apple/swift-metrics
+46836b331ebe1e42ec266e474311a303ed838e6d	not-for-merge	'refs/pull/132/merge' of https://github.com/apple/swift-metrics
 5519a5f2630d2d01b345694ea7cbee852f933574	not-for-merge	'refs/pull/14/head' of https://github.com/apple/swift-metrics
 7f2ee1e1770e5e07c8b522a93c2a50680be343dd	not-for-merge	'refs/pull/15/head' of https://github.com/apple/swift-metrics
 b60196c21282ba7e919a3bbb5d7cf3dd7c1a816b	not-for-merge	'refs/pull/16/head' of https://github.com/apple/swift-metrics

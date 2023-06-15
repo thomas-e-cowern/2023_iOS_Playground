@@ -1,5 +1,5 @@
 bc146b0f5462e4e4692bd6c3da341d69d20c9930	not-for-merge	branch 'jw-no-prod' of https://github.com/apple/swift-nio-ssl
-36ca628e90e0783a99ba301b13316b75bd9abeed	not-for-merge	branch 'main' of https://github.com/apple/swift-nio-ssl
+11a85b6542e55fadfc4cba18a4979edaa6e9b759	not-for-merge	branch 'main' of https://github.com/apple/swift-nio-ssl
 abd918baf65dcd06910ee80843438a8d8b26a286	not-for-merge	branch 'nio-ssl-1.2' of https://github.com/apple/swift-nio-ssl
 405b0be5ca11e768ab32ea3f9727dd935360db34	not-for-merge	branch 'nio-ssl-1.4' of https://github.com/apple/swift-nio-ssl
 c461833d51043918087252f35d2991e0bdaee327	not-for-merge	'refs/pull/1/head' of https://github.com/apple/swift-nio-ssl
@@ -270,13 +270,14 @@ be8e1d8e3c2be2dae5ba44ae413a1ef1d05f931d	not-for-merge	'refs/pull/417/head' of h
 a4f21331f2c6a457c0b7afc4157416c70b26d215	not-for-merge	'refs/pull/425/head' of https://github.com/apple/swift-nio-ssl
 56a55d2d58a5e9f599781228d07216600f74d39d	not-for-merge	'refs/pull/426/head' of https://github.com/apple/swift-nio-ssl
 db24ad3b400fcb30102efe240d5fbda6e3db3bc7	not-for-merge	'refs/pull/427/head' of https://github.com/apple/swift-nio-ssl
-c8a8269f411d3f9eff195366e863b0cabc577362	not-for-merge	'refs/pull/428/head' of https://github.com/apple/swift-nio-ssl
-ed0f8f6f4c7e92892cf076c07060a9a7ededb668	not-for-merge	'refs/pull/428/merge' of https://github.com/apple/swift-nio-ssl
+0afc946e0da8f5c2e7ed33ec773180bd290b8a80	not-for-merge	'refs/pull/428/head' of https://github.com/apple/swift-nio-ssl
+16c0b20fc1d20a96d5c15bab5a475a25d77337b1	not-for-merge	'refs/pull/428/merge' of https://github.com/apple/swift-nio-ssl
 8003b98bdee2a36a83de3b10f6d307dff66fec63	not-for-merge	'refs/pull/43/head' of https://github.com/apple/swift-nio-ssl
 6ff8def43eea7a185114660c9c59ad8427d44050	not-for-merge	'refs/pull/430/head' of https://github.com/apple/swift-nio-ssl
-c57614786c85550ae3fee0c522b90eef9a68a241	not-for-merge	'refs/pull/430/merge' of https://github.com/apple/swift-nio-ssl
+2cc647c498255d9213be0fdb58ad904d6bd24481	not-for-merge	'refs/pull/430/merge' of https://github.com/apple/swift-nio-ssl
 dc1e2c872d0ee60178520b2b362d3297a6ce35e4	not-for-merge	'refs/pull/431/head' of https://github.com/apple/swift-nio-ssl
 9b6dab67fc3f60011642d27ad6f59fb6e137b7d7	not-for-merge	'refs/pull/433/head' of https://github.com/apple/swift-nio-ssl
+831d9aa23301851664bf42fd7aa1f864490138d0	not-for-merge	'refs/pull/434/head' of https://github.com/apple/swift-nio-ssl
 dffee770114ab9aac8d00261f18aae4fa6c748f4	not-for-merge	'refs/pull/45/head' of https://github.com/apple/swift-nio-ssl
 cc2e866bdacc4b2666f50551ced296a30dfc589c	not-for-merge	'refs/pull/49/head' of https://github.com/apple/swift-nio-ssl
 6475d36cae87f182e7aa9330e79b73b582ac4573	not-for-merge	'refs/pull/5/head' of https://github.com/apple/swift-nio-ssl

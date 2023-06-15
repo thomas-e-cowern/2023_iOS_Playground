@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "d8fdf66edd6563c7a8a23c22104c8f62752c2ded32db43ceb11e2328809347d6"
-build_start_time: [1686071452, 970742000]
-build_end_time: [1686071453, 918332000]
+build_start_time: [1686842710, 243701000]
+build_end_time: [1686842710, 323661000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift"
   : [1686071423, 716791281]

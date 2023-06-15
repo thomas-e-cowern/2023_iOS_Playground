@@ -1,5 +1,5 @@
 9f923171e232dd720a01578cdb85e9d59e13c7e2	not-for-merge	branch '1' of https://github.com/vapor/postgres-kit
-875e8c191ea776802fddf6773146349803629754	not-for-merge	branch 'main' of https://github.com/vapor/postgres-kit
+a88d025748edd3a2f9f2e74091ecccc20d20fe30	not-for-merge	branch 'main' of https://github.com/vapor/postgres-kit
 bdb1eaf53a27d51583102c7ffcdd1261787637b4	not-for-merge	'refs/pull/1/head' of https://github.com/vapor/postgres-kit
 0735c212b0e8607dad95351636c104b897c09816	not-for-merge	'refs/pull/10/head' of https://github.com/vapor/postgres-kit
 9df99d3c8ae8955f959d4d28a403943c9728fbcf	not-for-merge	'refs/pull/100/head' of https://github.com/vapor/postgres-kit
@@ -109,6 +109,7 @@ dae06f72f37b86dd52873db1b8e6e255e7190b25	not-for-merge	'refs/pull/240/head' of h
 9e06dda15642d6c40c6cf44a1aae5779810b364b	not-for-merge	'refs/pull/242/head' of https://github.com/vapor/postgres-kit
 64b7fbe0c13a450becb271482e63ffaa497b412b	not-for-merge	'refs/pull/243/head' of https://github.com/vapor/postgres-kit
 d4068f6ba98d358fed1b0d871fe75559040fba77	not-for-merge	'refs/pull/244/head' of https://github.com/vapor/postgres-kit
+6e5a5f76d4a2a473c003397260c987a75de7b40a	not-for-merge	'refs/pull/245/head' of https://github.com/vapor/postgres-kit
 bd3d280d22a4d143dfd184db7c18e7d892e06bdd	not-for-merge	'refs/pull/25/head' of https://github.com/vapor/postgres-kit
 a81d2339e48da82d943210342b0535bbfd8af28d	not-for-merge	'refs/pull/27/head' of https://github.com/vapor/postgres-kit
 c36db27fb8857dc2018c663ec1dfba9a62321cff	not-for-merge	'refs/pull/29/head' of https://github.com/vapor/postgres-kit
@@ -228,6 +229,7 @@ fca27ff90326e3612ed0197598a7ce467bfedfbd	not-for-merge	tag '2.1.0' of https://gi
 3976618eb48aca216c599c0c7a6f9558cd02a534	not-for-merge	tag '2.11.0' of https://github.com/vapor/postgres-kit
 69d85952c4e17a891ea01352564b0ff37de31edf	not-for-merge	tag '2.11.1' of https://github.com/vapor/postgres-kit
 875e8c191ea776802fddf6773146349803629754	not-for-merge	tag '2.11.2' of https://github.com/vapor/postgres-kit
+a88d025748edd3a2f9f2e74091ecccc20d20fe30	not-for-merge	tag '2.11.3' of https://github.com/vapor/postgres-kit
 cbbe3ef8a0a8800301b8b76ab0f09dfc9e7306a2	not-for-merge	tag '2.2.0' of https://github.com/vapor/postgres-kit
 bb1493ed7b45af4eda3b4d7308e6b7cf15039be6	not-for-merge	tag '2.2.1' of https://github.com/vapor/postgres-kit
 13f6c735cf9a9053011d03e77e2a81802ad6c680	not-for-merge	tag '2.3.0' of https://github.com/vapor/postgres-kit

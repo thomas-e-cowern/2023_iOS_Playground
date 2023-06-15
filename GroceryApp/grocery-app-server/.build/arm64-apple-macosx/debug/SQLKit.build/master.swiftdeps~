@@ -1,0 +1,187 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "9229cee8f5334ed7eeec429d0e40a6ef5903a1a24bb3d4a94941bb4e75b0d17c"
+build_start_time: [1686071452, 976739000]
+build_end_time: [1686071457, 18668000]
+inputs:
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterEnumBuilder.swift"
+  : [1686071422, 143295177]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterTableBuilder.swift"
+  : [1686071422, 143406636]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLColumnUpdateBuilder.swift"
+  : [1686071422, 143511262]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLConflictUpdateBuilder.swift"
+  : [1686071422, 143571929]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateEnumBuilder.swift"
+  : [1686071422, 143641054]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateIndexBuilder.swift"
+  : [1686071422, 143721388]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTableAsSubqueryBuilder.swift"
+  : [1686071422, 143791346]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTableBuilder.swift"
+  : [1686071422, 143857430]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTriggerBuilder.swift"
+  : [1686071422, 143917680]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDeleteBuilder.swift"
+  : [1686071422, 143996680]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropEnumBuilder.swift"
+  : [1686071422, 144061472]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropIndexBuilder.swift"
+  : [1686071422, 144140723]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropTableBuilder.swift"
+  : [1686071422, 144208848]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropTriggerBuilder.swift"
+  : [1686071422, 144271307]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLInsertBuilder.swift"
+  : [1686071422, 144353682]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLJoinBuilder.swift"
+  : [1686071422, 144457349]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPartialResultBuilder.swift"
+  : [1686071422, 144526016]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPredicateBuilder.swift"
+  : [1686071422, 144677600]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPredicateGroupBuilder.swift"
+  : [1686071422, 144775142]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLQueryBuilder.swift"
+  : [1686071422, 144853476]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLQueryFetcher.swift"
+  : [1686071422, 144933476]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLRawBuilder.swift"
+  : [1686071422, 145008435]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLReturningBuilder.swift"
+  : [1686071422, 145082727]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSecondaryPredicateBuilder.swift"
+  : [1686071422, 145160685]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSecondaryPredicateGroupBuilder.swift"
+  : [1686071422, 145233436]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSelectBuilder.swift"
+  : [1686071422, 145307853]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSubqeryClauseBuilder.swift"
+  : [1686071422, 145415353]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLUnionBuilder.swift"
+  : [1686071422, 145534812]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLUpdateBuilder.swift"
+  : [1686071422, 145601979]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLDatabase+Concurrency.swift"
+  : [1686071422, 145716479]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLQueryBuilder+Concurrency.swift"
+  : [1686071422, 145793729]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLQueryFetcher+Concurrency.swift"
+  : [1686071422, 145870688]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Exports.swift"
+  : [1686071422, 146046731]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlias.swift"
+  : [1686071422, 146155523]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterColumnDefinitionType.swift"
+  : [1686071422, 146234231]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterEnum.swift"
+  : [1686071422, 146317190]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterTable.swift"
+  : [1686071422, 146395732]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBinaryExpression.swift"
+  : [1686071422, 146471941]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBinaryOperator.swift"
+  : [1686071422, 146543983]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBind.swift"
+  : [1686071422, 146609775]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnAssignment.swift"
+  : [1686071422, 146684733]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnConstraintAlgorithm.swift"
+  : [1686071422, 146765233]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnDefinition.swift"
+  : [1686071422, 146842817]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnIdentifier.swift"
+  : [1686071422, 146916109]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConflictAction.swift"
+  : [1686071422, 146991859]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConflictResolutionStrategy.swift"
+  : [1686071422, 147125360]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConstraint.swift"
+  : [1686071422, 147202402]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateEnum.swift"
+  : [1686071422, 147267069]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateIndex.swift"
+  : [1686071422, 147325486]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateTable.swift"
+  : [1686071422, 147394153]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateTrigger.swift"
+  : [1686071422, 147458737]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDataType.swift"
+  : [1686071422, 147533778]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDelete.swift"
+  : [1686071422, 147593487]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDirection.swift"
+  : [1686071422, 147661737]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDistinct.swift"
+  : [1686071422, 147739446]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropBehaviour.swift"
+  : [1686071422, 147807280]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropEnum.swift"
+  : [1686071422, 147910697]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropIndex.swift"
+  : [1686071422, 147991280]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropTable.swift"
+  : [1686071422, 148072781]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropTrigger.swift"
+  : [1686071422, 148138281]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLEnumDataType.swift"
+  : [1686071422, 148219490]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLExcludedColumn.swift"
+  : [1686071422, 148300448]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLForeignKey.swift"
+  : [1686071422, 148377990]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLForeignKeyAction.swift"
+  : [1686071422, 148456907]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLFunction.swift"
+  : [1686071422, 148525241]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLGroupExpression.swift"
+  : [1686071422, 148595700]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLIdentifier.swift"
+  : [1686071422, 148661408]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLInsert.swift"
+  : [1686071422, 148747659]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLJoin.swift"
+  : [1686071422, 148820117]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLJoinMethod.swift"
+  : [1686071422, 148890701]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLList.swift"
+  : [1686071422, 148963784]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLLiteral.swift"
+  : [1686071422, 149041910]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLLockingClause.swift"
+  : [1686071422, 149123118]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLOrderBy.swift"
+  : [1686071422, 149190119]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLQueryString.swift"
+  : [1686071422, 149289494]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLRaw.swift"
+  : [1686071422, 149391453]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLReturning.swift"
+  : [1686071422, 149461411]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLSelect.swift"
+  : [1686071422, 149533703]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLTableConstraintAlgorithm.swift"
+  : [1686071422, 149622204]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLUnion.swift"
+  : [1686071422, 149704371]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLUpdate.swift"
+  : [1686071422, 149777579]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLDatabase.swift"
+  : [1686071422, 149882288]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLDatabaseReportedVersion.swift"
+  : [1686071422, 149963247]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLDialect.swift"
+  : [1686071422, 150078664]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLError.swift"
+  : [1686071422, 150301540]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLExpression.swift"
+  : [1686071422, 150524833]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLQueryEncoder.swift"
+  : [1686071422, 150675792]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLRow.swift"
+  : [1686071422, 150761542]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLRowDecoder.swift"
+  : [1686071422, 150875792]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLSerializer.swift"
+  : [1686071422, 150951334]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/SQLStatement.swift"
+  : [1686071422, 151036210]

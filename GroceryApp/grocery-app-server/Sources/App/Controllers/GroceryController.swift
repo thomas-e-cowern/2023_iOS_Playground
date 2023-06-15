@@ -8,6 +8,7 @@
 import Foundation
 import Vapor
 import Fluent
+import GroceryAppSharedDTO
 
 class GroceryController: RouteCollection {
     
@@ -22,7 +23,17 @@ class GroceryController: RouteCollection {
     
     func saveGroceryCategory(req: Request) async throws -> String {
         
+        // Get the user id
+        guard let userId = req.parameters.get("userId", as: UUID.self) else {
+            throw Abort(.badRequest)
+        }
+        
         // DTO for request
+        let groceryCategoryRequestDTO = try req.content.decode(GroceryCategoryResonseDTO.self)
+        
+        let groceryCategory = GroceryCategory(title: groceryCategoryRequestDTO.title, colorCode: groceryCategoryRequestDTO.colorCode, userId: userId)
+        
+        try await groceryCategory.save(on: req.db)
         
         // DTO for reqponse
         

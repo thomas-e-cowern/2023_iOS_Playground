@@ -16,6 +16,7 @@ public func configure(_ app: Application) async throws {
     
     // register cotrollers
     try app.register(collection: UserController())
+    try app.register(collection: GroceryController())
     
     app.jwt.signers.use(.hs256(key: "SECRETKEY"))
     

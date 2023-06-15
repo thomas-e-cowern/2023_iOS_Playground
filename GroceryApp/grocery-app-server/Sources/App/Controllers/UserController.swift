@@ -8,6 +8,7 @@
 import Foundation
 import Vapor
 import Fluent
+import GroceryAppSharedDTO
 
 class UserController: RouteCollection {
     

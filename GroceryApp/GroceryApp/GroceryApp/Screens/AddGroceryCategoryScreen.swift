@@ -42,9 +42,7 @@ struct AddGroceryCategoryScreen: View {
     }
     
     private func saveGroceryCategory() async {
-        
         let groceryCategoryRequestDTO = GroceryCategoryRequestDTO(title: title, colorCode: colorCode)
-        
         do {
             try await model.saveGroceryCategory(groceryCategoryRequestDTO)
         } catch {

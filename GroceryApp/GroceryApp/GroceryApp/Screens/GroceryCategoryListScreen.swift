@@ -12,13 +12,17 @@ struct GroceryCategoryListScreen: View {
     @EnvironmentObject private var model: GroceryModel
     
     var body: some View {
-        List(model.groceryCategories) { category in
-            HStack {
-                Circle()
-                    .fill(Color.fromHex(category.colorCode))
-                    .frame(width: 25)
-                Text(category.title)
+        List {
+            ForEach(model.groceryCategories) { category in
+                HStack {
+                    Circle()
+                        .fill(Color.fromHex(category.colorCode))
+                        .frame(width: 25)
+                    Text(category.title)
+                }
             }
+            .onDelete(perform: deleteGroceryCategory)
+            
         }
         .task {
             await fetchGroceryCategories()
@@ -31,6 +35,20 @@ struct GroceryCategoryListScreen: View {
             try await model.getGroceryCategories()
         } catch {
             print(error.localizedDescription)
+        }
+    }
+    
+    private func deleteGroceryCategory(at offsets: IndexSet) {
+        offsets.forEach { index in
+            let groceryCategory = model.groceryCategories[index]
+            
+            Task {
+                do {
+                    try await model.deleteGroceryCategory(groceryCategoryId: groceryCategory.id)
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
         }
     }
 }

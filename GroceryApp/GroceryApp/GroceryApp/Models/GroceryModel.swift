@@ -8,6 +8,7 @@
 import Foundation
 import GroceryAppSharedDTO
 
+@MainActor
 class GroceryModel: ObservableObject {
     
     let httpClient = HTTPClient()

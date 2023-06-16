@@ -11,6 +11,8 @@ struct GroceryCategoryListScreen: View {
     
     @EnvironmentObject private var model: GroceryModel
     
+    @State private var isPresented: Bool = false
+    
     var body: some View {
         List {
             ForEach(model.groceryCategories) { category in
@@ -28,6 +30,27 @@ struct GroceryCategoryListScreen: View {
             await fetchGroceryCategories()
         }
         .navigationTitle("Categories")
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button("Log Out") {
+                    
+                }
+            }
+            
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button {
+                    isPresented = true
+                } label: {
+                    Image(systemName: "plus")
+                }
+                .sheet(isPresented: $isPresented) {
+                    NavigationStack {
+                        AddGroceryCategoryScreen()
+                    }
+                }
+
+            }
+        }
     }
     
     private func fetchGroceryCategories() async {

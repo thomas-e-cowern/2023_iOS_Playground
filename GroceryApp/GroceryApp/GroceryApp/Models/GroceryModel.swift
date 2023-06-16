@@ -39,4 +39,14 @@ class GroceryModel: ObservableObject {
         
         return loginResponseDTO
     }
+    
+    func saveGroceryCategory(_ groceryCategoryRequestDTO:  GroceryCategoryRequestDTO) async throws {
+        
+        let defaults = UserDefaults.standard
+        guard let userId = defaults.string(forKey: "userId") else {
+            return
+        }
+        
+        
+    }
 }

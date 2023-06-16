@@ -51,4 +51,12 @@ class GroceryModel: ObservableObject {
         let newGroceryCategory = try await httpClient.load(resource)
         // add new grocery to the list
     }
+    
+    func getGroceryCategories() async {
+        
+        guard let userId = UserDefaults.standard.userId else {
+            return
+        }
+        
+    }
 }

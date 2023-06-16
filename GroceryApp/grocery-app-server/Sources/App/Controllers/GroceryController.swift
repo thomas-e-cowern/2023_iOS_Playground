@@ -25,6 +25,11 @@ class GroceryController: RouteCollection {
         // POST: Saving GroceryCategory
         // /api/users/:userId/grocery-categories
         api.post("grocery-categories", use: saveGroceryCategory)
+        
+        // Get all categories for a user
+        // GET: /api/users/:userId/grocery-categories
+        
+        api.get("grocery-categories", use: getGroceryCategoriesByUser)
     }
     
     func saveGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {
@@ -47,6 +52,19 @@ class GroceryController: RouteCollection {
         
         // DTO for the response
         return groceryCategoryResponseDTO
+    }
+    
+    func getGroceryCategoriesByUser(req: Request) async throws -> [GroceryCategoryResonseDTO] {
+        
+        // get the userId
+        guard let userId = req.parameters.get("userId", as: UUID.self) else {
+            throw Abort(.badRequest)
+        }
+        
+        return try await GroceryCategory.query(on: req.db)
+            .filter(\.$user.$id == userId)
+            .all()
+            .compactMap(GroceryCategoryResonseDTO.init)
     }
     
 }

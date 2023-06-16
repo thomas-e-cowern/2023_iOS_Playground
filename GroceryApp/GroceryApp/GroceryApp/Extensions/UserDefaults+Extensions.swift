@@ -16,5 +16,9 @@ extension UserDefaults {
             
             return UUID(uuidString: userIdAsString)
         }
+        
+        set {
+            set(newValue?.uuidString, forKey: "userId")
+        }
     }
 }

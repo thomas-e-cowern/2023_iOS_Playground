@@ -22,6 +22,7 @@
 		4DC7EC482A30E77400B494BD /* NetworkError+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7EC472A30E77400B494BD /* NetworkError+Extension.swift */; };
 		4DFF9D2C2A3C8E3F000DCBAE /* AddGroceryCategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF9D2B2A3C8E3F000DCBAE /* AddGroceryCategoryScreen.swift */; };
 		4DFF9D2F2A3C8FD4000DCBAE /* ColorSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF9D2E2A3C8FD4000DCBAE /* ColorSelectorView.swift */; };
+		4DFF9D332A3C9224000DCBAE /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF9D322A3C9224000DCBAE /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4DC7EC472A30E77400B494BD /* NetworkError+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkError+Extension.swift"; sourceTree = "<group>"; };
 		4DFF9D2B2A3C8E3F000DCBAE /* AddGroceryCategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroceryCategoryScreen.swift; sourceTree = "<group>"; };
 		4DFF9D2E2A3C8FD4000DCBAE /* ColorSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectorView.swift; sourceTree = "<group>"; };
+		4DFF9D322A3C9224000DCBAE /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				4DC7EC422A30D68000B494BD /* String+Extension.swift */,
 				4DC7EC472A30E77400B494BD /* NetworkError+Extension.swift */,
+				4DFF9D322A3C9224000DCBAE /* Color+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				4DC7EC402A30D4AD00B494BD /* RegistrationScreen.swift in Sources */,
 				4DFF9D2C2A3C8E3F000DCBAE /* AddGroceryCategoryScreen.swift in Sources */,
 				4D17F0132A2F812100449E45 /* ContentView.swift in Sources */,
+				4DFF9D332A3C9224000DCBAE /* Color+Extensions.swift in Sources */,
 				4D17F0112A2F812100449E45 /* GroceryAppApp.swift in Sources */,
 				4DC7EC482A30E77400B494BD /* NetworkError+Extension.swift in Sources */,
 				4DFF9D2F2A3C8FD4000DCBAE /* ColorSelectorView.swift in Sources */,

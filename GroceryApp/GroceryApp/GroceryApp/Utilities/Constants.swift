@@ -22,6 +22,10 @@ struct Constants {
         static func groceryCategoriesBy(userId: UUID) -> URL {
             return URL(string: "\(baseUrlPath)/users/\(userId)/grocery-categories")!
         }
+        
+        static func deleteGroceryCategory(userId: UUID, groceryCategoryId: UUID) -> URL {
+            return URL(string: "\(baseUrlPath)/users/\(userId)/grocery-categories/\(groceryCategoryId)")!
+        }
     }
     
     static let defaultColor = "#2ecc71"

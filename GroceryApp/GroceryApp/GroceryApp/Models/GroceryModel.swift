@@ -67,4 +67,12 @@ class GroceryModel: ObservableObject {
         groceryCategories = try await httpClient.load(resource)
         
     }
+    
+    func deleteGroceryCategory(groceryCategoryId: UUID) async throws {
+        
+        guard let userId = UserDefaults.standard.userId else {
+            return
+        }
+        
+    }
 }

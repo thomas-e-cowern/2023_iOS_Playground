@@ -16,13 +16,28 @@ enum Colors: String, CaseIterable {
 }
 
 struct ColorSelectorView: View {
+    
+    @Binding var colorCode: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            ForEach(Colors.allCases, id: \.rawValue) { color in
+                VStack {
+                    Image(systemName: colorCode == color.rawValue ? "record.circle.fill" : "circle.fill")
+                        .font(.title)
+                        .foregroundColor(Color.fromHex(color.rawValue))
+                        .clipShape(Circle())
+                        .onTapGesture {
+                            colorCode = color.rawValue
+                        }
+                }
+            }
+        }
     }
 }
 
 struct ColorSelectorView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorSelectorView()
+        ColorSelectorView(colorCode: .constant("#2ecc71"))
     }
 }

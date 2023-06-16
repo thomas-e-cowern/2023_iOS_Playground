@@ -14,17 +14,28 @@ struct GroceryCategoryListScreen: View {
     @State private var isPresented: Bool = false
     
     var body: some View {
-        List {
-            ForEach(model.groceryCategories) { category in
-                HStack {
-                    Circle()
-                        .fill(Color.fromHex(category.colorCode))
-                        .frame(width: 25)
-                    Text(category.title)
+        
+        ZStack {
+            if model.groceryCategories.isEmpty {
+                VStack {
+                    Spacer()
+                    Text("Add A Category using the '+' button above")
+                    Spacer()
+                }
+            } else {
+                List {
+                    ForEach(model.groceryCategories) { category in
+                        HStack {
+                            Circle()
+                                .fill(Color.fromHex(category.colorCode))
+                                .frame(width: 25)
+                            Text(category.title)
+                        }
+                    }
+                    .onDelete(perform: deleteGroceryCategory)
+                    
                 }
             }
-            .onDelete(perform: deleteGroceryCategory)
-            
         }
         .task {
             await fetchGroceryCategories()

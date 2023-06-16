@@ -16,4 +16,5 @@ struct Constants {
         static let login = URL(string: "\(baseUrlPath)/login")!
     }
     
+    static let defaultColor = "#2ecc71"
 }

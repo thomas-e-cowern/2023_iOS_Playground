@@ -30,6 +30,10 @@ class GroceryController: RouteCollection {
         // GET: /api/users/:userId/grocery-categories
         
         api.get("grocery-categories", use: getGroceryCategoriesByUser)
+        
+        // Delete /api/users/:userId/grocery-categories/:groceryCategoryId
+        
+        api.delete("grocery-categories", ":groceryCategoryId", use: deleteGroceryCategory)
     }
     
     func saveGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {
@@ -65,6 +69,28 @@ class GroceryController: RouteCollection {
             .filter(\.$user.$id == userId)
             .all()
             .compactMap(GroceryCategoryResonseDTO.init)
+    }
+    
+    func deleteGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {
+        
+        guard let userId = req.parameters.get("userId", as: UUID.self), let groceryCategoryId = req.parameters.get("groceryCategoryId", as: UUID.self) else {
+            throw Abort(.badRequest)
+        }
+        
+        guard let groceryCategory = try await GroceryCategory.query(on: req.db)
+            .filter(\.$user.$id == userId)
+            .filter(\.$id == groceryCategoryId)
+            .first() else {
+                throw Abort(.notFound)
+            }
+        
+        try await groceryCategory.delete(on: req.db)
+        
+        guard let groceryCategoryResponseDTO = GroceryCategoryResonseDTO(groceryCategory) else {
+            throw Abort(.internalServerError)
+        }
+        
+        return groceryCategoryResponseDTO
     }
     
 }

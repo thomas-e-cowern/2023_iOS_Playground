@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D0DF3752A43596400A3D6D7 /* GroceryDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DF3742A43596400A3D6D7 /* GroceryDetailScreen.swift */; };
+		4D0DF3772A435C3700A3D6D7 /* AddGroceryItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DF3762A435C3700A3D6D7 /* AddGroceryItemScreen.swift */; };
 		4D17F0112A2F812100449E45 /* GroceryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17F0102A2F812100449E45 /* GroceryAppApp.swift */; };
 		4D17F0132A2F812100449E45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17F0122A2F812100449E45 /* ContentView.swift */; };
 		4D17F0152A2F812300449E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D17F0142A2F812300449E45 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		4D0DF3742A43596400A3D6D7 /* GroceryDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryDetailScreen.swift; sourceTree = "<group>"; };
+		4D0DF3762A435C3700A3D6D7 /* AddGroceryItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroceryItemScreen.swift; sourceTree = "<group>"; };
 		4D17F00D2A2F812100449E45 /* GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D17F0102A2F812100449E45 /* GroceryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryAppApp.swift; sourceTree = "<group>"; };
 		4D17F0122A2F812100449E45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				4DFF9D2B2A3C8E3F000DCBAE /* AddGroceryCategoryScreen.swift */,
 				4D88847A2A3CB2C300CC9342 /* GroceryCategoryListScreen.swift */,
 				4D0DF3742A43596400A3D6D7 /* GroceryDetailScreen.swift */,
+				4D0DF3762A435C3700A3D6D7 /* AddGroceryItemScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0DF3772A435C3700A3D6D7 /* AddGroceryItemScreen.swift in Sources */,
 				4DC7EC432A30D68000B494BD /* String+Extension.swift in Sources */,
 				4D6832532A3386C70000FDE0 /* AppState.swift in Sources */,
 				4D88847B2A3CB2C300CC9342 /* GroceryCategoryListScreen.swift in Sources */,

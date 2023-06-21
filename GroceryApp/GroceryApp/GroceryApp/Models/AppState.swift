@@ -6,11 +6,13 @@
 //
 
 import Foundation
+import GroceryAppSharedDTO
 
 enum Route: Hashable {
     case login
     case register
     case groceryCategoryList
+    case groceryCategoryDetail(GroceryCategoryResonseDTO)
 }
 
 class AppState: ObservableObject {

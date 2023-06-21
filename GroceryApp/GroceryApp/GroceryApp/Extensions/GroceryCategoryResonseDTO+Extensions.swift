@@ -8,6 +8,15 @@
 import Foundation
 import GroceryAppSharedDTO
 
-extension GroceryCategoryResonseDTO: Identifiable {
+extension GroceryCategoryResonseDTO: Identifiable, Hashable {
+    
+    public static func == (lhs: GroceryCategoryResonseDTO, rhs: GroceryCategoryResonseDTO) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
 
 }

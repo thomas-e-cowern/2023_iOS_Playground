@@ -25,11 +25,13 @@ struct GroceryCategoryListScreen: View {
             } else {
                 List {
                     ForEach(model.groceryCategories) { category in
-                        HStack {
-                            Circle()
-                                .fill(Color.fromHex(category.colorCode))
-                                .frame(width: 25)
-                            Text(category.title)
+                        NavigationLink(Route.groceryCategoryDetail(groceryCategory)) {
+                            HStack {
+                                Circle()
+                                    .fill(Color.fromHex(category.colorCode))
+                                    .frame(width: 25)
+                                Text(category.title)
+                            }
                         }
                     }
                     .onDelete(perform: deleteGroceryCategory)

@@ -108,6 +108,21 @@ class GroceryController: RouteCollection {
             throw Abort(.badRequest)
         }
         
+        // find the user
+        guard let _ = try await User.find(userId, on: req.db) else {
+            throw Abort(.notFound)
+        }
+        
+        // find the grocery category
+        guard let groceryCategory = try await GroceryCategory.query(on: req.db)
+            .filter(\.$user.$id == userId)
+            .filter(\.$id == groceryCategoryId)
+            .first() else {
+            throw Abort(.notFound)
+        }
+        
+        // decoding GroceryItemRequestDTO
+        
         return "Ok"
     }
     

@@ -17,6 +17,8 @@ class GroceryModel: ObservableObject {
     
     @Published var groceryCategory: GroceryCategoryResonseDTO?
     
+    @Published var groceryItems: [GroceryItemResponseDTO?] = []
+    
     func register(username: String, password: String) async throws -> RegisterResponseDTO {
         
         let registerData = ["username": username, "password": password]
@@ -92,6 +94,10 @@ class GroceryModel: ObservableObject {
             return
         }
         
+        let resource = try Resource(url: Constants.Urls.saveGroceryItem(userId: userId, groceryCategoryId: groceryCategoryId), method: .post(JSONEncoder().encode(groceryItemRequestDTO)), modelType: GroceryItemResponseDTO.self)
         
+        let groceryItem = try await HTTPClient().load(resource)
+        
+        groceryItems.append(groceryItem)
     }
 }

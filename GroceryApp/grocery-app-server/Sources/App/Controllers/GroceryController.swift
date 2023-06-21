@@ -96,7 +96,7 @@ class GroceryController: RouteCollection {
         return groceryCategoryResponseDTO
     }
     
-    func saveGroceryItem(req: Request) async throws -> String {
+    func saveGroceryItem(req: Request) async throws -> GroceryItemResponseDTO {
         
         // get the userId
         guard let userId = req.parameters.get("userId", as: UUID.self) else {
@@ -128,7 +128,11 @@ class GroceryController: RouteCollection {
         
         try await groceryItem.save(on: req.db)
         
-        return "Ok"
+        guard let groceryItemResponseDTO = GroceryItemResponseDTO(groceryItem) else {
+            throw Abort(.internalServerError)
+        }
+        
+        return groceryItemResponseDTO
     }
     
 }

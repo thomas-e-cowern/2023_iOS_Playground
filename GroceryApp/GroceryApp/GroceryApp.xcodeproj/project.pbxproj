@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0DF3752A43596400A3D6D7 /* GroceryDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DF3742A43596400A3D6D7 /* GroceryDetailScreen.swift */; };
 		4D17F0112A2F812100449E45 /* GroceryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17F0102A2F812100449E45 /* GroceryAppApp.swift */; };
 		4D17F0132A2F812100449E45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D17F0122A2F812100449E45 /* ContentView.swift */; };
 		4D17F0152A2F812300449E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D17F0142A2F812300449E45 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D0DF3742A43596400A3D6D7 /* GroceryDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryDetailScreen.swift; sourceTree = "<group>"; };
 		4D17F00D2A2F812100449E45 /* GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D17F0102A2F812100449E45 /* GroceryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryAppApp.swift; sourceTree = "<group>"; };
 		4D17F0122A2F812100449E45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				4D68324E2A337AC20000FDE0 /* LoginScreen.swift */,
 				4DFF9D2B2A3C8E3F000DCBAE /* AddGroceryCategoryScreen.swift */,
 				4D88847A2A3CB2C300CC9342 /* GroceryCategoryListScreen.swift */,
+				4D0DF3742A43596400A3D6D7 /* GroceryDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				4D206E802A322E5200532B40 /* Constants.swift in Sources */,
 				4D68324F2A337AC20000FDE0 /* LoginScreen.swift in Sources */,
 				4D88847D2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift in Sources */,
+				4D0DF3752A43596400A3D6D7 /* GroceryDetailScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2398,6 +2398,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/GroceryItem.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/User.swift"
         },
         {
@@ -2447,6 +2451,7 @@
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateUserTableMigration.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/AuthPayload.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryCategory.swift.o",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryItem.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/User.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/configure.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/entrypoint.swift.o",
@@ -2622,6 +2627,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryItem.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/User.swift.o"
         },
         {
@@ -2652,6 +2661,7 @@
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateUserTableMigration.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/AuthPayload.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/GroceryCategory.swift",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/GroceryItem.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/User.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/configure.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/entrypoint.swift",
@@ -26745,6 +26755,7 @@
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateUserTableMigration.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/AuthPayload.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/GroceryCategory.swift",
+      "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/GroceryItem.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/User.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/configure.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/entrypoint.swift",

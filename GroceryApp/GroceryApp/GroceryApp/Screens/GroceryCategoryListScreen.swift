@@ -24,13 +24,13 @@ struct GroceryCategoryListScreen: View {
                 }
             } else {
                 List {
-                    ForEach(model.groceryCategories) { category in
-                        NavigationLink(Route.groceryCategoryDetail(groceryCategory)) {
+                    ForEach(model.groceryCategories) { groceryCategory in
+                        NavigationLink(value: Route.groceryCategoryDetail(groceryCategory)) {
                             HStack {
                                 Circle()
-                                    .fill(Color.fromHex(category.colorCode))
+                                    .fill(Color.fromHex(groceryCategory.colorCode))
                                     .frame(width: 25)
-                                Text(category.title)
+                                Text(groceryCategory.title)
                             }
                         }
                     }

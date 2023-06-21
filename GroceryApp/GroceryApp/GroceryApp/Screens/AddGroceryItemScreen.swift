@@ -11,8 +11,8 @@ import GroceryAppSharedDTO
 struct AddGroceryItemScreen: View {
     
     @State private var title: String = ""
-    @State private var price: Double? = nil
-    @State private var quantity: Int? = nil
+    @State private var price: Double?
+    @State private var quantity: Int?
     
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var model: GroceryModel
@@ -38,6 +38,7 @@ struct AddGroceryItemScreen: View {
                     Task {
                         await saveGroceryItem()
                     }
+                    dismiss()
                     
                 }
                 .disabled(isFormValid)
@@ -49,7 +50,7 @@ struct AddGroceryItemScreen: View {
         guard let price = price, let quantity = quantity else {
             return false
         }
-        return !title.isEmptyOrWhiteSpace && price > 0 && quantity > 0
+        return !title.isEmptyOrWhiteSpace && price > 0 && quantity < 0
     }
     
     private func saveGroceryItem() async {

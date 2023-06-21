@@ -144,8 +144,8 @@ aa02cb6fd8d89b5d1f5de6eeaca5cff01351088a	not-for-merge	'refs/pull/253/head' of h
 afb7666c8724f9d7dd1bc1eac38ee3964de43d84	not-for-merge	'refs/pull/260/head' of https://github.com/vapor/postgres-nio
 3e900c8169e91518804783984d17cd01142073b8	not-for-merge	'refs/pull/261/head' of https://github.com/vapor/postgres-nio
 643513055915ee0030cf46736e63173ce0503dce	not-for-merge	'refs/pull/263/head' of https://github.com/vapor/postgres-nio
-61c85be6f6d90a5d81dec1a9e8941ea8195c3406	not-for-merge	'refs/pull/264/head' of https://github.com/vapor/postgres-nio
-db007ebf0e7c116e540a139a8835d6c2dd5b6226	not-for-merge	'refs/pull/264/merge' of https://github.com/vapor/postgres-nio
+2713191faff67c8b7ebfcef5da1be558cebc49dc	not-for-merge	'refs/pull/264/head' of https://github.com/vapor/postgres-nio
+1b8875b62637e91d7d1edd51c15b2b5a3f82d2e6	not-for-merge	'refs/pull/264/merge' of https://github.com/vapor/postgres-nio
 cd2aad9847b88023182e1948c4d110861cf1acba	not-for-merge	'refs/pull/265/head' of https://github.com/vapor/postgres-nio
 20e4a9f106750c474e176a0bd10e2364a906f07a	not-for-merge	'refs/pull/266/head' of https://github.com/vapor/postgres-nio
 137346276c2da17b085ba8fba6beba8ca9b22826	not-for-merge	'refs/pull/267/head' of https://github.com/vapor/postgres-nio
@@ -219,7 +219,7 @@ d627c9a45ec62c508bb1e99c755cb93f90087b3e	not-for-merge	'refs/pull/345/head' of h
 51bc18c0d370452d45dd44066f71de280a6fb2e3	not-for-merge	'refs/pull/355/head' of https://github.com/vapor/postgres-nio
 c692edafa9929d3d56ecb055c87f7035a4e6cb3f	not-for-merge	'refs/pull/356/head' of https://github.com/vapor/postgres-nio
 1d36de4193717ab1fb981efec1e1ec78f07862a0	not-for-merge	'refs/pull/357/head' of https://github.com/vapor/postgres-nio
-c95af2ce5e6ef1c528bc90a952ebe57a6b447189	not-for-merge	'refs/pull/357/merge' of https://github.com/vapor/postgres-nio
+09a87dbb7a6c4422f8d3ef2d7b482b5c79e3c8b6	not-for-merge	'refs/pull/357/merge' of https://github.com/vapor/postgres-nio
 508e86797d3224a3bf0805cc6b57b95d95a87471	not-for-merge	'refs/pull/358/head' of https://github.com/vapor/postgres-nio
 1f6ea9561a5647e1ec617c7a461bc282fc6605a5	not-for-merge	'refs/pull/359/head' of https://github.com/vapor/postgres-nio
 26075ce3958560173caa23bcfc94b6d0a3bbc600	not-for-merge	'refs/pull/36/head' of https://github.com/vapor/postgres-nio
@@ -237,6 +237,8 @@ db5ef4a19abc8fcdbf92e5c9c78fdb18417e0a24	not-for-merge	'refs/pull/361/merge' of 
 99a4a958c95c545890d2e5c0c38c9ca7876a04d3	not-for-merge	'refs/pull/369/head' of https://github.com/vapor/postgres-nio
 fe83e88bed2600adfaea2f92e186501eec0d4058	not-for-merge	'refs/pull/371/head' of https://github.com/vapor/postgres-nio
 b1728724733b8a55d212bf191a8eba19cba7f64a	not-for-merge	'refs/pull/372/head' of https://github.com/vapor/postgres-nio
+8a4f11a83bd87ab28dbd1b61613bbdb102c75245	not-for-merge	'refs/pull/375/head' of https://github.com/vapor/postgres-nio
+b0b681ca56af386848dbeceeba6273d17760c8c0	not-for-merge	'refs/pull/375/merge' of https://github.com/vapor/postgres-nio
 dc3ac098dad0345114c76c912aade261211938ad	not-for-merge	'refs/pull/38/head' of https://github.com/vapor/postgres-nio
 2d806948af0f5250eb891e3d8e93ae60ecf9625c	not-for-merge	'refs/pull/4/head' of https://github.com/vapor/postgres-nio
 04566a42423d2dd7415ad453b9744c091e5f9352	not-for-merge	'refs/pull/48/head' of https://github.com/vapor/postgres-nio

@@ -2358,7 +2358,15 @@
       "inputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Controllers/GroceryController.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Controllers/UserController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Extensions/GroceryCategoryResponseDTO+Extensions.swift"
         },
         {
           "kind" : "file",
@@ -2374,11 +2382,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateGroceryItemTableMigration.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateUserTableMigration.swift"
         },
         {
           "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/AuthPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/GroceryCategory.swift"
         },
         {
           "kind" : "file",
@@ -2421,12 +2437,16 @@
       "moduleName" : "App",
       "moduleOutputPath" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.swiftmodule",
       "objects" : [
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Controllers/GroceryController.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Controllers/UserController.swift.o",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Extensions/GroceryCategoryResponseDTO+Extensions.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Extensions/LoginResponseDTO+Extensions.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Extensions/RegisterResponseDTO.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryCategoryTableMigration.swift.o",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryItemTableMigration.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateUserTableMigration.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/AuthPayload.swift.o",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryCategory.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/User.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/configure.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/entrypoint.swift.o",
@@ -2562,7 +2582,15 @@
       "outputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Controllers/GroceryController.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Controllers/UserController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Extensions/GroceryCategoryResponseDTO+Extensions.swift.o"
         },
         {
           "kind" : "file",
@@ -2578,11 +2606,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryItemTableMigration.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateUserTableMigration.swift.o"
         },
         {
           "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/AuthPayload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryCategory.swift.o"
         },
         {
           "kind" : "file",
@@ -2606,12 +2642,16 @@
         }
       ],
       "sources" : [
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Controllers/GroceryController.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Controllers/UserController.swift",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Extensions/GroceryCategoryResponseDTO+Extensions.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Extensions/LoginResponseDTO+Extensions.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Extensions/RegisterResponseDTO.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateGroceryCategoryTableMigration.swift",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateGroceryItemTableMigration.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateUserTableMigration.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/AuthPayload.swift",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/GroceryCategory.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/User.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/configure.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/entrypoint.swift",
@@ -10040,6 +10080,14 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryCategoryRequestDTO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryCategoryResonseDTO.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/LoginResponseDTO.swift"
         },
         {
@@ -10052,6 +10100,8 @@
       "moduleOutputPath" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.swiftmodule",
       "objects" : [
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/GroceryAppSharedDTO.swift.o",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/GroceryCategoryRequestDTO.swift.o",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/GroceryCategoryResonseDTO.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/LoginResponseDTO.swift.o",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/RegisterResponseDTO.swift.o"
       ],
@@ -10094,6 +10144,14 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/GroceryCategoryRequestDTO.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/GroceryCategoryResonseDTO.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/LoginResponseDTO.swift.o"
         },
         {
@@ -10107,6 +10165,8 @@
       ],
       "sources" : [
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryAppSharedDTO.swift",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryCategoryRequestDTO.swift",
+        "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryCategoryResonseDTO.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/LoginResponseDTO.swift",
         "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/RegisterResponseDTO.swift"
       ],
@@ -26675,12 +26735,16 @@
       "App",
       "-incremental",
       "-c",
+      "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Controllers/GroceryController.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Controllers/UserController.swift",
+      "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Extensions/GroceryCategoryResponseDTO+Extensions.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Extensions/LoginResponseDTO+Extensions.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Extensions/RegisterResponseDTO.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateGroceryCategoryTableMigration.swift",
+      "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateGroceryItemTableMigration.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Migrations/CreateUserTableMigration.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/AuthPayload.swift",
+      "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/GroceryCategory.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/Models/User.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/configure.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/Sources/App/entrypoint.swift",
@@ -28379,6 +28443,8 @@
       "-incremental",
       "-c",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryAppSharedDTO.swift",
+      "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryCategoryRequestDTO.swift",
+      "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryCategoryResonseDTO.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/LoginResponseDTO.swift",
       "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/RegisterResponseDTO.swift",
       "-I",

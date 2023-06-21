@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "387e3cf6bbc583233abaf66d4f60ab799224475686a76136d9c9622127757e5c"
-build_start_time: [1686842712, 849036000]
-build_end_time: [1686842713, 84525000]
+build_start_time: [1687354314, 729958000]
+build_end_time: [1687354314, 986681000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/vapor/Sources/Vapor/Application.swift"
   : [1686071420, 912335494]

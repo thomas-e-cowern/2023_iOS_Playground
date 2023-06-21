@@ -23,12 +23,16 @@
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/Algorithms.build/Trim.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/Algorithms.build/Unique.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/Algorithms.build/Windows.swift.o
+/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Controllers/GroceryController.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Controllers/UserController.swift.o
+/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Extensions/GroceryCategoryResponseDTO+Extensions.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Extensions/LoginResponseDTO+Extensions.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Extensions/RegisterResponseDTO.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryCategoryTableMigration.swift.o
+/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryItemTableMigration.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateUserTableMigration.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/AuthPayload.swift.o
+/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryCategory.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/Models/User.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/configure.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/App.build/entrypoint.swift.o
@@ -1282,6 +1286,8 @@
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/FluentSQL.build/SQLSchemaConverter.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/FluentSQL.build/Utilities.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/GroceryAppSharedDTO.swift.o
+/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/GroceryCategoryRequestDTO.swift.o
+/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/GroceryCategoryResonseDTO.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/LoginResponseDTO.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/GroceryAppSharedDTO.build/RegisterResponseDTO.swift.o
 /Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/arm64-apple-macosx/debug/JWT.build/Application+JWT.swift.o

@@ -1,11 +1,15 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "54b54786156d629b47d6762dba9db0057678f56a45b2bf1b05ec78bbd1b858bb"
-build_start_time: [1686842699, 834686000]
-build_end_time: [1686842701, 92989000]
+build_start_time: [1687354299, 751903000]
+build_end_time: [1687354300, 799237000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryAppSharedDTO.swift"
-  : [1686842693, 573254918]
+  : [1687354295, 152102912]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryCategoryRequestDTO.swift"
+  : [1687354295, 152533788]
+  ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/GroceryCategoryResonseDTO.swift"
+  : [1687354295, 152820913]
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/LoginResponseDTO.swift"
-  : [1686842693, 573326377]
+  : [1687354295, 152892163]
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/GroceryAppSharedDTO/Sources/GroceryAppSharedDTO/RegisterResponseDTO.swift"
-  : [1686842693, 573403669]
+  : [1687354295, 152956163]

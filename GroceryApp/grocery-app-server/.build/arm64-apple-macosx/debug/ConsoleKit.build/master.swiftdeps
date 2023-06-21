@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "3dd92c6369ea29ffeb1127f52eeeab0cd820b281a36532eb2faf5142809c5304"
-build_start_time: [1686842700, 56836000]
-build_end_time: [1686842700, 154292000]
+build_start_time: [1687354299, 964096000]
+build_end_time: [1687354300, 58301000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityBar.swift"
   : [1686071423, 934626183]

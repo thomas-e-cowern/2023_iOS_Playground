@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "858aef2d4b6da1922546aa60071e05bef4ee41f94d71576ae7bb32f45c714ae3"
-build_start_time: [1686842713, 670219000]
-build_end_time: [1686842713, 798043000]
+build_start_time: [1687354315, 544316000]
+build_end_time: [1687354315, 676513000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/jwt/Sources/JWT/Application+JWT.swift"
   : [1686071419, 860799178]

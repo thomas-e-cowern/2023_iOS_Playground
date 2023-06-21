@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "9229cee8f5334ed7eeec429d0e40a6ef5903a1a24bb3d4a94941bb4e75b0d17c"
-build_start_time: [1686842710, 264351000]
-build_end_time: [1686842710, 403091000]
+build_start_time: [1687354311, 686041000]
+build_end_time: [1687354311, 842217000]
 inputs:
   ? "/Users/thomascowern/Documents/Dev/Playgrounds/2023_iOS_Playground/GroceryApp/grocery-app-server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterEnumBuilder.swift"
   : [1686071422, 143295177]

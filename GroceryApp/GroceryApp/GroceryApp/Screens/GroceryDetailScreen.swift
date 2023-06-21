@@ -12,6 +12,7 @@ struct GroceryDetailScreen: View {
     
     @State private var isPresented: Bool = false
     
+    @EnvironmentObject private var model: GroceryModel
     
     let groceryCategory: GroceryCategoryResonseDTO
     
@@ -31,6 +32,9 @@ struct GroceryDetailScreen: View {
         }.sheet(isPresented: $isPresented) {
             // open here
         }
+        .onAppear {
+            model.groceryCategory = groceryCategory
+        }
     }
 }
 
@@ -38,6 +42,7 @@ struct GroceryDetailScreen_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             GroceryDetailScreen(groceryCategory: GroceryCategoryResonseDTO(id: UUID(), title: "Bakery", colorCode: "#2ecc71"))
+                .environmentObject(GroceryModel())
         }
     }
 }

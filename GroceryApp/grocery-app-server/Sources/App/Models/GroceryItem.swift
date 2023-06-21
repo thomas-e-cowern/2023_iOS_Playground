@@ -26,16 +26,16 @@ final class GroceryItem: Model, Content, Validatable {
     var quantity: Int
     
     @Parent(key: "grocery_category_id")
-    var grocery_category: GroceryCategory
+    var groceryCategory: GroceryCategory
     
     init() { }
     
-    init(id: UUID? = nil, title: String, price: Double, quantity: Int, grocery_category_id: UUID) {
+    init(id: UUID? = nil, title: String, price: Double, quantity: Int, groceryCategoryId: UUID) {
         self.id = id
         self.title = title
         self.price = price
         self.quantity = quantity
-        self.$grocery_category.id = grocery_category_id
+        self.$groceryCategory.id = groceryCategoryId
     }
     
     static func validations(_ validations: inout Vapor.Validations) {

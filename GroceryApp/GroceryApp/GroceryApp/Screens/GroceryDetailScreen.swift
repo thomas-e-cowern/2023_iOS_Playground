@@ -36,6 +36,10 @@ struct GroceryDetailScreen: View {
             model.groceryCategory = groceryCategory
         }
     }
+    
+    func saveGroceryItem() async {
+        
+    }
 }
 
 struct GroceryDetailScreen_Previews: PreviewProvider {

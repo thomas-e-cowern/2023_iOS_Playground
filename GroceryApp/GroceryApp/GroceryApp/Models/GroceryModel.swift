@@ -85,4 +85,13 @@ class GroceryModel: ObservableObject {
             $0.id != deletedGroceryCategory.id
         }
     }
+    
+    func saveGroceryItem(_ groceryItemRequestDTO: GroceryItemRequestDTO, groceryCategoryId: UUID) async throws {
+        
+        guard let userId = UserDefaults.standard.userId else {
+            return
+        }
+        
+        
+    }
 }

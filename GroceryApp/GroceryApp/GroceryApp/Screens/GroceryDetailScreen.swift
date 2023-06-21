@@ -26,11 +26,13 @@ struct GroceryDetailScreen: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button("Add Grocery Item") {
-                    
+                    isPresented = true
                 }
             }
         }.sheet(isPresented: $isPresented) {
-            // open here
+            NavigationStack {
+                AddGroceryItemScreen()
+            }
         }
         .onAppear {
             model.groceryCategory = groceryCategory

@@ -108,10 +108,8 @@ class GroceryModel: ObservableObject {
             return
         }
         
-        let resource = try Resource(url: Constants.Urls.getGroceryItems(userId: userId, groceryCategoryId: groceryCategoryId), modelType: GroceryItemResponseDTO.self)
+        let resource = Resource(url: Constants.Urls.getGroceryItems(userId: userId, groceryCategoryId: groceryCategoryId), modelType: [GroceryItemResponseDTO].self)
         
-        let groceryItems = try await HTTPClient().load(resource)
-        
-        groceryItems =
+        groceryItems = try await HTTPClient().load(resource)
     }
 }

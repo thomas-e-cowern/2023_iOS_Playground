@@ -43,6 +43,7 @@ struct GroceryCategoryListScreen: View {
             await fetchGroceryCategories()
         }
         .navigationTitle("Categories")
+        .navigationBarBackButtonHidden(true)
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 Button("Log Out") {

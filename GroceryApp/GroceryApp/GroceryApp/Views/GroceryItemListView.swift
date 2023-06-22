@@ -16,7 +16,7 @@ struct GroceryItemListView: View {
         List {
             ForEach(groceryItems) { item in
                 /*@START_MENU_TOKEN@*/Text(item.title)/*@END_MENU_TOKEN@*/
-            } 
+            }
         }
     }
 }

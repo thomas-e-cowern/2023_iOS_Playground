@@ -17,7 +17,7 @@ class GroceryModel: ObservableObject {
     
     @Published var groceryCategory: GroceryCategoryResonseDTO?
     
-    @Published var groceryItems: [GroceryItemResponseDTO?] = []
+    @Published var groceryItems: [GroceryItemResponseDTO] = []
     
     func register(username: String, password: String) async throws -> RegisterResponseDTO {
         

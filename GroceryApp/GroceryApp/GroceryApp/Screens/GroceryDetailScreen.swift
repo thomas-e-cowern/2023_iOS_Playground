@@ -18,9 +18,7 @@ struct GroceryDetailScreen: View {
     
     var body: some View {
         VStack {
-            List(1...10, id: \.self) { index in
-                Text("Item \(index)")
-            }
+            GroceryItemListView(groceryItems: model.groceryItems)
         }
         .navigationTitle(groceryCategory.title)
         .toolbar {
@@ -37,17 +35,28 @@ struct GroceryDetailScreen: View {
         .onAppear {
             model.groceryCategory = groceryCategory
         }
+        .task {
+            await getGroceryItems()
+        }
     }
     
     func saveGroceryItem() async {
         
+    }
+    
+    func getGroceryItems() async {
+        do {
+            try await model.getGroceryItemsBy(groceryCategoryId: groceryCategory.id)
+        } catch {
+            print(error.localizedDescription)
+        }
     }
 }
 
 struct GroceryDetailScreen_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            GroceryDetailScreen(groceryCategory: GroceryCategoryResonseDTO(id: UUID(), title: "Bakery", colorCode: "#2ecc71"))
+            GroceryDetailScreen(groceryCategory: GroceryCategoryResonseDTO(id: UUID(uuidString: "6308f643-a419-4671-9393-ff81ee15eb29")!, title: "Bakery", colorCode: "#2ecc71"))
                 .environmentObject(GroceryModel())
         }
     }

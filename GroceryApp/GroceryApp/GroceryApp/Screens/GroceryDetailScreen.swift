@@ -18,7 +18,11 @@ struct GroceryDetailScreen: View {
     
     var body: some View {
         VStack {
-            GroceryItemListView(groceryItems: model.groceryItems)
+            if model.groceryItems.isEmpty {
+                Text("No items found")
+            } else {
+                GroceryItemListView(groceryItems: model.groceryItems)
+            }
         }
         .navigationTitle(groceryCategory.title)
         .toolbar {

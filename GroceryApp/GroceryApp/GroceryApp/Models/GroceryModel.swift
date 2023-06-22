@@ -95,6 +95,7 @@ class GroceryModel: ObservableObject {
         }
         
         let resource = try Resource(url: Constants.Urls.saveGroceryItem(userId: userId, groceryCategoryId: groceryCategoryId), method: .post(JSONEncoder().encode(groceryItemRequestDTO)), modelType: GroceryItemResponseDTO.self)
+        print("Resource in save grocery item: \(resource)")
         
         let groceryItem = try await HTTPClient().load(resource)
         

@@ -39,7 +39,7 @@ class GroceryController: RouteCollection {
         api.post("grocery-categories", ":groceryCategoryId", "grocery-items", use: saveGroceryItem)
         
         //GET /api/users/:userId/grocery-caategories/:groceryCategoryId/grocery-items
-        api.post("grocery-categories", ":groceryCategoryId", "grocery-items", use: getGroceryItemsByGroceryCategory)
+        api.get("grocery-categories", ":groceryCategoryId", "grocery-items", use: getGroceryItemsByGroceryCategory)
     }
     
     func saveGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {

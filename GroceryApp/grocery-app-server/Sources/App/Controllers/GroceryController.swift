@@ -18,7 +18,7 @@ class GroceryController: RouteCollection {
     
     func boot(routes: RoutesBuilder) throws {
         
-        // /api/users/:userId
+        // /api/users/:userId[Protected routes]
         let api = routes.grouped("api", "users", ":userId")
         
         

@@ -10,6 +10,7 @@ import SwiftUI
 struct GroceryCategoryListScreen: View {
     
     @EnvironmentObject private var model: GroceryModel
+    @EnvironmentObject private var appState: AppState
     
     @State private var isPresented: Bool = false
     
@@ -47,7 +48,8 @@ struct GroceryCategoryListScreen: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 Button("Log Out") {
-                    
+                    model.logout()
+                    appState.routes.append(.login)
                 }
             }
             

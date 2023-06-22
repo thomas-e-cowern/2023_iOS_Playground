@@ -31,14 +31,22 @@ struct LoginScreen: View {
                     Task {
                         await login()
                     }
-                }.buttonStyle(.borderless)
-                    .disabled(!isFormValid)
+                }
+                .buttonStyle(.borderless)
+                .disabled(!isFormValid)
+                
+                Spacer()
+                
+                Button("Register") {
+                    appState.routes.append(.register)
+                }
             }
             
             Text(errorMessage)
             
         }
         .navigationTitle("Login")
+        .navigationBarBackButtonHidden(true)
     }
     
     private func login() async {

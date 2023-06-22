@@ -47,6 +47,12 @@ class GroceryModel: ObservableObject {
         return loginResponseDTO
     }
     
+    func logout() {
+        let defaults = UserDefaults.standard
+        defaults.removeObject(forKey: "userId")
+        defaults.removeObject(forKey: "authToken")
+    }
+    
     func saveGroceryCategory(_ groceryCategoryRequestDTO: GroceryCategoryRequestDTO) async throws {
         
         guard let userId = UserDefaults.standard.userId else {

@@ -37,6 +37,9 @@ class GroceryController: RouteCollection {
         
         //POST /api/users/:userId/grocery-caategories/:groceryCategoryId/grocery-items
         api.post("grocery-categories", ":groceryCategoryId", "grocery-items", use: saveGroceryItem)
+        
+        //GET /api/users/:userId/grocery-caategories/:groceryCategoryId/grocery-items
+        api.post("grocery-categories", ":groceryCategoryId", "grocery-items", use: getGroceryItemsByGroceryCategory)
     }
     
     func saveGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {
@@ -84,8 +87,8 @@ class GroceryController: RouteCollection {
             .filter(\.$user.$id == userId)
             .filter(\.$id == groceryCategoryId)
             .first() else {
-                throw Abort(.notFound)
-            }
+            throw Abort(.notFound)
+        }
         
         try await groceryCategory.delete(on: req.db)
         
@@ -135,4 +138,34 @@ class GroceryController: RouteCollection {
         return groceryItemResponseDTO
     }
     
+    func getGroceryItemsByGroceryCategory(req: Request) async throws -> [GroceryItemResponseDTO] {
+        
+        // get the userId
+        guard let userId = req.parameters.get("userId", as: UUID.self) else {
+            throw Abort(.badRequest)
+        }
+        
+        // get the grocery category ID
+        guard let groceryCategoryId = req.parameters.get("groceryCategoryId", as: UUID.self) else {
+            throw Abort(.badRequest)
+        }
+        
+        // Check userId is valid
+        guard let _ = try await User.find(userId, on: req.db) else {
+            throw Abort(.notFound)
+        }
+        
+        guard let groceryCategory = try await GroceryCategory.query(on: req.db)
+            .filter(\.$user.$id == userId)
+            .filter(\.$id == groceryCategoryId)
+            .first() else {
+            throw Abort(.notFound)
+        }
+        
+        return try await GroceryItem.query(on: req.db)
+            .filter(\.$groceryCategory.$id == groceryCategory.id!)
+            .all()
+            .compactMap(GroceryItemResponseDTO.init)
+        
+    }
 }

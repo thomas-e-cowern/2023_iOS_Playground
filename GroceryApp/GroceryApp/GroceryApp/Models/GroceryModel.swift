@@ -101,4 +101,12 @@ class GroceryModel: ObservableObject {
         
         groceryItems.append(groceryItem)
     }
+    
+    func getGroceryItemsBy(groceryCategoryId: UUID) async throws {
+        
+        guard let userId = UserDefaults.standard.userId else {
+            return
+        }
+        
+    }
 }

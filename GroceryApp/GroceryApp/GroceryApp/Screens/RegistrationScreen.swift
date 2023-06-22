@@ -29,6 +29,8 @@ struct RegistrationScreen: View {
             if !registerResponseDTO.error {
                 // take the user to the login screen
                 appState.routes.append(.login)
+            } else {
+                errorMessage = registerResponseDTO.reason ?? ""
             }
            
         } catch {

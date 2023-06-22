@@ -47,6 +47,10 @@ struct LoginScreen: View {
         }
         .navigationTitle("Login")
         .navigationBarBackButtonHidden(true)
+        .sheet(item: $appState.errorWrapper) { errorWrapper in
+            ErrorView(errorWrapper: errorWrapper)
+                .presentationDetents([.fraction(0.25)])
+        }
     }
     
     private func login() async {
@@ -54,12 +58,14 @@ struct LoginScreen: View {
             let loginResponseDTO = try await model.login(username: username, password: password)
             if loginResponseDTO.error {
                 errorMessage = loginResponseDTO.reason ?? ""
+                appState.errorWrapper = ErrorWrapper(error: GroceryError.login, guidance: loginResponseDTO.reason ?? "")
             } else {
                 // take user to grocery categories
                 appState.routes.append(.groceryCategoryList)
             }
         } catch {
             errorMessage = error.localizedDescription
+            appState.errorWrapper = ErrorWrapper(error: error, guidance: error.localizedDescription)
         }
         
     }

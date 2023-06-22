@@ -23,6 +23,8 @@
 		4D88847D2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88847C2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift */; };
 		4DA4505D2A448B6E002CD2C1 /* GroceryItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4505C2A448B6E002CD2C1 /* GroceryItemListView.swift */; };
 		4DA4505F2A448C95002CD2C1 /* GroceryItemResponseDTO+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4505E2A448C95002CD2C1 /* GroceryItemResponseDTO+Extensions.swift */; };
+		4DA450612A44B11C002CD2C1 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA450602A44B11C002CD2C1 /* ErrorWrapper.swift */; };
+		4DA450632A44B150002CD2C1 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA450622A44B150002CD2C1 /* ErrorView.swift */; };
 		4DC7EC402A30D4AD00B494BD /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7EC3F2A30D4AD00B494BD /* RegistrationScreen.swift */; };
 		4DC7EC432A30D68000B494BD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7EC422A30D68000B494BD /* String+Extension.swift */; };
 		4DC7EC462A30E58B00B494BD /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7EC452A30E58B00B494BD /* HTTPClient.swift */; };
@@ -49,6 +51,8 @@
 		4D88847C2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroceryCategoryResonseDTO+Extensions.swift"; sourceTree = "<group>"; };
 		4DA4505C2A448B6E002CD2C1 /* GroceryItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemListView.swift; sourceTree = "<group>"; };
 		4DA4505E2A448C95002CD2C1 /* GroceryItemResponseDTO+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroceryItemResponseDTO+Extensions.swift"; sourceTree = "<group>"; };
+		4DA450602A44B11C002CD2C1 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		4DA450622A44B150002CD2C1 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		4DC7EC3F2A30D4AD00B494BD /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 		4DC7EC422A30D68000B494BD /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		4DC7EC452A30E58B00B494BD /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 			children = (
 				4D206E7A2A3224AF00532B40 /* GroceryModel.swift */,
 				4D6832522A3386C70000FDE0 /* AppState.swift */,
+				4DA450602A44B11C002CD2C1 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			children = (
 				4DFF9D2E2A3C8FD4000DCBAE /* ColorSelectorView.swift */,
 				4DA4505C2A448B6E002CD2C1 /* GroceryItemListView.swift */,
+				4DA450622A44B150002CD2C1 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,11 +268,13 @@
 				4D17F0112A2F812100449E45 /* GroceryAppApp.swift in Sources */,
 				4DC7EC482A30E77400B494BD /* NetworkError+Extension.swift in Sources */,
 				4DFF9D2F2A3C8FD4000DCBAE /* ColorSelectorView.swift in Sources */,
+				4DA450612A44B11C002CD2C1 /* ErrorWrapper.swift in Sources */,
 				4D206E802A322E5200532B40 /* Constants.swift in Sources */,
 				4D68324F2A337AC20000FDE0 /* LoginScreen.swift in Sources */,
 				4DA4505F2A448C95002CD2C1 /* GroceryItemResponseDTO+Extensions.swift in Sources */,
 				4D88847D2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift in Sources */,
 				4D0DF3752A43596400A3D6D7 /* GroceryDetailScreen.swift in Sources */,
+				4DA450632A44B150002CD2C1 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

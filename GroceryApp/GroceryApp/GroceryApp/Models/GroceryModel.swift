@@ -108,5 +108,10 @@ class GroceryModel: ObservableObject {
             return
         }
         
+        let resource = try Resource(url: Constants.Urls.getGroceryItems(userId: userId, groceryCategoryId: groceryCategoryId), modelType: GroceryItemResponseDTO.self)
+        
+        let groceryItems = try await HTTPClient().load(resource)
+        
+        groceryItems =
     }
 }

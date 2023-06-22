@@ -119,5 +119,13 @@ class GroceryModel: ObservableObject {
             return
         }
         
+        let resource = Resource(url: Constants.Urls.deleteGroceryItem(userId: userId, groceryCategoryId: groceryCategoryId, groceryItemId: groceryItemId), method: .delete, modelType: GroceryItemResponseDTO.self)
+        
+        let deletedGroceryItem = try await httpClient.load(resource)
+        
+        groceryItems = groceryItems.filter {
+            $0.id != deletedGroceryItem.id
+        }
+        
     }
 }

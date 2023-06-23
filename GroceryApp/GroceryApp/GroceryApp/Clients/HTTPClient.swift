@@ -84,6 +84,7 @@ struct HTTPClient {
         }
         
         guard let result = try? JSONDecoder().decode(resource.modelType, from: data) else {
+            print("Decoding error below")
             throw NetworkError.decodingError
         }
         

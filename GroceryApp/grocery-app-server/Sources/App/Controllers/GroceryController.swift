@@ -224,7 +224,7 @@ class GroceryController: RouteCollection {
         
         return try await GroceryCategory.query(on: req.db)
             .filter(\.$user.$id == userId)
-            .with(\.$items)
+//            .with(\.$items)
             .all()
             .compactMap(GroceryCategoryResonseDTO.init)
     }

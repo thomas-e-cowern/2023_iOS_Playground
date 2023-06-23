@@ -43,6 +43,11 @@ class GroceryController: RouteCollection {
         
         //DELETE /api/users/:userId/grocery-caategories/:groceryCategoryId/grocery-items
         api.delete("grocery-categories", ":groceryCategoryId", "grocery-items", ":groceryItemId",  use: deleteGroceryItem)
+        
+        // Get categories and items
+        //GET /api/users/:userId/grocery-caategories-and-items
+        api.get("grocery-categories-and-items", use: getGroceryCategoriesAndItems)
+        
     }
     
     func saveGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {
@@ -209,5 +214,9 @@ class GroceryController: RouteCollection {
         }
         
         return groceryItemResponseDTO
+    }
+    
+    func getGroceryCategoriesAndItems(req: Request) async throws -> String {
+        return "ok"
     }
 }

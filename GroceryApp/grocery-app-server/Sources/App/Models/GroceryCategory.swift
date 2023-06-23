@@ -25,12 +25,12 @@ final class GroceryCategory: Model, Content, Validatable {
     @Parent(key: "user_id")
     var user: User
     
-//    @Children(for: \.$groceryCategory)
-//    var items: [GroceryItem]
+    @Children(for: \.$groceryCategory)
+    var items: [GroceryItem]
     
     init() { }
     
-    init(id: UUID? = nil, title: String, colorCode: String, userId: UUID) {
+    init(id: UUID? = nil, title: String, colorCode: String, userId: UUID, items: [GroceryItem] = []) {
         self.id = id
         self.title = title
         self.colorCode = colorCode

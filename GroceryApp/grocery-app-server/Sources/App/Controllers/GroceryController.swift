@@ -10,10 +10,6 @@ import Vapor
 import Fluent
 import GroceryAppSharedDTO
 
-import Foundation
-import Vapor
-import GroceryAppSharedDTO
-
 class GroceryController: RouteCollection {
     
     func boot(routes: RoutesBuilder) throws {
@@ -221,10 +217,10 @@ class GroceryController: RouteCollection {
         guard let userId = req.parameters.get("userId", as: UUID.self) else {
             throw Abort(.badRequest)
         }
-        
+
         return try await GroceryCategory.query(on: req.db)
             .filter(\.$user.$id == userId)
-//            .with(\.$items)
+            .with(\.$items)
             .all()
             .compactMap(GroceryCategoryResonseDTO.init)
     }

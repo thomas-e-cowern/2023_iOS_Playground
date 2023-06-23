@@ -18,7 +18,7 @@ extension GroceryCategoryResonseDTO: Content {
             return nil
         }
         
-        self.init(id: id, title: groceryCategory.title, colorCode: groceryCategory.colorCode)
+        self.init(id: id, title: groceryCategory.title, colorCode: groceryCategory.colorCode, items: groceryCategory.items.compactMap(GroceryItemResponseDTO.init))
     }
     
 }

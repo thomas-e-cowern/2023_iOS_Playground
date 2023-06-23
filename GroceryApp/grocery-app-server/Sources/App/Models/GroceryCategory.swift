@@ -26,7 +26,7 @@ final class GroceryCategory: Model, Content, Validatable {
     var user: User
     
     @Children(for: \.$groceryCategory)
-    var items: [GroceryItem]
+        var items: [GroceryItem]
     
     init() { }
     

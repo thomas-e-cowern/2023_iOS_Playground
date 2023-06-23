@@ -216,7 +216,16 @@ class GroceryController: RouteCollection {
         return groceryItemResponseDTO
     }
     
-    func getGroceryCategoriesAndItems(req: Request) async throws -> String {
-        return "ok"
+    func getGroceryCategoriesAndItems(req: Request) async throws -> [GroceryCategoryResonseDTO] {
+        
+        guard let userId = req.parameters.get("userId", as: UUID.self) else {
+            throw Abort(.badRequest)
+        }
+        
+        return try await GroceryCategory.query(on: req.db)
+            .filter(\.$user.$id == userId)
+            .with(\.$items)
+            .all()
+            .compactMap(GroceryCategoryResonseDTO.init)
     }
 }

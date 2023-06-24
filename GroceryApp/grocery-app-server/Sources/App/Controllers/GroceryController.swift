@@ -69,17 +69,17 @@ class GroceryController: RouteCollection {
     }
     
     func getGroceryCategoriesByUser(req: Request) async throws -> [GroceryCategoryResonseDTO] {
-        
-        // get the userId
-        guard let userId = req.parameters.get("userId", as: UUID.self) else {
-            throw Abort(.badRequest)
+            
+            // get the userId
+            guard let userId = req.parameters.get("userId", as: UUID.self) else {
+                throw Abort(.badRequest)
+            }
+            
+            return try await GroceryCategory.query(on: req.db)
+                .filter(\.$user.$id == userId)
+                .all()
+                .compactMap(GroceryCategoryResonseDTO.init)
         }
-        
-        return try await GroceryCategory.query(on: req.db)
-            .filter(\.$user.$id == userId)
-            .all()
-            .compactMap(GroceryCategoryResonseDTO.init)
-    }
     
     func deleteGroceryCategory(req: Request) async throws -> GroceryCategoryResonseDTO {
         
@@ -212,7 +212,7 @@ class GroceryController: RouteCollection {
         return groceryItemResponseDTO
     }
     
-    func getGroceryCategoriesAndItems(req: Request) async throws -> [GroceryCategoryResonseDTO] {
+    func getGroceryCategoriesAndItems(req: Request) async throws -> [CategoryAndItemsResponseDTO] {
         
         guard let userId = req.parameters.get("userId", as: UUID.self) else {
             throw Abort(.badRequest)
@@ -222,6 +222,7 @@ class GroceryController: RouteCollection {
             .filter(\.$user.$id == userId)
             .with(\.$items)
             .all()
-            .compactMap(GroceryCategoryResonseDTO.init)
+            .compactMap(CategoryAndItemsResponseDTO.init)
+        
     }
 }

@@ -13,7 +13,7 @@ class GroceryModel: ObservableObject {
     
     let httpClient = HTTPClient()
     
-    @Published var groceryCategories: [GroceryCategoryResonseDTO] = []
+    @Published var groceryCategories: [GroceryCategoryResonseDTO]?
     
     @Published var groceryCategory: GroceryCategoryResonseDTO?
     

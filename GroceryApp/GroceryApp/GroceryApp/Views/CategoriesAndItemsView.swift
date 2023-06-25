@@ -11,13 +11,19 @@ import GroceryAppSharedDTO
 struct CategoriesAndItemsView: View {
     
     var category: String
+    var colorCode: String
     var items: [GroceryItemResponseDTO]
     
     var body: some View {
         VStack(alignment: .leading) {
             if items.count > 0 {
-                Text(category )
-                    .font(.title)
+                HStack {
+                    Circle()
+                        .fill(Color.fromHex(colorCode))
+                        .frame(width: 25)
+                    Text(category )
+                        .font(.title)
+                }
                 VStack (alignment: .leading) {
                     ForEach(items) { item in
                         HStack {
@@ -37,7 +43,7 @@ struct CategoriesAndItemsView: View {
 
 struct CategoriesAndItemsView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoriesAndItemsView(category: "", items: [])
+        CategoriesAndItemsView(category: "", colorCode: "", items: [])
 
     }
 }

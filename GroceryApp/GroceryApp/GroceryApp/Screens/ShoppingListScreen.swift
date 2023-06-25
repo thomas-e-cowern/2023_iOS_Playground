@@ -16,7 +16,7 @@ struct ShoppingListScreen: View {
             List {
                 ForEach(model.categoriesAndItems) { groceryCategory in
                     if groceryCategory.items.count > 0 {
-                        CategoriesAndItemsView(category: groceryCategory.title, items: groceryCategory.items)
+                        CategoriesAndItemsView(category: groceryCategory.title, colorCode: groceryCategory.colorCode, items: groceryCategory.items)
                     }
                 }
             }

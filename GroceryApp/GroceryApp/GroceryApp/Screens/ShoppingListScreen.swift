@@ -15,14 +15,7 @@ struct ShoppingListScreen: View {
         VStack {
             List {
                 ForEach(model.categoriesAndItems) { groceryCategory in
-                    VStack {
-                        HStack {
-                            Circle()
-                                .fill(Color.fromHex(groceryCategory.colorCode))
-                                .frame(width: 25)
-                            Text(groceryCategory.title)
-                        }
-                    }
+                    CategoriesAndItemsView(category: groceryCategory.title, items: groceryCategory.items)
                 }
             }
         }

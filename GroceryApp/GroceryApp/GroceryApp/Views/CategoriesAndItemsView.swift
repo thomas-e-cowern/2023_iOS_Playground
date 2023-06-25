@@ -14,16 +14,24 @@ struct CategoriesAndItemsView: View {
     var items: [GroceryItemResponseDTO]
     
     var body: some View {
-        Text(category )
-        VStack {
-            if (items.count > 0) {
-                ForEach(items) { item in
-                    Text(item.title)
+        VStack(alignment: .leading) {
+            if items.count > 0 {
+                Text(category )
+                    .font(.title)
+                VStack (alignment: .leading) {
+                    ForEach(items) { item in
+                        HStack {
+                            Text(item.title)
+                            Text(", quantity: \(item.quantity)")
+                        }
+                    }
                 }
+                .padding(.leading, 15)
             } else {
-                EmptyView()
+                Text("No items")
             }
         }
+
     }
 }
 

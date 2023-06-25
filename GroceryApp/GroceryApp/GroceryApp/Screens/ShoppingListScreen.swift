@@ -15,7 +15,9 @@ struct ShoppingListScreen: View {
         VStack {
             List {
                 ForEach(model.categoriesAndItems) { groceryCategory in
-                    CategoriesAndItemsView(category: groceryCategory.title, items: groceryCategory.items)
+                    if groceryCategory.items.count > 0 {
+                        CategoriesAndItemsView(category: groceryCategory.title, items: groceryCategory.items)
+                    }
                 }
             }
         }

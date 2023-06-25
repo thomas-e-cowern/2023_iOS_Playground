@@ -15,11 +15,13 @@ struct ShoppingListScreen: View {
         VStack {
             List {
                 ForEach(model.categoriesAndItems) { groceryCategory in
-                    HStack {
-                        Circle()
-                            .fill(Color.fromHex(groceryCategory.colorCode))
-                            .frame(width: 25)
-                        Text(groceryCategory.title)
+                    VStack {
+                        HStack {
+                            Circle()
+                                .fill(Color.fromHex(groceryCategory.colorCode))
+                                .frame(width: 25)
+                            Text(groceryCategory.title)
+                        }
                     }
                 }
             }

@@ -81,7 +81,7 @@ class GroceryModel: ObservableObject {
     }
     
     func getCategoriesAndItems() async throws {
-        
+        print("Getting C&I")
         guard let userId = UserDefaults.standard.userId else {
             return
         }
@@ -89,6 +89,7 @@ class GroceryModel: ObservableObject {
         let resource = Resource(url: Constants.Urls.getCategoriesAndItems(userId: userId), modelType: [CategoryAndItemsResponseDTO].self)
         
         categoriesAndItems = try await httpClient.load(resource)
+        print("C&I: \(categoriesAndItems)")
         
     }
     

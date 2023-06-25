@@ -19,6 +19,8 @@ class GroceryModel: ObservableObject {
     
     @Published var groceryItems: [GroceryItemResponseDTO] = []
     
+    @Published var categoriesAndItems: [CategoryAndItemsResponseDTO] = []
+    
     func register(username: String, password: String) async throws -> RegisterResponseDTO {
         
         let registerData = ["username": username, "password": password]
@@ -84,6 +86,7 @@ class GroceryModel: ObservableObject {
             return
         }
         
+        let resource = Resource(url: Constants.Urls.getCategoriesAndItems(userId: userId), modelType: [CategoryAndItemsResponseDTO].self)
         
     }
     

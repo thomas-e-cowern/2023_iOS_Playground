@@ -14,7 +14,7 @@ struct ShoppingListScreen: View {
     var body: some View {
         VStack {
             List {
-                ForEach(model.groceryCategories) { groceryCategory in
+                ForEach(model.categoriesAndItems) { groceryCategory in
                     HStack {
                         Circle()
                             .fill(Color.fromHex(groceryCategory.colorCode))
@@ -23,6 +23,17 @@ struct ShoppingListScreen: View {
                     }
                 }
             }
+        }
+        .task {
+            await fetchCategoriesAndItems()
+        }
+    }
+    
+    private func fetchCategoriesAndItems() async {
+        do {
+            try await model.getCategoriesAndItems()
+        } catch {
+            print(error.localizedDescription)
         }
     }
 }

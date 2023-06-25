@@ -88,6 +88,8 @@ class GroceryModel: ObservableObject {
         
         let resource = Resource(url: Constants.Urls.getCategoriesAndItems(userId: userId), modelType: [CategoryAndItemsResponseDTO].self)
         
+        categoriesAndItems = try await httpClient.load(resource)
+        
     }
     
     func deleteGroceryCategory(groceryCategoryId: UUID) async throws {

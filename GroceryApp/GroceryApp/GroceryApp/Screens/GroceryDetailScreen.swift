@@ -70,7 +70,7 @@ struct GroceryDetailScreen: View {
 struct GroceryDetailScreen_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            GroceryDetailScreen(groceryCategory: GroceryCategoryResonseDTO(id: UUID(uuidString: "6308f643-a419-4671-9393-ff81ee15eb29")!, title: "Bakery", colorCode: "#2ecc71", items: []))
+            GroceryDetailScreen(groceryCategory: GroceryCategoryResonseDTO(id: UUID(uuidString: "6308f643-a419-4671-9393-ff81ee15eb29")!, title: "Bakery", colorCode: "#2ecc71"))
                 .environmentObject(GroceryModel())
         }
     }

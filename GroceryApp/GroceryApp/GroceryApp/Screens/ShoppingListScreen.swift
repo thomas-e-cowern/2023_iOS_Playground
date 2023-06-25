@@ -15,13 +15,11 @@ struct ShoppingListScreen: View {
         VStack {
             List {
                 ForEach(model.groceryCategories) { groceryCategory in
-                    NavigationLink(value: Route.groceryCategoryDetail(groceryCategory)) {
-                        HStack {
-                            Circle()
-                                .fill(Color.fromHex(groceryCategory.colorCode))
-                                .frame(width: 25)
-                            Text(groceryCategory.title)
-                        }
+                    HStack {
+                        Circle()
+                            .fill(Color.fromHex(groceryCategory.colorCode))
+                            .frame(width: 25)
+                        Text(groceryCategory.title)
                     }
                 }
             }
@@ -32,5 +30,6 @@ struct ShoppingListScreen: View {
 struct ShoppingListScreen_Previews: PreviewProvider {
     static var previews: some View {
         ShoppingListScreen()
+            .environmentObject(GroceryModel())
     }
 }

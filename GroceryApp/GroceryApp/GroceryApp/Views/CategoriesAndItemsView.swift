@@ -22,13 +22,12 @@ struct CategoriesAndItemsView: View {
                         .fill(Color.fromHex(colorCode))
                         .frame(width: 25)
                     Text(category )
-                        .font(.title)
+                        .font(.title2)
                 }
                 VStack (alignment: .leading) {
                     ForEach(items) { item in
                         HStack {
-                            Text(item.title)
-                            Text(", quantity: \(item.quantity)")
+                            CategoriesAndItemsDetailView(title: item.title, quantity: item.quantity, price: item.price)
                         }
                     }
                 }

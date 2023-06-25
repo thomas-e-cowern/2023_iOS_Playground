@@ -13,6 +13,7 @@ struct GroceryCategoryListScreen: View {
     @EnvironmentObject private var appState: AppState
     
     @State private var isPresented: Bool = false
+    @State private var isShoppingListPresented: Bool = false
     
     var body: some View {
         
@@ -24,19 +25,30 @@ struct GroceryCategoryListScreen: View {
                     Spacer()
                 }
             } else {
-                List {
-                    ForEach(model.groceryCategories) { groceryCategory in
-                        NavigationLink(value: Route.groceryCategoryDetail(groceryCategory)) {
-                            HStack {
-                                Circle()
-                                    .fill(Color.fromHex(groceryCategory.colorCode))
-                                    .frame(width: 25)
-                                Text(groceryCategory.title)
+                VStack {
+                    List {
+                        ForEach(model.groceryCategories) { groceryCategory in
+                            NavigationLink(value: Route.groceryCategoryDetail(groceryCategory)) {
+                                HStack {
+                                    Circle()
+                                        .fill(Color.fromHex(groceryCategory.colorCode))
+                                        .frame(width: 25)
+                                    Text(groceryCategory.title)
+                                }
                             }
                         }
+                        .onDelete(perform: deleteGroceryCategory)
+                        
                     }
-                    .onDelete(perform: deleteGroceryCategory)
                     
+                    Button("Shopping List") {
+                        isShoppingListPresented = true
+                    }
+                    .sheet(isPresented: $isShoppingListPresented) {
+                        NavigationStack {
+                            ShoppingListScreen()
+                        }
+                    }
                 }
             }
         }

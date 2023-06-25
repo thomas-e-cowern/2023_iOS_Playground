@@ -19,6 +19,7 @@
 		4D68324F2A337AC20000FDE0 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68324E2A337AC20000FDE0 /* LoginScreen.swift */; };
 		4D6832532A3386C70000FDE0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6832522A3386C70000FDE0 /* AppState.swift */; };
 		4D7B93732A48B15100349523 /* ShoppingListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B93722A48B15100349523 /* ShoppingListScreen.swift */; };
+		4D7B93752A48B66000349523 /* CategoryAndItemsResponseDTO+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B93742A48B66000349523 /* CategoryAndItemsResponseDTO+Extensions.swift */; };
 		4D8884792A3CA6F000CC9342 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8884782A3CA6F000CC9342 /* UserDefaults+Extensions.swift */; };
 		4D88847B2A3CB2C300CC9342 /* GroceryCategoryListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88847A2A3CB2C300CC9342 /* GroceryCategoryListScreen.swift */; };
 		4D88847D2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88847C2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift */; };
@@ -48,6 +49,7 @@
 		4D68324E2A337AC20000FDE0 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		4D6832522A3386C70000FDE0 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		4D7B93722A48B15100349523 /* ShoppingListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListScreen.swift; sourceTree = "<group>"; };
+		4D7B93742A48B66000349523 /* CategoryAndItemsResponseDTO+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoryAndItemsResponseDTO+Extensions.swift"; sourceTree = "<group>"; };
 		4D8884782A3CA6F000CC9342 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		4D88847A2A3CB2C300CC9342 /* GroceryCategoryListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryCategoryListScreen.swift; sourceTree = "<group>"; };
 		4D88847C2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroceryCategoryResonseDTO+Extensions.swift"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				4D8884782A3CA6F000CC9342 /* UserDefaults+Extensions.swift */,
 				4D88847C2A3CB3EF00CC9342 /* GroceryCategoryResonseDTO+Extensions.swift */,
 				4DA4505E2A448C95002CD2C1 /* GroceryItemResponseDTO+Extensions.swift */,
+				4D7B93742A48B66000349523 /* CategoryAndItemsResponseDTO+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				4D6832532A3386C70000FDE0 /* AppState.swift in Sources */,
 				4D88847B2A3CB2C300CC9342 /* GroceryCategoryListScreen.swift in Sources */,
 				4D7B93732A48B15100349523 /* ShoppingListScreen.swift in Sources */,
+				4D7B93752A48B66000349523 /* CategoryAndItemsResponseDTO+Extensions.swift in Sources */,
 				4D206E7B2A3224AF00532B40 /* GroceryModel.swift in Sources */,
 				4DC7EC462A30E58B00B494BD /* HTTPClient.swift in Sources */,
 				4D8884792A3CA6F000CC9342 /* UserDefaults+Extensions.swift in Sources */,

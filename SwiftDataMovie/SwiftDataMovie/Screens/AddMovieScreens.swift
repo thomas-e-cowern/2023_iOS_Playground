@@ -48,6 +48,8 @@ struct AddMovieScreens: View {
                     } catch {
                         print(error.localizedDescription)
                     }
+                    
+                    dismiss()
                 }
                 .disabled(!isFormValid)
             }

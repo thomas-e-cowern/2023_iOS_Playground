@@ -12,7 +12,7 @@ struct SwiftDataMovieApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                AddMovieScreens()
+                MovieListScreen()
             }
         }
         .modelContainer(for: [Movie.self])

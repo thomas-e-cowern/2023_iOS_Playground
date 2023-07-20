@@ -6,13 +6,35 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct MovieListScreen: View {
+    
+    @Query private var movies: [Movie]
+    
+    @State private var isAddMoviePresented: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(movies) { movie in
+            Text(movie.title)
+        }
+        .toolbar(content: {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button("Add Movie") {
+                    isAddMoviePresented = true
+                }
+            }
+        })
+        .sheet(isPresented: $isAddMoviePresented, content: {
+            NavigationStack {
+                AddMovieScreens()
+            }
+        })
+        .navigationTitle("Add Movie")
     }
 }
 
 #Preview {
     MovieListScreen()
+        .modelContainer(for: [Movie.self])
 }

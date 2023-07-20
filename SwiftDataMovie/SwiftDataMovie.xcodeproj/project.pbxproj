@@ -13,6 +13,7 @@
 		4D8508042A695E4300F43A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8508032A695E4300F43A7E /* Preview Assets.xcassets */; };
 		4D85080C2A69608700F43A7E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85080B2A69608700F43A7E /* Movie.swift */; };
 		4D85080F2A6961BB00F43A7E /* AddMovieScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85080E2A6961BB00F43A7E /* AddMovieScreens.swift */; };
+		4D8508122A6962A800F43A7E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8508112A6962A800F43A7E /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4D8508032A695E4300F43A7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D85080B2A69608700F43A7E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		4D85080E2A6961BB00F43A7E /* AddMovieScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieScreens.swift; sourceTree = "<group>"; };
+		4D8508112A6962A800F43A7E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		4D8507FB2A695E4000F43A7E /* SwiftDataMovie */ = {
 			isa = PBXGroup;
 			children = (
+				4D8508102A69629200F43A7E /* Extensions */,
 				4D85080D2A6961A800F43A7E /* Screens */,
 				4D85080A2A69607500F43A7E /* Models */,
 				4D8507FC2A695E4000F43A7E /* SwiftDataMovieApp.swift */,
@@ -87,6 +90,14 @@
 				4D85080E2A6961BB00F43A7E /* AddMovieScreens.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		4D8508102A69629200F43A7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D8508112A6962A800F43A7E /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8508122A6962A800F43A7E /* String+Extensions.swift in Sources */,
 				4D85080F2A6961BB00F43A7E /* AddMovieScreens.swift in Sources */,
 				4D8507FF2A695E4000F43A7E /* ContentView.swift in Sources */,
 				4D8507FD2A695E4000F43A7E /* SwiftDataMovieApp.swift in Sources */,

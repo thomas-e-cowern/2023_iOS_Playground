@@ -30,12 +30,12 @@ struct MovieDetailScreen: View {
                 
                 do {
                     try context.save()
-                                    } catch {
+                } catch {
                     print(error.localizedDescription.count)
                 }
                 
                 dismiss()
-
+                
             }
             .buttonStyle(.borderless)
             
@@ -47,15 +47,15 @@ struct MovieDetailScreen: View {
                         .frame(maxWidth: .infinity, alignment: .trailing)
                 })
                 
-                if let reviews = movie.reviews {
-                    if reviews.isEmpty {
-                        ContentUnavailableView {
-                            Text("No Reviews")
-                        }
-                    } else {
-                        ReviewListView(reviews: reviews)
+                
+                if movie.reviews.isEmpty {
+                    ContentUnavailableView {
+                        Text("No Reviews")
                     }
+                } else {
+                    ReviewListView(movie: movie)
                 }
+                
             }
         }
         .onAppear {
@@ -82,8 +82,8 @@ struct MovieDetalContainerScreen: View {
             }
         }
         .onAppear {
-                movie = Movie(title: "Spiderman", year: 2002)
-                context.insert(movie!)
+            movie = Movie(title: "Spiderman", year: 2002)
+            context.insert(movie!)
         }
     }
 }

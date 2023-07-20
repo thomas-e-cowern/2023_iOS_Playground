@@ -18,6 +18,7 @@
 		4D8508172A696F1900F43A7E /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8508162A696F1900F43A7E /* MovieListView.swift */; };
 		4D8508192A69752B00F43A7E /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8508182A69752A00F43A7E /* MovieDetailScreen.swift */; };
 		4D85081B2A697F0F00F43A7E /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85081A2A697F0F00F43A7E /* Review.swift */; };
+		4D85081D2A69808500F43A7E /* AddReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85081C2A69808500F43A7E /* AddReviewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4D8508162A696F1900F43A7E /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		4D8508182A69752A00F43A7E /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
 		4D85081A2A697F0F00F43A7E /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		4D85081C2A69808500F43A7E /* AddReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4D85080E2A6961BB00F43A7E /* AddMovieScreens.swift */,
 				4D8508132A6969CF00F43A7E /* MovieListScreen.swift */,
 				4D8508182A69752A00F43A7E /* MovieDetailScreen.swift */,
+				4D85081C2A69808500F43A7E /* AddReviewScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				4D8508192A69752B00F43A7E /* MovieDetailScreen.swift in Sources */,
 				4D8507FD2A695E4000F43A7E /* SwiftDataMovieApp.swift in Sources */,
 				4D85080C2A69608700F43A7E /* Movie.swift in Sources */,
+				4D85081D2A69808500F43A7E /* AddReviewScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

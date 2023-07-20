@@ -10,14 +10,31 @@ import SwiftData
 
 struct MovieListScreen: View {
     
+    @Environment(\.modelContext) private var context
+    
     @Query(sort: \.title, order: .reverse, animation: .default) private var movies: [Movie]
+    @Query(sort: \.name, order: .forward) private var actors: [Actor]
     
     @State private var isAddMoviePresented: Bool = false
+    @State private var isAddActorPresented: Bool = false
+    @State private var actorName: String = ""
     
     var body: some View {
 
-        MovieListView(movies: movies)
+        VStack(alignment: .leading) {
+            Text("Movies")
+                .font(.largeTitle)
+            MovieListView(movies: movies)
+            
+        } //: End of VStack
         .toolbar(content: {
+            ToolbarItem(placement: .topBarLeading) {
+                Button("Add Actor") {
+                    isAddActorPresented = true
+                }
+            }
+            
+            
             ToolbarItem(placement: .topBarTrailing) {
                 Button("Add Movie") {
                     isAddMoviePresented = true
@@ -29,11 +46,28 @@ struct MovieListScreen: View {
                 AddMovieScreens()
             }
         })
-        .navigationTitle("Add Movie")
+        .sheet(isPresented: $isAddActorPresented, content: {
+            Text("Add Actor")
+                .font(.title)
+                .presentationDetents([.fraction(0.25)])
+            TextField("Actor Name", text: $actorName)
+                .textFieldStyle(.roundedBorder)
+                .padding()
+            Button("Save") {
+                isAddActorPresented = false
+                addActor()
+            }
+        })
+    .navigationTitle("Add Movie")
+    }
+    
+    private func addActor() {
+        let actor = Actor(name: actorName)
+        context.insert(actor)
     }
 }
 
 #Preview {
     MovieListScreen()
-        .modelContainer(for: [Movie.self])
+        .modelContainer(for: [Movie.self, Review.self, Actor.self])
 }

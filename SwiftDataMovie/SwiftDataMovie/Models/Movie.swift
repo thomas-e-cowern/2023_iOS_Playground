@@ -16,7 +16,7 @@ final class Movie {
     @Relationship(.cascade, inverse: \Review.movie)
     var reviews: [Review] = []
     
-    @Relationship(.noAction, inverse: \Actor.moview)
+    @Relationship(.noAction, inverse: \Actor.movies)
     var actors: [Actor] = []
     
     init(title: String, year: Int) {

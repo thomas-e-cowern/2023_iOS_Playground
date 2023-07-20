@@ -10,7 +10,7 @@ import SwiftData
 
 struct MovieListScreen: View {
     
-    @Query private var movies: [Movie]
+    @Query(sort: \.title, order: .reverse, animation: .default) private var movies: [Movie]
     
     @State private var isAddMoviePresented: Bool = false
     

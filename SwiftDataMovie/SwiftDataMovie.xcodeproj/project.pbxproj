@@ -21,6 +21,7 @@
 		4D85081D2A69808500F43A7E /* AddReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85081C2A69808500F43A7E /* AddReviewScreen.swift */; };
 		4D85081F2A698ABD00F43A7E /* ReviewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85081E2A698ABD00F43A7E /* ReviewListView.swift */; };
 		4D8508212A69947C00F43A7E /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8508202A69947C00F43A7E /* Actor.swift */; };
+		4D8508232A699B3500F43A7E /* ActorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8508222A699B3500F43A7E /* ActorListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		4D85081C2A69808500F43A7E /* AddReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewScreen.swift; sourceTree = "<group>"; };
 		4D85081E2A698ABD00F43A7E /* ReviewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListView.swift; sourceTree = "<group>"; };
 		4D8508202A69947C00F43A7E /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		4D8508222A699B3500F43A7E /* ActorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				4D8508162A696F1900F43A7E /* MovieListView.swift */,
 				4D85081E2A698ABD00F43A7E /* ReviewListView.swift */,
+				4D8508222A699B3500F43A7E /* ActorListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8508122A6962A800F43A7E /* String+Extensions.swift in Sources */,
+				4D8508232A699B3500F43A7E /* ActorListView.swift in Sources */,
 				4D8508172A696F1900F43A7E /* MovieListView.swift in Sources */,
 				4D85081F2A698ABD00F43A7E /* ReviewListView.swift in Sources */,
 				4D8508212A69947C00F43A7E /* Actor.swift in Sources */,

@@ -26,7 +26,12 @@ struct MovieListScreen: View {
                 .font(.largeTitle)
             MovieListView(movies: movies)
             
+            Text("Actors")
+                .font(.largeTitle)
+            ActorListView(actors: actors)
+            
         } //: End of VStack
+        .padding()
         .toolbar(content: {
             ToolbarItem(placement: .topBarLeading) {
                 Button("Add Actor") {
@@ -58,12 +63,13 @@ struct MovieListScreen: View {
                 addActor()
             }
         })
-    .navigationTitle("Add Movie")
+//    .navigationTitle("Add Movie")
     }
     
     private func addActor() {
         let actor = Actor(name: actorName)
         context.insert(actor)
+        actorName = ""
     }
 }
 

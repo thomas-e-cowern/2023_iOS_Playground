@@ -19,6 +19,7 @@
 		4D8508192A69752B00F43A7E /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8508182A69752A00F43A7E /* MovieDetailScreen.swift */; };
 		4D85081B2A697F0F00F43A7E /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85081A2A697F0F00F43A7E /* Review.swift */; };
 		4D85081D2A69808500F43A7E /* AddReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85081C2A69808500F43A7E /* AddReviewScreen.swift */; };
+		4D85081F2A698ABD00F43A7E /* ReviewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85081E2A698ABD00F43A7E /* ReviewListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4D8508182A69752A00F43A7E /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
 		4D85081A2A697F0F00F43A7E /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		4D85081C2A69808500F43A7E /* AddReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewScreen.swift; sourceTree = "<group>"; };
+		4D85081E2A698ABD00F43A7E /* ReviewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				4D8508162A696F1900F43A7E /* MovieListView.swift */,
+				4D85081E2A698ABD00F43A7E /* ReviewListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				4D8508122A6962A800F43A7E /* String+Extensions.swift in Sources */,
 				4D8508172A696F1900F43A7E /* MovieListView.swift in Sources */,
+				4D85081F2A698ABD00F43A7E /* ReviewListView.swift in Sources */,
 				4D85081B2A697F0F00F43A7E /* Review.swift in Sources */,
 				4D85080F2A6961BB00F43A7E /* AddMovieScreens.swift in Sources */,
 				4D8508142A6969CF00F43A7E /* MovieListScreen.swift in Sources */,

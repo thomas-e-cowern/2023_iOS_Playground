@@ -29,7 +29,9 @@ struct AddReviewScreen: View {
                 Button("Close") {
                     dismiss()
                 }
-                
+            }
+            
+            ToolbarItem(placement: .topBarTrailing) {
                 Button("Save") {
                     let review = Review(subject: subject, body: description, movie: movie)
                     context.insert(review)
@@ -40,6 +42,8 @@ struct AddReviewScreen: View {
                     } catch {
                         print(error.localizedDescription)
                     }
+                    
+                    dismiss()
                 }
                 .disabled(!isFormValid)
             }

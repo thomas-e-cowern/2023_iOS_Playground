@@ -15,9 +15,8 @@ struct MovieListScreen: View {
     @State private var isAddMoviePresented: Bool = false
     
     var body: some View {
-        List(movies) { movie in
-            Text(movie.title)
-        }
+
+        MovieListView(movies: movies)
         .toolbar(content: {
             ToolbarItem(placement: .topBarTrailing) {
                 Button("Add Movie") {

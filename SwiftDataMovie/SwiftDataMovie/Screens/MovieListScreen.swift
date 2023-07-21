@@ -63,7 +63,6 @@ struct MovieListScreen: View {
                 addActor()
             }
         })
-//    .navigationTitle("Add Movie")
     }
     
     private func addActor() {

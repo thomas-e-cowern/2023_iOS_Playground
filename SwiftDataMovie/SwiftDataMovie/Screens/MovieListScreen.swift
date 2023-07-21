@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 
-enum sheets: Identifiable {
+enum Sheets: Identifiable {
     case addMovie
     case addActor
     case showFilter
@@ -29,6 +29,7 @@ struct MovieListScreen: View {
     @State private var isAddMoviePresented: Bool = false
     @State private var isAddActorPresented: Bool = false
     @State private var actorName: String = ""
+    @State private var activeSheet: Sheets?
     
     var body: some View {
 
@@ -46,34 +47,40 @@ struct MovieListScreen: View {
         .toolbar(content: {
             ToolbarItem(placement: .topBarLeading) {
                 Button("Add Actor") {
-                    isAddActorPresented = true
+                    activeSheet = .addActor
                 }
             }
             
             
             ToolbarItem(placement: .topBarTrailing) {
                 Button("Add Movie") {
-                    isAddMoviePresented = true
+                    activeSheet = .addMovie
                 }
             }
         })
-        .sheet(isPresented: $isAddMoviePresented, content: {
-            NavigationStack {
-                AddMovieScreens()
+        .sheet(item: $activeSheet) { sheet in
+            switch sheet {
+            case .addMovie:
+                NavigationStack {
+                    AddMovieScreens()
+                }
+            case .addActor:
+                Text("Add Actor")
+                    .font(.title)
+                    .presentationDetents([.fraction(0.25)])
+                TextField("Actor Name", text: $actorName)
+                    .textFieldStyle(.roundedBorder)
+                    .padding()
+                Button("Save") {
+                    isAddActorPresented = false
+                    addActor()
+                }
+            case .showFilter:
+                NavigationStack {
+                    Text("Filter here")
+                }
             }
-        })
-        .sheet(isPresented: $isAddActorPresented, content: {
-            Text("Add Actor")
-                .font(.title)
-                .presentationDetents([.fraction(0.25)])
-            TextField("Actor Name", text: $actorName)
-                .textFieldStyle(.roundedBorder)
-                .padding()
-            Button("Save") {
-                isAddActorPresented = false
-                addActor()
-            }
-        })
+        }
     }
     
     private func addActor() {

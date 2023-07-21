@@ -16,12 +16,14 @@ struct FilterSelectionScreen: View {
     
     @Environment(\.dismiss) private var dismiss
     @State private var movieTitle: String = ""
+    @Binding var filterOption: FilterOption
     
     var body: some View {
         Form {
             Section("Filter by title") {
                 TextField("Movie Title", text: $movieTitle)
                 Button("Search") {
+                    filterOption = .title(movieTitle)
                     dismiss()
                 }
             }
@@ -30,5 +32,5 @@ struct FilterSelectionScreen: View {
 }
 
 #Preview {
-    FilterSelectionScreen()
+    FilterSelectionScreen(filterOption: .constant(.title("Iron man")))
 }

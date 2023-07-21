@@ -13,9 +13,13 @@ final class Movie {
     var title: String
     var year: Int
     
-//    @Transient var reviewsCount: Int {
-//        reviews.count
-//    }
+    var reviewsCount: Int {
+        reviews.count
+    }
+    
+    var actorsCount: Int {
+        actors.count
+    }
     
     @Relationship(.cascade, inverse: \Review.movie)
     var reviews: [Review] = []

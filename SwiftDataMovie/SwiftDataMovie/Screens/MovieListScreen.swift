@@ -25,9 +25,7 @@ struct MovieListScreen: View {
     @Query(sort: \.title, order: .reverse, animation: .default) private var movies: [Movie]
     @Query(sort: \.name, order: .forward) private var actors: [Actor]
 //    @Query(filter: #Predicate { $0.title.contains("Iron man")}, animation: .bouncy) private var movies: [Movie]
-    
-    @State private var isAddMoviePresented: Bool = false
-    @State private var isAddActorPresented: Bool = false
+
     @State private var actorName: String = ""
     @State private var activeSheet: Sheets?
     
@@ -72,8 +70,8 @@ struct MovieListScreen: View {
                     .textFieldStyle(.roundedBorder)
                     .padding()
                 Button("Save") {
-                    isAddActorPresented = false
                     addActor()
+                    activeSheet = nil
                 }
             case .showFilter:
                 NavigationStack {

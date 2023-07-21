@@ -10,6 +10,7 @@ import SwiftData
 
 enum FilterOption {
     case title(String)
+    case none
 }
 
 struct FilterSelectionScreen: View {

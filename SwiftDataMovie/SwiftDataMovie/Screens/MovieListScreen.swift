@@ -28,18 +28,24 @@ struct MovieListScreen: View {
 
     @State private var actorName: String = ""
     @State private var activeSheet: Sheets?
+    @State private var filterOption: FilterOption = .none
     
     var body: some View {
 
         VStack(alignment: .leading) {
-            Text("Movies")
-                .font(.largeTitle)
+            HStack(alignment: .firstTextBaseline) {
+                Text("Movies")
+                    .font(.largeTitle)
+                Spacer()
+                Button("Filter") {
+                    activeSheet = .showFilter
+                }
+            }
             MovieListView(movies: movies)
             
             Text("Actors")
                 .font(.largeTitle)
             ActorListView(actors: actors)
-            
         } //: End of VStack
         .padding()
         .toolbar(content: {
@@ -75,7 +81,7 @@ struct MovieListScreen: View {
                 }
             case .showFilter:
                 NavigationStack {
-                    Text("Filter here")
+                    FilterSelectionScreen(filterOption: $filterOption)
                 }
             }
         }

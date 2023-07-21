@@ -71,7 +71,7 @@ struct MovieListScreen: View {
                     .padding()
                 Button("Save") {
                     addActor()
-                    activeSheet = nil
+                    self.activeSheet = nil
                 }
             case .showFilter:
                 NavigationStack {

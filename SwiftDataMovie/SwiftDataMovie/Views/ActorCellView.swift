@@ -14,7 +14,9 @@ struct ActorCellView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(actor.name)
-            Text(actor.movies.map { $0.title }, format: .list(type: .or))
+                .font(.title3)
+                .underline()
+            Text(actor.movies.map { $0.title }, format: .list(type: .and))
         }
     }
 }

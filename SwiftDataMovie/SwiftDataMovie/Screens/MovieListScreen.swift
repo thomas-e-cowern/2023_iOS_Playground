@@ -8,13 +8,23 @@
 import SwiftUI
 import SwiftData
 
+enum sheets: Identifiable {
+    case addMovie
+    case addActor
+    case showFilter
+    
+    var id: Int {
+        hashValue
+    }
+}
+
 struct MovieListScreen: View {
     
     @Environment(\.modelContext) private var context
     
-//    @Query(sort: \.title, order: .reverse, animation: .default) private var movies: [Movie]
+    @Query(sort: \.title, order: .reverse, animation: .default) private var movies: [Movie]
     @Query(sort: \.name, order: .forward) private var actors: [Actor]
-    @Query(filter: #Predicate { $0.title.contains("Iron man")}, animation: .bouncy) private var movies: [Movie]
+//    @Query(filter: #Predicate { $0.title.contains("Iron man")}, animation: .bouncy) private var movies: [Movie]
     
     @State private var isAddMoviePresented: Bool = false
     @State private var isAddActorPresented: Bool = false

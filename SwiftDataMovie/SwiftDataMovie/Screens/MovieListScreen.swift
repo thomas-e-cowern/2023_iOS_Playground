@@ -41,7 +41,7 @@ struct MovieListScreen: View {
                     activeSheet = .showFilter
                 }
             }
-            MovieListView(movies: movies)
+            MovieListView(filterOption: filterOption)
             
             Text("Actors")
                 .font(.largeTitle)

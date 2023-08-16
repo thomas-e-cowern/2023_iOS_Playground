@@ -15,6 +15,12 @@ class TodoListTableViewController: UITableViewController {
         super.viewDidLoad()
         
         let addTodoItemAction = UIAction { [weak self] action in
+            
+            let addTodoItemVC = AddTodoItemController()
+            addTodoItemVC.delegate = self
+            
+            self?.present(addTodoItemVC, animated: true)
+            
             self?.present(AddTodoItemController(), animated: true)
         }
         
@@ -33,6 +39,17 @@ class TodoListTableViewController: UITableViewController {
     }
     
     
+}
+
+extension TodoListTableViewController: AddTodoItemControllerDelegate {
+    func addTodoItemControllerDidSave(controller: UIViewController, todoItem: ToDoItem) {
+        // save the item
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+        let context = appDelegate.containter.mainContext
+        context.insert(todoItem)
+        
+        controller.dismiss(animated: true)
+    }
 }
 
 

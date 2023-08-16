@@ -9,6 +9,10 @@ import Foundation
 import UIKit
 import SwiftData
 
+protocol AddTodoItemControllerDelegate {
+    func addTodoItemControllerDidSave(controller: UIViewController, todoItem: ToDoItem)
+}
+
 class AddTodoItemController: UIViewController {
     
     lazy var titleTextField: UITextField = {
@@ -39,7 +43,7 @@ class AddTodoItemController: UIViewController {
         view.addSubview(stackView)
         
         saveButton.addAction(UIAction(handler: { [weak self] action in
-            
+            guard let title = self?.titleTextField.text else { return }
            
             
         }), for: .touchUpInside)

@@ -15,6 +15,8 @@ protocol AddTodoItemControllerDelegate {
 
 class AddTodoItemController: UIViewController {
     
+    var delegate: AddTodoItemControllerDelegate?
+    
     lazy var titleTextField: UITextField = {
         let textField = UITextField()
         textField.borderStyle = .roundedRect
@@ -44,6 +46,9 @@ class AddTodoItemController: UIViewController {
         
         saveButton.addAction(UIAction(handler: { [weak self] action in
             guard let title = self?.titleTextField.text else { return }
+            if let delegate = self?.delegate, let unwrappedself = self {
+                delegate.addTodoItemControllerDidSave(controller: unwrappedself, todoItem: ToDoItem(title: title))
+            }
            
             
         }), for: .touchUpInside)

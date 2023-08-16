@@ -10,6 +10,8 @@ import SwiftUI
 import SwiftData
 
 class TodoListTableViewController: UITableViewController {
+    
+    private var todoItems: [ToDoItem] = []
    
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +37,33 @@ class TodoListTableViewController: UITableViewController {
     }
     
     private func populateTodoItems() {
-       
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+        let context = appDelegate.containter.mainContext
+        
+        let fetchDescriptor: FetchDescriptor<ToDoItem> = FetchDescriptor()
+        
+        do {
+            self.todoItems = try context.fetch(fetchDescriptor)
+            tableView.reloadData()
+        } catch {
+            print(error.localizedDescription)
+        }
     }
     
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        self.todoItems.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell =  tableView.dequeueReusableCell(withIdentifier: "TodoItemTableViewCell", for: indexPath)
+        let todoItem = self.todoItems[indexPath.row]
+        
+        var content = UIListContentConfiguration.cell()
+        content.text = todoItem.title
+        
+        cell.contentConfiguration = content
+        return cell
+    }
     
 }
 
@@ -49,6 +75,7 @@ extension TodoListTableViewController: AddTodoItemControllerDelegate {
         context.insert(todoItem)
         
         controller.dismiss(animated: true)
+        populateTodoItems()
     }
 }
 

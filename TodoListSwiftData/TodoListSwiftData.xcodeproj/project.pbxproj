@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DF331132A8D284900814AC4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF331122A8D284900814AC4 /* ToDoItem.swift */; };
 		8D4406BA2A4C87AE008350C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4406B92A4C87AE008350C7 /* AppDelegate.swift */; };
 		8D4406BC2A4C87AE008350C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4406BB2A4C87AE008350C7 /* SceneDelegate.swift */; };
 		8D4406BE2A4C87AE008350C7 /* TodoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4406BD2A4C87AE008350C7 /* TodoListTableViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DF331122A8D284900814AC4 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = SOURCE_ROOT; };
 		8D4406B62A4C87AE008350C7 /* TodoListSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4406B92A4C87AE008350C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D4406BB2A4C87AE008350C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DF331112A8D283900814AC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DF331122A8D284900814AC4 /* ToDoItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8D4406AD2A4C87AE008350C7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		8D4406B82A4C87AE008350C7 /* TodoListSwiftData */ = {
 			isa = PBXGroup;
 			children = (
+				4DF331112A8D283900814AC4 /* Models */,
 				8D4406B92A4C87AE008350C7 /* AppDelegate.swift */,
 				8D4406BB2A4C87AE008350C7 /* SceneDelegate.swift */,
 				8D4406BD2A4C87AE008350C7 /* TodoListTableViewController.swift */,
@@ -143,6 +154,7 @@
 			files = (
 				8D4406BE2A4C87AE008350C7 /* TodoListTableViewController.swift in Sources */,
 				8D4406BA2A4C87AE008350C7 /* AppDelegate.swift in Sources */,
+				4DF331132A8D284900814AC4 /* ToDoItem.swift in Sources */,
 				8D4406D12A4C8E08008350C7 /* AddTodoItemController.swift in Sources */,
 				8D4406BC2A4C87AE008350C7 /* SceneDelegate.swift in Sources */,
 			);

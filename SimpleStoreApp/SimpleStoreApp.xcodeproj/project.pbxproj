@@ -51,6 +51,9 @@
 		4D0A978D2A8E6C2900874A30 /* SimpleStoreApp */ = {
 			isa = PBXGroup;
 			children = (
+				4D0A979E2A8E6D9200874A30 /* Clients */,
+				4D0A979D2A8E6D7F00874A30 /* APIs */,
+				4D0A979C2A8E6D7400874A30 /* Screens */,
 				4D0A978E2A8E6C2900874A30 /* SimpleStoreAppApp.swift */,
 				4D0A97902A8E6C2900874A30 /* ContentView.swift */,
 				4D0A97922A8E6C2B00874A30 /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				4D0A97952A8E6C2B00874A30 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D0A979C2A8E6D7400874A30 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4D0A979D2A8E6D7F00874A30 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		4D0A979E2A8E6D9200874A30 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

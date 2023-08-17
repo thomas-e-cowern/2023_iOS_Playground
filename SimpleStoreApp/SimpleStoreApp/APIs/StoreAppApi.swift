@@ -41,7 +41,7 @@ struct StoreAppApi {
         return []
     }
     
-    func getProducts() async -> [Product] {
+    func getAllProducts() async -> [Product] {
         
         var products = [Product]()
         
@@ -65,5 +65,37 @@ struct StoreAppApi {
         }
         
         return []
+    }
+    
+    func getByCategory(category: String) -> [Product] {
+        
+        var products = [Product]()
+        
+        guard let url = URL(string: "https://api.escuelajs.co/api/v1/products/") else {
+            print("Invalid URL")
+            return []
+        }
+        
+        do {
+            let (data, _) = try await URLSession.shared.data(from: url)
+
+            if let decodedResponse = try? JSONDecoder().decode([Product].self, from: data) {
+                products = decodedResponse
+                
+            }
+            
+            return products.sorted {
+                $0.category.name == $1.category.name
+            }
+            
+        } catch {
+            print("Invalid Product data")
+        }
+        
+        return []
+        
+//        let result = books.sorted {
+//            $0.popularidad > $1.popularidad
+//        }
     }
 }

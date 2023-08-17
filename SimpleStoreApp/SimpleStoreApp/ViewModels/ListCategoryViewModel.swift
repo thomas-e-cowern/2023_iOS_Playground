@@ -18,7 +18,7 @@ struct ListCategoryViewModel {
     }
     
     func loadProducts() async -> [Product] {
-        let products = await storeApi.getProducts()
+        let products = await storeApi.getAllProducts()
         return products
     }
 }

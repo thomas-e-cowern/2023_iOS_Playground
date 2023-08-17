@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var results = [Category]()
+    @State private var viewModel = ListCategoryViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(results, id: \.id) { item in
+            VStack(alignment: .leading) {
+                Text(item.name)
+                    .font(.headline)
+                Text(item.creationAt)
+            }
         }
-        .padding()
+        .task {
+            results = await viewModel.loadData()
+        }
     }
 }
 
@@ -24,3 +31,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

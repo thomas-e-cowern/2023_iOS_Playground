@@ -16,6 +16,6 @@ struct Product: Codable, Identifiable {
     var images: [String]
     var creationAt: String
     var updatedAt: String
-    var category: ProductCategory
+    var category: Category
     
 }

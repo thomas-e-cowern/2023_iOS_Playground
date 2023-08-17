@@ -67,8 +67,8 @@ struct StoreAppApi {
         return []
     }
     
-    func getByCategory(category: String) -> [Product] {
-        
+    func getByCategory(category: Int) async -> [Product] {
+
         var products = [Product]()
         
         guard let url = URL(string: "https://api.escuelajs.co/api/v1/products/") else {
@@ -84,8 +84,12 @@ struct StoreAppApi {
                 
             }
             
-            return products.sorted {
+            let sortedProducts = products.sorted {
                 $0.category.name == $1.category.name
+            }
+            print("sortedProducts: \(sortedProducts)")
+            return products.sorted {
+                $0.category.id == $1.category.id
             }
             
         } catch {

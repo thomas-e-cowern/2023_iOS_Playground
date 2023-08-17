@@ -13,11 +13,17 @@ struct ListCategoriesScreen: View {
     @State private var viewModel = ListCategoryViewModel()
     
     var body: some View {
-        List(categories, id: \.id) { category in
-            CategoryRowView(category: category)
-        }
-        .task {
-            categories = await viewModel.loadData()
+        NavigationView {
+            List(categories, id: \.id) { category in
+                NavigationLink {
+                    CategoryScreen(category: category)
+                } label: {
+                    CategoryRowView(category: category)
+                }
+            }
+            .task {
+                categories = await viewModel.loadData()
+            }
         }
     }
 }

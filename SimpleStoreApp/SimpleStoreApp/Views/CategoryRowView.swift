@@ -17,7 +17,6 @@ struct CategoryRowView: View {
                 AsyncImage(url: URL(string: category.image)!) { phase in // 1
                     if let image = phase.image { // 2
                         // if the image is valid
-                        
                         image
                             .resizable()
                             .aspectRatio(contentMode: .fill)

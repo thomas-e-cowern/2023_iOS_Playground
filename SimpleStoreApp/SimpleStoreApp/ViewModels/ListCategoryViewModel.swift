@@ -13,7 +13,12 @@ struct ListCategoryViewModel {
     var storeApi = StoreAppApi.shared
     
     func loadCategories() async  -> [Category] {
-        let results = await storeApi.loadCategories()
-        return results
+        let categories = await storeApi.loadCategories()
+        return categories
+    }
+    
+    func loadProducts() async -> [Product] {
+        let products = await storeApi.getProducts()
+        return products
     }
 }

@@ -15,6 +15,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Categories", systemImage: "list.bullet")
                 }
+            ListProductsView()
+                .tabItem {
+                    Label("Products", systemImage: "figure.walk.circle")
+                }
         }
     }
 }

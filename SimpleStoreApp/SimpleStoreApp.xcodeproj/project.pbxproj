@@ -16,6 +16,7 @@
 		4D0A97A72A8E756100874A30 /* ListCategoriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A97A62A8E756100874A30 /* ListCategoriesScreen.swift */; };
 		4D0A97AA2A8E757E00874A30 /* ListCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A97A92A8E757E00874A30 /* ListCategoryViewModel.swift */; };
 		4D0A97AF2A8E898800874A30 /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A97AE2A8E898800874A30 /* CategoryRowView.swift */; };
+		4D0A97B12A8EB50700874A30 /* CategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A97B02A8EB50700874A30 /* CategoryScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		4D0A97A62A8E756100874A30 /* ListCategoriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCategoriesScreen.swift; sourceTree = "<group>"; };
 		4D0A97A92A8E757E00874A30 /* ListCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCategoryViewModel.swift; sourceTree = "<group>"; };
 		4D0A97AE2A8E898800874A30 /* CategoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
+		4D0A97B02A8EB50700874A30 /* CategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				4D0A97A62A8E756100874A30 /* ListCategoriesScreen.swift */,
+				4D0A97B02A8EB50700874A30 /* CategoryScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				4D0A978F2A8E6C2900874A30 /* SimpleStoreAppApp.swift in Sources */,
 				4D0A97A72A8E756100874A30 /* ListCategoriesScreen.swift in Sources */,
 				4D0A97AF2A8E898800874A30 /* CategoryRowView.swift in Sources */,
+				4D0A97B12A8EB50700874A30 /* CategoryScreen.swift in Sources */,
 				4D0A97AA2A8E757E00874A30 /* ListCategoryViewModel.swift in Sources */,
 				4D0A97A12A8E732D00874A30 /* Product.swift in Sources */,
 			);

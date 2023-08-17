@@ -22,7 +22,7 @@ struct ListCategoriesScreen: View {
                 }
             }
             .task {
-                categories = await viewModel.loadData()
+                categories = await viewModel.loadCategories()
             }
         }
     }

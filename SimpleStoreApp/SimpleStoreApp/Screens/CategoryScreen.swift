@@ -23,8 +23,7 @@ struct CategoryScreen: View {
                 NavigationLink {
                     ProductsDetailScreen(product: product)
                 } label: {
-                    Text(product.title)
-                        .font(.headline)
+                    ProductRowView(product: product)
                 }
             }
             .task {

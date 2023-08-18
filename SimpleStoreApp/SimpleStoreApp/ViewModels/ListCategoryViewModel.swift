@@ -21,9 +21,4 @@ struct ListCategoryViewModel {
         let products = await storeApi.getAllProducts()
         return products
     }
-    
-    func getProductsByCategory(category: Int) async -> [Product] {
-        let productsByCategory = await storeApi.getByCategory(category: category)
-        return productsByCategory
-    }
 }

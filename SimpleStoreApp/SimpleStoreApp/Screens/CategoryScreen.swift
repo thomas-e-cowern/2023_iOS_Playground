@@ -10,12 +10,18 @@ import SwiftUI
 struct CategoryScreen: View {
     
     var category: Category
+    
+    var filteredProducts: [Product] {
+        return products.filter { $0.category.name == category.name }
+    }
+    
     @State private var products = [Product]()
     @State private var viewModel = ListCategoryViewModel()
     
     var body: some View {
-        List(products, id: \.id) { product in
+        List(filteredProducts, id: \.id) { product in
             Text(product.title)
+                .font(.headline)
 //                NavigationLink {
 //                    CategoryScreen(category: category)
 //                } label: {
@@ -23,7 +29,7 @@ struct CategoryScreen: View {
 //                }
         }
         .task {
-            products = await viewModel.getProductsByCategory(category: category.id)
+            products = await viewModel.loadProducts()
         }
     }
         

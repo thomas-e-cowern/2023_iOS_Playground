@@ -19,17 +19,16 @@ struct CategoryScreen: View {
     @State private var viewModel = ListCategoryViewModel()
     
     var body: some View {
-        List(filteredProducts, id: \.id) { product in
-            Text(product.title)
-                .font(.headline)
-//                NavigationLink {
-//                    CategoryScreen(category: category)
-//                } label: {
-//                    CategoryRowView(category: category)
-//                }
-        }
-        .task {
-            products = await viewModel.loadProducts()
+            List(filteredProducts, id: \.id) { product in
+                NavigationLink {
+                    ProductsDetailScreen(product: product)
+                } label: {
+                    Text(product.title)
+                        .font(.headline)
+                }
+            }
+            .task {
+                products = await viewModel.loadProducts()
         }
     }
         

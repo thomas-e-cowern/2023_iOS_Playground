@@ -31,12 +31,12 @@ struct ListProductsView: View {
     }
     
     var searchResults: [Product] {
-            if searchText.isEmpty {
-                return products
-            } else {
-                return products.filter { $0.title.contains(searchText) }
-            }
+        if searchText.isEmpty {
+            return products
+        } else {
+            return products.filter { $0.title.contains(searchText) }
         }
+    }
 }
 
 struct ListProductsView_Previews: PreviewProvider {

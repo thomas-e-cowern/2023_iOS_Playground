@@ -17,6 +17,33 @@ struct ProductsDetailScreen: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
+            
+            HStack (alignment: .center) {
+                Spacer()
+                AsyncImage(url: URL(string: product.images[0])!) { phase in // 1
+                    if let image = phase.image { // 2
+                        // if the image is valid
+                        image
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                        
+                    } else if phase.error != nil { // 3
+                        // some kind of error appears
+                        Text("No image available")
+                    } else {
+                        //appears as placeholder image
+                        Image(systemName: "photo") // 4
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                    }
+                }
+                    .frame(width: 250, height: 250, alignment: .center)
+                    .font(.headline)
+                    .cornerRadius(12)
+                Spacer()
+            }
+            .padding(.bottom, 24)
+            
             HStack() {
                 Text(product.title)
                     .font(.headline)

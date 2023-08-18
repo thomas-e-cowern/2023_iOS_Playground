@@ -18,7 +18,20 @@ struct ProductsDetailScreen: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             
+            HStack {
+                Spacer()
+                Text(product.category.name)
+                    .padding(.bottom, 12)
+                Spacer()
+            }
+            .background(Color.red.opacity(0.5))
+            
+            Spacer()
+                .frame(width: .infinity, height: 100, alignment: .center)
+                
+            
             HStack (alignment: .center) {
+                
                 Spacer()
                 AsyncImage(url: URL(string: product.images[0])!) { phase in // 1
                     if let image = phase.image { // 2
@@ -56,6 +69,7 @@ struct ProductsDetailScreen: View {
             Text(product.description)
                 .padding(.leading, 10)
         }
+        Spacer()
     }
 }
 

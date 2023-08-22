@@ -27,7 +27,7 @@ struct ProductsDetailScreen: View {
             .background(Color.red.opacity(0.5))
             
             Spacer()
-                .frame(width: .infinity, height: 100, alignment: .center)
+                .frame(width: .infinity, height: 50, alignment: .center)
                 
             
             HStack (alignment: .center) {

@@ -10,7 +10,18 @@ import MapKit
 
 struct ContentView: View {
     var body: some View {
-        Map()
+        Map(mapRect: <#Binding<MKMapRect>#>)
+    }
+    
+    private func loadRestrooms() async {
+        
+        do {
+           try await WebService.shared.fetchRestrooms(at: Constants.Urls.restrooms)
+        } catch {
+            print(error.localizedDescription)
+        }
+        
+        
     }
 }
 

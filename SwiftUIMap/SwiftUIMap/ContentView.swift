@@ -13,21 +13,30 @@ struct ContentView: View {
     @State private var restrooms: [Restroom] = []
     
     @State private var region = MKCoordinateRegion(
-            center: CLLocationCoordinate2D(
-                latitude: 26.7268,
-                longitude: -80.1161
-            ),
-            span: MKCoordinateSpan(
-                latitudeDelta: 10,
-                longitudeDelta: 10
-            )
+        center: CLLocationCoordinate2D(
+            latitude: 26.7268,
+            longitude: -80.1161
+        ),
+        span: MKCoordinateSpan(
+            latitudeDelta: 0.2,
+            longitudeDelta: 0.2
         )
+    )
     
     var body: some View {
-        Map(coordinateRegion: $region)
-            .task {
-                await loadRestrooms()
+        Map(coordinateRegion: $region, annotationItems: restrooms) { restroom in
+            MapAnnotation(
+                coordinate: restroom.coordinates,
+                anchorPoint: CGPoint(x: 0.1, y: 0.1)
+            ) {
+                Circle()
+                    .stroke(Color.green)
+                    .frame(width: 44, height: 44)
             }
+        }
+        .task {
+            await loadRestrooms()
+        }
     }
     
     private func loadRestrooms() async {

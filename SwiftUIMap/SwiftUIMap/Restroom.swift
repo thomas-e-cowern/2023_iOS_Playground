@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MapKit
 
 struct Restroom: Identifiable, Codable {
     let id: Int
@@ -16,4 +17,8 @@ struct Restroom: Identifiable, Codable {
     let directions: String
     let latitude: Double
     let longitude: Double
+    
+    var coordinates: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
 }

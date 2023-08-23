@@ -9,14 +9,31 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
+    
+    @State private var restrooms: [Restroom] = []
+    
+    @State private var region = MKCoordinateRegion(
+            center: CLLocationCoordinate2D(
+                latitude: 26.7268,
+                longitude: -80.1161
+            ),
+            span: MKCoordinateSpan(
+                latitudeDelta: 10,
+                longitudeDelta: 10
+            )
+        )
+    
     var body: some View {
-        Map(mapRect: <#Binding<MKMapRect>#>)
+        Map(coordinateRegion: $region)
+            .task {
+                await loadRestrooms()
+            }
     }
     
     private func loadRestrooms() async {
         
         do {
-           try await WebService.shared.fetchRestrooms(at: Constants.Urls.restrooms)
+            restrooms = try await WebService.shared.fetchRestrooms(at: Constants.Urls.restrooms)
         } catch {
             print(error.localizedDescription)
         }

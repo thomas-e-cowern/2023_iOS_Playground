@@ -24,14 +24,20 @@ struct ContentView: View {
     )
     
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems: restrooms) { restroom in
-            MapMarker(
-                coordinate: restroom.coordinates,
-                tint: .accentColor
-            )
+        NavigationView {
+            Map(coordinateRegion: $region, annotationItems: restrooms) { restroom in
+                MapAnnotation(coordinate: restroom.coordinates) {
+                    NavigationLink {
+                        RestroomDetailView(restroom: restroom)
+                    } label: {
+                        Image(systemName: "mappin.circle.fill")
+                    }
+
+                }
+            }
+            .task {
+                await loadRestrooms()
         }
-        .task {
-            await loadRestrooms()
         }
     }
     

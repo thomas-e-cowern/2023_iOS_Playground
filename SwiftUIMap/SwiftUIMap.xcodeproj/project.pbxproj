@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D2C2F302A967B3000FFE8F3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C2F2F2A967B3000FFE8F3 /* WebService.swift */; };
+		4D2C2F322A967C8100FFE8F3 /* Restroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C2F312A967C8100FFE8F3 /* Restroom.swift */; };
 		4DA2421C2A9540DA00BF3ECB /* SwiftUIMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2421B2A9540DA00BF3ECB /* SwiftUIMapApp.swift */; };
 		4DA2421E2A9540DA00BF3ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2421D2A9540DA00BF3ECB /* ContentView.swift */; };
 		4DA242202A9540DB00BF3ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA2421F2A9540DB00BF3ECB /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		4D2C2F2F2A967B3000FFE8F3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4D2C2F312A967C8100FFE8F3 /* Restroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restroom.swift; sourceTree = "<group>"; };
 		4DA242182A9540DA00BF3ECB /* SwiftUIMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA2421B2A9540DA00BF3ECB /* SwiftUIMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapApp.swift; sourceTree = "<group>"; };
 		4DA2421D2A9540DA00BF3ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				4DA2421F2A9540DB00BF3ECB /* Assets.xcassets */,
 				4DA242212A9540DB00BF3ECB /* Preview Content */,
 				4D2C2F2F2A967B3000FFE8F3 /* WebService.swift */,
+				4D2C2F312A967C8100FFE8F3 /* Restroom.swift */,
 			);
 			path = SwiftUIMap;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2C2F322A967C8100FFE8F3 /* Restroom.swift in Sources */,
 				4D2C2F302A967B3000FFE8F3 /* WebService.swift in Sources */,
 				4DA2421E2A9540DA00BF3ECB /* ContentView.swift in Sources */,
 				4DA2421C2A9540DA00BF3ECB /* SwiftUIMapApp.swift in Sources */,

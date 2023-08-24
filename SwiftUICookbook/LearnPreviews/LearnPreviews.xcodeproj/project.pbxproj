@@ -63,12 +63,12 @@
 				8DEE0C4E26E8F5E00045CAAD /* LearnPreviewsApp.swift */,
 				8DEE0C5026E8F5E00045CAAD /* ContentView.swift */,
 				8DEE0C5E26E8F6290045CAAD /* RatingView.swift */,
+				4D2C2F532A98170200FFE8F3 /* SampleProvider.swift */,
+				4D2C2F552A98174E00FFE8F3 /* Dish.swift */,
 				4D2C2F512A9816C400FFE8F3 /* sample-dish.json */,
 				8DEE0C5226E8F5E60045CAAD /* Assets.xcassets */,
 				8DEE0C5726E8F5E60045CAAD /* Info.plist */,
 				8DEE0C5426E8F5E60045CAAD /* Preview Content */,
-				4D2C2F532A98170200FFE8F3 /* SampleProvider.swift */,
-				4D2C2F552A98174E00FFE8F3 /* Dish.swift */,
 			);
 			path = LearnPreviews;
 			sourceTree = "<group>";

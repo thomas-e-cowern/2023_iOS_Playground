@@ -40,7 +40,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
-                .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+                .previewDevice(PreviewDevice(rawValue: "iPhone SE (3rd generation)"))
                 .previewDisplayName("iPhone SE")
             
             ContentView()
@@ -49,11 +49,6 @@ struct ContentView_Previews: PreviewProvider {
             
             RatingView(rating: .constant(3))
                 .previewLayout(.sizeThatFits)
-                
-                
         }
-        
-        
-            
     }
 }

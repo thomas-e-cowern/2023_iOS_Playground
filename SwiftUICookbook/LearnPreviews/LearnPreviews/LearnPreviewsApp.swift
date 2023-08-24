@@ -11,7 +11,10 @@ import SwiftUI
 struct LearnPreviewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let dish = SampleProvider.getDishSample()
+            if let dish = dish {
+                ContentView(dish: dish)
+            }
         }
     }
 }

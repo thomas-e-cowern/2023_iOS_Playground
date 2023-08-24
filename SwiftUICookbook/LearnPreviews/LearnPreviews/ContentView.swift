@@ -11,6 +11,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    let dish: Dish
+    
     @State private var rating: Int? = nil
     
     var body: some View {
@@ -18,11 +20,11 @@ struct ContentView: View {
             
             VStack(alignment: .leading, spacing: 20) {
                 
-                Image("food")
+                Image(dish.photos)
                     .resizable()
-                Text("French Toast")
+                Text(dish.title)
                     .font(.title)
-                Text("This classic French Toast recipe is easy, uses simple pantry ingredients, and has a secret ingredient that makes a thicker batter with cinnamon sugar flavors that really set it apart. It’s one of our family’s favorite breakfasts!")
+                Text(dish.description)
                    
                 RatingView(rating: $rating)
                    
@@ -39,15 +41,21 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         
-        Group {
-            ContentView()
-                .preferredColorScheme(.light)
-                .previewDisplayName("Light Mode")
-            
-            ContentView()
-                .preferredColorScheme(.dark)
-                .previewDisplayName("Dark Mode")
+        let dish = SampleProvider.getDishSample()
+        
+        if let dish = dish {
+            ContentView(dish: dish)
         }
+        
+//        Group {
+//            ContentView()
+//                .preferredColorScheme(.light)
+//                .previewDisplayName("Light Mode")
+//            
+//            ContentView()
+//                .preferredColorScheme(.dark)
+//                .previewDisplayName("Dark Mode")
+//        }
         
         
 //        ForEach(ContentSizeCategory.allCases, id: \.self) { preview in

@@ -20,7 +20,7 @@ struct ContentView: View {
             
             VStack(alignment: .leading, spacing: 20) {
                 
-                Image(dish.photos)
+                Image(dish.photo)
                     .resizable()
                 Text(dish.title)
                     .font(.title)
@@ -45,6 +45,8 @@ struct ContentView_Previews: PreviewProvider {
         
         if let dish = dish {
             ContentView(dish: dish)
+        } else {
+            Text("Something went wrong")
         }
         
 //        Group {

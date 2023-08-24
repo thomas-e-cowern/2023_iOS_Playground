@@ -10,5 +10,5 @@ import Foundation
 struct Dish: Codable {
     let title: String
     let description: String
-    let photos: String
+    let photo: String
 }

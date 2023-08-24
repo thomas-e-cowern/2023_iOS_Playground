@@ -40,12 +40,17 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
+                .environment(\.sizeCategory, .large)
                 .previewDevice(PreviewDevice(rawValue: "iPhone SE (3rd generation)"))
                 .previewDisplayName("iPhone SE")
             
             ContentView()
                 .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro Max"))
                 .previewDisplayName("iPhone 12 Pro Max")
+            
+            ContentView()
+                .previewDevice(PreviewDevice(rawValue: "iPad mini (6th generation)"))
+                .previewDisplayName("iPad mini")
             
             RatingView(rating: .constant(3))
                 .previewLayout(.sizeThatFits)

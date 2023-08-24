@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2C2F522A9816C500FFE8F3 /* sample-dish.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C2F512A9816C400FFE8F3 /* sample-dish.json */; };
+		4D2C2F542A98170200FFE8F3 /* SampleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C2F532A98170200FFE8F3 /* SampleProvider.swift */; };
 		8DEE0C4F26E8F5E00045CAAD /* LearnPreviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE0C4E26E8F5E00045CAAD /* LearnPreviewsApp.swift */; };
 		8DEE0C5126E8F5E00045CAAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE0C5026E8F5E00045CAAD /* ContentView.swift */; };
 		8DEE0C5326E8F5E60045CAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DEE0C5226E8F5E60045CAAD /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D2C2F512A9816C400FFE8F3 /* sample-dish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sample-dish.json"; sourceTree = "<group>"; };
+		4D2C2F532A98170200FFE8F3 /* SampleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProvider.swift; sourceTree = "<group>"; };
 		8DEE0C4B26E8F5E00045CAAD /* LearnPreviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnPreviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEE0C4E26E8F5E00045CAAD /* LearnPreviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnPreviewsApp.swift; sourceTree = "<group>"; };
 		8DEE0C5026E8F5E00045CAAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,9 +61,11 @@
 				8DEE0C4E26E8F5E00045CAAD /* LearnPreviewsApp.swift */,
 				8DEE0C5026E8F5E00045CAAD /* ContentView.swift */,
 				8DEE0C5E26E8F6290045CAAD /* RatingView.swift */,
+				4D2C2F512A9816C400FFE8F3 /* sample-dish.json */,
 				8DEE0C5226E8F5E60045CAAD /* Assets.xcassets */,
 				8DEE0C5726E8F5E60045CAAD /* Info.plist */,
 				8DEE0C5426E8F5E60045CAAD /* Preview Content */,
+				4D2C2F532A98170200FFE8F3 /* SampleProvider.swift */,
 			);
 			path = LearnPreviews;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DEE0C5626E8F5E60045CAAD /* Preview Assets.xcassets in Resources */,
+				4D2C2F522A9816C500FFE8F3 /* sample-dish.json in Resources */,
 				8DEE0C5326E8F5E60045CAAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2C2F542A98170200FFE8F3 /* SampleProvider.swift in Sources */,
 				8DEE0C5F26E8F6290045CAAD /* RatingView.swift in Sources */,
 				8DEE0C5126E8F5E00045CAAD /* ContentView.swift in Sources */,
 				8DEE0C4F26E8F5E00045CAAD /* LearnPreviewsApp.swift in Sources */,

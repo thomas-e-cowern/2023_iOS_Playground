@@ -14,6 +14,7 @@ struct RestroomDetailView: View {
     var body: some View {
         VStack {
             Text(restroom.name)
+                .font(.headline)
             Text(restroom.street)
         }
     }

@@ -26,12 +26,34 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Map(coordinateRegion: $region, annotationItems: annotations) {
+            Map(coordinateRegion: $region, annotationItems: annotations) { place in
+                MapAnnotation(coordinate: place.coordinate) {
+                    HStack {
+                        Image(systemName: "heart.fill")
+                            .foregroundColor(.red)
+                        Text(rating)
+                            .fixedSize()
+                    }
+                    .padding()
+                    .background(Color.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 25))
+                    .overlay(alignment: .bottom) {
+                        Image(systemName: "arrowtriangle.left.fill")
+                            .rotationEffect(Angle(degrees: 270)).foregroundColor(.white)
+                            .offset(y: 10)
+                        
+                        
+                    }
+                }
 //                MapPin(coordinate: $0.coordinate)
-                MapMarker(coordinate: $0.coordinate)
+//                MapMarker(coordinate: $0.coordinate)
             }
         }
         .padding()
+    }
+    
+    var rating: String {
+        return String(format: "%.1f", Double.random(in: 1...5))
     }
 }
 

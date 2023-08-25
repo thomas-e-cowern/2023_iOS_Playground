@@ -27,7 +27,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Map(coordinateRegion: $region, annotationItems: annotations) {
-                MapPin(coordinate: $0.coordinate)
+//                MapPin(coordinate: $0.coordinate)
+                MapMarker(coordinate: $0.coordinate)
             }
         }
         .padding()

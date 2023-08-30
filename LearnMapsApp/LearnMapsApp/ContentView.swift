@@ -35,10 +35,11 @@ struct ContentView: View {
                             .fixedSize()
                     }
                     .padding()
-                    .background(Color.white)
+                    .background(Color.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 25))
                     .overlay(alignment: .bottom) {
                         Image(systemName: "arrowtriangle.left.fill")
+                            .foregroundColor(.blue)
                             .rotationEffect(Angle(degrees: 270)).foregroundColor(.white)
                             .offset(y: 10)
                         

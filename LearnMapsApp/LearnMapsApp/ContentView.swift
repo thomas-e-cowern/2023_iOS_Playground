@@ -39,7 +39,7 @@ struct ContentView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 25))
                     .overlay(alignment: .bottom) {
                         Image(systemName: "arrowtriangle.left.fill")
-                            .foregroundColor(.blue)
+                            .foregroundColor(.blue )
                             .rotationEffect(Angle(degrees: 270)).foregroundColor(.white)
                             .offset(y: 10)
                         

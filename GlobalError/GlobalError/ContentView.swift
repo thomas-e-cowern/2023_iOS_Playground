@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+struct ShowErrorEnvironmentKey: EnvironmentKey {
+    static var defaultValue: (Error, String) -> Void = { _, _ in }
+}
+
 struct ErrorWrapper: Identifiable {
     let id = UUID()
     let error: Error

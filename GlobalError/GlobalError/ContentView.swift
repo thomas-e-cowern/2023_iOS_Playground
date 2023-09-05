@@ -7,13 +7,23 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+    private enum SampleError: Error {
+        case operationFailed
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("Throw Error") {
+                do {
+                    throw SampleError.operationFailed
+                } catch {
+                    print("error caught")
+                }
+            }
         }
         .padding()
     }

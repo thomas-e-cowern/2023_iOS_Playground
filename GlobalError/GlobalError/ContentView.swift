@@ -32,6 +32,12 @@ struct ContentView: View {
             }
         }
         .padding()
+        .sheet(item: $errorWrapper) { error in
+            VStack {
+                Text(error.error.localizedDescription)
+                Text(error.guidance ?? "")
+            }
+        }
     }
 }
 

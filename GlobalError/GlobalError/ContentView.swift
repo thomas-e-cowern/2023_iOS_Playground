@@ -13,6 +13,18 @@ struct ErrorWrapper: Identifiable {
     let guidance:  String?
 }
 
+struct ErrorView: View {
+    
+    let errorWrapper: ErrorWrapper
+    
+    var body: some View {
+        VStack {
+            Text(errorWrapper.error.localizedDescription)
+            Text(errorWrapper.guidance ?? "")
+        }
+    }
+}
+
 struct ContentView: View {
     
     @State private var errorWrapper: ErrorWrapper?
@@ -32,11 +44,8 @@ struct ContentView: View {
             }
         }
         .padding()
-        .sheet(item: $errorWrapper) { error in
-            VStack {
-                Text(error.error.localizedDescription)
-                Text(error.guidance ?? "")
-            }
+        .sheet(item: $errorWrapper) { errorWrapper in
+            ErrorView(errorWrapper: errorWrapper)
         }
     }
 }

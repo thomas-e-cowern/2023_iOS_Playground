@@ -7,9 +7,15 @@
 
 import SwiftUI
 
-
+struct ErrorWrapper: Identifiable {
+    let id = UUID()
+    let error: Error
+    let guidance:  String?
+}
 
 struct ContentView: View {
+    
+    @State private var errorWrapper: ErrorWrapper?
     
     private enum SampleError: Error {
         case operationFailed
@@ -21,7 +27,7 @@ struct ContentView: View {
                 do {
                     throw SampleError.operationFailed
                 } catch {
-                    print("error caught")
+                    errorWrapper = ErrorWrapper(error: error, guidance: "Please try again")
                 }
             }
         }

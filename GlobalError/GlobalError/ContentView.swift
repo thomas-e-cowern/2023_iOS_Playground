@@ -38,7 +38,7 @@ struct ErrorView: View {
 
 struct ContentView: View {
     
-    @State private var errorWrapper: ErrorWrapper?
+    @Environment(\.showError) private var showError
     
     private enum SampleError: Error {
         case operationFailed
@@ -50,19 +50,31 @@ struct ContentView: View {
                 do {
                     throw SampleError.operationFailed
                 } catch {
-                    errorWrapper = ErrorWrapper(error: error, guidance: "Please try again")
+                    showError(error, "Please try again")
                 }
             }
         }
         .padding()
-        .sheet(item: $errorWrapper) { errorWrapper in
-            ErrorView(errorWrapper: errorWrapper)
-        }
+    }
+}
+
+struct ContentViewContainer: View {
+    
+    @State var errorWrapper: ErrorWrapper?
+    
+    var body: some View {
+        ContentView()
+            .environment(\.showError) { error, guidance in
+                errorWrapper = ErrorWrapper(error: error, guidance: guidance)
+            }
+            .sheet(item: $errorWrapper) { error in
+                ErrorView(errorWrapper: error)
+            }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentViewContainer()
     }
 }

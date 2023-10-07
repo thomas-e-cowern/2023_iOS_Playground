@@ -26,6 +26,10 @@ import SwiftUI
         }
     }
     
+    var projectedValue: Binding<String> {
+        Binding(get: { wrappedValue }, set: { wrappedValue = $0 })
+    }
+    
     init(_ filename: String) {
         let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
         url = paths[0].appendingPathComponent(filename)
@@ -42,7 +46,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text(document)
+                TextEditor(text: $document)
                 
                 Button("Change Document") {
                     document = String(Int.random(in: 1...1000))

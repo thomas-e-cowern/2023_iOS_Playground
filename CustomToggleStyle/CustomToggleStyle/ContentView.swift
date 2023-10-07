@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showAdvanced = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Toggle("Show Advanced Options", isOn: $showAdvanced)
         }
         .padding()
     }

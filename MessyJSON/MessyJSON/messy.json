@@ -1,0 +1,29 @@
+let json = """
+[
+    {
+        "name": "Taylor Swift",
+        "company": "Taytay Inc",
+        "age": 26,
+        "address": {
+            "street": "555 Taylor Swift Avenue",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "gps": {
+                "lat": 36.1868667,
+                "lon": -87.0661223
+            }
+        }
+    },
+    {
+        "title": "1989",
+        "type": "studio",
+        "year": "2014",
+        "singles": 7
+    },
+    {
+        "title": "Shake it Off",
+        "awards": 10,
+        "hasVideo": true
+    }
+]
+"""

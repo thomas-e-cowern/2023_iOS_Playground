@@ -18,6 +18,8 @@ struct CheckToggleStyle: ToggleStyle {
             } label: {
                 Image(systemName: configuration.isOn ? "checkmark.circle.fill" : "circle")
                     .foregroundColor(configuration.isOn ? .accentColor : .secondary)
+                    .accessibilityLabel(Text(configuration.isOn ? "checked" : "unchecked"))
+                    .imageScale(.large)
             }
         }
     }
@@ -33,6 +35,7 @@ struct ContentView: View {
         VStack {
             Toggle("Show Advanced Options", isOn: $showAdvanced)
                 .toggleStyle(CheckToggleStyle())
+                .font(.title)
         }
         .padding()
     }

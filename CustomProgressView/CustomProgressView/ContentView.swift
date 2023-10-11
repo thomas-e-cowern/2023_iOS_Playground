@@ -53,7 +53,7 @@ struct ContentView: View {
             .onTapGesture {
                 if progress < 1.0 {
                     withAnimation {
-                        progress += 0.2
+                        progress += 0.1
                     }
                 }
             }

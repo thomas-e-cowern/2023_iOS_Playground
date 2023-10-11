@@ -11,6 +11,7 @@ struct GaugeProgressStyle: ProgressViewStyle {
     var trimAmount = 0.7
     var strokeColor = Color.blue
     var strokeWidth = 25.0
+    let formatter = NumberFormatter()
     
     var rotation: Angle {
         Angle(radians: .pi * (1 - trimAmount)) + Angle(radians: .pi / 2)
@@ -20,16 +21,23 @@ struct GaugeProgressStyle: ProgressViewStyle {
         
         let fractionCompleted = configuration.fractionCompleted ?? 0
         
+        formatter.numberStyle = .percent
+        let percentage = formatter.string(from: fractionCompleted as NSNumber) ?? "0%"
+        
         return ZStack {
             Circle()
                 .rotation(rotation)
                 .trim(from: 0, to: CGFloat(trimAmount))
-                .stroke(strokeColor, style: StrokeStyle(lineWidth: CGFloat(strokeWidth), lineCap: .round))
+                .stroke(strokeColor.opacity(0.5), style: StrokeStyle(lineWidth: CGFloat(strokeWidth), lineCap: .round))
             
             Circle()
                 .rotation(rotation)
-                .trim(from: 0, to: CGFloat(trimAmount) * CGFloat(fractionCompleted))
-                .stroke(strokeColor.opacity(0.5), style: StrokeStyle(lineWidth: CGFloat(strokeWidth), lineCap: .round))
+                .trim(from: 0, to: CGFloat(trimAmount * CGFloat(fractionCompleted)))
+                .stroke(strokeColor, style: StrokeStyle(lineWidth: CGFloat(strokeWidth), lineCap: .round))
+            
+            Text(percentage)
+                .font(.system(size: 50, weight: .bold, design: .rounded))
+                .offset(y: -4)
         }
     }
 }

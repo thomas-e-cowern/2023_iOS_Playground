@@ -22,19 +22,22 @@ struct ContentView: View {
     var body: some View {
         HStack {
             ForEach(tabItems) { item in
-                Button {
-                    selectedTab = item.tab
-                } label: {
-                    Spacer()
-                    Image(systemName: item.icon)
-                        .foregroundColor(.white)
-                    Spacer()
-                }
-                
+                Spacer()
+                Image(systemName: item.icon)
+                    .foregroundStyle(.white)
+                    .onTapGesture {
+                        selectedTab = item.tab
+                    }
+                Spacer()
             }
+            .frame(width: 23.3)
         }
         .frame(height: 70)
         .background(.blue, in: RoundedRectangle(cornerRadius: 10))
+        .overlay(alignment: .bottomLeading) {
+            Circle().frame(width: 10, height: 10).foregroundStyle(.white)
+                .offset(x: 30, y: -6)
+        }
     }
 }
 

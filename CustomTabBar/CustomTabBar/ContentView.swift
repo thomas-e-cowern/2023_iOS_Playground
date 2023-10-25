@@ -7,13 +7,6 @@
 
 import SwiftUI
 
-enum TabIcon: String {
-    case Home
-    case Card
-    case Favorite
-    case Purchases
-    case Notification
-}
 
 struct ContentView: View {
     

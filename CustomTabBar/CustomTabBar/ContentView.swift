@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let tabItems = [
+        TabBar(icon: "square.stack"),
+        TabBar(icon: "magnifyingglass"),
+        TabBar(icon: "house"),
+        TabBar(icon: "star"),
+        TabBar(icon: "person")
+    ]
+    
     var body: some View {
         HStack {
-            Image(systemName: <#T##String#>)
+            ForEach(tabItems) { item in
+                Image(systemName: item.icon)
+            }
         }
     }
 }

@@ -7,6 +7,14 @@
 
 import SwiftUI
 
+enum TabIcon: String {
+    case Home
+    case Card
+    case Favorite
+    case Purchases
+    case Notification
+}
+
 struct ContentView: View {
     
     let tabItems = [
@@ -20,9 +28,13 @@ struct ContentView: View {
     var body: some View {
         HStack {
             ForEach(tabItems) { item in
+                Spacer()
                 Image(systemName: item.icon)
+                Spacer()
             }
         }
+        .frame(height: 70)
+        .background(.blue, in: RoundedRectangle(cornerRadius: 10))
     }
 }
 

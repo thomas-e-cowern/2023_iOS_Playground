@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var selectedTab: TabIcon = .Home
-    @State var offset = 0.0
+    @State var offset = 2 * 70.0
     
     let tabItems = [
         TabBar(icon: "square.stack", tab: .Card, index: 0),
@@ -25,10 +25,14 @@ struct ContentView: View {
             ForEach(tabItems) { item in
                 Spacer()
                 Image(systemName: item.icon)
-                    .foregroundStyle(.white)
                     .onTapGesture {
-                        selectedTab = item.tab
+                        withAnimation(.spring()) {
+                            selectedTab = item.tab
+                            offset = CGFloat(item.index) * 70.0
+                            print(item.tab)
+                        }
                     }
+                    .foregroundStyle(.white)
                 Spacer()
             }
             .frame(width: 23.3)
@@ -38,6 +42,7 @@ struct ContentView: View {
         .overlay(alignment: .bottomLeading) {
             Circle().frame(width: 10, height: 10).foregroundStyle(.white)
                 .offset(x: 30, y: -6)
+                .offset(x: offset)
         }
     }
 }

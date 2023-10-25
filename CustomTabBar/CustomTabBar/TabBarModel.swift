@@ -11,6 +11,7 @@ struct TabBar: Identifiable {
     var id = UUID()
     var icon: String
     var tab: TabIcon
+    var index: Int
 }
 
 enum TabIcon: String {

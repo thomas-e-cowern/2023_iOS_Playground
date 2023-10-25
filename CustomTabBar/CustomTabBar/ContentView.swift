@@ -10,13 +10,14 @@ import SwiftUI
 struct ContentView: View {
     
     @State var selectedTab: TabIcon = .Home
+    @State var offset = 0.0
     
     let tabItems = [
-        TabBar(icon: "square.stack", tab: .Card),
-        TabBar(icon: "magnifyingglass", tab: .Favorite),
-        TabBar(icon: "house", tab: .Home),
-        TabBar(icon: "star", tab: .Purchases),
-        TabBar(icon: "person", tab: .Notification)
+        TabBar(icon: "square.stack", tab: .Card, index: 0),
+        TabBar(icon: "magnifyingglass", tab: .Favorite, index: 1),
+        TabBar(icon: "house", tab: .Home, index: 2),
+        TabBar(icon: "star", tab: .Purchases, index: 3),
+        TabBar(icon: "person", tab: .Notification, index: 4)
     ]
     
     var body: some View {

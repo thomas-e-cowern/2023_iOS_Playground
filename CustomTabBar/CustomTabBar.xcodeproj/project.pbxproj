@@ -16,6 +16,8 @@
 		4DE9E1382AEAB81000BEFF94 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E1372AEAB81000BEFF94 /* View1.swift */; };
 		4DE9E13A2AEAB82200BEFF94 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E1392AEAB82200BEFF94 /* View2.swift */; };
 		4DE9E13C2AEAB88600BEFF94 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E13B2AEAB88600BEFF94 /* HomeView.swift */; };
+		4DE9E13E2AEABC2300BEFF94 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E13D2AEABC2300BEFF94 /* CustomTabBar.swift */; };
+		4DE9E1402AEABCF300BEFF94 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E13F2AEABCF300BEFF94 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		4DE9E1372AEAB81000BEFF94 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
 		4DE9E1392AEAB82200BEFF94 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		4DE9E13B2AEAB88600BEFF94 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4DE9E13D2AEABC2300BEFF94 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4DE9E13F2AEABCF300BEFF94 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 		4D05253A2AE7074300B42802 = {
 			isa = PBXGroup;
 			children = (
+				4DE9E13F2AEABCF300BEFF94 /* Fonts.swift */,
 				4D0525452AE7074300B42802 /* CustomTabBar */,
 				4D0525442AE7074300B42802 /* Products */,
 			);
@@ -70,6 +75,7 @@
 				4D05254A2AE7074400B42802 /* Assets.xcassets */,
 				4D05254C2AE7074400B42802 /* Preview Content */,
 				4DE9E1332AE9AEA600BEFF94 /* TabBarModel.swift */,
+				4DE9E13D2AEABC2300BEFF94 /* CustomTabBar.swift */,
 			);
 			path = CustomTabBar;
 			sourceTree = "<group>";
@@ -156,8 +162,10 @@
 				4DE9E13C2AEAB88600BEFF94 /* HomeView.swift in Sources */,
 				4DE9E13A2AEAB82200BEFF94 /* View2.swift in Sources */,
 				4D0525492AE7074300B42802 /* ContentView.swift in Sources */,
+				4DE9E13E2AEABC2300BEFF94 /* CustomTabBar.swift in Sources */,
 				4D0525472AE7074300B42802 /* CustomTabBarApp.swift in Sources */,
 				4DE9E1362AEAB7AD00BEFF94 /* CustomTabView.swift in Sources */,
+				4DE9E1402AEABCF300BEFF94 /* Fonts.swift in Sources */,
 				4DE9E1382AEAB81000BEFF94 /* View1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,10 @@
 		4D05254B2AE7074400B42802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D05254A2AE7074400B42802 /* Assets.xcassets */; };
 		4D05254E2AE7074400B42802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D05254D2AE7074400B42802 /* Preview Assets.xcassets */; };
 		4DE9E1342AE9AEA600BEFF94 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E1332AE9AEA600BEFF94 /* TabBarModel.swift */; };
+		4DE9E1362AEAB7AD00BEFF94 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E1352AEAB7AD00BEFF94 /* CustomTabView.swift */; };
+		4DE9E1382AEAB81000BEFF94 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E1372AEAB81000BEFF94 /* View1.swift */; };
+		4DE9E13A2AEAB82200BEFF94 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E1392AEAB82200BEFF94 /* View2.swift */; };
+		4DE9E13C2AEAB88600BEFF94 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9E13B2AEAB88600BEFF94 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		4D05254A2AE7074400B42802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D05254D2AE7074400B42802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DE9E1332AE9AEA600BEFF94 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		4DE9E1352AEAB7AD00BEFF94 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		4DE9E1372AEAB81000BEFF94 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		4DE9E1392AEAB82200BEFF94 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		4DE9E13B2AEAB88600BEFF94 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 		4D0525452AE7074300B42802 /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				4DE9E13B2AEAB88600BEFF94 /* HomeView.swift */,
+				4DE9E1372AEAB81000BEFF94 /* View1.swift */,
+				4DE9E1392AEAB82200BEFF94 /* View2.swift */,
+				4DE9E1352AEAB7AD00BEFF94 /* CustomTabView.swift */,
 				4D0525462AE7074300B42802 /* CustomTabBarApp.swift */,
 				4D0525482AE7074300B42802 /* ContentView.swift */,
 				4D05254A2AE7074400B42802 /* Assets.xcassets */,
@@ -141,8 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE9E1342AE9AEA600BEFF94 /* TabBarModel.swift in Sources */,
+				4DE9E13C2AEAB88600BEFF94 /* HomeView.swift in Sources */,
+				4DE9E13A2AEAB82200BEFF94 /* View2.swift in Sources */,
 				4D0525492AE7074300B42802 /* ContentView.swift in Sources */,
 				4D0525472AE7074300B42802 /* CustomTabBarApp.swift in Sources */,
+				4DE9E1362AEAB7AD00BEFF94 /* CustomTabView.swift in Sources */,
+				4DE9E1382AEAB81000BEFF94 /* View1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

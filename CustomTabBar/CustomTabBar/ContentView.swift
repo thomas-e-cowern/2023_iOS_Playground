@@ -21,28 +21,32 @@ struct ContentView: View {
     ]
     
     var body: some View {
-        HStack {
-            ForEach(tabItems) { item in
-                Spacer()
-                Image(systemName: item.icon)
-                    .onTapGesture {
-                        withAnimation(.spring()) {
-                            selectedTab = item.tab
-                            offset = CGFloat(item.index) * 70.0
-                            print(item.tab)
+        VStack {
+            Spacer()
+            HStack {
+                ForEach(tabItems) { item in
+                    Spacer()
+                    Image(systemName: item.icon)
+                        .frame(width: 50)
+                        .onTapGesture {
+                            withAnimation(.spring()) {
+                                selectedTab = item.tab
+                                offset = CGFloat(item.index) * 70.0
+                                print(item.tab)
+                            }
                         }
-                    }
-                    .foregroundStyle(.white)
-                Spacer()
+                        .foregroundStyle(.white)
+                    Spacer()
+                }
             }
-            .frame(width: 23.3)
+            .padding()
+            .frame(height: 70)
+            .background(.blue, in: RoundedRectangle(cornerRadius: 10))
+            .overlay(alignment: .bottomLeading) {
+                Circle().frame(width: 10, height: 10).foregroundStyle(.white)
+                    .offset(x: 50, y: -6)
+                    .offset(x: offset)
         }
-        .frame(height: 70)
-        .background(.blue, in: RoundedRectangle(cornerRadius: 10))
-        .overlay(alignment: .bottomLeading) {
-            Circle().frame(width: 10, height: 10).foregroundStyle(.white)
-                .offset(x: 30, y: -6)
-                .offset(x: offset)
         }
     }
 }

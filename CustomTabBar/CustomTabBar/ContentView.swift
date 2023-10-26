@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var selectedTab: TabIcon = .Home
+    //    @State var selectedTab: TabIcon = .Home
+    @State var selectedTab: Tabs = .contacts
     @State var offset = 2 * 70.0
     
     let tabItems = [
@@ -22,31 +23,40 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            
+            Text("Content View")
+            
             Spacer()
-            HStack {
-                ForEach(tabItems) { item in
-                    Spacer()
-                    Image(systemName: item.icon)
-                        .frame(width: 50)
-                        .onTapGesture {
-                            withAnimation(.spring()) {
-                                selectedTab = item.tab
-                                offset = CGFloat(item.index) * 70.0
-                                print(item.tab)
-                            }
-                        }
-                        .foregroundStyle(.white)
-                    Spacer()
-                }
-            }
-            .padding()
-            .frame(height: 70)
-            .background(.blue, in: RoundedRectangle(cornerRadius: 10))
-            .overlay(alignment: .bottomLeading) {
-                Circle().frame(width: 10, height: 10).foregroundStyle(.white)
-                    .offset(x: 50, y: -6)
-                    .offset(x: offset)
-        }
+            
+            CustomTabBar(selectedTab: $selectedTab)
+            
+            
+// old tab bar
+//            Spacer()
+//            HStack {
+//                ForEach(tabItems) { item in
+//                    Spacer()
+//                    Image(systemName: item.icon)
+//                        .frame(width: 50)
+//                        .onTapGesture {
+//                            withAnimation(.spring()) {
+//                                //                                selectedTab = item.tab
+//                                offset = CGFloat(item.index) * 70.0
+//                                print(item.tab)
+//                            }
+//                        }
+//                        .foregroundStyle(.white)
+//                    Spacer()
+//                }
+//            }
+//            .padding()
+//            .frame(height: 70)
+//            .background(.blue, in: RoundedRectangle(cornerRadius: 10))
+//            .overlay(alignment: .bottomLeading) {
+//                Circle().frame(width: 10, height: 10).foregroundStyle(.white)
+//                    .offset(x: 50, y: -6)
+//                    .offset(x: offset)
+//            }
         }
     }
 }

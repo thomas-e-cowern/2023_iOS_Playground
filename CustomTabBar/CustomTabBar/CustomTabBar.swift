@@ -7,19 +7,30 @@
 
 import SwiftUI
 
+enum Tabs: Int {
+    case chats = 0
+    case contacts = 1
+    
+}
+
 struct CustomTabBar: View {
+    
+    @Binding var selectedTab: Tabs
+    
     var body: some View {
         HStack (alignment: .center) {
          
             Button {
-                // Action
+                selectedTab = .chats
             } label: {
                 GeometryReader { geo in
                     
-                    Rectangle()
-                        .foregroundColor(Color.blue)
-                        .frame(width: geo.size.width/2, height: 4)
+                    if selectedTab == .chats {
+                        Rectangle()
+                            .foregroundColor(Color.blue)
+                            .frame(width: geo.size.width/2, height: 4)
                         .padding(.leading, geo.size.width/4)
+                    } 
                     
                     VStack (alignment: .center, spacing: 4) {
                         Image(systemName: "bubble.left")
@@ -53,14 +64,16 @@ struct CustomTabBar: View {
             .tint(Color("icons-primary"))
             
             Button {
-                // Action
+                selectedTab = .contacts
             } label: {
                 GeometryReader { geo in
                     
-                    Rectangle()
-                        .foregroundColor(Color.blue)
-                        .frame(width: geo.size.width/2, height: 4)
+                    if selectedTab == .contacts {
+                        Rectangle()
+                            .foregroundColor(Color.blue)
+                            .frame(width: geo.size.width/2, height: 4)
                         .padding(.leading, geo.size.width/4)
+                    }
                     
                     VStack (alignment: .center, spacing: 4) {
                         Image(systemName: "person")
@@ -82,5 +95,5 @@ struct CustomTabBar: View {
 }
 
 #Preview {
-    CustomTabBar()
+    CustomTabBar(selectedTab: .constant(Tabs.contacts))
 }

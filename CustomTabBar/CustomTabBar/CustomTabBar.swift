@@ -15,6 +15,12 @@ struct CustomTabBar: View {
                 // Action
             } label: {
                 GeometryReader { geo in
+                    
+                    Rectangle()
+                        .foregroundColor(Color.blue)
+                        .frame(width: geo.size.width/2, height: 4)
+                        .padding(.leading, geo.size.width/4)
+                    
                     VStack (alignment: .center, spacing: 4) {
                         Image(systemName: "bubble.left")
                             .resizable()
@@ -25,7 +31,6 @@ struct CustomTabBar: View {
                     }
                     .frame(width: geo.size.width, height: geo.size.height)
                 }
-                
             }
             .tint(Color("icons-secondary"))
             
@@ -51,6 +56,12 @@ struct CustomTabBar: View {
                 // Action
             } label: {
                 GeometryReader { geo in
+                    
+                    Rectangle()
+                        .foregroundColor(Color.blue)
+                        .frame(width: geo.size.width/2, height: 4)
+                        .padding(.leading, geo.size.width/4)
+                    
                     VStack (alignment: .center, spacing: 4) {
                         Image(systemName: "person")
                             .resizable()

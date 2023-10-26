@@ -14,9 +14,13 @@ struct CustomTabBar: View {
             Button {
                 // Action
             } label: {
-                VStack {
+                VStack (alignment: .center, spacing: 4) {
                     Image(systemName: "bubble.left")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 24, height: 24)
                     Text("Chats")
+                        .font(Fonts.tabBar)
                 }
             }
 

@@ -22,26 +22,11 @@ struct CustomTabBar: View {
          
             Button {
                 selectedTab = .chats
+                print(selectedTab)
             } label: {
-                GeometryReader { geo in
-                    
-                    if selectedTab == .chats {
-                        Rectangle()
-                            .foregroundColor(Color.blue)
-                            .frame(width: geo.size.width/2, height: 4)
-                        .padding(.leading, geo.size.width/4)
-                    } 
-                    
-                    VStack (alignment: .center, spacing: 4) {
-                        Image(systemName: "bubble.left")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 24, height: 24)
-                        Text("Chats")
-                            .font(Fonts.tabBar)
-                    }
-                    .frame(width: geo.size.width, height: geo.size.height)
-                }
+
+                CustomTabBarButton(buttonText: "Chats", imageName: "bubble.left", isActive: selectedTab == .chats ? true : false)
+                
             }
             .tint(Color("icons-secondary"))
             
@@ -65,26 +50,11 @@ struct CustomTabBar: View {
             
             Button {
                 selectedTab = .contacts
+                print(selectedTab)
             } label: {
-                GeometryReader { geo in
-                    
-                    if selectedTab == .contacts {
-                        Rectangle()
-                            .foregroundColor(Color.blue)
-                            .frame(width: geo.size.width/2, height: 4)
-                        .padding(.leading, geo.size.width/4)
-                    }
-                    
-                    VStack (alignment: .center, spacing: 4) {
-                        Image(systemName: "person")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 24, height: 24)
-                        Text("Contacts")
-                            .font(Fonts.tabBar)
-                    }
-                    .frame(width: geo.size.width, height: geo.size.height)
-                }
+                
+                CustomTabBarButton(buttonText: "Contacts", imageName: "person", isActive: selectedTab == .contacts ? true : false)
+                
             }
             .tint(Color("icons-secondary"))
 

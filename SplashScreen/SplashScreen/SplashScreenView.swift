@@ -12,10 +12,11 @@ struct SplashScreenView: View {
         ZStack {
             Color.black
                 .ignoresSafeArea()
-            Text("Welcome Friend!")
-                .foregroundStyle(.white)
-                .bold()
-                .font(.largeTitle)
+            Image("Naners")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 150)
+                .clipShape(.circle)
         }
     }
 }

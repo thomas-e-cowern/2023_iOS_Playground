@@ -11,6 +11,7 @@
 		4DA716922AED3E0500B771C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA716912AED3E0500B771C5 /* ContentView.swift */; };
 		4DA716942AED3E0900B771C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA716932AED3E0900B771C5 /* Assets.xcassets */; };
 		4DA716972AED3E0900B771C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA716962AED3E0900B771C5 /* Preview Assets.xcassets */; };
+		4DA7169E2AED3E5100B771C5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7169D2AED3E5100B771C5 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4DA716912AED3E0500B771C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DA716932AED3E0900B771C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA716962AED3E0900B771C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DA7169D2AED3E5100B771C5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4DA7168F2AED3E0500B771C5 /* SplashScreenApp.swift */,
 				4DA716912AED3E0500B771C5 /* ContentView.swift */,
+				4DA7169D2AED3E5100B771C5 /* SplashScreenView.swift */,
 				4DA716932AED3E0900B771C5 /* Assets.xcassets */,
 				4DA716952AED3E0900B771C5 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				4DA716922AED3E0500B771C5 /* ContentView.swift in Sources */,
 				4DA716902AED3E0500B771C5 /* SplashScreenApp.swift in Sources */,
+				4DA7169E2AED3E5100B771C5 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

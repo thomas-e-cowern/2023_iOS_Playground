@@ -23,15 +23,23 @@ struct ContentView: View {
         ZStack {
             VStack {
                 TabView(selection: $selectedTab) {
-                    ForEach(Tab3.allCases, id: \.rawValue) { tab in
-                        HStack {
-                            Image(systemName: tab.rawValue)
-                            Text("\(tab.rawValue.capitalized)")
-                                .bold()
-                                .animation(nil, value: selectedTab)
-                        }
-                        .tag(tab)
+                    
+                    if selectedTab == .house {
+                        HomeView()
                     }
+                    
+                    if selectedTab == .message {
+                        SearchView()
+                    }
+//                    ForEach(Tab3.allCases, id: \.rawValue) { tab in
+//                        HStack {
+//                            Image(systemName: tab.rawValue)
+//                            Text("\(tab.rawValue.capitalized)")
+//                                .bold()
+//                                .animation(nil, value: selectedTab)
+//                        }
+//                        .tag(tab)
+//                    }
                 }
                 
                 

@@ -15,11 +15,11 @@ struct ContentView: View {
         VStack {
             
             TabView(selection: $tabSelection) {
-                Text("Tab Content 1")
+                HomeView()
                     .tag(1)
-                Text("Tab Content 2")
+                SearchView()
                     .tag(2)
-                Text("Tab Content 3")
+                FavoritesView()
                     .tag(3)
                 Text("Tab Content 4")
                     .tag(4)

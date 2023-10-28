@@ -20,12 +20,51 @@ struct CustomTabView2: View {
         ("gear", "Settings")
     ]
     
-    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Capsule()
+                .frame(height: 80)
+                .foregroundStyle(Color.primary)
+                .shadow(radius: 2)
+            
+            HStack {
+                ForEach(0..<5) { index in
+                    Button {
+                        tabSelection = index + 1
+                    } label: {
+                        VStack (spacing: 8) {
+                            Spacer()
+                            
+                            Image(systemName: tabBarItems[index].image)
+                            
+                            Text(tabBarItems[index].title)
+                                .font(.caption)
+                            
+                            if index + 1 == tabSelection {
+                                Capsule()
+                                    .frame(height: 8)
+                                    .foregroundStyle(Color.blue)
+                                    .matchedGeometryEffect(id: "SelectedTabId", in: animationNamespace)
+                                    .offset(y: 3)
+                            } else {
+                                Capsule()
+                                    .frame(height: 8)
+                                    .foregroundStyle(Color.clear)
+                                    .offset(y: 3)
+                            }
+                        }
+                        .foregroundStyle(index + 1 == tabSelection ? Color.blue : Color.gray)
+                    }
+                }
+            }
+            .frame(height: 80)
+        }
+        .clipShape(Capsule())
+        .padding(.horizontal)
     }
 }
 
 #Preview {
     CustomTabView2(tabSelection: .constant(1))
+        .previewLayout(.sizeThatFits)
 }

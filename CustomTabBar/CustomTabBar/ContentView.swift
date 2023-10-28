@@ -29,6 +29,7 @@ struct ContentView: View {
             }
             .overlay(alignment: .bottom) {
                 // Custom tab view
+                CustomTabView2(tabSelection: $tabSelection)
             }
             
 //            Text("Content View")

@@ -9,28 +9,34 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var tabSelection = 1
+//    Custom tab bar 2
+//    @State private var tabSelection = 1
+    
+//    Custom tab bar 3
+    @State private var selectedTab: Tab3 = .house
     
     var body: some View {
         VStack {
             
-            TabView(selection: $tabSelection) {
-                HomeView()
-                    .tag(1)
-                SearchView()
-                    .tag(2)
-                FavoritesView()
-                    .tag(3)
-                Text("Tab Content 4")
-                    .tag(4)
-                Text("Tab Content 5")
-                    .tag(5)
-                
-            }
-            .overlay(alignment: .bottom) {
-                // Custom tab view
-                CustomTabView2(tabSelection: $tabSelection)
-            }
+            CustomTabBar3(selectedTab: $selectedTab)
+            
+//            TabView(selection: $tabSelection) {
+//                HomeView()
+//                    .tag(1)
+//                SearchView()
+//                    .tag(2)
+//                FavoritesView()
+//                    .tag(3)
+//                Text("Tab Content 4")
+//                    .tag(4)
+//                Text("Tab Content 5")
+//                    .tag(5)
+//                
+//            }
+//            .overlay(alignment: .bottom) {
+//                // Custom tab view
+//                CustomTabView2(tabSelection: $tabSelection)
+//            }
             
 //            Text("Content View")
 //            

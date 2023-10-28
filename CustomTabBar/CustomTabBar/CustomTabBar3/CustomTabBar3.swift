@@ -22,6 +22,21 @@ struct CustomTabBar3: View {
         selectedTab.rawValue + ".fill"
     }
     
+    private var tabColor: Color {
+        switch selectedTab {
+        case .house:
+            return .blue
+        case .message:
+            return .green
+        case .person:
+            return .indigo
+        case .leaf:
+            return .purple
+        case .gearshape:
+            return .yellow
+        }
+    }
+    
     var body: some View {
         VStack {
             HStack {
@@ -29,7 +44,7 @@ struct CustomTabBar3: View {
                     Spacer()
                     Image(systemName: selectedTab == tab ? fillImage : tab.rawValue)
                         .scaleEffect(selectedTab == tab  ? 1.25 : 1.0)
-                        .foregroundStyle(selectedTab == tab ? Color.red : Color.gray)
+                        .foregroundStyle(selectedTab == tab ? tabColor : Color.gray)
                         .font(.system(size: 22))
                         .onTapGesture {
                             withAnimation(.easeIn(duration: 0.1)) {

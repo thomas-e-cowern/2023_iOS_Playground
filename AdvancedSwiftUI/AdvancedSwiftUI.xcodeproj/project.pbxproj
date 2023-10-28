@@ -53,11 +53,11 @@
 		4D2120832AED6E1700C78CAB /* AdvancedSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4D2120942AED721B00C78CAB /* ViewModifier */,
 				4D2120842AED6E1700C78CAB /* AdvancedSwiftUIApp.swift */,
 				4D2120862AED6E1700C78CAB /* ContentView.swift */,
 				4D2120882AED6E1900C78CAB /* Assets.xcassets */,
 				4D21208A2AED6E1900C78CAB /* Preview Content */,
-				4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */,
 			);
 			path = AdvancedSwiftUI;
 			sourceTree = "<group>";
@@ -68,6 +68,14 @@
 				4D21208B2AED6E1900C78CAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D2120942AED721B00C78CAB /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

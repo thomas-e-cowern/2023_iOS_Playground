@@ -11,6 +11,7 @@
 		4D2120872AED6E1700C78CAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2120862AED6E1700C78CAB /* ContentView.swift */; };
 		4D2120892AED6E1900C78CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2120882AED6E1900C78CAB /* Assets.xcassets */; };
 		4D21208C2AED6E1900C78CAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D21208B2AED6E1900C78CAB /* Preview Assets.xcassets */; };
+		4D2120932AED6F4800C78CAB /* ViewModifierPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4D2120862AED6E1700C78CAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D2120882AED6E1900C78CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D21208B2AED6E1900C78CAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierPlayground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				4D2120862AED6E1700C78CAB /* ContentView.swift */,
 				4D2120882AED6E1900C78CAB /* Assets.xcassets */,
 				4D21208A2AED6E1900C78CAB /* Preview Content */,
+				4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */,
 			);
 			path = AdvancedSwiftUI;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				4D2120872AED6E1700C78CAB /* ContentView.swift in Sources */,
 				4D2120852AED6E1700C78CAB /* AdvancedSwiftUIApp.swift in Sources */,
+				4D2120932AED6F4800C78CAB /* ViewModifierPlayground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

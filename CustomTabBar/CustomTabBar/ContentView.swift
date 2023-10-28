@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+            TabView(selection: $tabSelection) {
                 Text("Tab Content 1")
                     .tag(1)
                 Text("Tab Content 2")

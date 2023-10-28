@@ -9,26 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     
-    //    @State var selectedTab: TabIcon = .Home
-    @State var selectedTab: Tabs = .contacts
-    @State var offset = 2 * 70.0
-    
-    let tabItems = [
-        TabBar(icon: "square.stack", tab: .Card, index: 0),
-        TabBar(icon: "magnifyingglass", tab: .Favorite, index: 1),
-        TabBar(icon: "house", tab: .Home, index: 2),
-        TabBar(icon: "star", tab: .Purchases, index: 3),
-        TabBar(icon: "person", tab: .Notification, index: 4)
-    ]
+    @State private var tabSelection = 1
     
     var body: some View {
         VStack {
             
-            Text("Content View")
+            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+                Text("Tab Content 1")
+                    .tag(1)
+                Text("Tab Content 2")
+                    .tag(2)
+                Text("Tab Content 3")
+                    .tag(3)
+                Text("Tab Content 4")
+                    .tag(4)
+                Text("Tab Content 5")
+                    .tag(5)
+                
+            }
+            .overlay(alignment: .bottom) {
+                // Custom tab view
+            }
             
-            Spacer()
-            
-            CustomTabBar(selectedTab: $selectedTab)
+//            Text("Content View")
+//            
+//            Spacer()
+//            
+//            CustomTabBar(selectedTab: $selectedTab)
             
             
 // old tab bar

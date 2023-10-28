@@ -24,13 +24,20 @@ struct ContentView: View {
             VStack {
                 TabView(selection: $selectedTab) {
                     
-                    if selectedTab == .house {
+                    switch selectedTab {
+                    case .house:
                         HomeView()
+                    case .message:
+                        MessageView()
+                    case .person:
+                        PersonView()
+                    case .leaf:
+                        GreenView()
+                    case .gearshape:
+                        SettingsView()
                     }
                     
-                    if selectedTab == .message {
-                        SearchView()
-                    }
+
 //                    ForEach(Tab3.allCases, id: \.rawValue) { tab in
 //                        HStack {
 //                            Image(systemName: tab.rawValue)

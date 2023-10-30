@@ -10,17 +10,35 @@ import SwiftUI
 struct MatchedGeometryEffectPlayground: View {
     
     @State private var isClicked: Bool = false
+    @Namespace private var namespace
     
     var body: some View {
         VStack {
-            RoundedRectangle(cornerRadius: 25)
-                .frame(width: 100, height: 100)
+            if !isClicked {
+                RoundedRectangle(cornerRadius: 25)
+                    .matchedGeometryEffect(id: "rectangle", in: namespace)
+                    .frame(width: 100, height: 100)
+                    
+            }
             
             Spacer()
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            
+            
+            if isClicked {
+                Circle()
+                    .matchedGeometryEffect(id: "rectangle", in: namespace)
+                    .frame(width: 300, height: 200)
+                    
+            }
+            
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.blue)
+        .onTapGesture {
+            withAnimation(.easeInOut) {
+                isClicked.toggle()
+            }
+        }
     }
 }
 

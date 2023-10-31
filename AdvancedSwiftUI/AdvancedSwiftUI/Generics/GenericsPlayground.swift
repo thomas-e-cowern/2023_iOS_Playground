@@ -7,17 +7,30 @@
 
 import SwiftUI
 
+struct StringModel {
+    let info: String?
+    
+    func removeInfo() -> StringModel {
+        return StringModel(info: nil)
+    }
+}
+
 class GenericsViewModel: ObservableObject {
     
-    @Published var dataArray: [String] = []
+    @Published var stringModel = StringModel(info: "Hello World")
     
-    init() {
-        dataArray = ["One", "Two", "Three"]
+    func removeData() {
+        stringModel = stringModel.removeInfo()
     }
-    
-    func removeDataFromDataArray() {
-        dataArray.removeAll()
-    }
+//    @Published var dataArray: [String] = []
+//    
+//    init() {
+//        dataArray = ["One", "Two", "Three"]
+//    }
+//    
+//    func removeDataFromDataArray() {
+//        dataArray.removeAll()
+//    }
 }
 
 struct GenericsPlayground: View {
@@ -26,12 +39,10 @@ struct GenericsPlayground: View {
     
     var body: some View {
         VStack {
-            ForEach(vm.dataArray, id: \.self) { item in
-                Text(item)
-                    .onTapGesture {
-                        vm.removeDataFromDataArray()
-                    }
-            }
+            Text(vm.stringModel.info ?? "No Data")
+                .onTapGesture {
+                    vm.removeData()
+                }
         }
     }
 }

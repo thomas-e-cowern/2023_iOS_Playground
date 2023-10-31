@@ -46,11 +46,28 @@ class GenericsViewModel: ObservableObject {
 //    }
 }
 
+struct GenericView<T: View>: View {
+    
+    let content: T
+    let title: String
+    
+    var body: some View {
+        VStack {
+            Text(title)
+            content
+        }
+    }
+}
+
+
 struct GenericsPlayground: View {
     
     @StateObject private var vm = GenericsViewModel()
     
     var body: some View {
+        GenericView(content: Text("Check this out"), title: "This is a generic view")
+            .padding(.bottom)
+        
         VStack {
             Text(vm.stringModel.info ?? "No Data")
             Text(vm.genericStringModel.info ?? "No generic string data")

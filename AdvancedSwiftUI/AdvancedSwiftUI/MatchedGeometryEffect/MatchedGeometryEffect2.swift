@@ -10,7 +10,7 @@ import SwiftUI
 struct MatchedGeometryEffect2: View {
     
     let categories: [String] = ["Home", "Popular", "Saved"]
-    @State private var selected: String = ""
+    @State private var selected: String = "Home"
     @Namespace private var namespace
     
     var body: some View {
@@ -21,8 +21,12 @@ struct MatchedGeometryEffect2: View {
                         RoundedRectangle(cornerRadius: 10)
                             .fill(Color.red.opacity(0.5))
                             .matchedGeometryEffect(id: "category_background", in: namespace)
+                            .frame(width: 35, height: 4)
+                            .offset(y: 20)
                     }
+                    
                     Text(category)
+                        .foregroundStyle(selected == category ? .red : .black)
                 }
                 .frame(maxWidth: .infinity)
                 .frame(height: 55)

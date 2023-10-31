@@ -15,8 +15,8 @@ struct StringModel {
     }
 }
 
-struct GenericModel<CustomType> {
-    let info: CustomType?
+struct GenericModel<T> {
+    let info: T?
     
     func removeInfo() -> GenericModel {
         GenericModel(info: nil)
@@ -32,6 +32,8 @@ class GenericsViewModel: ObservableObject {
     
     func removeData() {
         stringModel = stringModel.removeInfo()
+        genericBoolModel = genericBoolModel.removeInfo()
+        genericStringModel = genericStringModel.removeInfo()
     }
 //    @Published var dataArray: [String] = []
 //    

@@ -7,9 +7,32 @@
 
 import SwiftUI
 
+class GenericsViewModel: ObservableObject {
+    
+    @Published var dataArray: [String] = []
+    
+    init() {
+        dataArray = ["One", "Two", "Three"]
+    }
+    
+    func removeDataFromDataArray() {
+        dataArray.removeAll()
+    }
+}
+
 struct GenericsPlayground: View {
+    
+    @StateObject private var vm = GenericsViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ForEach(vm.dataArray, id: \.self) { item in
+                Text(item)
+                    .onTapGesture {
+                        vm.removeDataFromDataArray()
+                    }
+            }
+        }
     }
 }
 

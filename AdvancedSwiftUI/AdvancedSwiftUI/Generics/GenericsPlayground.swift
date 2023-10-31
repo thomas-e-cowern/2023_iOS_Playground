@@ -15,9 +15,20 @@ struct StringModel {
     }
 }
 
+struct GenericModel<CustomType> {
+    let info: CustomType?
+    
+    func removeInfo() -> GenericModel {
+        GenericModel(info: nil)
+    }
+}
+
 class GenericsViewModel: ObservableObject {
     
     @Published var stringModel = StringModel(info: "Hello World")
+    
+    @Published var genericStringModel = GenericModel(info: "Hello Generic String")
+    @Published var genericBoolModel = GenericModel(info: true)
     
     func removeData() {
         stringModel = stringModel.removeInfo()
@@ -40,9 +51,11 @@ struct GenericsPlayground: View {
     var body: some View {
         VStack {
             Text(vm.stringModel.info ?? "No Data")
-                .onTapGesture {
-                    vm.removeData()
-                }
+            Text(vm.genericStringModel.info ?? "No generic string data")
+            Text(vm.genericBoolModel.info?.description ?? "No generic bool data")
+        }
+        .onTapGesture {
+            vm.removeData()
         }
     }
 }

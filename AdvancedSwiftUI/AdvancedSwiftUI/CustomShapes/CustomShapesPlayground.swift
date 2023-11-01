@@ -55,7 +55,7 @@ struct CustomShapesPlayground: View {
             
 //            Triangle()
 //                .fill(LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .leading, endPoint: .trailing))
-                .frame(width: 300, height: 300)
+                .frame(width: 300, height: 100)
             
         }
         .padding()

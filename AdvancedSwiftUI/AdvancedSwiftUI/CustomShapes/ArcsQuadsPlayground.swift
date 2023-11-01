@@ -9,10 +9,48 @@ import SwiftUI
 
 struct ArcsQuadsPlayground: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ShapeWithArc()
+//            .stroke(lineWidth: 5)
+            .frame(width: 200, height: 200)
+            
     }
 }
 
 #Preview {
     ArcsQuadsPlayground()
+}
+
+struct ArcSample: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            path.move(to: CGPoint(x: rect.maxX, y: rect.midY))
+            path.addArc(
+                center: CGPoint(x: rect.midX, y: rect.midY),
+                radius: rect.height / 2,
+                startAngle: Angle(degrees: 0),
+                endAngle: Angle(degrees: 40),
+                clockwise: true)
+        }
+    }
+}
+
+struct ShapeWithArc: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            // Top left
+            path.move(to: CGPoint(x: rect.minX, y: rect.minY))
+            
+            // Top right
+            path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY))
+            
+            // mid right
+            path.addLine(to: CGPoint(x: rect.maxX, y: rect.midY))
+            
+            // Bottom
+            path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY))
+            
+            // Mid left
+            path.addLine(to: CGPoint(x: rect.minX, y: rect.midY))
+        }
+    }
 }

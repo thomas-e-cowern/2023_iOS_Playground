@@ -30,11 +30,24 @@ struct Diamond: Shape {
     }
 }
 
+struct Trapozoid: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            let horizontalOffset: CGFloat = rect.width * 0.2
+            path.move(to: CGPoint(x: rect.minX + horizontalOffset, y: rect.minY))
+            path.addLine(to: CGPoint(x: rect.maxX - horizontalOffset, y: rect.minY))
+            path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+            path.addLine(to: CGPoint(x: rect.minY, y: rect.maxY))
+            path.addLine(to: CGPoint(x: rect.minX + horizontalOffset, y: rect.minY))
+        }
+    }
+}
+
 struct CustomShapesPlayground: View {
     var body: some View {
         ZStack {
             
-            Diamond()
+            Trapozoid()
 //            Image("Naners")
 //                .resizable()
 //                .scaledToFit()
@@ -42,7 +55,7 @@ struct CustomShapesPlayground: View {
             
 //            Triangle()
 //                .fill(LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .leading, endPoint: .trailing))
-//                .frame(width: 300, height: 300)
+                .frame(width: 300, height: 300)
             
         }
         .padding()

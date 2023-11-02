@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ArcsQuadsPlayground: View {
     var body: some View {
-        QuadSample()
-//            .stroke(lineWidth: 5)
-            .frame(width: 200, height: 200)
+        WaterShape()
+            .fill(LinearGradient(gradient: Gradient(colors: [.blue, .black]), startPoint: .topLeading, endPoint: .bottomTrailing))
+            .ignoresSafeArea()
             
     }
 }
@@ -69,6 +69,27 @@ struct QuadSample: Shape {
                 to: CGPoint(x: rect.midX, y: rect.midY),
                 control: CGPoint(x: rect.maxX - 20, y: rect.minY)
             )
+        }
+    }
+}
+
+struct WaterShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            path.move(to: CGPoint(x: rect.minX - 20, y: rect.midY))
+            
+            path.addQuadCurve(
+                to: CGPoint(x: rect.midX, y: rect.midY),
+                control: CGPoint(x: rect.width * 0.25, y: rect.height * 0.40)
+            )
+            
+            path.addQuadCurve(
+                to: CGPoint(x: rect.maxX, y: rect.midY),
+                control: CGPoint(x: rect.width * 0.75, y: rect.height * 0.60)
+            )
+            
+            path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+            path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
         }
     }
 }

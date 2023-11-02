@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ArcsQuadsPlayground: View {
     var body: some View {
-        ShapeWithArc()
+        QuadSample()
 //            .stroke(lineWidth: 5)
             .frame(width: 200, height: 200)
             
@@ -66,8 +66,8 @@ struct QuadSample: Shape {
         Path { path in
             path.move(to: .zero)
             path.addQuadCurve(
-                to: CGPoint(x: rect.maxX, y: rect.maxY),
-                control: CGPoint(x: rect.midX, y: rect.midY)
+                to: CGPoint(x: rect.midX, y: rect.midY),
+                control: CGPoint(x: rect.maxX - 20, y: rect.minY)
             )
         }
     }

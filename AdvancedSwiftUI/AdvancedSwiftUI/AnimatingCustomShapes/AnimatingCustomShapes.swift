@@ -13,7 +13,8 @@ struct AnimatingCustomShapes: View {
     
     var body: some View {
         ZStack {
-            RectangleWithSingleCornerAnimation(cornerRadius: animate ? 60 : 0)
+            Pacman(offsetAmount: animate ? 20 : 0)
+//            RectangleWithSingleCornerAnimation(cornerRadius: animate ? 60 : 0)
                 .frame(width: 230, height: 230)
         }
         .onAppear {
@@ -47,6 +48,27 @@ struct RectangleWithSingleCornerAnimation: Shape {
             
             path.addLine(to: CGPoint(x: rect.maxX - cornerRadius, y: rect.maxY))
             path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
+        }
+    }
+}
+
+struct Pacman: Shape {
+    
+    var offsetAmount: Double
+    
+    var animatableData: Double {
+        get { offsetAmount }
+        set { offsetAmount = newValue }
+    }
+    
+    func path(in rect: CGRect) -> Path {
+        Path { path in
+            path.move(to:  CGPoint(x: rect.midX, y: rect.minY))
+            path.addArc(center: CGPoint(x: rect.midX, y: rect.minY),
+                        radius: rect.height / 2,
+                        startAngle: Angle(degrees: offsetAmount),
+                        endAngle: Angle(degrees: 360 - offsetAmount),
+                        clockwise: false)
         }
     }
 }

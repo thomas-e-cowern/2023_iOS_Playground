@@ -19,6 +19,7 @@
 		4D21208C2AED6E1900C78CAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D21208B2AED6E1900C78CAB /* Preview Assets.xcassets */; };
 		4D2120932AED6F4800C78CAB /* ViewModifierPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */; };
 		4D2120972AED91EF00C78CAB /* ButtonStylePlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2120962AED91EF00C78CAB /* ButtonStylePlayground.swift */; };
+		4DD171C82AF69437003C17B9 /* AnimatingCustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD171C72AF69437003C17B9 /* AnimatingCustomShapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4D21208B2AED6E1900C78CAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierPlayground.swift; sourceTree = "<group>"; };
 		4D2120962AED91EF00C78CAB /* ButtonStylePlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylePlayground.swift; sourceTree = "<group>"; };
+		4DD171C72AF69437003C17B9 /* AnimatingCustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingCustomShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		4D2120832AED6E1700C78CAB /* AdvancedSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4DD171C62AF69420003C17B9 /* AnimatingCustomShapes */,
 				4D2004002AF2D6A5000D977B /* CustomArcsAndQuads */,
 				4D2003FD2AF290D1000D977B /* CustomShapes */,
 				4D2003FA2AF17FF3000D977B /* Generics */,
@@ -145,6 +148,14 @@
 				4D2120962AED91EF00C78CAB /* ButtonStylePlayground.swift */,
 			);
 			path = CustomButtonStyle;
+			sourceTree = "<group>";
+		};
+		4DD171C62AF69420003C17B9 /* AnimatingCustomShapes */ = {
+			isa = PBXGroup;
+			children = (
+				4DD171C72AF69437003C17B9 /* AnimatingCustomShapes.swift */,
+			);
+			path = AnimatingCustomShapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 				4D2003FF2AF290E9000D977B /* CustomShapesPlayground.swift in Sources */,
 				4D2120972AED91EF00C78CAB /* ButtonStylePlayground.swift in Sources */,
 				4D2120872AED6E1700C78CAB /* ContentView.swift in Sources */,
+				4DD171C82AF69437003C17B9 /* AnimatingCustomShapes.swift in Sources */,
 				4D2003F92AF17D03000D977B /* MatchedGeometryEffect2.swift in Sources */,
 				4D2003F42AF00BB2000D977B /* TransitionPlayground.swift in Sources */,
 				4D2004022AF2D6CF000D977B /* ArcsQuadsPlayground.swift in Sources */,

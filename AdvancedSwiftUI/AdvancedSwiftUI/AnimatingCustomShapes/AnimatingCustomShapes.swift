@@ -18,7 +18,7 @@ struct AnimatingCustomShapes: View {
                 .frame(width: 230, height: 230)
         }
         .onAppear {
-            withAnimation(Animation.linear(duration: 2.0).repeatForever()) {
+            withAnimation(Animation.easeInOut.repeatForever()) {
                 animate.toggle()
             }
         }

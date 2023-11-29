@@ -11,6 +11,7 @@
 		4DC8CE782B17805E00C41EFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8CE772B17805E00C41EFC /* ContentView.swift */; };
 		4DC8CE7A2B17806000C41EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8CE792B17806000C41EFC /* Assets.xcassets */; };
 		4DC8CE7D2B17806000C41EFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8CE7C2B17806000C41EFC /* Preview Assets.xcassets */; };
+		4DC8CE852B17897800C41EFC /* pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8CE842B17897800C41EFC /* pokemon.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4DC8CE772B17805E00C41EFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DC8CE792B17806000C41EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC8CE7C2B17806000C41EFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DC8CE842B17897800C41EFC /* pokemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pokemon.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4DC8CE742B17805E00C41EFC /* PokedexMvvm */ = {
 			isa = PBXGroup;
 			children = (
+				4DC8CE832B17893200C41EFC /* Data */,
 				4DC8CE752B17805E00C41EFC /* PokedexMvvmApp.swift */,
 				4DC8CE772B17805E00C41EFC /* ContentView.swift */,
 				4DC8CE792B17806000C41EFC /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				4DC8CE7C2B17806000C41EFC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DC8CE832B17893200C41EFC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8CE842B17897800C41EFC /* pokemon.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC8CE7D2B17806000C41EFC /* Preview Assets.xcassets in Resources */,
+				4DC8CE852B17897800C41EFC /* pokemon.json in Resources */,
 				4DC8CE7A2B17806000C41EFC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

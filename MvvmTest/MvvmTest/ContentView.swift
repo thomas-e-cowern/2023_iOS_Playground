@@ -17,6 +17,7 @@ struct ContentView: View {
                 Text("Toggle Me")
             })
             .padding()
+            .background(vm.isTurnedOn ? .green : .gray)
             
             HStack {
                 Button("Increment") {
@@ -35,20 +36,7 @@ struct ContentView: View {
             .listStyle(.plain)
             .background(.thinMaterial)
             
-            Menu("Options") {
-                Button("Add Item") {
-                    vm.addItem()
-                }
-                Button("Remove First Item") {
-                    vm.removeFirst()
-                }
-                Button("Remove Last Item") {
-                    vm.removeLast()
-                }
-                Button("Clear List") {
-                    vm.clearList()
-                }
-            }
+            MenuView(vm: vm)
             .padding()
         }
         .padding()

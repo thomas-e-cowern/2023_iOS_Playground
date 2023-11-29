@@ -33,11 +33,15 @@ class ItemViewModel: ObservableObject {
     }
     
     func removeFirst() {
-        itemList.removeFirst()
+        if itemList.count > 0 {
+            itemList.removeFirst()
+        }
     }
     
     func removeLast() {
-        itemList.removeLast()
+        if itemList.count > 0 {
+            itemList.removeLast()
+        }
     }
     
     func clearList() {

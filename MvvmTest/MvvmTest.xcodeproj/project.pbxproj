@@ -13,6 +13,7 @@
 		4D985DD62B16DEF90034695B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D985DD52B16DEF90034695B /* Preview Assets.xcassets */; };
 		4D985DDE2B16DF800034695B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D985DDD2B16DF800034695B /* ItemModel.swift */; };
 		4D985DE12B16E0130034695B /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D985DE02B16E0130034695B /* ItemViewModel.swift */; };
+		4D985DE32B16E6E70034695B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D985DE22B16E6E70034695B /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4D985DD52B16DEF90034695B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D985DDD2B16DF800034695B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemModel.swift; path = ../../../ItemModel.swift; sourceTree = "<group>"; };
 		4D985DE02B16E0130034695B /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		4D985DE22B16E6E70034695B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		4D985DC22B16DEF50034695B = {
 			isa = PBXGroup;
 			children = (
+				4D985DE22B16E6E70034695B /* MenuView.swift */,
 				4D985DCD2B16DEF50034695B /* MvvmTest */,
 				4D985DCC2B16DEF50034695B /* Products */,
 			);
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D985DE32B16E6E70034695B /* MenuView.swift in Sources */,
 				4D985DDE2B16DF800034695B /* ItemModel.swift in Sources */,
 				4D985DE12B16E0130034695B /* ItemViewModel.swift in Sources */,
 				4D985DD12B16DEF50034695B /* ContentView.swift in Sources */,

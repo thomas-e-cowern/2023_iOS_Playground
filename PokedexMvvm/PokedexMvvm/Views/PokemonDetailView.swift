@@ -14,7 +14,7 @@ struct PokemonDetailView: View {
     
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            PokemonView(pokemon: pokemon)
             
             VStack(spacing: 10) {
                 Text("ID: \(vm.pokemonDetails?.id ?? 0)")

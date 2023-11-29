@@ -17,6 +17,7 @@
 		4DC8CE8F2B178DEA00C41EFC /* PokemonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8CE8E2B178DEA00C41EFC /* PokemonManager.swift */; };
 		4DC8CE912B178F6300C41EFC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8CE902B178F6300C41EFC /* ViewModel.swift */; };
 		4DC8CE942B17D12E00C41EFC /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8CE932B17D12E00C41EFC /* PokemonDetailView.swift */; };
+		4DC8CE962B17D2BF00C41EFC /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8CE952B17D2BF00C41EFC /* PokemonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4DC8CE8E2B178DEA00C41EFC /* PokemonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonManager.swift; sourceTree = "<group>"; };
 		4DC8CE902B178F6300C41EFC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		4DC8CE932B17D12E00C41EFC /* PokemonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailView.swift; sourceTree = "<group>"; };
+		4DC8CE952B17D2BF00C41EFC /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				4DC8CE772B17805E00C41EFC /* ContentView.swift */,
 				4DC8CE932B17D12E00C41EFC /* PokemonDetailView.swift */,
+				4DC8CE952B17D2BF00C41EFC /* PokemonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC8CE962B17D2BF00C41EFC /* PokemonView.swift in Sources */,
 				4DC8CE782B17805E00C41EFC /* ContentView.swift in Sources */,
 				4DC8CE882B1789DB00C41EFC /* Helpers.swift in Sources */,
 				4DC8CE8F2B178DEA00C41EFC /* PokemonManager.swift in Sources */,

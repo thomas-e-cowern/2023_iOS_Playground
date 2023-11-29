@@ -12,13 +12,10 @@ struct ContentView: View {
     @StateObject var vm = ViewModel()
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            
         }
-        .padding()
+        .environmentObject(vm)
     }
 }
 

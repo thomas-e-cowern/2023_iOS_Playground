@@ -7,11 +7,28 @@
 
 import SwiftUI
 
+struct HeaderViewRegular: View {
+    var body: some View {
+        VStack (alignment: .leading) {
+            Text("Title")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+            Text("Description")
+                .font(.callout)
+            
+            RoundedRectangle(cornerRadius: 5)
+                .frame(height: 2)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding()
+    }
+}
+
 struct ViewbuilderPlayground: View {
     var body: some View {
         VStack {
-            Text("Title")
-            Text("Description")
+            
+            HeaderViewRegular()
             
             Spacer()
         }

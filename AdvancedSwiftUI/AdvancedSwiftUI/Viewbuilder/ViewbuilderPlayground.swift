@@ -57,6 +57,76 @@ struct HeaderViewGeneric<Content:View>: View {
     }
 }
 
+struct CustomHStack<Content:View>:View {
+    
+    let content: Content
+    
+    init(@ViewBuilder content: () -> Content) {
+        self.content = content()
+    }
+    
+    
+    var body: some View {
+        HStack {
+            content
+        }
+    }
+}
+
+struct LocalViewBuilder: View {
+    
+    enum ViewType {
+        case one, two, three
+    }
+    
+    let type: ViewType
+    
+    var body: some View {
+        VStack {
+            if type == .one {
+                viewOne
+            } else if type == .two {
+                viewTwo
+            } else if type == .three {
+                viewThree
+            }
+        }
+    }
+    
+    private var viewOne: some View {
+        VStack {
+            Text("One")
+                .padding(.vertical, 10)
+            
+            RoundedRectangle(cornerRadius: 5)
+                .frame(height: 2)
+        }
+    }
+    
+    private var viewTwo: some View {
+        VStack {
+            HStack {
+                Text("TWO")
+                Image(systemName: "heart")
+            }
+            .padding(.vertical, 10)
+            
+            RoundedRectangle(cornerRadius: 5)
+                .frame(height: 2)
+        }
+    }
+    
+    private var viewThree: some View {
+        VStack {
+            Image(systemName: "heart.fill")
+                .padding(.vertical, 10)
+            
+            RoundedRectangle(cornerRadius: 5)
+                .frame(height: 2)
+        }
+    }
+}
+
 struct ViewbuilderPlayground: View {
     var body: some View {
         VStack {
@@ -70,6 +140,15 @@ struct ViewbuilderPlayground: View {
                     Image(systemName: "mail")
                 }
             }
+            
+            CustomHStack {
+                Text("Custom H Stack")
+                Image(systemName: "heart")
+            }
+            
+            LocalViewBuilder(type: .one)
+            LocalViewBuilder(type: .two)
+            LocalViewBuilder(type: .three)
             
             Spacer()
         }

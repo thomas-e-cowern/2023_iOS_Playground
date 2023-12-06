@@ -83,13 +83,17 @@ struct LocalViewBuilder: View {
     
     var body: some View {
         VStack {
-            if type == .one {
-                viewOne
-            } else if type == .two {
-                viewTwo
-            } else if type == .three {
-                viewThree
-            }
+            headerSection
+        }
+    }
+    
+    @ViewBuilder private var headerSection: some View {
+        if type == .one {
+            viewOne
+        } else if type == .two {
+            viewTwo
+        } else if type == .three {
+            viewThree
         }
     }
     

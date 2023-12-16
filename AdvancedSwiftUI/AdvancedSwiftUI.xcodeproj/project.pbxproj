@@ -20,6 +20,7 @@
 		4D2120932AED6F4800C78CAB /* ViewModifierPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */; };
 		4D2120972AED91EF00C78CAB /* ButtonStylePlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2120962AED91EF00C78CAB /* ButtonStylePlayground.swift */; };
 		4D7016292B1FBDD00029B599 /* ViewbuilderPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7016282B1FBDD00029B599 /* ViewbuilderPlayground.swift */; };
+		4D9E691B2B2DEE4300E00D0D /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E691A2B2DEE4300E00D0D /* PreferenceKeyView.swift */; };
 		4DD171C82AF69437003C17B9 /* AnimatingCustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD171C72AF69437003C17B9 /* AnimatingCustomShapes.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		4D2120922AED6F4800C78CAB /* ViewModifierPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierPlayground.swift; sourceTree = "<group>"; };
 		4D2120962AED91EF00C78CAB /* ButtonStylePlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylePlayground.swift; sourceTree = "<group>"; };
 		4D7016282B1FBDD00029B599 /* ViewbuilderPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewbuilderPlayground.swift; sourceTree = "<group>"; };
+		4D9E691A2B2DEE4300E00D0D /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
 		4DD171C72AF69437003C17B9 /* AnimatingCustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingCustomShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		4D2120832AED6E1700C78CAB /* AdvancedSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4D9E69192B2DECDE00E00D0D /* Preference Key */,
 				4D7016272B1FBDA70029B599 /* Viewbuilder */,
 				4DD171C62AF69420003C17B9 /* AnimatingCustomShapes */,
 				4D2004002AF2D6A5000D977B /* CustomArcsAndQuads */,
@@ -159,6 +162,14 @@
 				4D7016282B1FBDD00029B599 /* ViewbuilderPlayground.swift */,
 			);
 			path = Viewbuilder;
+			sourceTree = "<group>";
+		};
+		4D9E69192B2DECDE00E00D0D /* Preference Key */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E691A2B2DEE4300E00D0D /* PreferenceKeyView.swift */,
+			);
+			path = "Preference Key";
 			sourceTree = "<group>";
 		};
 		4DD171C62AF69420003C17B9 /* AnimatingCustomShapes */ = {
@@ -250,6 +261,7 @@
 				4D2120852AED6E1700C78CAB /* AdvancedSwiftUIApp.swift in Sources */,
 				4D7016292B1FBDD00029B599 /* ViewbuilderPlayground.swift in Sources */,
 				4D2003F72AF02007000D977B /* MatchedGeometryEffectPlayground.swift in Sources */,
+				4D9E691B2B2DEE4300E00D0D /* PreferenceKeyView.swift in Sources */,
 				4D2120932AED6F4800C78CAB /* ViewModifierPlayground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

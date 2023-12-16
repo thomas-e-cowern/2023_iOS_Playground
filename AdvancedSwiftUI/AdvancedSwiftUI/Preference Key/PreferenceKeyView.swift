@@ -17,7 +17,8 @@ struct PreferenceKeyView: View {
                 SecondaryView(text: text)
             }
             .navigationTitle("Title")
-            .preference(key: CustomTitlePreferenceKey.self, value: "New Value")
+//            .preference(key: CustomTitlePreferenceKey.self, value: "New Value")
+            
         }
         .onPreferenceChange(CustomTitlePreferenceKey.self, perform: { value in
             self.text = value
@@ -35,9 +36,21 @@ extension View {
 struct SecondaryView: View {
     
     let text: String
+    @State private var newValue: String = ""
     
     var body: some View {
         Text(text)
+            .onAppear(perform: {
+                getDataFromDatabase()
+            })
+            .customTitle(text: newValue)
+    }
+    
+    func getDataFromDatabase() {
+        // download
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4.0) {
+            self.newValue = "New Value from Database"
+        }
     }
 }
 

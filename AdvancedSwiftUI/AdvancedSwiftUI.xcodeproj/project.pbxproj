@@ -22,6 +22,7 @@
 		4D7016292B1FBDD00029B599 /* ViewbuilderPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7016282B1FBDD00029B599 /* ViewbuilderPlayground.swift */; };
 		4D9E691B2B2DEE4300E00D0D /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E691A2B2DEE4300E00D0D /* PreferenceKeyView.swift */; };
 		4D9E691D2B2DF8C200E00D0D /* GeomertyPerfKeyPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E691C2B2DF8C200E00D0D /* GeomertyPerfKeyPlayground.swift */; };
+		4D9E691F2B2E191F00E00D0D /* ScrollviewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E691E2B2E191E00E00D0D /* ScrollviewOffsetPreferenceKey.swift */; };
 		4DD171C82AF69437003C17B9 /* AnimatingCustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD171C72AF69437003C17B9 /* AnimatingCustomShapes.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		4D7016282B1FBDD00029B599 /* ViewbuilderPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewbuilderPlayground.swift; sourceTree = "<group>"; };
 		4D9E691A2B2DEE4300E00D0D /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
 		4D9E691C2B2DF8C200E00D0D /* GeomertyPerfKeyPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeomertyPerfKeyPlayground.swift; sourceTree = "<group>"; };
+		4D9E691E2B2E191E00E00D0D /* ScrollviewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 		4DD171C72AF69437003C17B9 /* AnimatingCustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingCustomShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +173,7 @@
 			children = (
 				4D9E691A2B2DEE4300E00D0D /* PreferenceKeyView.swift */,
 				4D9E691C2B2DF8C200E00D0D /* GeomertyPerfKeyPlayground.swift */,
+				4D9E691E2B2E191E00E00D0D /* ScrollviewOffsetPreferenceKey.swift */,
 			);
 			path = "Preference Key";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				4D2120872AED6E1700C78CAB /* ContentView.swift in Sources */,
 				4DD171C82AF69437003C17B9 /* AnimatingCustomShapes.swift in Sources */,
 				4D2003F92AF17D03000D977B /* MatchedGeometryEffect2.swift in Sources */,
+				4D9E691F2B2E191F00E00D0D /* ScrollviewOffsetPreferenceKey.swift in Sources */,
 				4D2003F42AF00BB2000D977B /* TransitionPlayground.swift in Sources */,
 				4D2004022AF2D6CF000D977B /* ArcsQuadsPlayground.swift in Sources */,
 				4D2120852AED6E1700C78CAB /* AdvancedSwiftUIApp.swift in Sources */,

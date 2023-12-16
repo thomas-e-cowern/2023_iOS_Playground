@@ -17,7 +17,18 @@ struct PreferenceKeyView: View {
                 SecondaryView(text: text)
             }
             .navigationTitle("Title")
+            .preference(key: CustomTitlePreferenceKey.self, value: "New Value")
         }
+        .onPreferenceChange(CustomTitlePreferenceKey.self, perform: { value in
+            self.text = value
+        })
+    }
+}
+
+extension View {
+    func customTitle(text: String) -> some View {
+        self
+            .preference(key: CustomTitlePreferenceKey.self, value: text)
     }
 }
 

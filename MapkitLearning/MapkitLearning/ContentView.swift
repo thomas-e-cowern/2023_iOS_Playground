@@ -12,6 +12,7 @@ struct ContentView: View {
     
     @State private var cameraPosition: MapCameraPosition = .region(.userRegion)
     @State private var searchText: String = ""
+    @State private var searchResults: [MKMapItem] = []
     
     var body: some View {
         Map(position: $cameraPosition) {
@@ -40,6 +41,9 @@ struct ContentView: View {
                 .padding()
                 .shadow(radius: 10)
         }
+        .onSubmit(of: .text) {
+            print("Search for locations of query")
+        } 
         .mapControls {
             MapCompass()
             MapPitchToggle()

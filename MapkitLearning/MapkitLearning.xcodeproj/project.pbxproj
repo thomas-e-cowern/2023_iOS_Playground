@@ -14,6 +14,7 @@
 		4D8FD4DE2B38E97800457EC5 /* CLLocationCorrdinate2D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD4DD2B38E97800457EC5 /* CLLocationCorrdinate2D+Extension.swift */; };
 		4D8FD4E02B38E9E300457EC5 /* MKCoordinateRegion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD4DF2B38E9E300457EC5 /* MKCoordinateRegion+Extension.swift */; };
 		4D8FD4E22B38EE5100457EC5 /* ContentView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD4E12B38EE5100457EC5 /* ContentView+Extensions.swift */; };
+		4D8FD4E42B38F1F800457EC5 /* LocationsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD4E32B38F1F800457EC5 /* LocationsDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4D8FD4DD2B38E97800457EC5 /* CLLocationCorrdinate2D+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCorrdinate2D+Extension.swift"; sourceTree = "<group>"; };
 		4D8FD4DF2B38E9E300457EC5 /* MKCoordinateRegion+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extension.swift"; sourceTree = "<group>"; };
 		4D8FD4E12B38EE5100457EC5 /* ContentView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+Extensions.swift"; sourceTree = "<group>"; };
+		4D8FD4E32B38F1F800457EC5 /* LocationsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				4D8FD4D02B38E8DD00457EC5 /* ContentView.swift */,
 				4D8FD4D22B38E8E000457EC5 /* Assets.xcassets */,
 				4D8FD4D42B38E8E000457EC5 /* Preview Content */,
+				4D8FD4E32B38F1F800457EC5 /* LocationsDetailView.swift */,
 			);
 			path = MapkitLearning;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				4D8FD4D12B38E8DD00457EC5 /* ContentView.swift in Sources */,
 				4D8FD4E02B38E9E300457EC5 /* MKCoordinateRegion+Extension.swift in Sources */,
+				4D8FD4E42B38F1F800457EC5 /* LocationsDetailView.swift in Sources */,
 				4D8FD4E22B38EE5100457EC5 /* ContentView+Extensions.swift in Sources */,
 				4D8FD4CF2B38E8DD00457EC5 /* MapkitLearningApp.swift in Sources */,
 				4D8FD4DE2B38E97800457EC5 /* CLLocationCorrdinate2D+Extension.swift in Sources */,

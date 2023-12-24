@@ -13,9 +13,11 @@ struct ContentView: View {
     @State private var cameraPosition: MapCameraPosition = .region(.userRegion)
     @State private var searchText: String = ""
     @State private var searchResults: [MKMapItem] = []
+    @State private var mapSelection: MKMapItem?
+    @State private var showDetails: Bool = false
     
     var body: some View {
-        Map(position: $cameraPosition) {
+        Map(position: $cameraPosition, selection: $mapSelection) {
 //            Marker("My Location", systemImage: "paperplane", coordinate: .userLocation)
 //                .tint(.blue)
             
@@ -32,6 +34,11 @@ struct ContentView: View {
                         .foregroundColor(.blue)
                 }
             }
+            
+            ForEach(searchResults, id: \.self) { item in
+                let placemark = item.placemark
+                Marker(placemark.name ?? "", coordinate: placemark.coordinate)
+            }
         }
         .overlay(alignment: .top) {
             TextField("Search for a location...", text: $searchText)
@@ -42,8 +49,20 @@ struct ContentView: View {
                 .shadow(radius: 10)
         }
         .onSubmit(of: .text) {
-            print("Search for locations of query")
-        } 
+            Task {
+                searchResults = []
+                searchResults = await searchPlaces(searchText: searchText)
+            }
+        }
+        .onChange(of: mapSelection, { oldValue, newValue in
+            showDetails = newValue != nil
+        })
+        .sheet(isPresented: $showDetails, content: {
+            LocationsDetailView(mapSelection: $mapSelection, show: $showDetails)
+                .presentationDetents([.height(340)])
+                .presentationBackgroundInteraction(.enabled(upThrough: .height(340)))
+                .presentationCornerRadius(12)
+        })
         .mapControls {
             MapCompass()
             MapPitchToggle()

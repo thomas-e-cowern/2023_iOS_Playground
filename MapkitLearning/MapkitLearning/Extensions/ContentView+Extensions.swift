@@ -12,7 +12,7 @@ extension ContentView {
     func searchPlaces(searchText: String) async -> [MKMapItem] {
         let request = MKLocalSearch.Request()
         request.naturalLanguageQuery = searchText
-        
+        request.region = .userRegion
         let results = try? await MKLocalSearch(request: request).start()
         return results?.mapItems ?? []
     }

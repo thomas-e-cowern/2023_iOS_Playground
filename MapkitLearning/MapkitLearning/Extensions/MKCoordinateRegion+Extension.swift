@@ -9,7 +9,7 @@ import Foundation
 import MapKit
 
 extension MKCoordinateRegion {
-    static var userSettings: MKCoordinateRegion {
+    static var userRegion: MKCoordinateRegion {
         return .init(center: .userLocation, latitudinalMeters: 10000, longitudinalMeters: 10000)
     }
 }

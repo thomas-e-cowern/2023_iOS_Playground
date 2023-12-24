@@ -9,14 +9,28 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
+    
+    @State private var cameraPosition: MapCameraPosition = .region(.userRegion)
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Map(position: $cameraPosition) {
+//            Marker("My Location", systemImage: "paperplane", coordinate: .userLocation)
+//                .tint(.blue)
+            
+            Annotation("My Location", coordinate: .userLocation) {
+                ZStack {
+                    Circle()
+                        .frame(width: 32, height: 32)
+                        .foregroundColor(.blue.opacity(0.25))
+                    Circle()
+                        .frame(width: 20, height: 20)
+                        .foregroundColor(.white)
+                    Circle()
+                        .frame(width: 12, height: 12)
+                        .foregroundColor(.blue)
+                }
+            }
         }
-        .padding()
     }
 }
 

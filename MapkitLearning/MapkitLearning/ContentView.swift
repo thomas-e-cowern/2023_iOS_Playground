@@ -11,6 +11,7 @@ import MapKit
 struct ContentView: View {
     
     @State private var cameraPosition: MapCameraPosition = .region(.userRegion)
+    @State private var searchText: String = ""
     
     var body: some View {
         Map(position: $cameraPosition) {
@@ -30,6 +31,19 @@ struct ContentView: View {
                         .foregroundColor(.blue)
                 }
             }
+        }
+        .overlay(alignment: .top) {
+            TextField("Search for a location...", text: $searchText)
+                .font(.subheadline)
+                .padding(12)
+                .background(Color.white)
+                .padding()
+                .shadow(radius: 10)
+        }
+        .mapControls {
+            MapCompass()
+            MapPitchToggle()
+            MapUserLocationButton()
         }
     }
 }

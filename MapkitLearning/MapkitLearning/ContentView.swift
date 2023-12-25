@@ -16,6 +16,9 @@ struct ContentView: View {
     @State private var mapSelection: MKMapItem?
     @State private var showDetails: Bool = false
     @State private var getDirections: Bool = false
+    @State private var routeDisplaying: Bool = false
+    @State private var route: MKRoute?
+    @State private var routeDestination: MKMapItem?
     
     var body: some View {
         Map(position: $cameraPosition, selection: $mapSelection) {
@@ -37,6 +40,11 @@ struct ContentView: View {
                 let placemark = item.placemark
                 Marker(placemark.name ?? "", coordinate: placemark.coordinate)
             }
+            
+            if let route {
+                MapPolyline(route.polyline)
+                    .stroke(.blue, lineWidth: 5)
+            }
         }
         .overlay(alignment: .top) {
             TextField("Search for a location...", text: $searchText)
@@ -52,6 +60,11 @@ struct ContentView: View {
                 searchResults = await searchPlaces(searchText: searchText)
             }
         }
+        .onChange(of: getDirections, { oldValue, newValue in
+            if newValue {
+                fetchRoute()
+            }
+        })
         .onChange(of: mapSelection, { oldValue, newValue in
             showDetails = newValue != nil
         })
@@ -65,6 +78,32 @@ struct ContentView: View {
             MapCompass()
             MapPitchToggle()
             MapUserLocationButton()
+        }
+    }
+    
+    // MARK: - Methods and functions
+    func fetchRoute() {
+        print("In fetchroute")
+        if let mapSelection {
+            let request = MKDirections.Request()
+            request.source = MKMapItem(placemark: .init(coordinate: .userLocation))
+            request.destination = mapSelection
+            
+            Task {
+                print("On Task")
+                let result = try? await MKDirections(request: request).calculate()
+                let route = result?.routes.first
+                routeDestination = mapSelection
+                
+                withAnimation(.snappy) {
+                    routeDisplaying = true
+                    showDetails = true
+                    
+                    if let rect = route?.polyline.boundingMapRect, routeDisplaying {
+                        cameraPosition = .rect(rect)
+                    }
+                }
+            }
         }
     }
 }

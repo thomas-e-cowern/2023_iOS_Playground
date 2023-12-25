@@ -7,6 +7,7 @@
 
 import Foundation
 import MapKit
+import SwiftUI
 
 extension ContentView {
     func searchPlaces(searchText: String) async -> [MKMapItem] {

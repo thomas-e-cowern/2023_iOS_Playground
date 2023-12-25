@@ -69,8 +69,8 @@ struct LocationsDetailView: View {
                 }
                 
                 Button {
-                    getDirections = false
-                    show = false
+                    getDirections = true
+                    show = true
                 } label: {
                     Text("Get Directions")
                         .font(.headline)

@@ -10,10 +10,13 @@ import MapKit
 
 struct LocationsDetailView: View {
     
+    // MARK: - Properties
     @Binding var mapSelection: MKMapItem?
     @Binding var show: Bool
+    @Binding var getDirections: Bool
     @State private var lookAroundScene: MKLookAroundScene?
     
+    // MARK: - Body
     var body: some View {
         VStack {
             HStack {
@@ -50,6 +53,33 @@ struct LocationsDetailView: View {
             } else {
                 ContentUnavailableView("No preview available", systemImage: "eye.slash")
             }
+            
+            HStack(spacing: 24) {
+                Button {
+                    if let mapSelection {
+                        mapSelection.openInMaps()
+                    }
+                } label: {
+                    Text("Open in maps")
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                        .frame(width: 170, height: 48)
+                        .background(.green)
+                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                }
+                
+                Button {
+                    getDirections = false
+                    show = false
+                } label: {
+                    Text("Get Directions")
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                        .frame(width: 170, height: 48)
+                        .background(.blue)
+                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                }
+            }
         }
         .onAppear {
             fetchLookAroundPreview()
@@ -59,6 +89,7 @@ struct LocationsDetailView: View {
         }
     }
     
+    // MARK: - Methods and functionss
     func fetchLookAroundPreview() {
         if let mapSelection {
             lookAroundScene = nil
@@ -71,7 +102,7 @@ struct LocationsDetailView: View {
 }
 
 
-
+// MARK: - Preview
 #Preview {
-    LocationsDetailView(mapSelection: .constant(nil), show: .constant(false))
+    LocationsDetailView(mapSelection: .constant(nil), show: .constant(false), getDirections: .constant(false))
 }

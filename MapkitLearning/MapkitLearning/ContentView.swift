@@ -15,12 +15,10 @@ struct ContentView: View {
     @State private var searchResults: [MKMapItem] = []
     @State private var mapSelection: MKMapItem?
     @State private var showDetails: Bool = false
+    @State private var getDirections: Bool = false
     
     var body: some View {
         Map(position: $cameraPosition, selection: $mapSelection) {
-//            Marker("My Location", systemImage: "paperplane", coordinate: .userLocation)
-//                .tint(.blue)
-            
             Annotation("My Location", coordinate: .userLocation) {
                 ZStack {
                     Circle()
@@ -58,7 +56,7 @@ struct ContentView: View {
             showDetails = newValue != nil
         })
         .sheet(isPresented: $showDetails, content: {
-            LocationsDetailView(mapSelection: $mapSelection, show: $showDetails)
+            LocationsDetailView(mapSelection: $mapSelection, show: $showDetails, getDirections: $getDirections)
                 .presentationDetents([.height(340)])
                 .presentationBackgroundInteraction(.enabled(upThrough: .height(340)))
                 .presentationCornerRadius(12)

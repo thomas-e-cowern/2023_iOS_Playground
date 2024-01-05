@@ -9,11 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            CardFrontView()
+        NavigationStack {
+            VStack {
+                CardFrontView()
+                Spacer()
+            }
+            .navigationTitle("Checkout")
         }
-        .padding()
     }
+    
 }
 
 #Preview {

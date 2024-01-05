@@ -14,6 +14,7 @@
 		4D81E0CB2B489B4300314D71 /* CardFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E0CA2B489B4300314D71 /* CardFrontView.swift */; };
 		4D81E0CD2B48AAD900314D71 /* CheckoutFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E0CC2B48AAD900314D71 /* CheckoutFormView.swift */; };
 		4D81E0CF2B48AB0200314D71 /* CreditCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E0CE2B48AB0200314D71 /* CreditCardModel.swift */; };
+		4D81E0D12B48BFE400314D71 /* CardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E0D02B48BFE400314D71 /* CardBackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4D81E0CA2B489B4300314D71 /* CardFrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFrontView.swift; sourceTree = "<group>"; };
 		4D81E0CC2B48AAD900314D71 /* CheckoutFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFormView.swift; sourceTree = "<group>"; };
 		4D81E0CE2B48AB0200314D71 /* CreditCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardModel.swift; sourceTree = "<group>"; };
+		4D81E0D02B48BFE400314D71 /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4D81E0C22B489A8D00314D71 /* Preview Content */,
 				4D81E0CC2B48AAD900314D71 /* CheckoutFormView.swift */,
 				4D81E0CE2B48AB0200314D71 /* CreditCardModel.swift */,
+				4D81E0D02B48BFE400314D71 /* CardBackView.swift */,
 			);
 			path = CreditCardForm;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				4D81E0BD2B489A8900314D71 /* CreditCardFormApp.swift in Sources */,
 				4D81E0CD2B48AAD900314D71 /* CheckoutFormView.swift in Sources */,
 				4D81E0CB2B489B4300314D71 /* CardFrontView.swift in Sources */,
+				4D81E0D12B48BFE400314D71 /* CardBackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

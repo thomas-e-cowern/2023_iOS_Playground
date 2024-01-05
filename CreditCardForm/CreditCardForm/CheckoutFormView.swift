@@ -9,12 +9,18 @@ import SwiftUI
 
 struct CheckoutFormView: View {
     
+    @Binding var creditCardInfo: CreditCardModel
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            TextField("Cardholder Name", text: $creditCardInfo.cardholderName)
+            TextField("Card Number", text: $creditCardInfo.cardNumber)
+            TextField("Exiration Date", text: $creditCardInfo.expirationDate)
+            TextField("CCV", text: $creditCardInfo.ccvCode)
+        }
     }
 }
 
 #Preview {
-    CheckoutFormView()
+    CheckoutFormView(creditCardInfo: .constant(CreditCardModel(cardholderName: "Bill Smith", cardNumber: "1234-1234-1234-1234", expirationDate: "11/11", ccvCode: "123")))
 }

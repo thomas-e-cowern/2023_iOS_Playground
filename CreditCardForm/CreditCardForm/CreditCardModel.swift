@@ -8,8 +8,8 @@
 import Foundation
 
 struct CreditCardModel {
-    let cardholderName: String
-    let cardNumber: String
-    let expirationDate: String
-    let ccvCode: String
+    var cardholderName: String = ""
+    var cardNumber: String = ""
+    var expirationDate: String = ""
+    var ccvCode: String = ""
 }

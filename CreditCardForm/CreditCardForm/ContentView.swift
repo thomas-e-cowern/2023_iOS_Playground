@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var creditCardInfo = CreditCardModel()
+    
     var body: some View {
         NavigationStack {
             VStack {
                 CardFrontView()
                 Spacer()
+                CheckoutFormView(creditCardInfo: $creditCardInfo)
             }
             .navigationTitle("Checkout")
         }

@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                CardFrontView()
+                CardFrontView(creditCardInfo: creditCardInfo)
                 Spacer()
                 CheckoutFormView(creditCardInfo: $creditCardInfo)
             }

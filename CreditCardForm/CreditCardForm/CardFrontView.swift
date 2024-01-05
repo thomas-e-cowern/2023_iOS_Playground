@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CardFrontView: View {
+    
+    let creditCardInfo: CreditCardModel
+    
     var body: some View {
         VStack {
             HStack {
@@ -20,7 +23,7 @@ struct CardFrontView: View {
                     .italic()
             }
             
-            Text("4242-4242-4242-4242")
+            Text(creditCardInfo.cardNumber.isEmpty ? " " : creditCardInfo.cardNumber)
                 .font(.system(size: 26, weight: .bold, design: .rounded))
                 .padding()
             
@@ -29,7 +32,7 @@ struct CardFrontView: View {
                     Text("Card Holder Name")
                         .opacity(0.5)
                         .font(.system(size: 14))
-                    Text("Thomas E Cowern")
+                    Text(creditCardInfo.cardholderName)
                 }
                 
                 Spacer()
@@ -38,7 +41,7 @@ struct CardFrontView: View {
                     Text("Expires")
                         .opacity(0.5)
                         .font(.system(size: 14))
-                    Text("06/11")
+                    Text(creditCardInfo.expirationDate)
                 }
                 
             }
@@ -56,5 +59,5 @@ struct CardFrontView: View {
 }
 
 #Preview {
-    CardFrontView()
+    CardFrontView(creditCardInfo: CreditCardModel(cardholderName: "Bill Smith", cardNumber: "1234-1234-1234-1234", expirationDate: "11/11", ccvCode: "123"))
 }

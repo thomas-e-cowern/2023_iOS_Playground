@@ -27,6 +27,7 @@
 		4D81E0CC2B48AAD900314D71 /* CheckoutFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFormView.swift; sourceTree = "<group>"; };
 		4D81E0CE2B48AB0200314D71 /* CreditCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardModel.swift; sourceTree = "<group>"; };
 		4D81E0D02B48BFE400314D71 /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
+		4D81E0D52B48D63000314D71 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				4D81E0BC2B489A8900314D71 /* CreditCardFormApp.swift */,
 				4D81E0C02B489A8D00314D71 /* Assets.xcassets */,
 				4D81E0C22B489A8D00314D71 /* Preview Content */,
+				4D81E0D52B48D63000314D71 /* README.md */,
 			);
 			path = CreditCardForm;
 			sourceTree = "<group>";

@@ -32,7 +32,7 @@ struct CardFrontView: View {
                     Text("Card Holder Name")
                         .opacity(0.5)
                         .font(.system(size: 14))
-                    Text(creditCardInfo.cardholderName)
+                    Text(creditCardInfo.cardholderName.isEmpty ? " " : creditCardInfo.cardholderName)
                 }
                 
                 Spacer()
@@ -41,7 +41,7 @@ struct CardFrontView: View {
                     Text("Expires")
                         .opacity(0.5)
                         .font(.system(size: 14))
-                    Text(creditCardInfo.expirationDate)
+                    Text(creditCardInfo.expirationDate.isEmpty ? " '" : creditCardInfo.expirationDate)
                 }
                 
             }

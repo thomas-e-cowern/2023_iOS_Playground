@@ -25,7 +25,11 @@ struct CardBackView: View {
                     .frame(width: 100, height: 33, alignment: .leading)
                     .background(.white)
                     .foregroundStyle(.black)
-                .padding([.leading, .trailing, .bottom], 20)
+                    .rotation3DEffect(
+                        .degrees(180),
+                        axis: (x: 0.0, y: 1.0, z: 0.0)
+                    )
+                    .padding([.leading, .trailing, .bottom], 20)
                 
                 Spacer()
             }

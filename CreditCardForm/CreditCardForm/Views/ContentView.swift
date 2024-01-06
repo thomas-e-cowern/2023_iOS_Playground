@@ -9,10 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     
+    // MARK: - Properties
     @State private var creditCardInfo = CreditCardModel()
     @State private var flip: Bool = false
     @State private var degrees: Double = 0
     
+    // MARK: - Body
     var body: some View {
         NavigationStack {
             VStack {
@@ -43,6 +45,7 @@ struct ContentView: View {
     
 }
 
+// MARK: - Preview
 #Preview {
     ContentView()
 }

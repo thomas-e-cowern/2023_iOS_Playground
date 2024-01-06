@@ -9,10 +9,12 @@ import SwiftUI
 
 struct CheckoutFormView: View {
     
+    // MARK: - Properties
     @Binding var creditCardInfo: CreditCardModel
     @FocusState private var isCCVFocused: Bool
     let onCCVFocused: () -> Void
     
+    // MARK: - Body
     var body: some View {
         Form {
             TextField("Cardholder Name", text: $creditCardInfo.cardholderName)
@@ -26,7 +28,3 @@ struct CheckoutFormView: View {
         }
     }
 }
-
-//#Preview {
-//    CheckoutFormView(creditCardInfo: .constant(CreditCardModel(cardholderName: "Bill Smith", cardNumber: "1234-1234-1234-1234", expirationDate: "11/11", ccvCode: "123")), onCCVFocused: () -> Void)
-//}

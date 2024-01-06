@@ -9,8 +9,10 @@ import SwiftUI
 
 struct CardFrontView: View {
     
+    // MARK: - Properties
     let creditCardInfo: CreditCardModel
     
+    // MARK: - Body
     var body: some View {
         VStack {
             HStack {
@@ -58,6 +60,7 @@ struct CardFrontView: View {
     }
 }
 
+// MARK: - Preview
 #Preview {
     CardFrontView(creditCardInfo: CreditCardModel(cardholderName: "Bill Smith", cardNumber: "1234-1234-1234-1234", expirationDate: "11/11", ccvCode: "123"))
 }

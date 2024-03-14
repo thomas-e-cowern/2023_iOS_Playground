@@ -31,22 +31,35 @@ protocol ColorThemeProtocol {
     var tertiary: Color { get }
 }
 
-class DefaultDataSource: DataSourceProtocol {
+class DefaultDataSource: DataSourceProtocol, ButtonPressedProtocol {
     var buttonText: String = "Protocols are cool"
+    
+    func buttonPressed() {
+        print("Button Cool")
+    }
 }
 
-class AlternativeDataSource: DataSourceProtocol {
-    var buttonText: String = "Protocols Rock!"
+class AlternativeDataSource: DataSourceProtocol, ButtonPressedProtocol {
+    var buttonText: String = "Protocols Rocks!"
+    
+    func buttonPressed() {
+        print("Button Rocks")
+    }
 }
 
 protocol DataSourceProtocol {
     var buttonText: String { get }
 }
 
+protocol ButtonPressedProtocol {
+    func buttonPressed()
+}
+
 struct ProtocolsView: View {
     
     let colorTheme: ColorThemeProtocol
     let dataSource: DataSourceProtocol
+    let action: ButtonPressedProtocol
     
     var body: some View {
         ZStack {
@@ -58,10 +71,13 @@ struct ProtocolsView: View {
                 .padding()
                 .background(colorTheme.primary)
                 .clipShape(.buttonBorder)
+                .onTapGesture {
+                    action.buttonPressed()
+                }
         }
     }
 }
 
 #Preview {
-    ProtocolsView(colorTheme: ThirdColorTheme(), dataSource: AlternativeDataSource())
+    ProtocolsView(colorTheme: ThirdColorTheme(), dataSource: AlternativeDataSource(), action: DefaultDataSource())
 }

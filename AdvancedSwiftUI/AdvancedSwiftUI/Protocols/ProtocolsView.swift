@@ -19,23 +19,40 @@ struct AlternativeColorTheme: ColorThemeProtocol {
     let tertiary: Color = .green
 }
 
+struct ThirdColorTheme: ColorThemeProtocol {
+    var primary: Color = .orange
+    var secondary: Color = .cyan
+    var tertiary: Color = .teal
+}
+
 protocol ColorThemeProtocol {
     var primary: Color { get }
     var secondary: Color { get }
     var tertiary: Color { get }
 }
 
+class DefaultDataSource: DataSourceProtocol {
+    var buttonText: String = "Protocols are cool"
+}
+
+class AlternativeDataSource: DataSourceProtocol {
+    var buttonText: String = "Protocols Rock!"
+}
+
+protocol DataSourceProtocol {
+    var buttonText: String { get }
+}
+
 struct ProtocolsView: View {
     
-//    let colorTheme: DefaultColorTheme = DefaultColorTheme()
-//    let colorTheme: AlternativeColorTheme = AlternativeColorTheme()
-    let colorTheme: ColorThemeProtocol = DefaultColorTheme()
+    let colorTheme: ColorThemeProtocol
+    let dataSource: DataSourceProtocol
     
     var body: some View {
         ZStack {
             colorTheme.tertiary.ignoresSafeArea()
             
-            Text("Protocols are awesome")
+            Text(dataSource.buttonText)
                 .font(.headline)
                 .foregroundStyle(colorTheme.secondary)
                 .padding()
@@ -46,5 +63,5 @@ struct ProtocolsView: View {
 }
 
 #Preview {
-    ProtocolsView()
+    ProtocolsView(colorTheme: ThirdColorTheme(), dataSource: AlternativeDataSource())
 }

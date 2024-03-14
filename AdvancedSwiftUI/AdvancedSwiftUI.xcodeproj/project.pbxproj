@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0A3B902BA36E7E0052979C /* ProtocolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A3B8F2BA36E7E0052979C /* ProtocolsView.swift */; };
 		4D2003F42AF00BB2000D977B /* TransitionPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2003F32AF00BB2000D977B /* TransitionPlayground.swift */; };
 		4D2003F72AF02007000D977B /* MatchedGeometryEffectPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2003F62AF02007000D977B /* MatchedGeometryEffectPlayground.swift */; };
 		4D2003F92AF17D03000D977B /* MatchedGeometryEffect2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2003F82AF17D03000D977B /* MatchedGeometryEffect2.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D0A3B8F2BA36E7E0052979C /* ProtocolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsView.swift; sourceTree = "<group>"; };
 		4D2003F32AF00BB2000D977B /* TransitionPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransitionPlayground.swift; path = ../../../../../2023_Projects/WalkMyWay/WalkMyWay/Views/TransitionPlayground.swift; sourceTree = "<group>"; };
 		4D2003F62AF02007000D977B /* MatchedGeometryEffectPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectPlayground.swift; sourceTree = "<group>"; };
 		4D2003F82AF17D03000D977B /* MatchedGeometryEffect2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect2.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0A3B8E2BA36E550052979C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A3B8F2BA36E7E0052979C /* ProtocolsView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		4D2003F22AF00B94000D977B /* Custom Transitions */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 		4D2120832AED6E1700C78CAB /* AdvancedSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4D0A3B8E2BA36E550052979C /* Protocols */,
 				4D9E69192B2DECDE00E00D0D /* Preference Key */,
 				4D7016272B1FBDA70029B599 /* Viewbuilder */,
 				4DD171C62AF69420003C17B9 /* AnimatingCustomShapes */,
@@ -270,6 +281,7 @@
 				4D2003F72AF02007000D977B /* MatchedGeometryEffectPlayground.swift in Sources */,
 				4D9E691D2B2DF8C200E00D0D /* GeomertyPerfKeyPlayground.swift in Sources */,
 				4D9E691B2B2DEE4300E00D0D /* PreferenceKeyView.swift in Sources */,
+				4D0A3B902BA36E7E0052979C /* ProtocolsView.swift in Sources */,
 				4D2120932AED6F4800C78CAB /* ViewModifierPlayground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
